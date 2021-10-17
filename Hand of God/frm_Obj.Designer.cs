@@ -109,6 +109,7 @@
             this.combo_aff1 = new System.Windows.Forms.ComboBox();
             this.combo_aff0 = new System.Windows.Forms.ComboBox();
             this.pn_values = new System.Windows.Forms.GroupBox();
+            this.lbltrapdamage = new System.Windows.Forms.Label();
             this.val3 = new HandofGod.ValAffEditbox();
             this.val2 = new HandofGod.ValAffEditbox();
             this.val1 = new HandofGod.ValAffEditbox();
@@ -119,7 +120,6 @@
             this.lbl_val0 = new System.Windows.Forms.Label();
             this.gaugecharcounter = new HandofGod.CharCounterProgressBar();
             this.chkhtmlexport = new System.Windows.Forms.CheckBox();
-            this.lbltrapdamage = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.page_longdesc.SuspendLayout();
@@ -941,16 +941,16 @@
             this.pn_affects.Controls.Add(this.combo_aff2);
             this.pn_affects.Controls.Add(this.combo_aff1);
             this.pn_affects.Controls.Add(this.combo_aff0);
-            this.pn_affects.Location = new System.Drawing.Point(299, 82);
+            this.pn_affects.Location = new System.Drawing.Point(257, 82);
             this.pn_affects.Name = "pn_affects";
-            this.pn_affects.Size = new System.Drawing.Size(297, 163);
+            this.pn_affects.Size = new System.Drawing.Size(339, 168);
             this.pn_affects.TabIndex = 130;
             this.pn_affects.TabStop = false;
             this.pn_affects.Text = "Affects";
             // 
             // aff4
             // 
-            this.aff4.Location = new System.Drawing.Point(149, 132);
+            this.aff4.Location = new System.Drawing.Point(162, 124);
             this.aff4.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -962,13 +962,13 @@
             0,
             -2147483648});
             this.aff4.Name = "aff4";
-            this.aff4.Size = new System.Drawing.Size(130, 20);
+            this.aff4.Size = new System.Drawing.Size(109, 20);
             this.aff4.TabIndex = 20;
             this.aff4.ValueType = '\0';
             // 
             // aff3
             // 
-            this.aff3.Location = new System.Drawing.Point(149, 105);
+            this.aff3.Location = new System.Drawing.Point(161, 97);
             this.aff3.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -980,13 +980,13 @@
             0,
             -2147483648});
             this.aff3.Name = "aff3";
-            this.aff3.Size = new System.Drawing.Size(130, 20);
+            this.aff3.Size = new System.Drawing.Size(109, 20);
             this.aff3.TabIndex = 19;
             this.aff3.ValueType = '\0';
             // 
             // aff2
             // 
-            this.aff2.Location = new System.Drawing.Point(149, 78);
+            this.aff2.Location = new System.Drawing.Point(161, 70);
             this.aff2.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -998,13 +998,13 @@
             0,
             -2147483648});
             this.aff2.Name = "aff2";
-            this.aff2.Size = new System.Drawing.Size(130, 20);
+            this.aff2.Size = new System.Drawing.Size(109, 20);
             this.aff2.TabIndex = 18;
             this.aff2.ValueType = '\0';
             // 
             // aff1
             // 
-            this.aff1.Location = new System.Drawing.Point(149, 51);
+            this.aff1.Location = new System.Drawing.Point(162, 43);
             this.aff1.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -1016,13 +1016,13 @@
             0,
             -2147483648});
             this.aff1.Name = "aff1";
-            this.aff1.Size = new System.Drawing.Size(130, 20);
+            this.aff1.Size = new System.Drawing.Size(109, 20);
             this.aff1.TabIndex = 17;
             this.aff1.ValueType = '\0';
             // 
             // aff0
             // 
-            this.aff0.Location = new System.Drawing.Point(149, 23);
+            this.aff0.Location = new System.Drawing.Point(162, 15);
             this.aff0.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -1034,7 +1034,7 @@
             0,
             -2147483648});
             this.aff0.Name = "aff0";
-            this.aff0.Size = new System.Drawing.Size(130, 20);
+            this.aff0.Size = new System.Drawing.Size(109, 20);
             this.aff0.TabIndex = 16;
             this.aff0.ValueType = '\0';
             // 
@@ -1042,9 +1042,9 @@
             // 
             this.combo_aff4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo_aff4.FormattingEnabled = true;
-            this.combo_aff4.Location = new System.Drawing.Point(27, 131);
+            this.combo_aff4.Location = new System.Drawing.Point(6, 123);
             this.combo_aff4.Name = "combo_aff4";
-            this.combo_aff4.Size = new System.Drawing.Size(112, 21);
+            this.combo_aff4.Size = new System.Drawing.Size(149, 21);
             this.combo_aff4.TabIndex = 15;
             this.combo_aff4.SelectedIndexChanged += new System.EventHandler(this.combo_aff0_SelectedIndexChanged);
             // 
@@ -1052,9 +1052,9 @@
             // 
             this.combo_aff3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo_aff3.FormattingEnabled = true;
-            this.combo_aff3.Location = new System.Drawing.Point(27, 104);
+            this.combo_aff3.Location = new System.Drawing.Point(6, 96);
             this.combo_aff3.Name = "combo_aff3";
-            this.combo_aff3.Size = new System.Drawing.Size(112, 21);
+            this.combo_aff3.Size = new System.Drawing.Size(149, 21);
             this.combo_aff3.TabIndex = 14;
             this.combo_aff3.SelectedIndexChanged += new System.EventHandler(this.combo_aff0_SelectedIndexChanged);
             this.combo_aff3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.combo_type_KeyDown);
@@ -1063,9 +1063,9 @@
             // 
             this.combo_aff2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo_aff2.FormattingEnabled = true;
-            this.combo_aff2.Location = new System.Drawing.Point(27, 77);
+            this.combo_aff2.Location = new System.Drawing.Point(6, 69);
             this.combo_aff2.Name = "combo_aff2";
-            this.combo_aff2.Size = new System.Drawing.Size(112, 21);
+            this.combo_aff2.Size = new System.Drawing.Size(149, 21);
             this.combo_aff2.TabIndex = 13;
             this.combo_aff2.SelectedIndexChanged += new System.EventHandler(this.combo_aff0_SelectedIndexChanged);
             this.combo_aff2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.combo_type_KeyDown);
@@ -1074,9 +1074,9 @@
             // 
             this.combo_aff1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo_aff1.FormattingEnabled = true;
-            this.combo_aff1.Location = new System.Drawing.Point(27, 50);
+            this.combo_aff1.Location = new System.Drawing.Point(6, 42);
             this.combo_aff1.Name = "combo_aff1";
-            this.combo_aff1.Size = new System.Drawing.Size(112, 21);
+            this.combo_aff1.Size = new System.Drawing.Size(149, 21);
             this.combo_aff1.TabIndex = 12;
             this.combo_aff1.SelectedIndexChanged += new System.EventHandler(this.combo_aff0_SelectedIndexChanged);
             this.combo_aff1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.combo_type_KeyDown);
@@ -1085,15 +1085,16 @@
             // 
             this.combo_aff0.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.combo_aff0.FormattingEnabled = true;
-            this.combo_aff0.Location = new System.Drawing.Point(27, 22);
+            this.combo_aff0.Location = new System.Drawing.Point(6, 15);
             this.combo_aff0.Name = "combo_aff0";
-            this.combo_aff0.Size = new System.Drawing.Size(112, 21);
+            this.combo_aff0.Size = new System.Drawing.Size(149, 21);
             this.combo_aff0.TabIndex = 11;
             this.combo_aff0.SelectedIndexChanged += new System.EventHandler(this.combo_aff0_SelectedIndexChanged);
             this.combo_aff0.KeyDown += new System.Windows.Forms.KeyEventHandler(this.combo_type_KeyDown);
             // 
             // pn_values
             // 
+            this.pn_values.Controls.Add(this.lbltrapdamage);
             this.pn_values.Controls.Add(this.val3);
             this.pn_values.Controls.Add(this.val2);
             this.pn_values.Controls.Add(this.val1);
@@ -1110,9 +1111,19 @@
             this.pn_values.Text = "Values";
             this.pn_values.Enter += new System.EventHandler(this.pn_values_Enter);
             // 
+            // lbltrapdamage
+            // 
+            this.lbltrapdamage.AutoSize = true;
+            this.lbltrapdamage.Location = new System.Drawing.Point(65, 131);
+            this.lbltrapdamage.Name = "lbltrapdamage";
+            this.lbltrapdamage.Size = new System.Drawing.Size(62, 13);
+            this.lbltrapdamage.TabIndex = 137;
+            this.lbltrapdamage.Text = "(0 Damage)";
+            this.lbltrapdamage.Visible = false;
+            // 
             // val3
             // 
-            this.val3.Location = new System.Drawing.Point(52, 143);
+            this.val3.Location = new System.Drawing.Point(62, 99);
             this.val3.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -1130,7 +1141,7 @@
             // 
             // val2
             // 
-            this.val2.Location = new System.Drawing.Point(52, 104);
+            this.val2.Location = new System.Drawing.Point(62, 73);
             this.val2.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -1150,7 +1161,7 @@
             // 
             // val1
             // 
-            this.val1.Location = new System.Drawing.Point(52, 60);
+            this.val1.Location = new System.Drawing.Point(62, 47);
             this.val1.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -1168,7 +1179,7 @@
             // 
             // val0
             // 
-            this.val0.Location = new System.Drawing.Point(52, 22);
+            this.val0.Location = new System.Drawing.Point(62, 21);
             this.val0.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -1188,7 +1199,7 @@
             // lbl_val3
             // 
             this.lbl_val3.AutoSize = true;
-            this.lbl_val3.Location = new System.Drawing.Point(6, 145);
+            this.lbl_val3.Location = new System.Drawing.Point(16, 101);
             this.lbl_val3.Name = "lbl_val3";
             this.lbl_val3.Size = new System.Drawing.Size(40, 13);
             this.lbl_val3.TabIndex = 141;
@@ -1198,7 +1209,7 @@
             // lbl_val2
             // 
             this.lbl_val2.AutoSize = true;
-            this.lbl_val2.Location = new System.Drawing.Point(8, 106);
+            this.lbl_val2.Location = new System.Drawing.Point(16, 74);
             this.lbl_val2.Name = "lbl_val2";
             this.lbl_val2.Size = new System.Drawing.Size(40, 13);
             this.lbl_val2.TabIndex = 140;
@@ -1208,7 +1219,7 @@
             // lbl_val1
             // 
             this.lbl_val1.AutoSize = true;
-            this.lbl_val1.Location = new System.Drawing.Point(8, 62);
+            this.lbl_val1.Location = new System.Drawing.Point(16, 49);
             this.lbl_val1.Name = "lbl_val1";
             this.lbl_val1.Size = new System.Drawing.Size(40, 13);
             this.lbl_val1.TabIndex = 139;
@@ -1218,7 +1229,7 @@
             // lbl_val0
             // 
             this.lbl_val0.AutoSize = true;
-            this.lbl_val0.Location = new System.Drawing.Point(6, 24);
+            this.lbl_val0.Location = new System.Drawing.Point(16, 23);
             this.lbl_val0.Name = "lbl_val0";
             this.lbl_val0.Size = new System.Drawing.Size(40, 13);
             this.lbl_val0.TabIndex = 138;
@@ -1245,22 +1256,11 @@
             this.chkhtmlexport.Text = "Esportabile in HTML";
             this.chkhtmlexport.UseVisualStyleBackColor = true;
             // 
-            // lbltrapdamage
-            // 
-            this.lbltrapdamage.AutoSize = true;
-            this.lbltrapdamage.Location = new System.Drawing.Point(198, 188);
-            this.lbltrapdamage.Name = "lbltrapdamage";
-            this.lbltrapdamage.Size = new System.Drawing.Size(62, 13);
-            this.lbltrapdamage.TabIndex = 137;
-            this.lbltrapdamage.Text = "(0 Damage)";
-            this.lbltrapdamage.Visible = false;
-            // 
             // frm_Obj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(793, 552);
-            this.Controls.Add(this.lbltrapdamage);
             this.Controls.Add(this.chkhtmlexport);
             this.Controls.Add(this.pn_values);
             this.Controls.Add(this.pn_affects);
@@ -1312,7 +1312,6 @@
             this.Controls.SetChildIndex(this.lblvnum, 0);
             this.Controls.SetChildIndex(this.spin_vnum, 0);
             this.Controls.SetChildIndex(this.chkhtmlexport, 0);
-            this.Controls.SetChildIndex(this.lbltrapdamage, 0);
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.page_longdesc.ResumeLayout(false);

@@ -253,17 +253,22 @@ namespace HandofGod
         public static readonly string[] mob_types = { "New", "Multi Attacks", "Unbashable", "Sound", "Simple", "Detailed" };
         public static readonly string[] damage_types = {"Fire", "Cold", "Electric", "Energy", "Blunt", "Pierce", "Slash", "Acid", "Poison", "Drain",
                                                         "Sleep", "Charm", "Hold", "No-Magic", "+1", "+2", "+3", "+4"};
+
         public static readonly string[] damage_types_short = {"F", "C", "El", "En", "Blu", "Pie", "Sla", "A", "Po", "D", "Sle", "Ch", "H", "N-M", "+1", "+2", "+3", "+4"};
-        public static readonly string[] mob_acts = {"Immobile", "Sentinel", "Scavenger", "IsNPC", "Friendly", "Aggressive", "Stay-Zone", "Wimpy", 
-                                                    "Annoying", "Hateful", "Afraid", "Immortal", "Hunting", "Deadly", "Polymorphed", "Meta-Aggressive",
-                                                    "Guardian", "Int. Object", "Huge", "Script", "Greet", "Magic User", "Warrior", "Cleric", "Thief",
-                                                    "Druid", "Monk", "Barbarian", "Paladin", "Ranger", "Psionist", "Archer"};
+
+        public static readonly string[] mob_acts = {"Non insegue", "Immobile", "Raccoglie", "NPC", "Amichevole", "Aggressivo", "Sta-in-zona", "Codardo", 
+                                                    "Fastidioso", "Reietto", "Spaventato", "Inattaccabile", "Non Usare", "Letale", "Non Usare", "Super Aggressivo",
+                                                    "Guardiano", "Oggetto Interattivo", "Enorme", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
+                                                    "AI: Druido", "AI: Monaco", "AI: Barbaro", "AI: Paladino", "AI: Ranger", "AI: Psionico", "AI: Arciere"};
+
         public static readonly string[] mob_affects = {"Blind", "Invisible", "Detect Evil", "Detect Invisible", "Detect Magic", "Sense Life", "Life Saving",
                                                        "Sanctuary", "Dragon Ride", "Growth", "Curse", "Flying", "Poison", "Tree Travel", "Paralyzed", "Infravision",
                                                        "Waterbreath", "Sleep", "Travelling", "Sneak", "Hide", "Silenced", "Charmed", "Follower", "Prot. Evil",
                                                        "True Sight", "Scrying", "Fireshield", "Grouped", "Telepathy", "Iceshield"};
+
         public static readonly string[] mob_affects_short = {"B", "I", "DE", "DI", "DM", "SL", "LP", "S", "DR", "G", "C", "F", "P", "TT", "Par", "Inf",
                                                        "W", "Sleep", "Trav", "Sn", "H", "Sil", "Charm", "Foll", "PfE", "TS", "Scr", "Fs", "Group", "Tel", "Is"};
+
         public static readonly string[] shop_indigence = { "Vomito", "Sorriso", "Nessuna" };
         public static readonly string[] shop_attack = { "Avvertimento", "Insulto", "Nessuna" };
         public static readonly string[] fear_types = { "Nessuno", "Sesso", "Razza", "- Riservato -", "Classe", "Allineamento <=", "Allineamento >=", "VNumber" };

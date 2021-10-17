@@ -1,0 +1,15 @@
+-1;Nessuna Funzione;Descrizione;Parametro uno;Parametro due
+1;NPC fornisce oggetto a PG;Carica oggetto e lo consegna ad un personaggio;Vnum oggetto;Nessun utilizzo
+2;Fornisce oggetto a NPC;Carica oggetto e lo consegna all'NPC;Vnum oggetto;Nessun utilizzo
+3;Toglie oggetto a PG;Rimuove un oggetto dal personaggio;Vnum oggetto;Nessun utilizzo
+4;Toglie oggetto a NPC;Rimuove un oggetto dall'NPC;Vnum oggetto;Nessun utilizzo
+5;Trasferisci Oggetto PC->NPC;Trasferisce un oggetto già presente da PG a NPC;Vnum oggetto;Nessun utilizzo
+6;Trasferisci Oggetto NPC->PC;Trasferisce un oggetto già presente da PG a NPC;Vnum oggetto;Nessun utilizzo
+7;PC attacca NPC;Il personaggio attacca l'NPC;Nessun utilizzo;Nessun utilizzo
+8;NPC attacca PC;L'NPC attacca il personaggio;Nessun utilizzo;Nessun utilizzo
+9;Transfer PC;Trasferisce il personaggio alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
+10;Trasfer NPC;Trasferisce l'NPC alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
+11;Transfer Group;Trasferisce il gruppo del personaggio alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
+12;Transfer All;Trasferisce il PG, il suo gruppo e l'NPC alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
+13;Imposta NPC State; Imposta la variabile State dell'NPC al valore indicato;State;Nessun utilizzo
+14;Scambia Oggetti; Scambia l'oggetto Vnum1 con l'oggetto Vnum2 nell'inventario del pg; Vnum1 oggetto;Vnum2 oggetto

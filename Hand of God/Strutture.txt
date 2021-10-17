@@ -1,0 +1,46 @@
+﻿
+** Inits Structures **
+
+  - MOB ADD
+  - MOB FOLLOWER  (follower header)
+   value0 = mob
+   value1 = maximum
+   value2 = room
+
+  - MOB FEAR  (mob/follower sub-init)
+  - MOB HATE  (mob/follower sub-init)
+   value0 = type
+   value1 = value
+
+  - OBJ ADD
+   value0 = obj
+   value1 = maximum (world)
+   value2 = room
+   value3 = maximum (room)
+
+  - MOB REM
+   value0 = mob
+   value1 = room
+
+  - OBJ REM
+   value0 = obj
+   value1 = room
+
+  - OBJ WEAR  (mob/follower sub-init)
+   value0 = obj
+   value1 = maximum
+   value2 = position
+
+  - OBJ GIVE  (mob/follower sub-init)
+   value0 = obj
+   value1 = maximum
+
+  - OBJ PUT
+   value0 = obj
+   value1 = maximum
+   value2 = obj container
+
+  - DOOR
+   value0 = room
+   value1 = dir
+   value2 = door status

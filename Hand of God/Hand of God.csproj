@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{817E8422-EFF0-484F-B4B1-231C88EB3FF0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HandofGod</RootNamespace>
+    <AssemblyName>Hand of God</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hog.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes.cs" />
+    <Compile Include="constants.cs" />
+    <Compile Include="custom components.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="dialogs\dlg_ExportElements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dialogs\dlg_ExportElements.Designer.cs">
+      <DependentUpon>dlg_ExportElements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encoding.cs" />
+    <Compile Include="frm_MobDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MobDialogue.Designer.cs">
+      <DependentUpon>frm_MobDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_area_element.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_area_element.Designer.cs">
+      <DependentUpon>frm_area_element.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dialogs\Dialogs.cs" />
+    <Compile Include="dialogs\dlg_select_element.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dialogs\dlg_select_element.Designer.cs">
+      <DependentUpon>dlg_select_element.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_CmdOverview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_CmdOverview.Designer.cs">
+      <DependentUpon>frm_CmdOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Exit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Exit.Designer.cs">
+      <DependentUpon>frm_Exit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Intro.Designer.cs">
+      <DependentUpon>frm_Intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_List.Designer.cs">
+      <DependentUpon>frm_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Mob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Mob.Designer.cs">
+      <DependentUpon>frm_Mob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MudPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MudPreview.Designer.cs">
+      <DependentUpon>frm_MudPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Obj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Obj.Designer.cs">
+      <DependentUpon>frm_Obj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Options.Designer.cs">
+      <DependentUpon>frm_Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Reports.Designer.cs">
+      <DependentUpon>frm_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Room.Designer.cs">
+      <DependentUpon>frm_Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Shop.Designer.cs">
+      <DependentUpon>frm_Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Zone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Zone.Designer.cs">
+      <DependentUpon>frm_Zone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AreaMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AreaMap.Designer.cs">
+      <DependentUpon>frm_AreaMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.Designer.cs">
+      <DependentUpon>frm_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils.cs" />
+    <EmbeddedResource Include="dialogs\dlg_ExportElements.resx">
+      <DependentUpon>dlg_ExportElements.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MobDialogue.resx">
+      <DependentUpon>frm_MobDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_area_element.resx">
+      <DependentUpon>frm_area_element.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\dlg_select_element.resx">
+      <DependentUpon>dlg_select_element.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_CmdOverview.resx">
+      <DependentUpon>frm_CmdOverview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Exit.resx">
+      <DependentUpon>frm_Exit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Intro.resx">
+      <DependentUpon>frm_Intro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_List.resx">
+      <DependentUpon>frm_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Mob.resx">
+      <DependentUpon>frm_Mob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MudPreview.resx">
+      <DependentUpon>frm_MudPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Obj.resx">
+      <DependentUpon>frm_Obj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Options.resx">
+      <DependentUpon>frm_Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Reports.resx">
+      <DependentUpon>frm_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Room.resx">
+      <DependentUpon>frm_Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Shop.resx">
+      <DependentUpon>frm_Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Zone.resx">
+      <DependentUpon>frm_Zone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AreaMap.resx">
+      <DependentUpon>frm_AreaMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="md_functions.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spells.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hog.ico" />
+    <Content Include="private changelog.txt" />
+    <Content Include="Strutture.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

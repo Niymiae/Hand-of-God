@@ -1,0 +1,51 @@
+9 3 2015
+* aggiunto <DialogResult = DialogResult.OK;> su frm_area_element_FormClosing per chiusura tramite X con conferma
+* filtro anti-tilde in MudlikeRichTextBox
+* check formato .ZON ed esclusione dalla lista su import (con messaggio)
+* check formato .ZON e impossibilità di aprire zone corrotte (con messaggio)
+* opzione salvataggio .ZON in formato base / Helpzon
+* trimEnd su load stringa gem_dice mob e su OnTextChanged del dice in frm_Mob
+* SetModified da parte delle TextBox cambiato da OnTextChanged a OnKeyDown (SetModified forzato per Format80C, Cut, Paste tramite popup), dovrebbe stressare meno con le conferme save
+* frm_Exit desc e progressbar usavano components basilari (mah?), cambiati in MudlikeRichTextBox e CharCounterProgressBar
+14 3 2015
+* vnum manuale zone ora e' di default
+* comandi avanzati inits tornati in alto :p
+* le MudlikeRichTextBox non hanno piu' l'auto word selection
+* la lista principale dovrebbe riflettere le modifiche applicate nelle form di edit chiuse tramite X
+* chiudere la form principale dovrebbe chiedere conferma salvataggio di eventuali zone aperte modificate
+* preview: examine non causa piu' errore se un oggetto nella stanza non esiste
+* preview: aggiunti Stat <mob> e Stat <obj>
+* bug vari aggiunti qua e la
+5 4 2015
+* corretti bug di visualizzazione del popup menu MudlikeRichTextBox non multiline (short descs)
+* corretto crash dovuto a passaggio ad anteprima con colore a inizio testo MudlikeRichTextBox
+
+20 9 2015
+* MOB       - XP Bonus max value settato a 20
+* ROOMS I/O - il valore 'Contatore' viene salvato solo se la stanza teletrasporto è flaggata COUNT
+
+24 10 2015
+
+    category				status						description
+* ROOMS I/O LOAD           - FIXED   (quote)"ogni volta che carico i file mi aggiunge una riga vuota in testa alla day desc delle stanze (se presente)"
+* ZONE  I/O LOAD           - FIXED   (quote)"ogni volta che carico i file mi aggiunge una riga vuota di commento in fondo alla zona"
+* ROOMS VNUM_REF           - FIXED   cambiare vnum ad una room e aggiornarne i riferimenti dalla form room implicava l'eliminazione delle exit dirette verso la suddetta
+* ROOMS I/O	SAVE           - FIXED   (quote)"Se aggiungo la descrizione ad un'uscita speciale --> quando ricarico la zona è persa"
+* EXIT FORM				   - ADDED   (quote)"Il flag invisibile dovrebbe poter essere messo solo su uscite che sono già secret""
+* EXIT FORM                - FIXED   (quote)"Se viene aggiornata un'uscita speciale già esistente usando il pulsante "Imposta uscita inversa", l'inizializzazione nella stanza opposta non si modifica, bisogna intervenire manualmente sull'inversa"
+* EXIT LIST                - ADDED   (quote)"se le uscite sono sia secret che invis si potrebbe colorare in modo leggermente diverso l'uscita sulla lista, per identificarla facilmente.""
+* EXIT FORM				   - ADDED	 eliminare un'uscita elimina l'inizializzazione relativa (se esistente)
+* ROOM VNUM_REF            - ADDED	 le inizializzazioni delle uscite vengono eliminate in caso di rimozione della stanza (uscite proprie, uscite verso)
+* INITS_REF                - ADDED   le inizializzazioni primarie (MOB_ADD MOB_REM OBJ_ADD OBJ_REM) vengono eliminate in caso di rimozione dei relativi mob/oggetti (e conferma update riferimenti vnum se l'opzione è attiva)
+* INITS_REF                - ADDED   qualsiasi inizializzazione secondaria (GIVE WEAR PUT HATE FEAR FOLLOWER) successiva ad una inizializzazione primaria eliminata automaticamente, viene a sua volta eliminata (fino alla primaria seguente, o la fine del file)
+* EXIT FORM                - ADDED	 (quote)"In caso di porte, i campi nome e parola chiave dovrebbero essere obbligatori."
+
+* AREA_ELEMENTS			   - UNKNOWN (quote)"Se lascio una riga vuota in calce alle descrizioni (vale per tutte e tre) delle stanze --> quando ricarico la zona è persa"
+				           		     durante il developing mi è stato detto di fare TrimEnd() perché c'erano problemi con spazi o righe aggiuntivi su HoG, se è un grosso problema si può approfondire per toglierlo
+* irrilevante/non capisco  -		 (quote)"(le righe vuote prima della day desc non vengono comunque riportate sul mud mentre sulla night desc si, trimming?)"
+
+25 10 2015
+* ZONE I/O LOAD            - FIXED   non leggeva la zona iniziale se # era sulla prima riga
+
+20 12 2015
+mob dialogues

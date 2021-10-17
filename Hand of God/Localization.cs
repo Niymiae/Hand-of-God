@@ -58,7 +58,7 @@ namespace HandofGod
                                                         "Anti Evil", "Anti Neutral", "Anti Cleric", "Anti Mage", "Anti Thief", "Anti Warrior", "Brittle", 
                                                         "Resistant", "Indistruttibile", "Femminile", "Plurale", "No Edit", "Anti Barbarian",
                                                         "Anti Ranger", "Anti Paladin", "Anti Psionist", "Anti Monk", "Anti Druid", "Only Class", "Scava",
-                                                        "Taglia", "Donato"};
+                                                        "Taglia", "Donazione"};
 
         public static readonly string[] object_value_names = {"~~~","Colore~Tipo~Durata~Qualcosa","Livello~Incantesimo #1~Incantesimo #2~Incantesimo #3", 
                                                               "Livello~Max Cariche~Cariche Rimaste~Incantesimo",

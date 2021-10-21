@@ -107,6 +107,12 @@ namespace HandofGod
                 combos_aff[i].SelectedIndex = Data.affects[i].index;
                 affects[i].SetArea(ParentArea);
                 affects[i].Value = Data.affects[i].value;
+                
+                if (ObjAffect.isComplex(Data.affects[i].index))
+                {
+                    affects[i].val2 = Data.affects[i].value2;
+                    affects[i].val3 = Data.affects[i].value3;
+                }
                 affects[i].RefreshComponents();
             }
 
@@ -143,6 +149,12 @@ namespace HandofGod
             {
                 Data.affects[i].index = combos_aff[i].SelectedIndex;
                 Data.affects[i].value = Convert.ToInt32(affects[i].Value);
+
+                if (ObjAffect.isComplex(Data.affects[i].index))
+                {
+                    Data.affects[i].value2 = affects[i].val2;
+                    Data.affects[i].value3 = affects[i].val3;
+                }
             }
 
             // modified extradesc notification

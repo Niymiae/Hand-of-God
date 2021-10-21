@@ -1936,6 +1936,13 @@ namespace HandofGod
     {
         public int index;
         public int value;
+        public int value2;
+        public int value3;
+
+        public static bool isComplex(int id)
+        {
+            return C.objaffects[id] == 'Q';
+        }
 
         public void Clear()
         {
@@ -1949,6 +1956,7 @@ namespace HandofGod
             bool first = true;
             BitVector32 bv = new BitVector32();
             bv[value] = true;
+
             for (int i = 0; i < lines.Length; i++)
                 if (bv[1 << i])
                 {
@@ -1973,6 +1981,8 @@ namespace HandofGod
                     case 'S': return Database.GetSpell(value).shortdesc;
                     case 'R': return L.Get(L.mob_races, value);
                     case 'G': return L.Get(L.alignment_names, value);
+                    // 17/10/21 Saregon - affects
+                    case 'Q': return value.ToString() + " - " + value2.ToString() + " - " + value3.ToString();
                     default: return value.ToString();
                 }
             }
@@ -2068,6 +2078,10 @@ namespace HandofGod
             {
                 affects[i].index = o.affects[i].index;
                 affects[i].value = o.affects[i].value;
+                // 17/10/21 Saregon - affects
+                affects[i].value2 = o.affects[i].value2;
+                affects[i].value3 = o.affects[i].value3;
+                //
             }
 
             for (int i = 0; i <= C.of_end; i++)
@@ -2084,7 +2098,7 @@ namespace HandofGod
         #endregion
 
         #region Affects
-        public bool SetAffect(int key, int value)
+        public bool SetAffect(int key, int value, int val2 = 0, int val3 = 0)
         {
             int i = 0;
             while (affects[i].index != 0 && i < 5)
@@ -2095,7 +2109,13 @@ namespace HandofGod
 
             affects[i].index = key;
             affects[i].value = value;
-
+            // 17/10/21 Saregon - affects
+            if (val2 != 0)
+            {
+                affects[i].value2 = val2;
+                affects[i].value3 = val3;
+            }
+            //
             return true;
         }
         #endregion

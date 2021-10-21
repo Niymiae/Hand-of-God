@@ -875,6 +875,21 @@ namespace HandofGod
                                     }
                                     catch { }
                                     break;
+                              // complex affect
+                                case 'S':
+                                    try
+                                    {
+                                        ReadUntil(file, '\n');
+                                        desc = ReadUntil(file, '\n').Split(' ');
+                                        int key = ToInt(desc[0]);
+                                        int val1 = ToInt(desc[1]);
+                                        int val2 = ToInt(desc[2]);
+                                        int val3 = ToInt(desc[3]);
+
+                                        curr.SetAffect(key, val1, val2, val3);
+                                    }
+                                    catch { }
+                                    break;
                             }
                         }
                     }
@@ -1449,12 +1464,21 @@ namespace HandofGod
 
                     for (int i = 0; i <= 4; i++)
                         if (o.affects[i].index > 0)
-                        {
-                            write(file, "A" + NewLine);
-                            // spell focus hack
-                            int key = o.affects[i].index; //+ (o.affects[i].index >= 69 ? 1 : 0);
-                            write(file, key + " " + o.affects[i].value + NewLine);
-                        }
+                            if (!ObjAffect.isComplex(o.affects[i].index))
+                            {
+                                write(file, "A" + NewLine);
+                                // spell focus hack
+                                int key = o.affects[i].index; //+ (o.affects[i].index >= 69 ? 1 : 0);
+                                write(file, key + " " + o.affects[i].value + NewLine);
+                            }
+                    else // 17/10/21 Saregon - affects
+                            {
+                                write(file, "S" + NewLine);
+                                // spell focus hack
+                                int key = o.affects[i].index; //+ (o.affects[i].index >= 69 ? 1 : 0);
+                                write(file, key + " " + o.affects[i].value + " " + o.affects[i].value2 + " " + o.affects[i].value3 + NewLine);
+                            }
+                        //
                 }
 
                 file.Close();

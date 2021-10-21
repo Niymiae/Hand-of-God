@@ -2488,6 +2488,13 @@ namespace HandofGod
         private ComboBox combo;
         private Button btn;
         private ContextMenuStrip menu;
+        // 17/10/21 Saregon - affects
+        int baseSizeX = 109;
+        NumericUpDown num2, num3;
+        public int val2, val3;
+
+
+        //
         #endregion
         // avoid overlapping of multiple menus
         public static ContextMenuStrip lastopenedmenu;
@@ -2535,6 +2542,8 @@ namespace HandofGod
                 case 'K':
                 case 'I':
                 case 'T': return 2;
+                // 17/10/21 Saregon - affects
+                case 'Q': return 3;
                 default: return 0;
                 case '_': return -1;
             }
@@ -2543,6 +2552,8 @@ namespace HandofGod
         private bool hascombo { get { return combo != null; } }
         private bool hasbtn { get { return btn != null; } }
         private bool hasmenu { get { return menu != null; } }
+        // 17/10/21 Saregon - affects
+        private bool hasnums { get { return num2 != null; } }
 
         public void SetArea(Area a)
         { if (ParentArea == null) ParentArea = a; }
@@ -2624,6 +2635,30 @@ namespace HandofGod
                     break;
             }
         }
+        
+        // 17/10/21 Saregon - affects
+        void createNums()
+        {
+            if (hasnums)
+                return;
+
+            num2= new NumericUpDown();
+            num2.Parent = Parent;
+            num2.Name = Name + "_numupdown2";
+            num2.Size = Size;
+            num2.Location = Location;
+            num2.Tag = 2;
+            num2.ValueChanged += new EventHandler(num_onValueChanged);
+
+            num3 = new NumericUpDown();
+            num3.Parent = Parent;
+            num3.Name = Name + "_numupdown3";
+            num3.Size = Size;
+            num3.Location = Location;
+            num3.Tag = 3;
+            num3.ValueChanged += new EventHandler(num_onValueChanged);
+        }
+        //
 
         private void createmenu()
         {
@@ -2710,7 +2745,23 @@ namespace HandofGod
             }
         }
 
-        private void setbtntext()
+        // 17/10/21 Saregon - affects
+        void setnumsvalues()
+        {
+            if (!hasnums)
+                return;
+
+            switch (valuetype)
+            {
+                case 'Q':
+                        num2.Value = val2;
+                        num3.Value = val3;
+                        break;
+            }
+        }
+
+
+         void setbtntext()
         {
             if (!hasbtn)
                 return;
@@ -2788,6 +2839,13 @@ namespace HandofGod
                 combo.Hide();
             if (hasbtn)
                 btn.Hide();
+            if (hasnums)
+            {
+                num2.Hide();
+                num3.Hide();
+            }
+
+            Size = new Size(baseSizeX, Size.Height);
 
             switch (GetWidget())
             {
@@ -2799,6 +2857,15 @@ namespace HandofGod
                     btn.Show();
                     break;
                 case 0: Show();
+                    break;
+                // 17/10/21 Saregon - affects
+                case 3: createNums();
+                    Size = new Size(baseSizeX / 3, Size.Height);
+                    num2.Size = Size;
+                    num3.Size = Size;
+                    Show();
+                    num2.Show();
+                    num3.Show();
                     break;
                 default: break;
             }
@@ -2815,6 +2882,8 @@ namespace HandofGod
                 case 1: setcombovalue();
                     break;
                 case 2: setbtntext();
+                    break;
+                case 3: setnumsvalues();
                     break;
                 default: break;
             }
@@ -2917,6 +2986,15 @@ namespace HandofGod
             ValAffEditbox.lastopenedmenu = sender as ContextMenuStrip;
         }
 
+        private void num_onValueChanged(object sender, EventArgs e)
+        {
+            if (sender == num2)
+                val2 = Convert.ToInt32(num2.Value);
+
+            if (sender == num3)
+                val3 = Convert.ToInt32(num3.Value);
+        }
+
         private void combo_onValueChanged(object sender, EventArgs e)
         {
             switch (valuetype)
@@ -2936,6 +3014,11 @@ namespace HandofGod
                 combo.Location = Location;
             if (hasbtn)
                 btn.Location = Location;
+            if (hasnums)
+            {
+                num2.Location = new Point(Location.X + baseSizeX / 3 + 10, Location.Y);
+                num3.Location = new Point(Location.X + baseSizeX / 3 * 2 + 20, Location.Y);
+            }
         }
 
         protected override void OnParentChanged(EventArgs e)
@@ -2945,6 +3028,11 @@ namespace HandofGod
                 combo.Parent = Parent;
             if (hasbtn)
                 btn.Parent = Parent;
+            if (hasnums)
+            {
+                num2.Parent = Parent;
+                num3.Parent = Parent;
+            }
         }
 
         private void onResize(object sender, EventArgs e)

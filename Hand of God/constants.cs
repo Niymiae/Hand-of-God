@@ -542,7 +542,8 @@ namespace HandofGod
         public const int oa_lumen_skills = 157;
         public const int oa_umbra_skills = 158;
         public const int oa_trauma_skills = 159;
-        public const int oa_end = 159;
+        public const int oa_resistance_spirit = 160;
+        public const int oa_end = 160;
 
         // object values & affects
         // 4 characters each

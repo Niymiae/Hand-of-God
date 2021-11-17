@@ -37,7 +37,8 @@ namespace HandofGod
                                                           "Incavo vuoto", "Incavo pieno", "Bonus alle abilità (fuoco)", "Bonus alle abilità (freddo)", "Bonus alle abilità (elett.)",
                                                           "Bonus alle abilità (anima)", "Bonus alle abilità (impatto)", "Bonus alle abilità (taglio)", "Bonus alle abilità (punta)",
                                                           "Bonus alle abilità (acido)", "Bonus alle abilità (natura)", "Bonus alle abilità (caos)", "Bonus alle abilità (psichiche)",
-                                                          "Bonus alle abilità (arcane)", "Bonus alle abilità (luce)", "Bonus alle abilità (tenebra)", "Bonus alle abilità (trauma)"};
+                                                          "Bonus alle abilità (arcane)", "Bonus alle abilità (luce)", "Bonus alle abilità (tenebra)", "Bonus alle abilità (trauma)",
+                                                          "Resistenza Spirituale"};
 
         public static readonly string[] object_types = {"None", "Light", "Scroll", "Wand", "Staff", "Weapon", "Fire Weapon", "Missile", "Treasure", "Armor",
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",

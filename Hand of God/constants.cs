@@ -582,16 +582,16 @@ namespace HandofGod
                                             "____"};// rock
         // (uses objaffect as index)
         // Q complex affects
-        public static readonly char[] objaffects = {'_','N','N','N','N','N','N','X',  // none str dex int wis con chr sex                                   - 8
-                                                    'N','N','N','N','N','N','N','N',  // level age weight height mana hit move gold                         - 16
-                                                    'N','N','N','N','N','N','N','N',  // xp ac hitroll damroll para rod petri breath                        - 24
-                                                    'N','N','E','E','E','A','S','S',  // spell all resistant susceptible immune spell weaponspell eatspell  - 32
-                                                    'N','N','N','N','N','N','N','N',  // backstab kick sneak hide bash pick steal track                     - 40
-                                                    'N','N','N','N','N','N','N','N',  // hitndam spellfail attacks haste slow bv2 findtraps ride            - 48
-                                                    'R','G','N','N','N','N','N','N',  // race alignment manareg hitreg movreg thirst hunger drunk           - 56
-                                                    'N','N','N','N','N','N','N','N',  // tstr tint tdex twis tcon tchr thps tmove                           - 64
-                                                    'N','N','N','N','N','N','N','N',  // tmana spellpower blunt slash pierce sick HITNSP speed              - 72
-                                                    'N','N','N','N','N','N','N','N',  // prof mastery resil pers fork gainsk lifesteal evasion              - 80
+        public static readonly char[] objaffects = {'_','N','N','N','N','N','N','X',  // none str dex int wis con chr sex                                   - 7
+                                                    'N','N','N','N','N','N','N','N',  // level age weight height mana hit move gold                         - 15
+                                                    'N','N','N','N','N','N','N','N',  // xp ac hitroll damroll para rod petri breath                        - 23
+                                                    'N','N','E','E','E','A','S','S',  // spell all resistant susceptible immune spell weaponspell eatspell  - 31
+                                                    'N','N','N','N','N','N','N','N',  // backstab kick sneak hide bash pick steal track                     - 39
+                                                    'N','N','N','N','N','N','N','N',  // hitndam spellfail attacks haste slow bv2 findtraps ride            - 47
+                                                    'R','G','N','N','N','N','N','N',  // race alignment manareg hitreg movreg thirst hunger drunk           - 55
+                                                    'N','N','N','N','N','N','N','N',  // tstr tint tdex twis tcon tchr thps tmove                           - 63
+                                                    'N','N','N','N','N','N','N','N',  // tmana spellpower blunt slash pierce sick focus hitnsp              - 71
+                                                    'N','N','N','N','N','N','N','N','N',  // speed prof mastery resil pers fork gainsk lifesteal evasion    - 80
                                                     'N','N','N','N','N','N','N','N',  // riposte bfire bcold belec banima bblunt bslash bpierce             - 88
                                                     'N','N','N','N','N','N','N','N',  // bnature bchaos bpsych barcane blumen bumbra critical nstr          - 96
                                                     'N','N','N','N','N','Q','N','N',  // ndex nint nwis ncon nlck spellmod resifire resicold                - 104
@@ -599,7 +599,7 @@ namespace HandofGod
                                                     'N','N','N','N','N','N','N','N',  // rsleep rcharm rhold rchaos rpsych rarcane rlumen rumbra            - 120
                                                     'N','N','N','N','N','N','N','N',  // relem rdivine rphys mdamdone mdamtak mhealdone mhealtak bhealing   - 128
                                                     'N','N','N','N','N','N','N','Q',  // bacid btrauma intuition lethality onhit block rtrauma oncrit       - 136
-                                                    'Q','Q','Q','Q','N','N','N','N',  // onexc onexcrit onctaken onhittaken randomaf specaf esocket fsock   - 144
+                                                    'Q','Q','Q','Q','Q','N','N','N',  // onexc onexcrit onctaken onhittaken randomaf specaf esocket fsock   - 144
                                                     'N','N','N','N','N','N','N','N',  // firesk coldsk elesk animask bluntsk slashsk piercesk acidsk        - 152
                                                     'N','N','N','N','N','N','N','N'}; // natsk chaossk psysk arcanesk lumensk umbrask traumask end          - 160
                                                

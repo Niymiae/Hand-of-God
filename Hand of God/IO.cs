@@ -885,8 +885,9 @@ namespace HandofGod
                                         int val1 = ToInt(desc[1]);
                                         int val2 = ToInt(desc[2]);
                                         int val3 = ToInt(desc[3]);
+                                        int val4 = ToInt(desc[4]);
 
-                                        curr.SetAffect(key, val1, val2, val3);
+                                        curr.SetAffect(key, val1, val2, val3, val4);
                                     }
                                     catch { }
                                     break;
@@ -1324,6 +1325,7 @@ namespace HandofGod
                     // fourth numbers line
                     write(file, m.values[C.mv_loadpos] + " ");
                     write(file, m.values[C.mv_defaultpos] + " ");
+
                     if (m.resistances.Data > 0 || m.susceptibles.Data > 0 || m.immunities.Data > 0)
                     {
                         write(file, m.values[C.mv_sex] + 3);
@@ -1408,10 +1410,32 @@ namespace HandofGod
                             write(file, C.ms_to_char[chk.Key] + " " + chk.Value.amount + " " + chk.Value.fail_next + NewLine);
 
                         if (hasSuccess > 0)
-                            write(file, md.onSuccess.vnum + " " + md.onSuccess.param1 + " " + md.onSuccess.param2 + NewLine);
+                        {
+                            string paramOneToSave = md.onSuccess.param1;
+                            string paramTwoToSave = md.onSuccess.param2;
+
+                            if (string.IsNullOrEmpty(paramOneToSave))
+                                paramOneToSave = "0";
+
+                            if (string.IsNullOrEmpty(paramTwoToSave))
+                                paramTwoToSave = "0";
+
+                            write(file, md.onSuccess.vnum + " " + paramOneToSave + " " + paramTwoToSave + NewLine);
+                        }
 
                         if (hasFail > 0)
-                            write(file, md.onFail.vnum + " " + md.onFail.param1 + " " + md.onFail.param2 + NewLine);
+                        {
+                            string paramOneToSave = md.onFail.param1;
+                            string paramTwoToSave = md.onFail.param2;
+
+                            if (string.IsNullOrEmpty(paramOneToSave))
+                                paramOneToSave = "0";
+
+                            if (string.IsNullOrEmpty(paramTwoToSave))
+                                paramTwoToSave = "0";
+
+                            write(file, md.onFail.vnum + " " + paramOneToSave + " " + paramTwoToSave + NewLine);
+                        }
 
                         for (int i = 0; i <= C.mdd_end; i++)
                             write(file, md.descriptions[i] + "~" + NewLine);
@@ -1476,7 +1500,7 @@ namespace HandofGod
                                 write(file, "S" + NewLine);
                                 // spell focus hack
                                 int key = o.affects[i].index; //+ (o.affects[i].index >= 69 ? 1 : 0);
-                                write(file, key + " " + o.affects[i].value + " " + o.affects[i].value2 + " " + o.affects[i].value3 + NewLine);
+                                write(file, key + " " + o.affects[i].value + " " + o.affects[i].value2 + " " + o.affects[i].value3 + " " + o.affects[i].value4 + NewLine);
                             }
                         //
                 }

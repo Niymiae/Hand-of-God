@@ -112,6 +112,7 @@ namespace HandofGod
                 {
                     affects[i].val2 = Data.affects[i].value2;
                     affects[i].val3 = Data.affects[i].value3;
+                    affects[i].val4 = Data.affects[i].value4;
                 }
                 affects[i].RefreshComponents();
             }
@@ -154,6 +155,7 @@ namespace HandofGod
                 {
                     Data.affects[i].value2 = affects[i].val2;
                     Data.affects[i].value3 = affects[i].val3;
+                    Data.affects[i].value4 = affects[i].val4;
                 }
             }
 
@@ -347,6 +349,11 @@ int trapLevel = p_obj->getTrapLevel();
         }
 
         private void pn_values_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnapply_Click_1(object sender, EventArgs e)
         {
 
         }

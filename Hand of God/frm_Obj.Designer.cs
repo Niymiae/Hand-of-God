@@ -160,6 +160,7 @@
             // btnapply
             // 
             this.btnapply.Location = new System.Drawing.Point(522, 523);
+            this.btnapply.Click += new System.EventHandler(this.btnapply_Click_1);
             // 
             // btnrestore
             // 
@@ -1135,7 +1136,7 @@
             0,
             -2147483648});
             this.val3.Name = "val3";
-            this.val3.Size = new System.Drawing.Size(130, 20);
+            this.val3.Size = new System.Drawing.Size(109, 20);
             this.val3.TabIndex = 10;
             this.val3.ValueType = '\0';
             // 
@@ -1153,7 +1154,7 @@
             0,
             -2147483648});
             this.val2.Name = "val2";
-            this.val2.Size = new System.Drawing.Size(130, 20);
+            this.val2.Size = new System.Drawing.Size(109, 20);
             this.val2.TabIndex = 9;
             this.val2.ValueType = '\0';
             this.val2.ValueChanged += new System.EventHandler(this.val2_ValueChanged);
@@ -1173,7 +1174,7 @@
             0,
             -2147483648});
             this.val1.Name = "val1";
-            this.val1.Size = new System.Drawing.Size(130, 20);
+            this.val1.Size = new System.Drawing.Size(109, 20);
             this.val1.TabIndex = 8;
             this.val1.ValueType = '\0';
             // 
@@ -1191,7 +1192,7 @@
             0,
             -2147483648});
             this.val0.Name = "val0";
-            this.val0.Size = new System.Drawing.Size(130, 20);
+            this.val0.Size = new System.Drawing.Size(109, 20);
             this.val0.TabIndex = 7;
             this.val0.ValueType = '\0';
             this.val0.ValueChanged += new System.EventHandler(this.val0_ValueChanged);

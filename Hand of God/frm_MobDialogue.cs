@@ -54,9 +54,13 @@ namespace HandofGod
 
                 cnt = Controls.Find("check" + i + "_val", true)[0];
                 checkValues.Add(cnt as NumericUpDown);
+            }
 
+            for (int i = 0; i <= C.ms_end; i++)
+            {
                 //rolls
-                cnt = Controls.Find("roll" + i, true)[0];
+                Control cnt = Controls.Find("roll" + i, true)[0];
+                //cnt = Controls.Find("roll" + i, true)[0];
                 rollEnablers.Add(cnt as CheckBox);
 
                 cnt = Controls.Find("roll" + i + "_val", true)[0];
@@ -65,6 +69,7 @@ namespace HandofGod
                 cnt = Controls.Find("roll" + i + "_fail", true)[0];
                 rollFails.Add(cnt as NumericUpDown);
             }
+
 
             func_success.ValueType = 'F';
             func_fail.ValueType = 'F';
@@ -357,7 +362,13 @@ namespace HandofGod
                 form.SetElements<MobDialogue>(ParentArea, C.i_mobdialog_Q, ParentMob.dialogues, false, x => (x as MobDialogue).type == MobDialogueType.Domanda);
                 if (form.ShowDialog() == DialogResult.OK)
                 {
+                    
                     int index = (int)char.GetNumericValue((sender as Button).Name[4]);
+                    int lmaoIndexTwo = (int)char.GetNumericValue((sender as Button).Name[5]);
+
+                    if (lmaoIndexTwo > 0)
+                        index = (index * 10) + lmaoIndexTwo;
+
                     rollFails[index].Value = form.result.GetType() == typeof(MobDialogue) ? (form.result as MobDialogue).vnum : (int)form.result;
                 }
             }

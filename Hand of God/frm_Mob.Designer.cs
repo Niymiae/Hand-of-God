@@ -824,7 +824,7 @@
             this.act12.Name = "act12";
             this.act12.Size = new System.Drawing.Size(110, 17);
             this.act12.TabIndex = 56;
-            this.act12.Text = "hunting";
+            this.act12.Text = "friendly";
             this.act12.UseVisualStyleBackColor = true;
             // 
             // act10
@@ -961,7 +961,7 @@
             this.act17.Name = "act17";
             this.act17.Size = new System.Drawing.Size(90, 17);
             this.act17.TabIndex = 52;
-            this.act17.Text = "int. object";
+            this.act17.Text = "inanimate";
             this.act17.UseVisualStyleBackColor = true;
             // 
             // act16

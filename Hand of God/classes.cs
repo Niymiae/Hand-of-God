@@ -1938,6 +1938,7 @@ namespace HandofGod
         public int value;
         public int value2;
         public int value3;
+        public int value4;
 
         public static bool isComplex(int id)
         {
@@ -2081,6 +2082,7 @@ namespace HandofGod
                 // 17/10/21 Saregon - affects
                 affects[i].value2 = o.affects[i].value2;
                 affects[i].value3 = o.affects[i].value3;
+                affects[i].value4 = o.affects[i].value4;
                 //
             }
 
@@ -2098,7 +2100,7 @@ namespace HandofGod
         #endregion
 
         #region Affects
-        public bool SetAffect(int key, int value, int val2 = 0, int val3 = 0)
+        public bool SetAffect(int key, int value, int val2 = 0, int val3 = 0, int val4 = 0)
         {
             int i = 0;
             while (affects[i].index != 0 && i < 5)
@@ -2114,6 +2116,7 @@ namespace HandofGod
             {
                 affects[i].value2 = val2;
                 affects[i].value3 = val3;
+                affects[i].value4 = val4;
             }
             //
             return true;

@@ -197,7 +197,7 @@ namespace HandofGod
         public const int et_end = 18;
 
         //mob stats
-        public const string ms_to_char = "SDIWOCTQRE";
+        public const string ms_to_char = "SDIWOCVUGETKP";
         public const int ms_str = 0;
         public const int ms_dex = 1;
         public const int ms_int = 2;
@@ -209,7 +209,11 @@ namespace HandofGod
         public const int ms_equipment_obj = 7;
         public const int ms_room_location = 8;
         public const int ms_mob_state = 9;
-        public const int ms_end = 9;
+        public const int ms_mob_diag_state = 10;
+        public const int ms_mob_skill = 11;
+        public const int ms_mob_apply = 12;
+        public const int ms_end = 12;
+        public const int roll_ms_end = 5;
 
         //mob dialog values
         public const int mdv_id = 0;
@@ -562,7 +566,7 @@ namespace HandofGod
                                             "NNNN", // fire weapon
                                             "NNNN", // missile
                                             "____", // treasure
-                                            "NN__", // armor
+                                            "NNN_", // armor
                                             "NSSS", // potion
                                             "____", // worn
                                             "____", // other
@@ -599,9 +603,9 @@ namespace HandofGod
                                                     'N','N','N','N','N','N','N','N',  // rsleep rcharm rhold rchaos rpsych rarcane rlumen rumbra            - 120
                                                     'N','N','N','N','N','N','N','N',  // relem rdivine rphys mdamdone mdamtak mhealdone mhealtak bhealing   - 128
                                                     'N','N','N','N','N','N','N','Q',  // bacid btrauma intuition lethality onhit block rtrauma oncrit       - 136
-                                                    'Q','Q','Q','Q','Q','N','N','N',  // onexc onexcrit onctaken onhittaken randomaf specaf esocket fsock   - 144
-                                                    'N','N','N','N','N','N','N','N',  // firesk coldsk elesk animask bluntsk slashsk piercesk acidsk        - 152
-                                                    'N','N','N','N','N','N','N','N'}; // natsk chaossk psysk arcanesk lumensk umbrask traumask end          - 160
+                                                    'Q','Q','Q','Q','Q','Q','Q','Q',  // onexc onexcrit onctaken onhittaken randomaf specaf esocket fsock   - 144
+                                                    'Q','Q','Q','Q','Q','Q','Q','Q',  // firesk coldsk elesk animask bluntsk slashsk piercesk acidsk        - 152
+                                                    'Q','Q','Q','Q','Q','Q','Q','Q'}; // natsk chaossk psysk arcanesk lumensk umbrask traumask end          - 160
                                                
                                                                                     
                                                                         

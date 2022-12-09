@@ -68,7 +68,7 @@ namespace HandofGod
                                                               "A due mani~Numero Dadi~Numero Facce~Tipo di Danno",
                                                               "Forza Minima~Distanza Minima~Bonus sul Range~Tipo di Proiettile",
                                                               "% di Rottura~Numero di Dadi(danno)~Numero Facce(danno)~Tipo di Proiettile",
-                                                              "~~~","AC Attuale~AC Massima~~","Livello~Incantesimo #1~Incantesimo #2~Incantesimo #3",
+                                                              "~~~","AC Attuale~AC Massima~Materiale~","Livello~Incantesimo #1~Incantesimo #2~Incantesimo #3",
                                                               "~~~","~~~","~~~","Trigger~Tipo di Danno~Livello~Cariche","Capacità~Flags~Chiave~",
                                                               "~~~","Drink-unit Attuali~Drink-unit Max~Tipo di Liquido~Flags",
                                                               "One Time~~~","Ore di Sazietà~~Avvelenato~","Monete~~~","~~~","~~~","Timing~~~","~~~","~~~","~~~"};
@@ -258,9 +258,9 @@ namespace HandofGod
 
         public static readonly string[] damage_types_short = {"F", "C", "El", "En", "Blu", "Pie", "Sla", "A", "Po", "D", "Sle", "Ch", "H", "N-M", "+1", "+2", "+3", "+4"};
 
-        public static readonly string[] mob_acts = {"Non insegue", "Immobile", "Raccoglie", "NPC", "Amichevole", "Aggressivo", "Sta-in-zona", "Codardo", 
-                                                    "Fastidioso", "Reietto", "Spaventato", "Inattaccabile", "Non Usare", "Letale", "Non Usare", "Super Aggressivo",
-                                                    "Guardiano", "Oggetto Interattivo", "Enorme", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
+        public static readonly string[] mob_acts = {"Non insegue", "Immobile", "Raccoglie", "NPC", "Nice vs Furto", "Aggressivo", "Sta-in-zona", "Codardo", 
+                                                    "Fastidioso", "Reietto", "Spaventato", "Inattaccabile", "Amichevole", "Letale", "Non Usare", "Super Aggressivo",
+                                                    "Guardiano", "Inanimato", "Enorme", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
                                                     "AI: Druido", "AI: Monaco", "AI: Barbaro", "AI: Paladino", "AI: Ranger", "AI: Psionico", "AI: Arciere"};
 
         public static readonly string[] mob_affects = {"Blind", "Invisible", "Detect Evil", "Detect Invisible", "Detect Magic", "Sense Life", "Life Saving",

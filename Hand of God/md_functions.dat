@@ -11,5 +11,7 @@
 10;Trasfer NPC;Trasferisce l'NPC alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
 11;Transfer Group;Trasferisce il gruppo del personaggio alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
 12;Transfer All;Trasferisce il PG, il suo gruppo e l'NPC alla locazione di destinazione;Vnum destinazione;Nessun utilizzo
-13;Imposta NPC State; Imposta la variabile State dell'NPC al valore indicato;State;Nessun utilizzo
-14;Scambia Oggetti; Scambia l'oggetto Vnum1 con l'oggetto Vnum2 nell'inventario del pg; Vnum1 oggetto;Vnum2 oggetto
+13;Imposta NPC State;Imposta la variabile State dell'NPC al valore indicato;State;Nessun utilizzo
+14;Scambia Oggetti;Scambia l'oggetto Vnum1 con l'oggetto Vnum2 nell'inventario del pg; Vnum1 oggetto;Vnum2 oggetto
+15;Imposta Stato Dialogo;Imposta uno stato specifico nel rapporto PC->MOB del dialogo;Stato da Impostare;Nessun utilizzo
+16;Imposta Save Dialogo;Imposta un punto di partenza da cui riprendera' il dialogo con il PC specifico;Domanda di Partenza;Nessun utilizzo

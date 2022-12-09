@@ -2490,8 +2490,8 @@ namespace HandofGod
         private ContextMenuStrip menu;
         // 17/10/21 Saregon - affects
         int baseSizeX = 109;
-        NumericUpDown num2, num3;
-        public int val2, val3;
+        NumericUpDown num2, num3, num4;
+        public int val2, val3, val4;
 
 
         //
@@ -2657,6 +2657,14 @@ namespace HandofGod
             num3.Location = Location;
             num3.Tag = 3;
             num3.ValueChanged += new EventHandler(num_onValueChanged);
+
+            num4 = new NumericUpDown();
+            num4.Parent = Parent;
+            num4.Name = Name + "_numupdown4";
+            num4.Size = Size;
+            num4.Location = Location;
+            num4.Tag = 4;
+            num4.ValueChanged += new EventHandler(num_onValueChanged);
         }
         //
 
@@ -2756,6 +2764,7 @@ namespace HandofGod
                 case 'Q':
                         num2.Value = val2;
                         num3.Value = val3;
+                        num4.Value = val4;
                         break;
             }
         }
@@ -2843,6 +2852,7 @@ namespace HandofGod
             {
                 num2.Hide();
                 num3.Hide();
+                num4.Hide();
             }
 
             Size = new Size(baseSizeX, Size.Height);
@@ -2863,9 +2873,11 @@ namespace HandofGod
                     Size = new Size(baseSizeX / 3, Size.Height);
                     num2.Size = Size;
                     num3.Size = Size;
+                    num4.Size = Size;
                     Show();
                     num2.Show();
                     num3.Show();
+                    num4.Show();
                     break;
                 default: break;
             }
@@ -2993,6 +3005,11 @@ namespace HandofGod
 
             if (sender == num3)
                 val3 = Convert.ToInt32(num3.Value);
+
+            if (sender == num4)
+                val4 = Convert.ToInt32(num4.Value);
+
+            
         }
 
         private void combo_onValueChanged(object sender, EventArgs e)
@@ -3018,6 +3035,7 @@ namespace HandofGod
             {
                 num2.Location = new Point(Location.X + baseSizeX / 3 + 10, Location.Y);
                 num3.Location = new Point(Location.X + baseSizeX / 3 * 2 + 20, Location.Y);
+                num4.Location = new Point(Location.X + baseSizeX / 3 * 3 + 30, Location.Y);
             }
         }
 
@@ -3032,6 +3050,7 @@ namespace HandofGod
             {
                 num2.Parent = Parent;
                 num3.Parent = Parent;
+                num4.Parent = Parent;
             }
         }
 

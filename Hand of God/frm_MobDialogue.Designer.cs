@@ -82,19 +82,44 @@
             this.desc6 = new HandofGod.MudlikeRichTextBox();
             this.desc5 = new HandofGod.MudlikeRichTextBox();
             this.tab_checks = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.roll9_failbtn = new System.Windows.Forms.Button();
+            this.roll10_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll10_failbtn = new System.Windows.Forms.Button();
+            this.roll10_faillbl = new System.Windows.Forms.Label();
+            this.roll10_val = new System.Windows.Forms.NumericUpDown();
+            this.roll10 = new System.Windows.Forms.CheckBox();
             this.roll9_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll9_failbtn = new System.Windows.Forms.Button();
             this.roll9_faillbl = new System.Windows.Forms.Label();
-            this.roll8_failbtn = new System.Windows.Forms.Button();
+            this.roll9_val = new System.Windows.Forms.NumericUpDown();
+            this.roll9 = new System.Windows.Forms.CheckBox();
             this.roll8_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll8_failbtn = new System.Windows.Forms.Button();
             this.roll8_faillbl = new System.Windows.Forms.Label();
-            this.roll7_failbtn = new System.Windows.Forms.Button();
+            this.roll8_val = new System.Windows.Forms.NumericUpDown();
+            this.roll8 = new System.Windows.Forms.CheckBox();
             this.roll7_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll7_failbtn = new System.Windows.Forms.Button();
             this.roll7_faillbl = new System.Windows.Forms.Label();
-            this.roll6_failbtn = new System.Windows.Forms.Button();
+            this.roll7_val = new System.Windows.Forms.NumericUpDown();
+            this.roll7 = new System.Windows.Forms.CheckBox();
             this.roll6_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll6_failbtn = new System.Windows.Forms.Button();
             this.roll6_faillbl = new System.Windows.Forms.Label();
+            this.roll6_val = new System.Windows.Forms.NumericUpDown();
+            this.roll6 = new System.Windows.Forms.CheckBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.roll12_faillbl = new System.Windows.Forms.Label();
+            this.roll11_faillbl = new System.Windows.Forms.Label();
+            this.roll12_failbtn = new System.Windows.Forms.Button();
+            this.roll11_failbtn = new System.Windows.Forms.Button();
+            this.roll12_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll11_fail = new System.Windows.Forms.NumericUpDown();
+            this.roll12_val = new System.Windows.Forms.NumericUpDown();
+            this.roll11_val = new System.Windows.Forms.NumericUpDown();
+            this.roll12 = new System.Windows.Forms.CheckBox();
+            this.roll11 = new System.Windows.Forms.CheckBox();
             this.roll5_failbtn = new System.Windows.Forms.Button();
             this.roll5_fail = new System.Windows.Forms.NumericUpDown();
             this.roll5_faillbl = new System.Windows.Forms.Label();
@@ -113,14 +138,6 @@
             this.roll0_failbtn = new System.Windows.Forms.Button();
             this.roll0_fail = new System.Windows.Forms.NumericUpDown();
             this.roll0_faillbl = new System.Windows.Forms.Label();
-            this.roll9 = new System.Windows.Forms.CheckBox();
-            this.roll9_val = new System.Windows.Forms.NumericUpDown();
-            this.roll8 = new System.Windows.Forms.CheckBox();
-            this.roll8_val = new System.Windows.Forms.NumericUpDown();
-            this.roll7 = new System.Windows.Forms.CheckBox();
-            this.roll7_val = new System.Windows.Forms.NumericUpDown();
-            this.roll6 = new System.Windows.Forms.CheckBox();
-            this.roll6_val = new System.Windows.Forms.NumericUpDown();
             this.roll5 = new System.Windows.Forms.CheckBox();
             this.roll5_val = new System.Windows.Forms.NumericUpDown();
             this.roll4 = new System.Windows.Forms.CheckBox();
@@ -134,6 +151,12 @@
             this.roll0 = new System.Windows.Forms.CheckBox();
             this.roll0_val = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.check12_val = new System.Windows.Forms.NumericUpDown();
+            this.check11_val = new System.Windows.Forms.NumericUpDown();
+            this.check12 = new System.Windows.Forms.CheckBox();
+            this.check11 = new System.Windows.Forms.CheckBox();
+            this.check10_val = new System.Windows.Forms.NumericUpDown();
+            this.check10 = new System.Windows.Forms.CheckBox();
             this.check9 = new System.Windows.Forms.CheckBox();
             this.check9_val = new System.Windows.Forms.NumericUpDown();
             this.check8 = new System.Windows.Forms.CheckBox();
@@ -175,21 +198,27 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tab_checks.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.roll10_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll10_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll9_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll9_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll8_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll8_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll7_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll7_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll6_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll6_val)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.roll12_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll11_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll12_val)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll11_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll5_fail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll4_fail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll3_fail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll2_fail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll1_fail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll0_fail)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll9_val)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll8_val)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll7_val)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll6_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll5_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll4_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll3_val)).BeginInit();
@@ -197,6 +226,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.roll1_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll0_val)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.check12_val)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.check11_val)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.check10_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.check9_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.check8_val)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.check7_val)).BeginInit();
@@ -304,16 +336,16 @@
             this.groupBox12.Controls.Add(this.param2_func_fail);
             this.groupBox12.Controls.Add(this.param1_func_fail);
             this.groupBox12.Controls.Add(this.label13);
-            this.groupBox12.Location = new System.Drawing.Point(456, 5);
+            this.groupBox12.Location = new System.Drawing.Point(470, 7);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(244, 83);
+            this.groupBox12.Size = new System.Drawing.Size(266, 83);
             this.groupBox12.TabIndex = 43;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "OnFail";
             // 
             // func_fail
             // 
-            this.func_fail.Location = new System.Drawing.Point(129, 14);
+            this.func_fail.Location = new System.Drawing.Point(137, 14);
             this.func_fail.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -332,17 +364,17 @@
             // 
             // edt2_func_fail
             // 
-            this.edt2_func_fail.Location = new System.Drawing.Point(129, 57);
+            this.edt2_func_fail.Location = new System.Drawing.Point(137, 57);
             this.edt2_func_fail.Name = "edt2_func_fail";
-            this.edt2_func_fail.Size = new System.Drawing.Size(109, 20);
+            this.edt2_func_fail.Size = new System.Drawing.Size(120, 20);
             this.edt2_func_fail.TabIndex = 50;
             this.edt2_func_fail.Text = "0";
             // 
             // edt1_func_fail
             // 
-            this.edt1_func_fail.Location = new System.Drawing.Point(129, 35);
+            this.edt1_func_fail.Location = new System.Drawing.Point(137, 35);
             this.edt1_func_fail.Name = "edt1_func_fail";
-            this.edt1_func_fail.Size = new System.Drawing.Size(109, 20);
+            this.edt1_func_fail.Size = new System.Drawing.Size(120, 20);
             this.edt1_func_fail.TabIndex = 49;
             this.edt1_func_fail.Text = "0";
             // 
@@ -383,7 +415,7 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Location = new System.Drawing.Point(206, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(244, 83);
+            this.groupBox1.Size = new System.Drawing.Size(258, 83);
             this.groupBox1.TabIndex = 42;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "OnSuccess";
@@ -411,7 +443,7 @@
             // 
             this.edt2_func_success.Location = new System.Drawing.Point(129, 57);
             this.edt2_func_success.Name = "edt2_func_success";
-            this.edt2_func_success.Size = new System.Drawing.Size(109, 20);
+            this.edt2_func_success.Size = new System.Drawing.Size(120, 20);
             this.edt2_func_success.TabIndex = 48;
             this.edt2_func_success.Text = "0";
             // 
@@ -419,7 +451,7 @@
             // 
             this.edt1_func_success.Location = new System.Drawing.Point(129, 35);
             this.edt1_func_success.Name = "edt1_func_success";
-            this.edt1_func_success.Size = new System.Drawing.Size(109, 20);
+            this.edt1_func_success.Size = new System.Drawing.Size(120, 20);
             this.edt1_func_success.TabIndex = 47;
             this.edt1_func_success.Text = "0";
             this.edt1_func_success.TextChanged += new System.EventHandler(this.edt1_func_success_TextChanged);
@@ -602,7 +634,7 @@
             this.desc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.desc4.Location = new System.Drawing.Point(0, 193);
             this.desc4.Name = "desc4";
-            this.desc4.Size = new System.Drawing.Size(726, 95);
+            this.desc4.Size = new System.Drawing.Size(726, 26);
             this.desc4.TabIndex = 6;
             this.desc4.Text = "";
             this.desc4.WordWrap = false;
@@ -816,6 +848,33 @@
             // tab_checks
             // 
             this.tab_checks.BackColor = System.Drawing.SystemColors.Control;
+            this.tab_checks.Controls.Add(this.roll10_fail);
+            this.tab_checks.Controls.Add(this.roll10_failbtn);
+            this.tab_checks.Controls.Add(this.roll10_faillbl);
+            this.tab_checks.Controls.Add(this.roll10_val);
+            this.tab_checks.Controls.Add(this.roll10);
+            this.tab_checks.Controls.Add(this.roll9_fail);
+            this.tab_checks.Controls.Add(this.roll9_failbtn);
+            this.tab_checks.Controls.Add(this.roll9_faillbl);
+            this.tab_checks.Controls.Add(this.roll9_val);
+            this.tab_checks.Controls.Add(this.roll9);
+            this.tab_checks.Controls.Add(this.roll8_fail);
+            this.tab_checks.Controls.Add(this.roll8_failbtn);
+            this.tab_checks.Controls.Add(this.roll8_faillbl);
+            this.tab_checks.Controls.Add(this.roll8_val);
+            this.tab_checks.Controls.Add(this.roll8);
+            this.tab_checks.Controls.Add(this.roll7_fail);
+            this.tab_checks.Controls.Add(this.roll7_failbtn);
+            this.tab_checks.Controls.Add(this.roll7_faillbl);
+            this.tab_checks.Controls.Add(this.roll7_val);
+            this.tab_checks.Controls.Add(this.roll7);
+            this.tab_checks.Controls.Add(this.roll6_fail);
+            this.tab_checks.Controls.Add(this.roll6_failbtn);
+            this.tab_checks.Controls.Add(this.roll6_faillbl);
+            this.tab_checks.Controls.Add(this.roll6_val);
+            this.tab_checks.Controls.Add(this.roll6);
+            this.tab_checks.Controls.Add(this.label12);
+            this.tab_checks.Controls.Add(this.label11);
             this.tab_checks.Controls.Add(this.groupBox3);
             this.tab_checks.Controls.Add(this.groupBox2);
             this.tab_checks.Location = new System.Drawing.Point(4, 22);
@@ -824,21 +883,347 @@
             this.tab_checks.TabIndex = 7;
             this.tab_checks.Text = "Checks e Rolls";
             // 
+            // roll10_fail
+            // 
+            this.roll10_fail.Enabled = false;
+            this.roll10_fail.Location = new System.Drawing.Point(631, 300);
+            this.roll10_fail.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll10_fail.Name = "roll10_fail";
+            this.roll10_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll10_fail.TabIndex = 123;
+            this.roll10_fail.Visible = false;
+            // 
+            // roll10_failbtn
+            // 
+            this.roll10_failbtn.Enabled = false;
+            this.roll10_failbtn.Location = new System.Drawing.Point(674, 300);
+            this.roll10_failbtn.Name = "roll10_failbtn";
+            this.roll10_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll10_failbtn.TabIndex = 119;
+            this.roll10_failbtn.Text = "...";
+            this.roll10_failbtn.UseVisualStyleBackColor = true;
+            this.roll10_failbtn.Visible = false;
+            // 
+            // roll10_faillbl
+            // 
+            this.roll10_faillbl.AutoSize = true;
+            this.roll10_faillbl.Enabled = false;
+            this.roll10_faillbl.Location = new System.Drawing.Point(630, 284);
+            this.roll10_faillbl.Name = "roll10_faillbl";
+            this.roll10_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll10_faillbl.TabIndex = 120;
+            this.roll10_faillbl.Text = "Fail:";
+            this.roll10_faillbl.Visible = false;
+            // 
+            // roll10_val
+            // 
+            this.roll10_val.Enabled = false;
+            this.roll10_val.Location = new System.Drawing.Point(630, 258);
+            this.roll10_val.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll10_val.Name = "roll10_val";
+            this.roll10_val.Size = new System.Drawing.Size(65, 20);
+            this.roll10_val.TabIndex = 121;
+            this.roll10_val.Visible = false;
+            // 
+            // roll10
+            // 
+            this.roll10.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll10.Enabled = false;
+            this.roll10.Location = new System.Drawing.Point(630, 228);
+            this.roll10.Name = "roll10";
+            this.roll10.Size = new System.Drawing.Size(65, 24);
+            this.roll10.TabIndex = 122;
+            this.roll10.Text = "Unused";
+            this.roll10.UseVisualStyleBackColor = false;
+            this.roll10.Visible = false;
+            // 
+            // roll9_fail
+            // 
+            this.roll9_fail.Enabled = false;
+            this.roll9_fail.Location = new System.Drawing.Point(560, 300);
+            this.roll9_fail.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll9_fail.Name = "roll9_fail";
+            this.roll9_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll9_fail.TabIndex = 118;
+            this.roll9_fail.Visible = false;
+            // 
+            // roll9_failbtn
+            // 
+            this.roll9_failbtn.Enabled = false;
+            this.roll9_failbtn.Location = new System.Drawing.Point(603, 300);
+            this.roll9_failbtn.Name = "roll9_failbtn";
+            this.roll9_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll9_failbtn.TabIndex = 114;
+            this.roll9_failbtn.Text = "...";
+            this.roll9_failbtn.UseVisualStyleBackColor = true;
+            this.roll9_failbtn.Visible = false;
+            // 
+            // roll9_faillbl
+            // 
+            this.roll9_faillbl.AutoSize = true;
+            this.roll9_faillbl.Enabled = false;
+            this.roll9_faillbl.Location = new System.Drawing.Point(559, 284);
+            this.roll9_faillbl.Name = "roll9_faillbl";
+            this.roll9_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll9_faillbl.TabIndex = 115;
+            this.roll9_faillbl.Text = "Fail:";
+            this.roll9_faillbl.Visible = false;
+            // 
+            // roll9_val
+            // 
+            this.roll9_val.Enabled = false;
+            this.roll9_val.Location = new System.Drawing.Point(559, 258);
+            this.roll9_val.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll9_val.Name = "roll9_val";
+            this.roll9_val.Size = new System.Drawing.Size(65, 20);
+            this.roll9_val.TabIndex = 116;
+            this.roll9_val.Visible = false;
+            // 
+            // roll9
+            // 
+            this.roll9.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll9.Enabled = false;
+            this.roll9.Location = new System.Drawing.Point(559, 228);
+            this.roll9.Name = "roll9";
+            this.roll9.Size = new System.Drawing.Size(65, 24);
+            this.roll9.TabIndex = 117;
+            this.roll9.Text = "Unused";
+            this.roll9.UseVisualStyleBackColor = false;
+            this.roll9.Visible = false;
+            // 
+            // roll8_fail
+            // 
+            this.roll8_fail.Enabled = false;
+            this.roll8_fail.Location = new System.Drawing.Point(489, 300);
+            this.roll8_fail.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll8_fail.Name = "roll8_fail";
+            this.roll8_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll8_fail.TabIndex = 113;
+            this.roll8_fail.Visible = false;
+            // 
+            // roll8_failbtn
+            // 
+            this.roll8_failbtn.Enabled = false;
+            this.roll8_failbtn.Location = new System.Drawing.Point(532, 300);
+            this.roll8_failbtn.Name = "roll8_failbtn";
+            this.roll8_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll8_failbtn.TabIndex = 109;
+            this.roll8_failbtn.Text = "...";
+            this.roll8_failbtn.UseVisualStyleBackColor = true;
+            this.roll8_failbtn.Visible = false;
+            // 
+            // roll8_faillbl
+            // 
+            this.roll8_faillbl.AutoSize = true;
+            this.roll8_faillbl.Enabled = false;
+            this.roll8_faillbl.Location = new System.Drawing.Point(488, 284);
+            this.roll8_faillbl.Name = "roll8_faillbl";
+            this.roll8_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll8_faillbl.TabIndex = 110;
+            this.roll8_faillbl.Text = "Fail:";
+            this.roll8_faillbl.Visible = false;
+            // 
+            // roll8_val
+            // 
+            this.roll8_val.Enabled = false;
+            this.roll8_val.Location = new System.Drawing.Point(488, 258);
+            this.roll8_val.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll8_val.Name = "roll8_val";
+            this.roll8_val.Size = new System.Drawing.Size(65, 20);
+            this.roll8_val.TabIndex = 111;
+            this.roll8_val.Visible = false;
+            // 
+            // roll8
+            // 
+            this.roll8.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll8.Enabled = false;
+            this.roll8.Location = new System.Drawing.Point(488, 228);
+            this.roll8.Name = "roll8";
+            this.roll8.Size = new System.Drawing.Size(65, 24);
+            this.roll8.TabIndex = 112;
+            this.roll8.Text = "Unused";
+            this.roll8.UseVisualStyleBackColor = false;
+            this.roll8.Visible = false;
+            // 
+            // roll7_fail
+            // 
+            this.roll7_fail.Enabled = false;
+            this.roll7_fail.Location = new System.Drawing.Point(416, 300);
+            this.roll7_fail.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll7_fail.Name = "roll7_fail";
+            this.roll7_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll7_fail.TabIndex = 108;
+            this.roll7_fail.Visible = false;
+            // 
+            // roll7_failbtn
+            // 
+            this.roll7_failbtn.Enabled = false;
+            this.roll7_failbtn.Location = new System.Drawing.Point(459, 300);
+            this.roll7_failbtn.Name = "roll7_failbtn";
+            this.roll7_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll7_failbtn.TabIndex = 104;
+            this.roll7_failbtn.Text = "...";
+            this.roll7_failbtn.UseVisualStyleBackColor = true;
+            this.roll7_failbtn.Visible = false;
+            // 
+            // roll7_faillbl
+            // 
+            this.roll7_faillbl.AutoSize = true;
+            this.roll7_faillbl.Enabled = false;
+            this.roll7_faillbl.Location = new System.Drawing.Point(415, 284);
+            this.roll7_faillbl.Name = "roll7_faillbl";
+            this.roll7_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll7_faillbl.TabIndex = 105;
+            this.roll7_faillbl.Text = "Fail:";
+            this.roll7_faillbl.Visible = false;
+            // 
+            // roll7_val
+            // 
+            this.roll7_val.Enabled = false;
+            this.roll7_val.Location = new System.Drawing.Point(415, 258);
+            this.roll7_val.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll7_val.Name = "roll7_val";
+            this.roll7_val.Size = new System.Drawing.Size(65, 20);
+            this.roll7_val.TabIndex = 106;
+            this.roll7_val.Visible = false;
+            // 
+            // roll7
+            // 
+            this.roll7.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll7.Enabled = false;
+            this.roll7.Location = new System.Drawing.Point(415, 228);
+            this.roll7.Name = "roll7";
+            this.roll7.Size = new System.Drawing.Size(65, 24);
+            this.roll7.TabIndex = 107;
+            this.roll7.Text = "Unused";
+            this.roll7.UseVisualStyleBackColor = false;
+            this.roll7.Visible = false;
+            // 
+            // roll6_fail
+            // 
+            this.roll6_fail.Enabled = false;
+            this.roll6_fail.Location = new System.Drawing.Point(344, 300);
+            this.roll6_fail.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll6_fail.Name = "roll6_fail";
+            this.roll6_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll6_fail.TabIndex = 103;
+            this.roll6_fail.Visible = false;
+            // 
+            // roll6_failbtn
+            // 
+            this.roll6_failbtn.Enabled = false;
+            this.roll6_failbtn.Location = new System.Drawing.Point(387, 300);
+            this.roll6_failbtn.Name = "roll6_failbtn";
+            this.roll6_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll6_failbtn.TabIndex = 81;
+            this.roll6_failbtn.Text = "...";
+            this.roll6_failbtn.UseVisualStyleBackColor = true;
+            this.roll6_failbtn.Visible = false;
+            // 
+            // roll6_faillbl
+            // 
+            this.roll6_faillbl.AutoSize = true;
+            this.roll6_faillbl.Enabled = false;
+            this.roll6_faillbl.Location = new System.Drawing.Point(343, 284);
+            this.roll6_faillbl.Name = "roll6_faillbl";
+            this.roll6_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll6_faillbl.TabIndex = 81;
+            this.roll6_faillbl.Text = "Fail:";
+            this.roll6_faillbl.Visible = false;
+            // 
+            // roll6_val
+            // 
+            this.roll6_val.Enabled = false;
+            this.roll6_val.Location = new System.Drawing.Point(343, 258);
+            this.roll6_val.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.roll6_val.Name = "roll6_val";
+            this.roll6_val.Size = new System.Drawing.Size(65, 20);
+            this.roll6_val.TabIndex = 81;
+            this.roll6_val.Visible = false;
+            // 
+            // roll6
+            // 
+            this.roll6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll6.Enabled = false;
+            this.roll6.Location = new System.Drawing.Point(343, 228);
+            this.roll6.Name = "roll6";
+            this.roll6.Size = new System.Drawing.Size(65, 24);
+            this.roll6.TabIndex = 81;
+            this.roll6.Text = "Unused";
+            this.roll6.UseVisualStyleBackColor = false;
+            this.roll6.Visible = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(8, 234);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(262, 13);
+            this.label12.TabIndex = 82;
+            this.label12.Text = "Esempio: Check su Disintegrate (245) a 95 = 2450095";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(8, 216);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(362, 13);
+            this.label11.TabIndex = 81;
+            this.label11.Text = "Per Skill e Apply usare [ID*10000 + Difficolta\'], sia per Checks che per Rolls";
+            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox3.Controls.Add(this.roll9_failbtn);
-            this.groupBox3.Controls.Add(this.roll9_fail);
-            this.groupBox3.Controls.Add(this.roll9_faillbl);
-            this.groupBox3.Controls.Add(this.roll8_failbtn);
-            this.groupBox3.Controls.Add(this.roll8_fail);
-            this.groupBox3.Controls.Add(this.roll8_faillbl);
-            this.groupBox3.Controls.Add(this.roll7_failbtn);
-            this.groupBox3.Controls.Add(this.roll7_fail);
-            this.groupBox3.Controls.Add(this.roll7_faillbl);
-            this.groupBox3.Controls.Add(this.roll6_failbtn);
-            this.groupBox3.Controls.Add(this.roll6_fail);
-            this.groupBox3.Controls.Add(this.roll6_faillbl);
+            this.groupBox3.Controls.Add(this.roll12_faillbl);
+            this.groupBox3.Controls.Add(this.roll11_faillbl);
+            this.groupBox3.Controls.Add(this.roll12_failbtn);
+            this.groupBox3.Controls.Add(this.roll11_failbtn);
+            this.groupBox3.Controls.Add(this.roll12_fail);
+            this.groupBox3.Controls.Add(this.roll11_fail);
+            this.groupBox3.Controls.Add(this.roll12_val);
+            this.groupBox3.Controls.Add(this.roll11_val);
+            this.groupBox3.Controls.Add(this.roll12);
+            this.groupBox3.Controls.Add(this.roll11);
             this.groupBox3.Controls.Add(this.roll5_failbtn);
             this.groupBox3.Controls.Add(this.roll5_fail);
             this.groupBox3.Controls.Add(this.roll5_faillbl);
@@ -857,14 +1242,6 @@
             this.groupBox3.Controls.Add(this.roll0_failbtn);
             this.groupBox3.Controls.Add(this.roll0_fail);
             this.groupBox3.Controls.Add(this.roll0_faillbl);
-            this.groupBox3.Controls.Add(this.roll9);
-            this.groupBox3.Controls.Add(this.roll9_val);
-            this.groupBox3.Controls.Add(this.roll8);
-            this.groupBox3.Controls.Add(this.roll8_val);
-            this.groupBox3.Controls.Add(this.roll7);
-            this.groupBox3.Controls.Add(this.roll7_val);
-            this.groupBox3.Controls.Add(this.roll6);
-            this.groupBox3.Controls.Add(this.roll6_val);
             this.groupBox3.Controls.Add(this.roll5);
             this.groupBox3.Controls.Add(this.roll5_val);
             this.groupBox3.Controls.Add(this.roll4);
@@ -884,141 +1261,121 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Rolls";
             // 
-            // roll9_failbtn
+            // roll12_faillbl
             // 
-            this.roll9_failbtn.Location = new System.Drawing.Point(690, 89);
-            this.roll9_failbtn.Name = "roll9_failbtn";
-            this.roll9_failbtn.Size = new System.Drawing.Size(21, 20);
-            this.roll9_failbtn.TabIndex = 82;
-            this.roll9_failbtn.Text = "...";
-            this.roll9_failbtn.UseVisualStyleBackColor = true;
-            this.roll9_failbtn.Visible = false;
-            this.roll9_failbtn.Click += new System.EventHandler(this.roll0_failbtn_Click);
+            this.roll12_faillbl.AutoSize = true;
+            this.roll12_faillbl.Location = new System.Drawing.Point(502, 73);
+            this.roll12_faillbl.Name = "roll12_faillbl";
+            this.roll12_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll12_faillbl.TabIndex = 80;
+            this.roll12_faillbl.Text = "Fail:";
+            this.roll12_faillbl.Visible = false;
             // 
-            // roll9_fail
+            // roll11_faillbl
             // 
-            this.roll9_fail.Location = new System.Drawing.Point(647, 89);
-            this.roll9_fail.Maximum = new decimal(new int[] {
+            this.roll11_faillbl.AutoSize = true;
+            this.roll11_faillbl.Location = new System.Drawing.Point(431, 73);
+            this.roll11_faillbl.Name = "roll11_faillbl";
+            this.roll11_faillbl.Size = new System.Drawing.Size(26, 13);
+            this.roll11_faillbl.TabIndex = 79;
+            this.roll11_faillbl.Text = "Fail:";
+            this.roll11_faillbl.Visible = false;
+            // 
+            // roll12_failbtn
+            // 
+            this.roll12_failbtn.Location = new System.Drawing.Point(548, 89);
+            this.roll12_failbtn.Name = "roll12_failbtn";
+            this.roll12_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll12_failbtn.TabIndex = 78;
+            this.roll12_failbtn.Text = "...";
+            this.roll12_failbtn.UseVisualStyleBackColor = true;
+            this.roll12_failbtn.Visible = false;
+            this.roll12_failbtn.Click += new System.EventHandler(this.roll0_failbtn_Click);
+            // 
+            // roll11_failbtn
+            // 
+            this.roll11_failbtn.Location = new System.Drawing.Point(477, 89);
+            this.roll11_failbtn.Name = "roll11_failbtn";
+            this.roll11_failbtn.Size = new System.Drawing.Size(21, 20);
+            this.roll11_failbtn.TabIndex = 77;
+            this.roll11_failbtn.Text = "...";
+            this.roll11_failbtn.UseVisualStyleBackColor = true;
+            this.roll11_failbtn.Visible = false;
+            this.roll11_failbtn.Click += new System.EventHandler(this.roll0_failbtn_Click);
+            // 
+            // roll12_fail
+            // 
+            this.roll12_fail.Location = new System.Drawing.Point(505, 89);
+            this.roll12_fail.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
-            this.roll9_fail.Name = "roll9_fail";
-            this.roll9_fail.Size = new System.Drawing.Size(37, 20);
-            this.roll9_fail.TabIndex = 81;
-            this.roll9_fail.Visible = false;
+            this.roll12_fail.Name = "roll12_fail";
+            this.roll12_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll12_fail.TabIndex = 76;
+            this.roll12_fail.Visible = false;
             // 
-            // roll9_faillbl
+            // roll11_fail
             // 
-            this.roll9_faillbl.AutoSize = true;
-            this.roll9_faillbl.Location = new System.Drawing.Point(644, 73);
-            this.roll9_faillbl.Name = "roll9_faillbl";
-            this.roll9_faillbl.Size = new System.Drawing.Size(26, 13);
-            this.roll9_faillbl.TabIndex = 80;
-            this.roll9_faillbl.Text = "Fail:";
-            this.roll9_faillbl.Visible = false;
-            // 
-            // roll8_failbtn
-            // 
-            this.roll8_failbtn.Location = new System.Drawing.Point(621, 89);
-            this.roll8_failbtn.Name = "roll8_failbtn";
-            this.roll8_failbtn.Size = new System.Drawing.Size(21, 20);
-            this.roll8_failbtn.TabIndex = 79;
-            this.roll8_failbtn.Text = "...";
-            this.roll8_failbtn.UseVisualStyleBackColor = true;
-            this.roll8_failbtn.Visible = false;
-            this.roll8_failbtn.Click += new System.EventHandler(this.roll0_failbtn_Click);
-            // 
-            // roll8_fail
-            // 
-            this.roll8_fail.Location = new System.Drawing.Point(578, 89);
-            this.roll8_fail.Maximum = new decimal(new int[] {
+            this.roll11_fail.Location = new System.Drawing.Point(434, 89);
+            this.roll11_fail.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
-            this.roll8_fail.Name = "roll8_fail";
-            this.roll8_fail.Size = new System.Drawing.Size(37, 20);
-            this.roll8_fail.TabIndex = 78;
-            this.roll8_fail.Visible = false;
+            this.roll11_fail.Name = "roll11_fail";
+            this.roll11_fail.Size = new System.Drawing.Size(37, 20);
+            this.roll11_fail.TabIndex = 75;
+            this.roll11_fail.Visible = false;
             // 
-            // roll8_faillbl
+            // roll12_val
             // 
-            this.roll8_faillbl.AutoSize = true;
-            this.roll8_faillbl.Location = new System.Drawing.Point(575, 73);
-            this.roll8_faillbl.Name = "roll8_faillbl";
-            this.roll8_faillbl.Size = new System.Drawing.Size(26, 13);
-            this.roll8_faillbl.TabIndex = 77;
-            this.roll8_faillbl.Text = "Fail:";
-            this.roll8_faillbl.Visible = false;
-            // 
-            // roll7_failbtn
-            // 
-            this.roll7_failbtn.Location = new System.Drawing.Point(550, 89);
-            this.roll7_failbtn.Name = "roll7_failbtn";
-            this.roll7_failbtn.Size = new System.Drawing.Size(21, 20);
-            this.roll7_failbtn.TabIndex = 76;
-            this.roll7_failbtn.Text = "...";
-            this.roll7_failbtn.UseVisualStyleBackColor = true;
-            this.roll7_failbtn.Visible = false;
-            this.roll7_failbtn.Click += new System.EventHandler(this.roll0_failbtn_Click);
-            // 
-            // roll7_fail
-            // 
-            this.roll7_fail.Location = new System.Drawing.Point(507, 89);
-            this.roll7_fail.Maximum = new decimal(new int[] {
-            999999,
+            this.roll12_val.Location = new System.Drawing.Point(505, 50);
+            this.roll12_val.Maximum = new decimal(new int[] {
+            9999999,
             0,
             0,
             0});
-            this.roll7_fail.Name = "roll7_fail";
-            this.roll7_fail.Size = new System.Drawing.Size(37, 20);
-            this.roll7_fail.TabIndex = 75;
-            this.roll7_fail.Visible = false;
+            this.roll12_val.Name = "roll12_val";
+            this.roll12_val.Size = new System.Drawing.Size(65, 20);
+            this.roll12_val.TabIndex = 74;
+            this.roll12_val.Visible = false;
             // 
-            // roll7_faillbl
+            // roll11_val
             // 
-            this.roll7_faillbl.AutoSize = true;
-            this.roll7_faillbl.Location = new System.Drawing.Point(504, 73);
-            this.roll7_faillbl.Name = "roll7_faillbl";
-            this.roll7_faillbl.Size = new System.Drawing.Size(26, 13);
-            this.roll7_faillbl.TabIndex = 74;
-            this.roll7_faillbl.Text = "Fail:";
-            this.roll7_faillbl.Visible = false;
-            // 
-            // roll6_failbtn
-            // 
-            this.roll6_failbtn.Location = new System.Drawing.Point(477, 89);
-            this.roll6_failbtn.Name = "roll6_failbtn";
-            this.roll6_failbtn.Size = new System.Drawing.Size(21, 20);
-            this.roll6_failbtn.TabIndex = 73;
-            this.roll6_failbtn.Text = "...";
-            this.roll6_failbtn.UseVisualStyleBackColor = true;
-            this.roll6_failbtn.Visible = false;
-            this.roll6_failbtn.Click += new System.EventHandler(this.roll0_failbtn_Click);
-            // 
-            // roll6_fail
-            // 
-            this.roll6_fail.Location = new System.Drawing.Point(434, 89);
-            this.roll6_fail.Maximum = new decimal(new int[] {
-            999999,
+            this.roll11_val.Location = new System.Drawing.Point(434, 50);
+            this.roll11_val.Maximum = new decimal(new int[] {
+            9999999,
             0,
             0,
             0});
-            this.roll6_fail.Name = "roll6_fail";
-            this.roll6_fail.Size = new System.Drawing.Size(37, 20);
-            this.roll6_fail.TabIndex = 72;
-            this.roll6_fail.Visible = false;
+            this.roll11_val.Name = "roll11_val";
+            this.roll11_val.Size = new System.Drawing.Size(65, 20);
+            this.roll11_val.TabIndex = 73;
+            this.roll11_val.Visible = false;
             // 
-            // roll6_faillbl
+            // roll12
             // 
-            this.roll6_faillbl.AutoSize = true;
-            this.roll6_faillbl.Location = new System.Drawing.Point(431, 73);
-            this.roll6_faillbl.Name = "roll6_faillbl";
-            this.roll6_faillbl.Size = new System.Drawing.Size(26, 13);
-            this.roll6_faillbl.TabIndex = 71;
-            this.roll6_faillbl.Text = "Fail:";
-            this.roll6_faillbl.Visible = false;
+            this.roll12.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll12.Location = new System.Drawing.Point(505, 19);
+            this.roll12.Name = "roll12";
+            this.roll12.Size = new System.Drawing.Size(65, 25);
+            this.roll12.TabIndex = 72;
+            this.roll12.Text = "Apply";
+            this.roll12.UseVisualStyleBackColor = false;
+            this.roll12.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
+            // 
+            // roll11
+            // 
+            this.roll11.Appearance = System.Windows.Forms.Appearance.Button;
+            this.roll11.Location = new System.Drawing.Point(434, 19);
+            this.roll11.Name = "roll11";
+            this.roll11.Size = new System.Drawing.Size(65, 25);
+            this.roll11.TabIndex = 71;
+            this.roll11.Text = "Skill";
+            this.roll11.UseVisualStyleBackColor = false;
+            this.roll11.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // roll5_failbtn
             // 
@@ -1224,102 +1581,6 @@
             this.roll0_faillbl.Text = "Fail:";
             this.roll0_faillbl.Visible = false;
             // 
-            // roll9
-            // 
-            this.roll9.Appearance = System.Windows.Forms.Appearance.Button;
-            this.roll9.Location = new System.Drawing.Point(647, 19);
-            this.roll9.Name = "roll9";
-            this.roll9.Size = new System.Drawing.Size(65, 25);
-            this.roll9.TabIndex = 51;
-            this.roll9.Text = "Mob State";
-            this.roll9.UseVisualStyleBackColor = false;
-            this.roll9.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
-            // 
-            // roll9_val
-            // 
-            this.roll9_val.Location = new System.Drawing.Point(647, 50);
-            this.roll9_val.Maximum = new decimal(new int[] {
-            999999,
-            0,
-            0,
-            0});
-            this.roll9_val.Name = "roll9_val";
-            this.roll9_val.Size = new System.Drawing.Size(65, 20);
-            this.roll9_val.TabIndex = 52;
-            this.roll9_val.Visible = false;
-            // 
-            // roll8
-            // 
-            this.roll8.Appearance = System.Windows.Forms.Appearance.Button;
-            this.roll8.Location = new System.Drawing.Point(576, 19);
-            this.roll8.Name = "roll8";
-            this.roll8.Size = new System.Drawing.Size(65, 25);
-            this.roll8.TabIndex = 49;
-            this.roll8.Text = "Room Loc";
-            this.roll8.UseVisualStyleBackColor = false;
-            this.roll8.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
-            // 
-            // roll8_val
-            // 
-            this.roll8_val.Location = new System.Drawing.Point(576, 50);
-            this.roll8_val.Maximum = new decimal(new int[] {
-            999999,
-            0,
-            0,
-            0});
-            this.roll8_val.Name = "roll8_val";
-            this.roll8_val.Size = new System.Drawing.Size(65, 20);
-            this.roll8_val.TabIndex = 50;
-            this.roll8_val.Visible = false;
-            // 
-            // roll7
-            // 
-            this.roll7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.roll7.Location = new System.Drawing.Point(505, 19);
-            this.roll7.Name = "roll7";
-            this.roll7.Size = new System.Drawing.Size(65, 25);
-            this.roll7.TabIndex = 47;
-            this.roll7.Text = "Equip Obj";
-            this.roll7.UseVisualStyleBackColor = false;
-            this.roll7.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
-            // 
-            // roll7_val
-            // 
-            this.roll7_val.Location = new System.Drawing.Point(505, 50);
-            this.roll7_val.Maximum = new decimal(new int[] {
-            999999,
-            0,
-            0,
-            0});
-            this.roll7_val.Name = "roll7_val";
-            this.roll7_val.Size = new System.Drawing.Size(65, 20);
-            this.roll7_val.TabIndex = 48;
-            this.roll7_val.Visible = false;
-            // 
-            // roll6
-            // 
-            this.roll6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.roll6.Location = new System.Drawing.Point(434, 19);
-            this.roll6.Name = "roll6";
-            this.roll6.Size = new System.Drawing.Size(65, 25);
-            this.roll6.TabIndex = 45;
-            this.roll6.Text = "Inv Obj";
-            this.roll6.UseVisualStyleBackColor = false;
-            this.roll6.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
-            // 
-            // roll6_val
-            // 
-            this.roll6_val.Location = new System.Drawing.Point(434, 50);
-            this.roll6_val.Maximum = new decimal(new int[] {
-            999999,
-            0,
-            0,
-            0});
-            this.roll6_val.Name = "roll6_val";
-            this.roll6_val.Size = new System.Drawing.Size(65, 20);
-            this.roll6_val.TabIndex = 46;
-            this.roll6_val.Visible = false;
-            // 
             // roll5
             // 
             this.roll5.Appearance = System.Windows.Forms.Appearance.Button;
@@ -1467,6 +1728,12 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox2.Controls.Add(this.check12_val);
+            this.groupBox2.Controls.Add(this.check11_val);
+            this.groupBox2.Controls.Add(this.check12);
+            this.groupBox2.Controls.Add(this.check11);
+            this.groupBox2.Controls.Add(this.check10_val);
+            this.groupBox2.Controls.Add(this.check10);
             this.groupBox2.Controls.Add(this.check9);
             this.groupBox2.Controls.Add(this.check9_val);
             this.groupBox2.Controls.Add(this.check8);
@@ -1494,10 +1761,82 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Checks";
             // 
+            // check12_val
+            // 
+            this.check12_val.Location = new System.Drawing.Point(643, 50);
+            this.check12_val.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
+            this.check12_val.Name = "check12_val";
+            this.check12_val.Size = new System.Drawing.Size(65, 20);
+            this.check12_val.TabIndex = 58;
+            this.check12_val.Visible = false;
+            // 
+            // check11_val
+            // 
+            this.check11_val.Location = new System.Drawing.Point(572, 50);
+            this.check11_val.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
+            this.check11_val.Name = "check11_val";
+            this.check11_val.Size = new System.Drawing.Size(65, 20);
+            this.check11_val.TabIndex = 57;
+            this.check11_val.Visible = false;
+            // 
+            // check12
+            // 
+            this.check12.Appearance = System.Windows.Forms.Appearance.Button;
+            this.check12.Location = new System.Drawing.Point(643, 19);
+            this.check12.Name = "check12";
+            this.check12.Size = new System.Drawing.Size(65, 25);
+            this.check12.TabIndex = 56;
+            this.check12.Text = "Apply";
+            this.check12.UseVisualStyleBackColor = false;
+            this.check12.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
+            // 
+            // check11
+            // 
+            this.check11.Appearance = System.Windows.Forms.Appearance.Button;
+            this.check11.Location = new System.Drawing.Point(572, 19);
+            this.check11.Name = "check11";
+            this.check11.Size = new System.Drawing.Size(65, 25);
+            this.check11.TabIndex = 55;
+            this.check11.Text = "Skill";
+            this.check11.UseVisualStyleBackColor = false;
+            this.check11.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
+            // 
+            // check10_val
+            // 
+            this.check10_val.Location = new System.Drawing.Point(491, 50);
+            this.check10_val.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.check10_val.Name = "check10_val";
+            this.check10_val.Size = new System.Drawing.Size(75, 20);
+            this.check10_val.TabIndex = 54;
+            this.check10_val.Visible = false;
+            // 
+            // check10
+            // 
+            this.check10.Appearance = System.Windows.Forms.Appearance.Button;
+            this.check10.Location = new System.Drawing.Point(491, 19);
+            this.check10.Name = "check10";
+            this.check10.Size = new System.Drawing.Size(75, 25);
+            this.check10.TabIndex = 53;
+            this.check10.Text = "Dialog State";
+            this.check10.UseVisualStyleBackColor = false;
+            this.check10.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
+            // 
             // check9
             // 
             this.check9.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check9.Location = new System.Drawing.Point(647, 19);
+            this.check9.Location = new System.Drawing.Point(420, 19);
             this.check9.Name = "check9";
             this.check9.Size = new System.Drawing.Size(65, 25);
             this.check9.TabIndex = 51;
@@ -1507,7 +1846,7 @@
             // 
             // check9_val
             // 
-            this.check9_val.Location = new System.Drawing.Point(647, 50);
+            this.check9_val.Location = new System.Drawing.Point(420, 50);
             this.check9_val.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1521,192 +1860,192 @@
             // check8
             // 
             this.check8.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check8.Location = new System.Drawing.Point(576, 19);
+            this.check8.Location = new System.Drawing.Point(374, 19);
             this.check8.Name = "check8";
-            this.check8.Size = new System.Drawing.Size(65, 25);
+            this.check8.Size = new System.Drawing.Size(40, 25);
             this.check8.TabIndex = 49;
-            this.check8.Text = "Room Loc";
+            this.check8.Text = "Pow";
             this.check8.UseVisualStyleBackColor = false;
             this.check8.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check8_val
             // 
-            this.check8_val.Location = new System.Drawing.Point(576, 50);
+            this.check8_val.Location = new System.Drawing.Point(374, 50);
             this.check8_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check8_val.Name = "check8_val";
-            this.check8_val.Size = new System.Drawing.Size(65, 20);
+            this.check8_val.Size = new System.Drawing.Size(40, 20);
             this.check8_val.TabIndex = 50;
             this.check8_val.Visible = false;
             // 
             // check7
             // 
             this.check7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check7.Location = new System.Drawing.Point(505, 19);
+            this.check7.Location = new System.Drawing.Point(328, 19);
             this.check7.Name = "check7";
-            this.check7.Size = new System.Drawing.Size(65, 25);
+            this.check7.Size = new System.Drawing.Size(40, 25);
             this.check7.TabIndex = 47;
-            this.check7.Text = "Equip Obj";
+            this.check7.Text = "Eq";
             this.check7.UseVisualStyleBackColor = false;
             this.check7.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check7_val
             // 
-            this.check7_val.Location = new System.Drawing.Point(505, 50);
+            this.check7_val.Location = new System.Drawing.Point(328, 50);
             this.check7_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check7_val.Name = "check7_val";
-            this.check7_val.Size = new System.Drawing.Size(65, 20);
+            this.check7_val.Size = new System.Drawing.Size(40, 20);
             this.check7_val.TabIndex = 48;
             this.check7_val.Visible = false;
             // 
             // check6
             // 
             this.check6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check6.Location = new System.Drawing.Point(434, 19);
+            this.check6.Location = new System.Drawing.Point(282, 19);
             this.check6.Name = "check6";
-            this.check6.Size = new System.Drawing.Size(65, 25);
+            this.check6.Size = new System.Drawing.Size(40, 25);
             this.check6.TabIndex = 45;
-            this.check6.Text = "Inv Obj";
+            this.check6.Text = "Inv";
             this.check6.UseVisualStyleBackColor = false;
             this.check6.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check6_val
             // 
-            this.check6_val.Location = new System.Drawing.Point(434, 50);
+            this.check6_val.Location = new System.Drawing.Point(282, 50);
             this.check6_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check6_val.Name = "check6_val";
-            this.check6_val.Size = new System.Drawing.Size(65, 20);
+            this.check6_val.Size = new System.Drawing.Size(40, 20);
             this.check6_val.TabIndex = 46;
             this.check6_val.Visible = false;
             // 
             // check5
             // 
             this.check5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check5.Location = new System.Drawing.Point(363, 19);
+            this.check5.Location = new System.Drawing.Point(236, 19);
             this.check5.Name = "check5";
-            this.check5.Size = new System.Drawing.Size(65, 25);
+            this.check5.Size = new System.Drawing.Size(40, 25);
             this.check5.TabIndex = 43;
-            this.check5.Text = "Charisma";
+            this.check5.Text = "Chr";
             this.check5.UseVisualStyleBackColor = false;
             this.check5.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check5_val
             // 
-            this.check5_val.Location = new System.Drawing.Point(363, 50);
+            this.check5_val.Location = new System.Drawing.Point(236, 50);
             this.check5_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check5_val.Name = "check5_val";
-            this.check5_val.Size = new System.Drawing.Size(65, 20);
+            this.check5_val.Size = new System.Drawing.Size(40, 20);
             this.check5_val.TabIndex = 44;
             this.check5_val.Visible = false;
             // 
             // check4
             // 
             this.check4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check4.Location = new System.Drawing.Point(292, 19);
+            this.check4.Location = new System.Drawing.Point(190, 19);
             this.check4.Name = "check4";
-            this.check4.Size = new System.Drawing.Size(65, 25);
+            this.check4.Size = new System.Drawing.Size(40, 25);
             this.check4.TabIndex = 41;
-            this.check4.Text = "Const.";
+            this.check4.Text = "Con";
             this.check4.UseVisualStyleBackColor = false;
             this.check4.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check4_val
             // 
-            this.check4_val.Location = new System.Drawing.Point(292, 50);
+            this.check4_val.Location = new System.Drawing.Point(190, 50);
             this.check4_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check4_val.Name = "check4_val";
-            this.check4_val.Size = new System.Drawing.Size(65, 20);
+            this.check4_val.Size = new System.Drawing.Size(40, 20);
             this.check4_val.TabIndex = 42;
             this.check4_val.Visible = false;
             // 
             // check3
             // 
             this.check3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check3.Location = new System.Drawing.Point(221, 19);
+            this.check3.Location = new System.Drawing.Point(144, 19);
             this.check3.Name = "check3";
-            this.check3.Size = new System.Drawing.Size(65, 25);
+            this.check3.Size = new System.Drawing.Size(40, 25);
             this.check3.TabIndex = 39;
-            this.check3.Text = "Wisdom";
+            this.check3.Text = "Wis";
             this.check3.UseVisualStyleBackColor = false;
             this.check3.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check3_val
             // 
-            this.check3_val.Location = new System.Drawing.Point(221, 50);
+            this.check3_val.Location = new System.Drawing.Point(144, 50);
             this.check3_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check3_val.Name = "check3_val";
-            this.check3_val.Size = new System.Drawing.Size(65, 20);
+            this.check3_val.Size = new System.Drawing.Size(40, 20);
             this.check3_val.TabIndex = 40;
             this.check3_val.Visible = false;
             // 
             // check2
             // 
             this.check2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check2.Location = new System.Drawing.Point(150, 19);
+            this.check2.Location = new System.Drawing.Point(98, 19);
             this.check2.Name = "check2";
-            this.check2.Size = new System.Drawing.Size(65, 25);
+            this.check2.Size = new System.Drawing.Size(40, 25);
             this.check2.TabIndex = 37;
-            this.check2.Text = "Intellect";
+            this.check2.Text = "Int";
             this.check2.UseVisualStyleBackColor = false;
             this.check2.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check2_val
             // 
-            this.check2_val.Location = new System.Drawing.Point(150, 50);
+            this.check2_val.Location = new System.Drawing.Point(98, 50);
             this.check2_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check2_val.Name = "check2_val";
-            this.check2_val.Size = new System.Drawing.Size(65, 20);
+            this.check2_val.Size = new System.Drawing.Size(40, 20);
             this.check2_val.TabIndex = 38;
             this.check2_val.Visible = false;
             // 
             // check1
             // 
             this.check1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.check1.Location = new System.Drawing.Point(77, 19);
+            this.check1.Location = new System.Drawing.Point(52, 19);
             this.check1.Name = "check1";
-            this.check1.Size = new System.Drawing.Size(65, 25);
+            this.check1.Size = new System.Drawing.Size(40, 25);
             this.check1.TabIndex = 35;
-            this.check1.Text = "Dexterity";
+            this.check1.Text = "Dex";
             this.check1.UseVisualStyleBackColor = false;
             this.check1.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
             // check1_val
             // 
-            this.check1_val.Location = new System.Drawing.Point(79, 50);
+            this.check1_val.Location = new System.Drawing.Point(52, 50);
             this.check1_val.Maximum = new decimal(new int[] {
             999999,
             0,
             0,
             0});
             this.check1_val.Name = "check1_val";
-            this.check1_val.Size = new System.Drawing.Size(65, 20);
+            this.check1_val.Size = new System.Drawing.Size(40, 20);
             this.check1_val.TabIndex = 36;
             this.check1_val.Visible = false;
             // 
@@ -1715,9 +2054,9 @@
             this.check0.Appearance = System.Windows.Forms.Appearance.Button;
             this.check0.Location = new System.Drawing.Point(6, 19);
             this.check0.Name = "check0";
-            this.check0.Size = new System.Drawing.Size(65, 25);
+            this.check0.Size = new System.Drawing.Size(40, 25);
             this.check0.TabIndex = 25;
-            this.check0.Text = "Strength";
+            this.check0.Text = "Str";
             this.check0.UseVisualStyleBackColor = false;
             this.check0.CheckedChanged += new System.EventHandler(this.check9_CheckedChanged);
             // 
@@ -1730,7 +2069,7 @@
             0,
             0});
             this.check0_val.Name = "check0_val";
-            this.check0_val.Size = new System.Drawing.Size(65, 20);
+            this.check0_val.Size = new System.Drawing.Size(40, 20);
             this.check0_val.TabIndex = 34;
             this.check0_val.Visible = false;
             // 
@@ -1750,7 +2089,7 @@
             // 
             this.gaugecharcounter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gaugecharcounter.Location = new System.Drawing.Point(4, 411);
+            this.gaugecharcounter.Location = new System.Drawing.Point(4, 417);
             this.gaugecharcounter.Name = "gaugecharcounter";
             this.gaugecharcounter.Size = new System.Drawing.Size(732, 18);
             this.gaugecharcounter.TabIndex = 76;
@@ -1797,22 +2136,29 @@
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.tab_checks.ResumeLayout(false);
+            this.tab_checks.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.roll10_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll10_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll9_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll9_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll8_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll8_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll7_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll7_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll6_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll6_val)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.roll9_fail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll8_fail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll7_fail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll6_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll12_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll11_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll12_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roll11_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll5_fail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll4_fail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll3_fail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll2_fail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll1_fail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll0_fail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll9_val)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll8_val)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll7_val)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roll6_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll5_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll4_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll3_val)).EndInit();
@@ -1820,6 +2166,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.roll1_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roll0_val)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.check12_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.check11_val)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.check10_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.check9_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.check8_val)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.check7_val)).EndInit();
@@ -1894,24 +2243,12 @@
         private System.Windows.Forms.NumericUpDown edt_Anext;
         private System.Windows.Forms.ComboBox combo_Qnext;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label roll9_faillbl;
-        private System.Windows.Forms.Label roll8_faillbl;
-        private System.Windows.Forms.Label roll7_faillbl;
-        private System.Windows.Forms.Label roll6_faillbl;
         private System.Windows.Forms.Label roll5_faillbl;
         private System.Windows.Forms.Label roll4_faillbl;
         private System.Windows.Forms.Label roll3_faillbl;
         private System.Windows.Forms.Label roll2_faillbl;
         private System.Windows.Forms.Label roll1_faillbl;
         private System.Windows.Forms.Label roll0_faillbl;
-        private System.Windows.Forms.CheckBox roll9;
-        private System.Windows.Forms.NumericUpDown roll9_val;
-        private System.Windows.Forms.CheckBox roll8;
-        private System.Windows.Forms.NumericUpDown roll8_val;
-        private System.Windows.Forms.CheckBox roll7;
-        private System.Windows.Forms.NumericUpDown roll7_val;
-        private System.Windows.Forms.CheckBox roll6;
-        private System.Windows.Forms.NumericUpDown roll6_val;
         private System.Windows.Forms.CheckBox roll5;
         private System.Windows.Forms.NumericUpDown roll5_val;
         private System.Windows.Forms.CheckBox roll4;
@@ -1945,14 +2282,6 @@
         private System.Windows.Forms.NumericUpDown check1_val;
         private System.Windows.Forms.CheckBox check0;
         private System.Windows.Forms.NumericUpDown check0_val;
-        private System.Windows.Forms.Button roll9_failbtn;
-        private System.Windows.Forms.NumericUpDown roll9_fail;
-        private System.Windows.Forms.Button roll8_failbtn;
-        private System.Windows.Forms.NumericUpDown roll8_fail;
-        private System.Windows.Forms.Button roll7_failbtn;
-        private System.Windows.Forms.NumericUpDown roll7_fail;
-        private System.Windows.Forms.Button roll6_failbtn;
-        private System.Windows.Forms.NumericUpDown roll6_fail;
         private System.Windows.Forms.Button roll5_failbtn;
         private System.Windows.Forms.NumericUpDown roll5_fail;
         private System.Windows.Forms.Button roll4_failbtn;
@@ -1965,5 +2294,48 @@
         private System.Windows.Forms.NumericUpDown roll1_fail;
         private System.Windows.Forms.Button roll0_failbtn;
         private System.Windows.Forms.NumericUpDown roll0_fail;
+        private System.Windows.Forms.NumericUpDown check10_val;
+        private System.Windows.Forms.CheckBox check10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label roll12_faillbl;
+        private System.Windows.Forms.Label roll11_faillbl;
+        private System.Windows.Forms.Button roll12_failbtn;
+        private System.Windows.Forms.Button roll11_failbtn;
+        private System.Windows.Forms.NumericUpDown roll12_fail;
+        private System.Windows.Forms.NumericUpDown roll11_fail;
+        private System.Windows.Forms.NumericUpDown roll12_val;
+        private System.Windows.Forms.NumericUpDown roll11_val;
+        private System.Windows.Forms.CheckBox roll12;
+        private System.Windows.Forms.CheckBox roll11;
+        private System.Windows.Forms.NumericUpDown check12_val;
+        private System.Windows.Forms.NumericUpDown check11_val;
+        private System.Windows.Forms.CheckBox check12;
+        private System.Windows.Forms.CheckBox check11;
+        private System.Windows.Forms.NumericUpDown roll10_fail;
+        private System.Windows.Forms.Button roll10_failbtn;
+        private System.Windows.Forms.Label roll10_faillbl;
+        private System.Windows.Forms.NumericUpDown roll10_val;
+        private System.Windows.Forms.CheckBox roll10;
+        private System.Windows.Forms.NumericUpDown roll9_fail;
+        private System.Windows.Forms.Button roll9_failbtn;
+        private System.Windows.Forms.Label roll9_faillbl;
+        private System.Windows.Forms.NumericUpDown roll9_val;
+        private System.Windows.Forms.CheckBox roll9;
+        private System.Windows.Forms.NumericUpDown roll8_fail;
+        private System.Windows.Forms.Button roll8_failbtn;
+        private System.Windows.Forms.Label roll8_faillbl;
+        private System.Windows.Forms.NumericUpDown roll8_val;
+        private System.Windows.Forms.CheckBox roll8;
+        private System.Windows.Forms.NumericUpDown roll7_fail;
+        private System.Windows.Forms.Button roll7_failbtn;
+        private System.Windows.Forms.Label roll7_faillbl;
+        private System.Windows.Forms.NumericUpDown roll7_val;
+        private System.Windows.Forms.CheckBox roll7;
+        private System.Windows.Forms.NumericUpDown roll6_fail;
+        private System.Windows.Forms.Button roll6_failbtn;
+        private System.Windows.Forms.Label roll6_faillbl;
+        private System.Windows.Forms.NumericUpDown roll6_val;
+        private System.Windows.Forms.CheckBox roll6;
     }
 }

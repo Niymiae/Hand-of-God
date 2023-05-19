@@ -87,8 +87,8 @@ namespace HandofGod
         public static readonly string[] door_commands = { "Open", "Pull", "Twist", "Turn", "Lift", "Push", "Dig", "Cut" };
         public static readonly string[] door_status = { "Aperta", "Chiusa", "Serrata" };
         public static readonly string[] door_flags = { "IsDoor", "Closed", "Locked", "Secret", "No Bash", "No Pick", "Climb", "Male", "No Look",
-                                                       "No Knock", "Invisible"};
-        public static readonly string[] door_flags_short = { "", "", "", "", "B", "P", "C", "", "L", "K", "I" };
+                                                       "No Knock", "Invisible", "Window", "Keyhole"};
+        public static readonly string[] door_flags_short = { "", "", "", "", "B", "P", "C", "", "L", "K", "I", "W", "H" };
         public static readonly string[] directions = { "North", "East", "South", "West", "Up", "Down", "Special" };
         public static readonly string[] directions_colorcodes = { "$c0010", "$c0011", "$c0004", "$c0013", "$c0014", "$c0015" };
         public static readonly string[] zone_flags = { "", "", "Astral", "Desert", "Arctic", "Underground", "No Immortal" };

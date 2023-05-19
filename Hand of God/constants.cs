@@ -175,7 +175,9 @@ namespace HandofGod
         public const int df_nolook = 8;
         public const int df_noknock = 9;
         public const int df_invisible = 10;
-        public const int df_end = 10;
+        public const int df_window = 11;
+        public const int df_keyhole = 12;
+        public const int df_end = 12;
 
         //teleport flags
         public const int tf_look = 0;

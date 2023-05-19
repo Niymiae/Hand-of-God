@@ -272,5 +272,10 @@ namespace HandofGod
             lblinverse.Visible = false;
             timer1.Enabled = false;
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

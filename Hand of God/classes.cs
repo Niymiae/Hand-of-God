@@ -923,11 +923,30 @@ namespace HandofGod
         public string str_to;
         public string inverse;
         public string desc;
+        public string doorDescription;
+        public string openToChar;
+        public string openToRoom;
+        public string closeToChar;
+        public string closeToRoom;
+
       //
         public Room parent;
         public int room; // target room
         public Door door;
         public BitVector32 flags = new BitVector32();
+
+        public int pickDiff;
+        public int bashDiff;
+        public int climbDiff;
+        public int knockDiff;
+        public int percDiff;
+
+        public int strDiff;
+        public int dexDiff;
+        public int wisDiff;
+        public int intDiff;
+        public int chrDiff;
+        public int conDiff;
 
         #region Constructor
         public Exit(Room p, Exit data = null)
@@ -952,6 +971,25 @@ namespace HandofGod
             inverse = "";
             door.Clear();
             desc = "";
+            doorDescription = "";
+            openToChar = "";
+            openToRoom = "";
+            closeToChar = "";
+            closeToRoom = "";
+
+            pickDiff = 0;
+            bashDiff = 0;
+            knockDiff = 0;
+            climbDiff = 0;
+            percDiff = 0;
+
+            strDiff = 0;
+            intDiff = 0;
+            dexDiff = 0;
+            wisDiff = 0;
+            conDiff = 0;
+            chrDiff = 0;
+
             parent = null;
  
             for (int i = 0; i <= C.df_end; i++)
@@ -974,6 +1012,25 @@ namespace HandofGod
             str_from = e.str_from;
             str_to = e.str_to;
             inverse = e.inverse;
+
+            doorDescription = e.doorDescription;
+            openToChar = e.openToChar;
+            openToRoom = e.openToRoom;
+            closeToChar = e.closeToChar;
+            closeToRoom = e.closeToRoom;
+
+            pickDiff = e.pickDiff;
+            bashDiff = e.bashDiff;
+            knockDiff = e.knockDiff;
+            climbDiff = e.climbDiff;
+            percDiff = e.percDiff;
+
+            strDiff = e.strDiff;
+            intDiff = e.intDiff;
+            dexDiff = e.dexDiff;
+            wisDiff = e.wisDiff;
+            conDiff = e.conDiff;
+            chrDiff = e.chrDiff;
 
             desc = e.desc;
 

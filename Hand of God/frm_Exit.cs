@@ -78,6 +78,24 @@ namespace HandofGod
             Data.door.objkey = Convert.ToInt32(edt_doorobjkey.Value);
             Data.door.status = combo_doorstatus.SelectedIndex;
             Data.door.cmd = combo_dooract.SelectedIndex;
+            Data.doorDescription = edt_doorDesc.Text;
+            Data.openToChar = edt_OpenChar.Text;
+            Data.closeToChar = edt_CloseChar.Text;
+            Data.openToRoom = edt_OpenRoom.Text;
+            Data.closeToRoom = edt_CloseRoom.Text;
+
+            Data.pickDiff = Convert.ToInt32(edt_PickCheck.Value);
+            Data.bashDiff = Convert.ToInt32(edt_BashCheck.Value);
+            Data.climbDiff = Convert.ToInt32(edt_ClimbCheck.Value);
+            Data.knockDiff = Convert.ToInt32(edt_KnockCheck.Value);
+            Data.percDiff = Convert.ToInt32(edt_PercCheck.Value);
+            Data.strDiff = Convert.ToInt32(edt_StrCheck.Value);
+            Data.dexDiff = Convert.ToInt32(edt_DexCheck.Value);
+            Data.intDiff = Convert.ToInt32(edt_IntCheck.Value);
+            Data.wisDiff = Convert.ToInt32(edt_WisCheck.Value);
+            Data.conDiff = Convert.ToInt32(edt_ConCheck.Value);
+            Data.chrDiff = Convert.ToInt32(edt_ChrCheck.Value);
+
             Data.desc = memo_desc.Text;
 
             // flags
@@ -99,6 +117,22 @@ namespace HandofGod
             combo_doorstatus.SelectedIndex = Data.door.status;
             combo_dooract.SelectedIndex = Data.door.cmd;
             memo_desc.Text = Data.desc;
+            edt_doorDesc.Text = Data.doorDescription;
+            edt_OpenChar.Text = Data.openToChar;
+            edt_OpenRoom.Text = Data.openToRoom;
+            edt_CloseChar.Text = Data.closeToChar;
+            edt_CloseRoom.Text = Data.closeToRoom;
+            edt_PickCheck.Value = Data.pickDiff;
+            edt_BashCheck.Value = Data.bashDiff;
+            edt_ClimbCheck.Value = Data.climbDiff;
+            edt_KnockCheck.Value = Data.knockDiff;
+            edt_PercCheck.Value = Data.percDiff;
+            edt_StrCheck.Value = Data.strDiff;
+            edt_DexCheck.Value = Data.dexDiff;
+            edt_IntCheck.Value = Data.intDiff;
+            edt_WisCheck.Value = Data.wisDiff;
+            edt_ConCheck.Value = Data.conDiff;
+            edt_ChrCheck.Value = Data.chrDiff;
 
             // flags
             for (int i = 0; i <= C.df_end; i++)
@@ -191,6 +225,25 @@ namespace HandofGod
             ex.door.status = combo_doorstatus.SelectedIndex;
             ex.desc = memo_desc.Text;
 
+            ex.doorDescription = edt_doorDesc.Text;
+            ex.openToChar = edt_OpenChar.Text;
+            ex.closeToChar = edt_CloseChar.Text;
+            ex.openToRoom = edt_OpenRoom.Text;
+            ex.closeToRoom = edt_CloseRoom.Text;
+
+            ex.pickDiff = Convert.ToInt32(edt_PickCheck.Value);
+            ex.bashDiff = Convert.ToInt32(edt_BashCheck.Value);
+            ex.climbDiff = Convert.ToInt32(edt_ClimbCheck.Value);
+            ex.knockDiff = Convert.ToInt32(edt_KnockCheck.Value);
+            ex.percDiff = Convert.ToInt32(edt_PercCheck.Value);
+
+            ex.strDiff = Convert.ToInt32(edt_StrCheck.Value);
+            ex.dexDiff = Convert.ToInt32(edt_DexCheck.Value);
+            ex.intDiff = Convert.ToInt32(edt_IntCheck.Value);
+            ex.wisDiff = Convert.ToInt32(edt_WisCheck.Value);
+            ex.conDiff = Convert.ToInt32(edt_ConCheck.Value);
+            ex.chrDiff = Convert.ToInt32(edt_ChrCheck.Value);
+            
             for (int i = 0; i <= C.df_end; i++)
                 ex.flags[1 << i] = list_flags.GetItemChecked(i);
 

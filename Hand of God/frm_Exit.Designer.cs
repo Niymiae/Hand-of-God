@@ -41,6 +41,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.edt_doorDesc = new System.Windows.Forms.TextBox();
             this.lblinverse = new System.Windows.Forms.Label();
             this.btn_editkey = new System.Windows.Forms.Button();
             this.btneditroom = new System.Windows.Forms.Button();
@@ -70,17 +76,33 @@
             this.btnrestore = new System.Windows.Forms.Button();
             this.btnapply = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.edt_OpenChar = new System.Windows.Forms.TextBox();
+            this.edt_OpenRoom = new System.Windows.Forms.TextBox();
+            this.edt_CloseChar = new System.Windows.Forms.TextBox();
+            this.edt_CloseRoom = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.edt_PickCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_BashCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_PercCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_ClimbCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_IntCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_WisCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_ChrCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_ConCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_DexCheck = new System.Windows.Forms.NumericUpDown();
+            this.edt_StrCheck = new System.Windows.Forms.NumericUpDown();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.edt_KnockCheck = new System.Windows.Forms.NumericUpDown();
+            this.label31 = new System.Windows.Forms.Label();
             this.gaugecharcounter = new HandofGod.CharCounterProgressBar();
             this.memo_desc = new HandofGod.MudlikeRichTextBox();
             this.groupBox1.SuspendLayout();
@@ -88,6 +110,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.edt_toroom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.edt_doorobjkey)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_PickCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_BashCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_PercCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_ClimbCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_IntCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_WisCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_ChrCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_ConCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_DexCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_StrCheck)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_KnockCheck)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -115,7 +148,7 @@
             this.edt_to.Location = new System.Drawing.Point(318, 39);
             this.edt_to.Name = "edt_to";
             this.edt_to.Size = new System.Drawing.Size(151, 20);
-            this.edt_to.TabIndex = 15;
+            this.edt_to.TabIndex = 4;
             this.edt_to.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label4
@@ -132,7 +165,7 @@
             this.edt_from.Location = new System.Drawing.Point(318, 13);
             this.edt_from.Name = "edt_from";
             this.edt_from.Size = new System.Drawing.Size(151, 20);
-            this.edt_from.TabIndex = 14;
+            this.edt_from.TabIndex = 2;
             this.edt_from.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // edt_inverse
@@ -140,7 +173,7 @@
             this.edt_inverse.Location = new System.Drawing.Point(121, 65);
             this.edt_inverse.Name = "edt_inverse";
             this.edt_inverse.Size = new System.Drawing.Size(151, 20);
-            this.edt_inverse.TabIndex = 13;
+            this.edt_inverse.TabIndex = 5;
             this.edt_inverse.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // edt_nameinlist
@@ -148,7 +181,7 @@
             this.edt_nameinlist.Location = new System.Drawing.Point(121, 39);
             this.edt_nameinlist.Name = "edt_nameinlist";
             this.edt_nameinlist.Size = new System.Drawing.Size(151, 20);
-            this.edt_nameinlist.TabIndex = 12;
+            this.edt_nameinlist.TabIndex = 3;
             this.edt_nameinlist.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // edt_name
@@ -156,7 +189,7 @@
             this.edt_name.Location = new System.Drawing.Point(121, 13);
             this.edt_name.Name = "edt_name";
             this.edt_name.Size = new System.Drawing.Size(151, 20);
-            this.edt_name.TabIndex = 11;
+            this.edt_name.TabIndex = 1;
             this.edt_name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label6
@@ -197,17 +230,39 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label19);
+            this.groupBox2.Controls.Add(this.label31);
+            this.groupBox2.Controls.Add(this.edt_KnockCheck);
+            this.groupBox2.Controls.Add(this.label30);
+            this.groupBox2.Controls.Add(this.label29);
+            this.groupBox2.Controls.Add(this.label28);
+            this.groupBox2.Controls.Add(this.label27);
+            this.groupBox2.Controls.Add(this.label26);
+            this.groupBox2.Controls.Add(this.label25);
+            this.groupBox2.Controls.Add(this.label24);
+            this.groupBox2.Controls.Add(this.edt_ConCheck);
+            this.groupBox2.Controls.Add(this.edt_DexCheck);
+            this.groupBox2.Controls.Add(this.edt_StrCheck);
+            this.groupBox2.Controls.Add(this.edt_ChrCheck);
+            this.groupBox2.Controls.Add(this.edt_WisCheck);
+            this.groupBox2.Controls.Add(this.edt_IntCheck);
+            this.groupBox2.Controls.Add(this.edt_ClimbCheck);
+            this.groupBox2.Controls.Add(this.edt_PercCheck);
+            this.groupBox2.Controls.Add(this.edt_BashCheck);
+            this.groupBox2.Controls.Add(this.edt_PickCheck);
+            this.groupBox2.Controls.Add(this.label23);
+            this.groupBox2.Controls.Add(this.label22);
+            this.groupBox2.Controls.Add(this.label21);
+            this.groupBox2.Controls.Add(this.label20);
+            this.groupBox2.Controls.Add(this.edt_CloseRoom);
+            this.groupBox2.Controls.Add(this.edt_CloseChar);
+            this.groupBox2.Controls.Add(this.edt_OpenRoom);
+            this.groupBox2.Controls.Add(this.edt_OpenChar);
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.edt_doorDesc);
             this.groupBox2.Controls.Add(this.gaugecharcounter);
             this.groupBox2.Controls.Add(this.memo_desc);
             this.groupBox2.Controls.Add(this.lblinverse);
@@ -234,10 +289,62 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox2.Location = new System.Drawing.Point(0, 118);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(577, 324);
+            this.groupBox2.Size = new System.Drawing.Size(577, 446);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Attributi";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(336, 160);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(58, 13);
+            this.label18.TabIndex = 51;
+            this.label18.Text = "Perception";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(252, 160);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(32, 13);
+            this.label17.TabIndex = 50;
+            this.label17.Text = "Climb";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(378, 120);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(31, 13);
+            this.label16.TabIndex = 49;
+            this.label16.Text = "Bash";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(336, 120);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(28, 13);
+            this.label15.TabIndex = 48;
+            this.label15.Text = "Pick";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(8, 213);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(69, 13);
+            this.label12.TabIndex = 43;
+            this.label12.Text = "Porta (Short):";
+            // 
+            // edt_doorDesc
+            // 
+            this.edt_doorDesc.Location = new System.Drawing.Point(81, 210);
+            this.edt_doorDesc.Name = "edt_doorDesc";
+            this.edt_doorDesc.Size = new System.Drawing.Size(373, 20);
+            this.edt_doorDesc.TabIndex = 13;
             // 
             // lblinverse
             // 
@@ -276,7 +383,7 @@
             this.btninverse.Location = new System.Drawing.Point(248, 12);
             this.btninverse.Name = "btninverse";
             this.btninverse.Size = new System.Drawing.Size(124, 23);
-            this.btninverse.TabIndex = 26;
+            this.btninverse.TabIndex = 35;
             this.btninverse.Text = "Imposta Uscita Inversa";
             this.btninverse.UseVisualStyleBackColor = true;
             this.btninverse.Click += new System.EventHandler(this.btninverse_Click);
@@ -305,7 +412,7 @@
             -2147483648});
             this.edt_toroom.Name = "edt_toroom";
             this.edt_toroom.Size = new System.Drawing.Size(108, 20);
-            this.edt_toroom.TabIndex = 33;
+            this.edt_toroom.TabIndex = 6;
             this.edt_toroom.ValueChanged += new System.EventHandler(this.UpdateButtonsState);
             // 
             // lbl_keyshort
@@ -332,24 +439,24 @@
             -2147483648});
             this.edt_doorobjkey.Name = "edt_doorobjkey";
             this.edt_doorobjkey.Size = new System.Drawing.Size(108, 20);
-            this.edt_doorobjkey.TabIndex = 30;
+            this.edt_doorobjkey.TabIndex = 11;
             this.edt_doorobjkey.ValueChanged += new System.EventHandler(this.UpdateButtonsState);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(9, 164);
+            this.label14.Location = new System.Drawing.Point(6, 337);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(68, 13);
+            this.label14.Size = new System.Drawing.Size(101, 13);
             this.label14.TabIndex = 29;
-            this.label14.Text = "Descrizione: ";
+            this.label14.Text = "Descrizione Uscita: ";
             // 
             // btnfindkey
             // 
             this.btnfindkey.Location = new System.Drawing.Point(197, 88);
             this.btnfindkey.Name = "btnfindkey";
             this.btnfindkey.Size = new System.Drawing.Size(45, 23);
-            this.btnfindkey.TabIndex = 27;
+            this.btnfindkey.TabIndex = 12;
             this.btnfindkey.TabStop = false;
             this.btnfindkey.Text = "Trova";
             this.btnfindkey.UseVisualStyleBackColor = true;
@@ -369,7 +476,7 @@
             this.btnfindroom.Location = new System.Drawing.Point(197, 12);
             this.btnfindroom.Name = "btnfindroom";
             this.btnfindroom.Size = new System.Drawing.Size(45, 23);
-            this.btnfindroom.TabIndex = 24;
+            this.btnfindroom.TabIndex = 7;
             this.btnfindroom.TabStop = false;
             this.btnfindroom.Text = "Trova";
             this.btnfindroom.UseVisualStyleBackColor = true;
@@ -386,7 +493,7 @@
             this.combo_doorstatus.Location = new System.Drawing.Point(399, 37);
             this.combo_doorstatus.Name = "combo_doorstatus";
             this.combo_doorstatus.Size = new System.Drawing.Size(85, 21);
-            this.combo_doorstatus.TabIndex = 20;
+            this.combo_doorstatus.TabIndex = 9;
             this.combo_doorstatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label11
@@ -422,7 +529,7 @@
             this.combo_dooract.Location = new System.Drawing.Point(248, 37);
             this.combo_dooract.Name = "combo_dooract";
             this.combo_dooract.Size = new System.Drawing.Size(87, 21);
-            this.combo_dooract.TabIndex = 19;
+            this.combo_dooract.TabIndex = 8;
             this.combo_dooract.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label8
@@ -453,7 +560,7 @@
             this.list_flags.Location = new System.Drawing.Point(468, 104);
             this.list_flags.Name = "list_flags";
             this.list_flags.Size = new System.Drawing.Size(97, 214);
-            this.list_flags.TabIndex = 21;
+            this.list_flags.TabIndex = 34;
             this.list_flags.SelectedIndexChanged += new System.EventHandler(this.list_flags_SelectedIndexChanged);
             this.list_flags.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
@@ -462,7 +569,7 @@
             this.edt_doorkeys.Location = new System.Drawing.Point(83, 64);
             this.edt_doorkeys.Name = "edt_doorkeys";
             this.edt_doorkeys.Size = new System.Drawing.Size(159, 20);
-            this.edt_doorkeys.TabIndex = 17;
+            this.edt_doorkeys.TabIndex = 10;
             this.edt_doorkeys.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label7
@@ -522,40 +629,40 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(9, 448);
+            this.button3.Location = new System.Drawing.Point(5, 570);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 17;
+            this.button3.TabIndex = 30;
             this.button3.Text = "Ok";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(90, 448);
+            this.button4.Location = new System.Drawing.Point(81, 570);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 18;
+            this.button4.TabIndex = 31;
             this.button4.Text = "Cancel";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnrestore
             // 
-            this.btnrestore.Location = new System.Drawing.Point(490, 448);
+            this.btnrestore.Location = new System.Drawing.Point(490, 570);
             this.btnrestore.Name = "btnrestore";
             this.btnrestore.Size = new System.Drawing.Size(75, 23);
-            this.btnrestore.TabIndex = 19;
+            this.btnrestore.TabIndex = 33;
             this.btnrestore.Text = "Ripristina";
             this.btnrestore.UseVisualStyleBackColor = true;
             this.btnrestore.Click += new System.EventHandler(this.btnrestore_Click);
             // 
             // btnapply
             // 
-            this.btnapply.Location = new System.Drawing.Point(409, 448);
+            this.btnapply.Location = new System.Drawing.Point(409, 570);
             this.btnapply.Name = "btnapply";
             this.btnapply.Size = new System.Drawing.Size(75, 23);
-            this.btnapply.TabIndex = 20;
+            this.btnapply.TabIndex = 32;
             this.btnapply.Text = "Applica";
             this.btnapply.UseVisualStyleBackColor = true;
             this.btnapply.Click += new System.EventHandler(this.btnapply_Click);
@@ -565,99 +672,332 @@
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // textBox1
+            // edt_OpenChar
             // 
-            this.textBox1.Location = new System.Drawing.Point(81, 139);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(373, 20);
-            this.textBox1.TabIndex = 42;
+            this.edt_OpenChar.Location = new System.Drawing.Point(81, 236);
+            this.edt_OpenChar.Name = "edt_OpenChar";
+            this.edt_OpenChar.Size = new System.Drawing.Size(373, 20);
+            this.edt_OpenChar.TabIndex = 14;
             // 
-            // label12
+            // edt_OpenRoom
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 142);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(66, 13);
-            this.label12.TabIndex = 43;
-            this.label12.Text = "Desc. Porta:";
+            this.edt_OpenRoom.Location = new System.Drawing.Point(81, 262);
+            this.edt_OpenRoom.Name = "edt_OpenRoom";
+            this.edt_OpenRoom.Size = new System.Drawing.Size(373, 20);
+            this.edt_OpenRoom.TabIndex = 15;
             // 
-            // textBox2
+            // edt_CloseChar
             // 
-            this.textBox2.Location = new System.Drawing.Point(256, 115);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(45, 20);
-            this.textBox2.TabIndex = 44;
+            this.edt_CloseChar.Location = new System.Drawing.Point(81, 288);
+            this.edt_CloseChar.Name = "edt_CloseChar";
+            this.edt_CloseChar.Size = new System.Drawing.Size(373, 20);
+            this.edt_CloseChar.TabIndex = 16;
             // 
-            // textBox3
+            // edt_CloseRoom
             // 
-            this.textBox3.Location = new System.Drawing.Point(307, 115);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(45, 20);
-            this.textBox3.TabIndex = 45;
+            this.edt_CloseRoom.Location = new System.Drawing.Point(81, 314);
+            this.edt_CloseRoom.Name = "edt_CloseRoom";
+            this.edt_CloseRoom.Size = new System.Drawing.Size(373, 20);
+            this.edt_CloseRoom.TabIndex = 17;
             // 
-            // textBox4
+            // label20
             // 
-            this.textBox4.Location = new System.Drawing.Point(358, 115);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(45, 20);
-            this.textBox4.TabIndex = 46;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(8, 239);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(64, 13);
+            this.label20.TabIndex = 59;
+            this.label20.Text = "Open, Char:";
             // 
-            // textBox5
+            // label21
             // 
-            this.textBox5.Location = new System.Drawing.Point(409, 115);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(45, 20);
-            this.textBox5.TabIndex = 47;
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(8, 265);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(70, 13);
+            this.label21.TabIndex = 60;
+            this.label21.Text = "Open, Room:";
             // 
-            // label15
+            // label22
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(253, 99);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(28, 13);
-            this.label15.TabIndex = 48;
-            this.label15.Text = "Pick";
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(8, 291);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(64, 13);
+            this.label22.TabIndex = 61;
+            this.label22.Text = "Close, Char:";
             // 
-            // label16
+            // label23
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(304, 99);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(31, 13);
-            this.label16.TabIndex = 49;
-            this.label16.Text = "Bash";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(8, 317);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(70, 13);
+            this.label23.TabIndex = 62;
+            this.label23.Text = "Close, Room:";
             // 
-            // label17
+            // edt_PickCheck
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(355, 99);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(38, 13);
-            this.label17.TabIndex = 50;
-            this.label17.Text = "Knock";
+            this.edt_PickCheck.Location = new System.Drawing.Point(339, 136);
+            this.edt_PickCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_PickCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_PickCheck.Name = "edt_PickCheck";
+            this.edt_PickCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_PickCheck.TabIndex = 25;
             // 
-            // label18
+            // edt_BashCheck
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(406, 99);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(58, 13);
-            this.label18.TabIndex = 51;
-            this.label18.Text = "Perception";
+            this.edt_BashCheck.Location = new System.Drawing.Point(381, 136);
+            this.edt_BashCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_BashCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_BashCheck.Name = "edt_BashCheck";
+            this.edt_BashCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_BashCheck.TabIndex = 26;
             // 
-            // label19
+            // edt_PercCheck
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(300, 80);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(114, 13);
-            this.label19.TabIndex = 52;
-            this.label19.Text = "Coefficienti di Difficoltà";
+            this.edt_PercCheck.Location = new System.Drawing.Point(339, 176);
+            this.edt_PercCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_PercCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_PercCheck.Name = "edt_PercCheck";
+            this.edt_PercCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_PercCheck.TabIndex = 29;
+            // 
+            // edt_ClimbCheck
+            // 
+            this.edt_ClimbCheck.Location = new System.Drawing.Point(255, 176);
+            this.edt_ClimbCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_ClimbCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_ClimbCheck.Name = "edt_ClimbCheck";
+            this.edt_ClimbCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_ClimbCheck.TabIndex = 27;
+            // 
+            // edt_IntCheck
+            // 
+            this.edt_IntCheck.Location = new System.Drawing.Point(381, 96);
+            this.edt_IntCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_IntCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_IntCheck.Name = "edt_IntCheck";
+            this.edt_IntCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_IntCheck.TabIndex = 22;
+            // 
+            // edt_WisCheck
+            // 
+            this.edt_WisCheck.Location = new System.Drawing.Point(255, 136);
+            this.edt_WisCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_WisCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_WisCheck.Name = "edt_WisCheck";
+            this.edt_WisCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_WisCheck.TabIndex = 23;
+            // 
+            // edt_ChrCheck
+            // 
+            this.edt_ChrCheck.Location = new System.Drawing.Point(297, 136);
+            this.edt_ChrCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_ChrCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_ChrCheck.Name = "edt_ChrCheck";
+            this.edt_ChrCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_ChrCheck.TabIndex = 24;
+            // 
+            // edt_ConCheck
+            // 
+            this.edt_ConCheck.Location = new System.Drawing.Point(339, 96);
+            this.edt_ConCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_ConCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_ConCheck.Name = "edt_ConCheck";
+            this.edt_ConCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_ConCheck.TabIndex = 21;
+            // 
+            // edt_DexCheck
+            // 
+            this.edt_DexCheck.Location = new System.Drawing.Point(297, 96);
+            this.edt_DexCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_DexCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_DexCheck.Name = "edt_DexCheck";
+            this.edt_DexCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_DexCheck.TabIndex = 20;
+            // 
+            // edt_StrCheck
+            // 
+            this.edt_StrCheck.Location = new System.Drawing.Point(255, 96);
+            this.edt_StrCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_StrCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_StrCheck.Name = "edt_StrCheck";
+            this.edt_StrCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_StrCheck.TabIndex = 19;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(252, 80);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(20, 13);
+            this.label24.TabIndex = 119;
+            this.label24.Text = "Str";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(294, 80);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(26, 13);
+            this.label25.TabIndex = 120;
+            this.label25.Text = "Dex";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(336, 80);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(26, 13);
+            this.label26.TabIndex = 121;
+            this.label26.Text = "Con";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(378, 80);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(19, 13);
+            this.label27.TabIndex = 122;
+            this.label27.Text = "Int";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(252, 120);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(25, 13);
+            this.label28.TabIndex = 123;
+            this.label28.Text = "Wis";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(294, 120);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(23, 13);
+            this.label29.TabIndex = 124;
+            this.label29.Text = "Chr";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(248, 64);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(114, 13);
+            this.label30.TabIndex = 125;
+            this.label30.Text = "Coefficienti di Difficoltà";
+            // 
+            // edt_KnockCheck
+            // 
+            this.edt_KnockCheck.Location = new System.Drawing.Point(297, 176);
+            this.edt_KnockCheck.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.edt_KnockCheck.Minimum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            -2147483648});
+            this.edt_KnockCheck.Name = "edt_KnockCheck";
+            this.edt_KnockCheck.Size = new System.Drawing.Size(36, 20);
+            this.edt_KnockCheck.TabIndex = 28;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(294, 160);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(38, 13);
+            this.label31.TabIndex = 127;
+            this.label31.Text = "Knock";
             // 
             // gaugecharcounter
             // 
-            this.gaugecharcounter.Location = new System.Drawing.Point(9, 304);
+            this.gaugecharcounter.Location = new System.Drawing.Point(9, 426);
             this.gaugecharcounter.Name = "gaugecharcounter";
             this.gaugecharcounter.Size = new System.Drawing.Size(445, 14);
             this.gaugecharcounter.TabIndex = 39;
@@ -667,17 +1007,17 @@
             this.memo_desc.DefaultCharacterColor = System.Drawing.Color.LightGray;
             this.memo_desc.DetectUrls = false;
             this.memo_desc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.memo_desc.Location = new System.Drawing.Point(9, 180);
+            this.memo_desc.Location = new System.Drawing.Point(9, 353);
             this.memo_desc.Name = "memo_desc";
-            this.memo_desc.Size = new System.Drawing.Size(445, 118);
-            this.memo_desc.TabIndex = 38;
+            this.memo_desc.Size = new System.Drawing.Size(445, 67);
+            this.memo_desc.TabIndex = 18;
             this.memo_desc.Text = "";
             // 
             // frm_Exit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 483);
+            this.ClientSize = new System.Drawing.Size(577, 605);
             this.Controls.Add(this.btnapply);
             this.Controls.Add(this.btnrestore);
             this.Controls.Add(this.groupBox2);
@@ -700,6 +1040,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.edt_doorobjkey)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_PickCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_BashCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_PercCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_ClimbCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_IntCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_WisCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_ChrCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_ConCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_DexCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_StrCheck)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edt_KnockCheck)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -749,16 +1100,38 @@
         private System.Windows.Forms.Timer timer1;
         private CharCounterProgressBar gaugecharcounter;
         private MudlikeRichTextBox memo_desc;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox edt_doorDesc;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox edt_CloseRoom;
+        private System.Windows.Forms.TextBox edt_CloseChar;
+        private System.Windows.Forms.TextBox edt_OpenRoom;
+        private System.Windows.Forms.TextBox edt_OpenChar;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.NumericUpDown edt_KnockCheck;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.NumericUpDown edt_ConCheck;
+        private System.Windows.Forms.NumericUpDown edt_DexCheck;
+        private System.Windows.Forms.NumericUpDown edt_StrCheck;
+        private System.Windows.Forms.NumericUpDown edt_ChrCheck;
+        private System.Windows.Forms.NumericUpDown edt_WisCheck;
+        private System.Windows.Forms.NumericUpDown edt_IntCheck;
+        private System.Windows.Forms.NumericUpDown edt_ClimbCheck;
+        private System.Windows.Forms.NumericUpDown edt_PercCheck;
+        private System.Windows.Forms.NumericUpDown edt_BashCheck;
+        private System.Windows.Forms.NumericUpDown edt_PickCheck;
     }
 }

@@ -408,7 +408,8 @@ namespace HandofGod
                                 switch (buffer[0])
                                 {
                                     // extra desc
-                                    case 'E': ExtraDesc ex = new ExtraDesc();
+                                    case 'E': 
+                                        ExtraDesc ex = new ExtraDesc();
                                         ReadUntil(file, '\n');
                                         ex.keys = ReadUntil(file, '~');
                                         ReadUntil(file, '\n');
@@ -416,7 +417,14 @@ namespace HandofGod
                                         curr.extras.Add(ex);
                                         break;
                                     // exits
-                                    case 'D': int dir = -1;
+                                    case 'R':
+                                    case 'D': 
+                                        bool isNewExit = false;
+
+                                        if (buffer[0] == 'R')
+                                            isNewExit = true;
+
+                                        int dir = -1;
                                         Exit e = new Exit(curr);
                                         file.Read(buffer, 0, 1);
                                         if (buffer[0] == ' ' || buffer[0] == '\n') // special exit
@@ -436,14 +444,45 @@ namespace HandofGod
                                         ReadUntil(file, '\n');
 
                                         e.desc = ReadUntil(file, '~').TrimEnd();
-
                                         ReadUntil(file, '\n');
 
                                         // door keys
                                         e.door.keys = ReadUntil(file, '~');
-
                                         ReadUntil(file, '\n');
 
+                                        if (isNewExit)
+                                        {
+                                            e.doorDescription = ReadUntil(file, '~').TrimEnd();
+                                            ReadUntil(file, '\n');
+                                            e.openToChar = ReadUntil(file, '~').TrimEnd();
+                                            ReadUntil(file, '\n');
+                                            e.openToRoom = ReadUntil(file, '~').TrimEnd();
+                                            ReadUntil(file, '\n');
+                                            e.closeToChar = ReadUntil(file, '~').TrimEnd();
+                                            ReadUntil(file, '\n');
+                                            e.closeToRoom = ReadUntil(file, '~').TrimEnd();
+                                            ReadUntil(file, '\n');
+
+                                            s = ReadUntil(file, '\n');
+                                            string[] skillDifficulties = s.Split(' ');
+
+                                            e.pickDiff = ToInt(skillDifficulties[0]);
+                                            e.bashDiff = ToInt(skillDifficulties[1]);
+                                            e.knockDiff = ToInt(skillDifficulties[2]);
+                                            e.climbDiff = ToInt(skillDifficulties[3]);
+                                            e.percDiff = ToInt(skillDifficulties[4]);
+
+                                            s = ReadUntil(file, '\n');
+                                            string[] statDifficulties = s.Split(' ');
+
+                                            e.strDiff = ToInt(statDifficulties[0]);
+                                            e.dexDiff = ToInt(statDifficulties[1]);
+                                            e.intDiff = ToInt(statDifficulties[2]);
+                                            e.wisDiff = ToInt(statDifficulties[3]);
+                                            e.conDiff = ToInt(statDifficulties[4]);
+                                            e.chrDiff = ToInt(statDifficulties[5]);
+                                        }
+                                        
                                         s = ReadUntil(file, '\n');
                                         string[] exit_vars = s.Split(' ');
 
@@ -465,6 +504,7 @@ namespace HandofGod
 
                                         if (roomvnum > -1 && dir > -1)
                                             curr.SetExit(to, roomvnum, dir, false, e);
+
                                         break;
                                     // day & night desc
                                     case 'L':
@@ -1225,10 +1265,11 @@ namespace HandofGod
                     List<Exit> SortedExits = r.exits.OrderBy(x => x.dir).ToList();
 
                     foreach (Exit e in SortedExits)
+                    {
                         switch (e.dir)
                         {
                             case C.dir_special:
-                                write(file, "D ");
+                                write(file, "R ");
                                 write(file, e.name + "~");
                                 write(file, e.nameinlist + "~");
                                 write(file, e.str_to + "~");
@@ -1236,21 +1277,58 @@ namespace HandofGod
                                 write(file, e.inverse + "~" + NewLine);
                                 write(file, e.desc + NewLine + "~" + NewLine);
                                 write(file, e.door.keys + "~" + NewLine);
+                                write(file, e.doorDescription + "~" + NewLine);
+                                write(file, e.openToChar + "~" + NewLine);
+                                write(file, e.openToRoom + "~" + NewLine);
+                                write(file, e.closeToChar + "~" + NewLine);
+                                write(file, e.closeToRoom + "~" + NewLine);
+                                // Skill Diffs line
+                                write(file, e.pickDiff + " ");
+                                write(file, e.bashDiff + " ");
+                                write(file, e.knockDiff + " ");
+                                write(file, e.climbDiff + " ");
+                                write(file, e.percDiff + " " + NewLine);
+                                // Stat Diffs line
+                                write(file, e.strDiff + " ");
+                                write(file, e.dexDiff + " ");
+                                write(file, e.intDiff + " ");
+                                write(file, e.wisDiff + " ");
+                                write(file, e.conDiff + " ");
+                                write(file, e.chrDiff + " " + NewLine);
                                 write(file, WriteFlags(e.flags, C.df_end) + " ");
                                 write(file, e.door.objkey + " ");
                                 write(file, e.room + " ");
                                 write(file, Door.IndexToCmd(e.door.cmd) + " " + NewLine);
                                 break;
                             default:
-                                write(file, "D" + e.dir + NewLine);
+                                write(file, "R" + e.dir + NewLine);
                                 write(file, e.desc + NewLine + "~" + NewLine);
                                 write(file, e.door.keys + "~" + NewLine);
+                                write(file, e.doorDescription + "~" + NewLine);
+                                write(file, e.openToChar + "~" + NewLine);
+                                write(file, e.openToRoom + "~" + NewLine);
+                                write(file, e.closeToChar + "~" + NewLine);
+                                write(file, e.closeToRoom + "~" + NewLine);
+                                // Skill Diffs line
+                                write(file, e.pickDiff + " ");
+                                write(file, e.bashDiff + " ");
+                                write(file, e.knockDiff + " ");
+                                write(file, e.climbDiff + " ");
+                                write(file, e.percDiff + " " + NewLine);
+                                // Stat Diffs line
+                                write(file, e.strDiff + " ");
+                                write(file, e.dexDiff + " ");
+                                write(file, e.intDiff + " ");
+                                write(file, e.wisDiff + " ");
+                                write(file, e.conDiff + " ");
+                                write(file, e.chrDiff + " " + NewLine);
                                 write(file, WriteFlags(e.flags, C.df_end) + " ");
                                 write(file, e.door.objkey + " ");
                                 write(file, e.room + " ");
                                 write(file, Door.IndexToCmd(e.door.cmd) + " " + NewLine);
                                 break;
                         }
+                    }
 
 
                     foreach (ExtraDesc ed in r.extras)

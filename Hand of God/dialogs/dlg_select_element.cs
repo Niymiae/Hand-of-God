@@ -48,6 +48,7 @@ namespace HandofGod
             else if (typeof(T) == typeof(Spell)) list_elements.AddToList(ParentArea, l as List<Spell>, none, func);
             else if (typeof(T) == typeof(MDFuncData)) list_elements.AddToList(ParentArea, l as List<MDFuncData>, none, func, top_values);
             else if (typeof(T) == typeof(MobDialogue)) list_elements.AddToList(ParentArea, l as List<MobDialogue>, none, func, top_values, omit as MobDialogue);
+            else if (typeof(T) == typeof(SoldItem)) list_elements.AddToList(ParentArea, l as List<SoldItem>, none, func);
             list_elements.Show();
             list_flags.Hide();
             panel2.Show();

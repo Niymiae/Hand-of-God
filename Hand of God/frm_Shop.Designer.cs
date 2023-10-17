@@ -86,6 +86,15 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.prop100 = new System.Windows.Forms.NumericUpDown();
+            this.prop101 = new System.Windows.Forms.NumericUpDown();
+            this.btnfind_prop100 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.newObjListView = new HandofGod.HoGListView();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prop0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prop1)).BeginInit();
@@ -106,6 +115,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.prop15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.prop14)).BeginInit();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prop100)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prop101)).BeginInit();
             this.SuspendLayout();
             // 
             // prop0
@@ -196,7 +207,7 @@
             this.groupBox1.Controls.Add(this.prop3);
             this.groupBox1.Controls.Add(this.btnfind_prop2);
             this.groupBox1.Controls.Add(this.prop2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 59);
+            this.groupBox1.Location = new System.Drawing.Point(12, 47);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(170, 150);
             this.groupBox1.TabIndex = 7;
@@ -357,7 +368,7 @@
             this.groupBox2.Controls.Add(this.prop9);
             this.groupBox2.Controls.Add(this.prop8);
             this.groupBox2.Controls.Add(this.prop7);
-            this.groupBox2.Location = new System.Drawing.Point(188, 59);
+            this.groupBox2.Location = new System.Drawing.Point(188, 47);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(255, 150);
             this.groupBox2.TabIndex = 90;
@@ -431,7 +442,7 @@
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.spin_mul_sell);
             this.groupBox3.Controls.Add(this.spin_mul_buy);
-            this.groupBox3.Location = new System.Drawing.Point(449, 59);
+            this.groupBox3.Location = new System.Drawing.Point(449, 47);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(218, 65);
             this.groupBox3.TabIndex = 91;
@@ -501,7 +512,7 @@
             this.groupBox4.Controls.Add(this.prop12);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Location = new System.Drawing.Point(450, 130);
+            this.groupBox4.Location = new System.Drawing.Point(450, 118);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(217, 79);
             this.groupBox4.TabIndex = 92;
@@ -558,69 +569,69 @@
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.label9);
             this.groupBox5.Controls.Add(this.label8);
-            this.groupBox5.Location = new System.Drawing.Point(12, 215);
+            this.groupBox5.Location = new System.Drawing.Point(404, 203);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(655, 81);
+            this.groupBox5.Size = new System.Drawing.Size(263, 96);
             this.groupBox5.TabIndex = 93;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Orari";
             // 
             // prop17
             // 
-            this.prop17.Location = new System.Drawing.Point(247, 45);
+            this.prop17.Location = new System.Drawing.Point(197, 47);
             this.prop17.Maximum = new decimal(new int[] {
             300000,
             0,
             0,
             0});
             this.prop17.Name = "prop17";
-            this.prop17.Size = new System.Drawing.Size(88, 20);
+            this.prop17.Size = new System.Drawing.Size(43, 20);
             this.prop17.TabIndex = 27;
             this.prop17.KeyDown += new System.Windows.Forms.KeyEventHandler(this.speech6_KeyDown);
             // 
             // prop16
             // 
-            this.prop16.Location = new System.Drawing.Point(247, 19);
+            this.prop16.Location = new System.Drawing.Point(197, 19);
             this.prop16.Maximum = new decimal(new int[] {
             300000,
             0,
             0,
             0});
             this.prop16.Name = "prop16";
-            this.prop16.Size = new System.Drawing.Size(88, 20);
+            this.prop16.Size = new System.Drawing.Size(43, 20);
             this.prop16.TabIndex = 26;
             this.prop16.KeyDown += new System.Windows.Forms.KeyEventHandler(this.speech6_KeyDown);
             // 
             // prop15
             // 
-            this.prop15.Location = new System.Drawing.Point(81, 45);
+            this.prop15.Location = new System.Drawing.Point(77, 45);
             this.prop15.Maximum = new decimal(new int[] {
             300000,
             0,
             0,
             0});
             this.prop15.Name = "prop15";
-            this.prop15.Size = new System.Drawing.Size(88, 20);
+            this.prop15.Size = new System.Drawing.Size(42, 20);
             this.prop15.TabIndex = 25;
             this.prop15.KeyDown += new System.Windows.Forms.KeyEventHandler(this.speech6_KeyDown);
             // 
             // prop14
             // 
-            this.prop14.Location = new System.Drawing.Point(81, 19);
+            this.prop14.Location = new System.Drawing.Point(77, 19);
             this.prop14.Maximum = new decimal(new int[] {
             300000,
             0,
             0,
             0});
             this.prop14.Name = "prop14";
-            this.prop14.Size = new System.Drawing.Size(88, 20);
+            this.prop14.Size = new System.Drawing.Size(42, 20);
             this.prop14.TabIndex = 24;
             this.prop14.KeyDown += new System.Windows.Forms.KeyEventHandler(this.speech6_KeyDown);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(179, 47);
+            this.label11.Location = new System.Drawing.Point(129, 49);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(63, 13);
             this.label11.TabIndex = 3;
@@ -629,7 +640,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(179, 21);
+            this.label10.Location = new System.Drawing.Point(129, 21);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(62, 13);
             this.label10.TabIndex = 2;
@@ -846,11 +857,120 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "Il negoziante non ha l\'oggetto: ";
             // 
+            // prop100
+            // 
+            this.prop100.Location = new System.Drawing.Point(246, 222);
+            this.prop100.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.prop100.Name = "prop100";
+            this.prop100.Size = new System.Drawing.Size(71, 20);
+            this.prop100.TabIndex = 107;
+            // 
+            // prop101
+            // 
+            this.prop101.Location = new System.Drawing.Point(246, 262);
+            this.prop101.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.prop101.Name = "prop101";
+            this.prop101.Size = new System.Drawing.Size(71, 20);
+            this.prop101.TabIndex = 108;
+            this.prop101.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            // 
+            // btnfind_prop100
+            // 
+            this.btnfind_prop100.Location = new System.Drawing.Point(323, 222);
+            this.btnfind_prop100.Name = "btnfind_prop100";
+            this.btnfind_prop100.Size = new System.Drawing.Size(75, 20);
+            this.btnfind_prop100.TabIndex = 109;
+            this.btnfind_prop100.Text = "Trova";
+            this.btnfind_prop100.UseVisualStyleBackColor = true;
+            this.btnfind_prop100.Click += new System.EventHandler(this.findelementclick);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(323, 273);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 110;
+            this.button2.Text = "Rimuovi";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(323, 248);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 25);
+            this.button3.TabIndex = 111;
+            this.button3.Text = "Aggiungi";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(243, 203);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 112;
+            this.label1.Text = "Vnum Oggetto";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(243, 245);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(35, 13);
+            this.label19.TabIndex = 113;
+            this.label19.Text = "Stock";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(243, 283);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(64, 13);
+            this.label20.TabIndex = 114;
+            this.label20.Text = "(-1 = infinito)";
+            // 
+            // newObjListView
+            // 
+            this.newObjListView.Filter = "";
+            this.newObjListView.FullRowSelect = true;
+            this.newObjListView.GridLines = true;
+            this.newObjListView.HideSelection = false;
+            this.newObjListView.Location = new System.Drawing.Point(12, 203);
+            this.newObjListView.MultiSelect = false;
+            this.newObjListView.Name = "newObjListView";
+            this.newObjListView.Size = new System.Drawing.Size(225, 97);
+            this.newObjListView.TabIndex = 115;
+            this.newObjListView.UseCompatibleStateImageBehavior = false;
+            this.newObjListView.View = System.Windows.Forms.View.Details;
+            // 
             // frm_Shop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(677, 547);
+            this.Controls.Add(this.newObjListView);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnfind_prop100);
+            this.Controls.Add(this.prop101);
+            this.Controls.Add(this.prop100);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -864,7 +984,6 @@
             this.Controls.Add(this.prop0);
             this.Controls.Add(this.label2);
             this.Name = "frm_Shop";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Controls.SetChildIndex(this.btnok, 0);
             this.Controls.SetChildIndex(this.btncancel, 0);
             this.Controls.SetChildIndex(this.btnnext, 0);
@@ -885,6 +1004,15 @@
             this.Controls.SetChildIndex(this.groupBox4, 0);
             this.Controls.SetChildIndex(this.groupBox5, 0);
             this.Controls.SetChildIndex(this.groupBox6, 0);
+            this.Controls.SetChildIndex(this.prop100, 0);
+            this.Controls.SetChildIndex(this.prop101, 0);
+            this.Controls.SetChildIndex(this.btnfind_prop100, 0);
+            this.Controls.SetChildIndex(this.button2, 0);
+            this.Controls.SetChildIndex(this.button3, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.label19, 0);
+            this.Controls.SetChildIndex(this.label20, 0);
+            this.Controls.SetChildIndex(this.newObjListView, 0);
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prop0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.prop1)).EndInit();
@@ -909,6 +1037,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.prop14)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.prop100)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prop101)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -973,5 +1103,14 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.NumericUpDown prop100;
+        private System.Windows.Forms.NumericUpDown prop101;
+        private System.Windows.Forms.Button btnfind_prop100;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private HoGListView newObjListView;
     }
 }

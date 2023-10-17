@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace HandofGod
 {
@@ -35,6 +36,8 @@ namespace HandofGod
             prop13.Items.Clear();
             foreach (string s in L.shop_attack)
                 prop13.Items.Add(s);
+
+            newObjListView.SetColumns(C.i_shop_item_list);
         }
         #endregion
 
@@ -59,6 +62,8 @@ namespace HandofGod
                 Control cnt = Controls.Find("speech" + i, true)[0];
                 (cnt as MudlikeRichTextBox).SetText(Data.speech[i]);
             }
+
+            RefreshObjList();
         }
 
         public override void Widgets2Data()
@@ -115,6 +120,65 @@ namespace HandofGod
                 ProcessTabKey(true);
                 e.SuppressKeyPress = true;
             }
+        }
+
+        private void RefreshObjList()
+        {
+            newObjListView.Items.Clear();
+            newObjListView.SetColumns(C.i_shop_item_list);
+
+            foreach (SoldItem sItem in Data.soldItemList)
+            {
+                ListViewItem item = newObjListView.AddItem(ParentArea, sItem, true);
+                item.Tag = sItem.vnum;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SoldItem sItem = new SoldItem
+            {
+                vnum = (int)prop100.Value,
+                shortdesc = prop101.Value.ToString()
+            };
+
+            SoldItem pItem = Data.soldItemList.Find(x => x.vnum == sItem.vnum);
+
+            for (int i = C.shp_objtosell0; i <= C.shp_objtosell4; i++)
+            {
+                if (Data.properties[i] == sItem.vnum)
+                {
+                    MessageBox.Show("Oggetto già presente nelll'elenco base di 5 oggetti.\nE' necessario rimuoverlo prima di aggiungerlo alla nuova lista.", "Errore", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+
+            if (pItem != null)
+            {
+                pItem.shortdesc = sItem.shortdesc;
+                SetModified(sender, e);
+            }
+            else
+            {
+                Data.soldItemList.Add(sItem);
+                SetModified(sender, e);
+            }
+           
+            RefreshObjList();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            /*if (newObjListView.SelectedIndices.Count <= 0)
+            {
+                MessageBox.Show("Selezionare oggetto da eliminare.", "Errore", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int toDelete = (int)newObjListView.SelectedItems[0].Tag;
+            SoldItem item = Data.soldItemList.Find( element => element.vnum == toDelete ); 
+            if (item != null) { Data.soldItemList.Remove(item); }*/
+            RefreshObjList();
         }
     }
 }

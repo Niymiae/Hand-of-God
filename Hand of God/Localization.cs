@@ -65,7 +65,7 @@ namespace HandofGod
         public static readonly string[] object_value_names = {"~~~","Colore~Tipo~Durata~Qualcosa","Livello~Incantesimo #1~Incantesimo #2~Incantesimo #3", 
                                                               "Livello~Max Cariche~Cariche Rimaste~Incantesimo",
                                                               "Livello~Max Cariche~Cariche Rimaste~Incantesimo",
-                                                              "A due mani~Numero Dadi~Numero Facce~Tipo di Danno",
+                                                              "Attacchi~Numero Dadi~Numero Facce~Tipo di Danno",
                                                               "Forza Minima~Distanza Minima~Bonus sul Range~Tipo di Proiettile",
                                                               "% di Rottura~Numero di Dadi(danno)~Numero Facce(danno)~Tipo di Proiettile",
                                                               "~~~","AC Attuale~AC Massima~Materiale~","Livello~Incantesimo #1~Incantesimo #2~Incantesimo #3",
@@ -79,8 +79,16 @@ namespace HandofGod
         public static readonly string[] container_flags_short = { "Ca", "P", "C", "L" };
         public static readonly string[] container_key = { "-1 Nessuna Serratura", "0 Serratura senza Chiave" };
         public static readonly string[] alignment_names = { "Good", "Neutral", "Evil" };
-        public static readonly string[] melee_damage_types = { "Smite", "Stab", "Whip", "Slash","Smash", "Cleave", "Crush", "Bludgeon", "Claw", "Bite",
-                                                             "Sting", "Pierce", "Blast", "Range Weapon", "Hit" };
+        public static readonly string[] melee_damage_types = { "Percuotere (I)", "Pugnalare (P)", "Frustare (T)", 
+                                                               "Tagliare (T)","Schiacciare (I)", "Squarciare (T)", 
+                                                               "Frantumare (I)", "Impattare (I)", "Artigliare (T)", 
+                                                               "Mordere (I)", "Pungere (P)", "Trafiggere (P)", 
+                                                               "Spaccare (I)", "Centrare (P)", "Bruciare (Fu)",
+                                                               "Fulminare (El)", "Congelare (Fr)", "Friggere (En)",
+                                                               "Corrodere (Ac)", "Avvizzire (Na)", "Irradiare (Lu)",
+                                                               "Profanare (Um)", "Sgretolare (Ca)", "Assaltare (Ps)",
+                                                               "Ferire (Tr)"};
+
         public static readonly string[] liquid_types = { "Water", "Beer", "Wine", "Fruit Juice", "Dark Beer", "Whisky", "Lemonade", "Firebreath",
                                                          "Liquore", "Slime", "Milk", "Tea", "Coffee", "Blood", "Saltwater", "Spumante" };
         public static readonly string[] teleport_flags = { "Look", "Count", "Random", "Spin", "No Mob" };

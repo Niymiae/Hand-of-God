@@ -2183,12 +2183,37 @@ namespace HandofGod
     #endregion
 
     #region Shop
+
+    public class SoldItem : area_element
+    {
+        public SoldItem(SoldItem data = null)
+        {
+            Clear();
+
+            if (data != null)
+                CopyFrom(data);
+        }
+
+        public override void CopyFrom(area_element data)
+        {
+            SoldItem s = data as SoldItem;
+
+            if (s == null)
+                return;
+
+            Clear();
+            vnum = s.vnum;
+            shortdesc = s.shortdesc;
+        }
+    }
+
     public class Shop : area_element
     {
         public int[] properties = new int[18];
         public decimal mul_buy;
         public decimal mul_sell;
         public string[] speech = new string[7];
+        public List<SoldItem> soldItemList = new List<SoldItem>();
 
         #region Constructor
         public Shop(Shop data = null)
@@ -2207,11 +2232,13 @@ namespace HandofGod
                 {
                     case C.shp_mob:
                     case C.shp_room:
+
                     case C.shp_objtosell0:
                     case C.shp_objtosell1:
                     case C.shp_objtosell2:
                     case C.shp_objtosell3:
                     case C.shp_objtosell4: properties[i] = -1; break;
+
                     case C.shp_open0: properties[i] = 9; break;
                     case C.shp_close0: properties[i] = 13; break;
                     case C.shp_open1: properties[i] = 15; break;
@@ -2253,6 +2280,7 @@ namespace HandofGod
 
             mul_buy = s.mul_buy;
             mul_sell = s.mul_sell;
+            soldItemList = s.soldItemList;
         }
         #endregion
 

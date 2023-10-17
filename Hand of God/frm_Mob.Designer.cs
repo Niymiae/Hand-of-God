@@ -683,7 +683,7 @@
             // 
             this.val8.Location = new System.Drawing.Point(328, 88);
             this.val8.Maximum = new decimal(new int[] {
-            20,
+            9999999,
             0,
             0,
             0});

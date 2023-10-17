@@ -295,6 +295,11 @@ namespace HandofGod
                     Columns.Add("Valore 1", -2);
                     Columns.Add("Valore 2", -2);
                     break;
+                case C.i_shop_item_list:
+                    Columns.Add("#", -2);
+                    Columns[0].Tag = "Numeric";
+                    Columns.Add("Stock", -2);
+                    break;
             }
 
             current_column = id;
@@ -465,6 +470,13 @@ namespace HandofGod
                 s[1] = "[" + sh.properties[C.shp_mob] + "] " + (a0 != null ? a0.shortdesc : "");
                 s[2] = "[" + sh.properties[C.shp_room] + "] " + (a1 != null ? a1.shortdesc : "");
             }
+
+            else if (el.GetType() == typeof(SoldItem))
+            {
+                SoldItem si = el as SoldItem;
+                s[0] = si.vnum.ToString();
+                s[1] = si.shortdesc;
+            }
             #endregion
 
             #region MobDialogue
@@ -583,6 +595,7 @@ namespace HandofGod
                 else if (typeof(T) == typeof(Spell)) AddItem(ParentArea, x as Spell);
                 else if (typeof(T) == typeof(MDFuncData)) AddItem(ParentArea, x as MDFuncData);
                 else if (typeof(T) == typeof(MobDialogue)) AddItem(ParentArea, x as MobDialogue);
+                else if (typeof(T) == typeof(SoldItem)) AddItem(ParentArea, x as SoldItem);
             }
 
             if (totals)

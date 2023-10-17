@@ -8,6 +8,7 @@ using System.Collections.Specialized;
 using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Globalization;
+using System.Security.Cryptography;
 
 namespace HandofGod
 {
@@ -952,6 +953,7 @@ namespace HandofGod
                 // clear the current objects list
                 area.shops.Clear();
                 char[] buffer = new char[1];
+                string[] desc;
                 char lastchar = '\n';
                 Shop curr;
                 string s = "";
@@ -997,7 +999,31 @@ namespace HandofGod
 
                         for (int i = C.shp_open0; i <= C.shp_close1; i++)
                             curr.properties[i] = ToInt(ReadUntil(file, '\n'));
+
+                        while (!file.EndOfStream && file.Peek() != '#')
+                        {
+                            file.Read(buffer, 0, 1);
+                            switch (buffer[0])
+                            {
+                                case 'I':
+                                    try
+                                    {
+                                        ReadUntil(file, '\n');
+                                        desc = ReadUntil(file, '\n').Split(' ');
+                                        int iVNum = ToInt(desc[0]);
+                                        string iStock = desc[1];
+
+                                        SoldItem si = new SoldItem();
+                                        si.vnum = iVNum;
+                                        si.shortdesc = iStock;
+                                        curr.soldItemList.Add(si);
+                                    }
+                                    catch { }
+                                    break;
+                            }
+                        }
                     }
+
                 }
 
                 file.Close();
@@ -1596,7 +1622,6 @@ namespace HandofGod
 
             using (StreamWriter file = new StreamWriter(filename, false, GetEncoding()))
             {
-
                 List<Shop> SortedList = shops.OrderBy(x => x.vnum).ToList();
 
                 foreach (Shop sh in SortedList)
@@ -1626,6 +1651,12 @@ namespace HandofGod
 
                     for (int i = C.shp_open0; i <= C.shp_close1; i++)
                         write(file, sh.properties[i] + NewLine);
+
+                    foreach (SoldItem si in sh.soldItemList)
+                    {
+                        write(file, "I" + NewLine);
+                        write(file, si.vnum.ToString() + " " + si.shortdesc + NewLine);
+                    }
                 }
 
                 file.Close();

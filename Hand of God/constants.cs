@@ -58,6 +58,8 @@ namespace HandofGod
         public const int i_mobdialog_Q = 21;
         public const int i_mobdialog_A = 22;
         public const int i_mobdialog_function = 23;
+        // new shop item list
+        public const int i_shop_item_list = 24;
 
         //directions
         public const int dir_north = 0;

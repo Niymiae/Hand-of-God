@@ -1567,7 +1567,7 @@ namespace HandofGod
                     write(file, o.keys + "~" + NewLine);
                     write(file, o.shortdesc + "~" + NewLine);
                     write(file, o.description + "~" + NewLine);
-                    write(file, o.actiondesc + NewLine + "~" + NewLine);
+                    write(file, o.actiondesc + "~" + NewLine);
 
                     //first numbers line
                     write(file, o.properties[C.op_type] + " ");

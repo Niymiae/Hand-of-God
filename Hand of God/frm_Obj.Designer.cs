@@ -120,6 +120,14 @@
             this.lbl_val0 = new System.Windows.Forms.Label();
             this.gaugecharcounter = new HandofGod.CharCounterProgressBar();
             this.chkhtmlexport = new System.Windows.Forms.CheckBox();
+            this.extraVal1 = new HandofGod.ValAffEditbox();
+            this.extraVal2 = new HandofGod.ValAffEditbox();
+            this.extraVal3 = new HandofGod.ValAffEditbox();
+            this.extraVal4 = new HandofGod.ValAffEditbox();
+            this.extralbl1 = new System.Windows.Forms.Label();
+            this.extralbl2 = new System.Windows.Forms.Label();
+            this.extralbl3 = new System.Windows.Forms.Label();
+            this.extralbl4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.page_longdesc.SuspendLayout();
@@ -147,6 +155,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.val2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal4)).BeginInit();
             this.SuspendLayout();
             // 
             // spin_vnum
@@ -159,28 +171,28 @@
             // 
             // btnapply
             // 
-            this.btnapply.Location = new System.Drawing.Point(522, 523);
+            this.btnapply.Location = new System.Drawing.Point(535, 555);
             this.btnapply.Click += new System.EventHandler(this.btnapply_Click_1);
             // 
             // btnrestore
             // 
-            this.btnrestore.Location = new System.Drawing.Point(603, 523);
+            this.btnrestore.Location = new System.Drawing.Point(616, 555);
             // 
             // btnprev
             // 
-            this.btnprev.Location = new System.Drawing.Point(721, 523);
+            this.btnprev.Location = new System.Drawing.Point(734, 555);
             // 
             // btnnext
             // 
-            this.btnnext.Location = new System.Drawing.Point(754, 523);
+            this.btnnext.Location = new System.Drawing.Point(767, 555);
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(93, 523);
+            this.btncancel.Location = new System.Drawing.Point(93, 555);
             // 
             // btnok
             // 
-            this.btnok.Location = new System.Drawing.Point(12, 523);
+            this.btnok.Location = new System.Drawing.Point(12, 555);
             // 
             // label5
             // 
@@ -208,10 +220,10 @@
             this.tabControl1.Controls.Add(this.page_longdesc);
             this.tabControl1.Controls.Add(this.page_actiondesc);
             this.tabControl1.Controls.Add(this.page_extradesc);
-            this.tabControl1.Location = new System.Drawing.Point(12, 256);
+            this.tabControl1.Location = new System.Drawing.Point(12, 297);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(470, 247);
+            this.tabControl1.Size = new System.Drawing.Size(483, 238);
             this.tabControl1.TabIndex = 81;
             // 
             // page_longdesc
@@ -220,7 +232,7 @@
             this.page_longdesc.Location = new System.Drawing.Point(4, 22);
             this.page_longdesc.Name = "page_longdesc";
             this.page_longdesc.Padding = new System.Windows.Forms.Padding(3);
-            this.page_longdesc.Size = new System.Drawing.Size(462, 221);
+            this.page_longdesc.Size = new System.Drawing.Size(475, 212);
             this.page_longdesc.TabIndex = 0;
             this.page_longdesc.Text = "Long Desc";
             this.page_longdesc.UseVisualStyleBackColor = true;
@@ -233,7 +245,7 @@
             this.memo_desc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.memo_desc.Location = new System.Drawing.Point(3, 3);
             this.memo_desc.Name = "memo_desc";
-            this.memo_desc.Size = new System.Drawing.Size(456, 215);
+            this.memo_desc.Size = new System.Drawing.Size(469, 206);
             this.memo_desc.TabIndex = 2;
             this.memo_desc.Text = "";
             this.memo_desc.WordWrap = false;
@@ -244,7 +256,7 @@
             this.page_actiondesc.Location = new System.Drawing.Point(4, 22);
             this.page_actiondesc.Name = "page_actiondesc";
             this.page_actiondesc.Padding = new System.Windows.Forms.Padding(3);
-            this.page_actiondesc.Size = new System.Drawing.Size(462, 221);
+            this.page_actiondesc.Size = new System.Drawing.Size(475, 212);
             this.page_actiondesc.TabIndex = 1;
             this.page_actiondesc.Text = "Action Desc";
             this.page_actiondesc.UseVisualStyleBackColor = true;
@@ -257,7 +269,7 @@
             this.memo_actiondesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.memo_actiondesc.Location = new System.Drawing.Point(3, 3);
             this.memo_actiondesc.Name = "memo_actiondesc";
-            this.memo_actiondesc.Size = new System.Drawing.Size(456, 215);
+            this.memo_actiondesc.Size = new System.Drawing.Size(469, 206);
             this.memo_actiondesc.TabIndex = 2;
             this.memo_actiondesc.Text = "";
             this.memo_actiondesc.WordWrap = false;
@@ -272,7 +284,7 @@
             this.page_extradesc.Controls.Add(this.edt_extradesc);
             this.page_extradesc.Location = new System.Drawing.Point(4, 22);
             this.page_extradesc.Name = "page_extradesc";
-            this.page_extradesc.Size = new System.Drawing.Size(462, 221);
+            this.page_extradesc.Size = new System.Drawing.Size(475, 212);
             this.page_extradesc.TabIndex = 3;
             this.page_extradesc.Text = "Extra Desc";
             this.page_extradesc.UseVisualStyleBackColor = true;
@@ -351,10 +363,10 @@
             this.tabControl2.Controls.Add(this.tab_flags0);
             this.tabControl2.Controls.Add(this.tab_flagas1);
             this.tabControl2.Controls.Add(this.tab_wear);
-            this.tabControl2.Location = new System.Drawing.Point(603, 6);
+            this.tabControl2.Location = new System.Drawing.Point(616, 6);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(186, 497);
+            this.tabControl2.Size = new System.Drawing.Size(186, 529);
             this.tabControl2.TabIndex = 84;
             // 
             // tab_flags0
@@ -367,7 +379,7 @@
             this.tab_flags0.Location = new System.Drawing.Point(4, 22);
             this.tab_flags0.Name = "tab_flags0";
             this.tab_flags0.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_flags0.Size = new System.Drawing.Size(178, 471);
+            this.tab_flags0.Size = new System.Drawing.Size(178, 503);
             this.tab_flags0.TabIndex = 1;
             this.tab_flags0.Text = "Proprietà";
             // 
@@ -631,7 +643,7 @@
             this.tab_flagas1.Controls.Add(this.flg13);
             this.tab_flagas1.Location = new System.Drawing.Point(4, 22);
             this.tab_flagas1.Name = "tab_flagas1";
-            this.tab_flagas1.Size = new System.Drawing.Size(178, 471);
+            this.tab_flagas1.Size = new System.Drawing.Size(178, 503);
             this.tab_flagas1.TabIndex = 4;
             this.tab_flagas1.Text = "Usabilità";
             // 
@@ -769,7 +781,7 @@
             this.tab_wear.Controls.Add(this.list_wear);
             this.tab_wear.Location = new System.Drawing.Point(4, 22);
             this.tab_wear.Name = "tab_wear";
-            this.tab_wear.Size = new System.Drawing.Size(178, 471);
+            this.tab_wear.Size = new System.Drawing.Size(178, 503);
             this.tab_wear.TabIndex = 3;
             this.tab_wear.Text = "Posizione";
             this.tab_wear.UseVisualStyleBackColor = true;
@@ -781,7 +793,7 @@
             this.list_wear.FormattingEnabled = true;
             this.list_wear.Location = new System.Drawing.Point(0, 0);
             this.list_wear.Name = "list_wear";
-            this.list_wear.Size = new System.Drawing.Size(178, 471);
+            this.list_wear.Size = new System.Drawing.Size(178, 503);
             this.list_wear.TabIndex = 1;
             this.list_wear.SelectedIndexChanged += new System.EventHandler(this.list_flags_SelectedIndexChanged);
             // 
@@ -790,9 +802,9 @@
             this.list_extradesc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.list_extradesc.FormattingEnabled = true;
-            this.list_extradesc.Location = new System.Drawing.Point(484, 297);
+            this.list_extradesc.Location = new System.Drawing.Point(496, 316);
             this.list_extradesc.Name = "list_extradesc";
-            this.list_extradesc.Size = new System.Drawing.Size(113, 186);
+            this.list_extradesc.Size = new System.Drawing.Size(113, 212);
             this.list_extradesc.TabIndex = 86;
             this.list_extradesc.SelectedValueChanged += new System.EventHandler(this.list_extradesc_SelectedValueChanged);
             // 
@@ -801,11 +813,11 @@
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(481, 277);
+            this.label13.Location = new System.Drawing.Point(493, 297);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 13);
+            this.label13.Size = new System.Drawing.Size(85, 13);
             this.label13.TabIndex = 87;
-            this.label13.Text = "Extra Desc: ";
+            this.label13.Text = "Descrizioni Extra";
             // 
             // prop1
             // 
@@ -876,7 +888,7 @@
             this.combo_type.FormattingEnabled = true;
             this.combo_type.Location = new System.Drawing.Point(47, 57);
             this.combo_type.Name = "combo_type";
-            this.combo_type.Size = new System.Drawing.Size(145, 21);
+            this.combo_type.Size = new System.Drawing.Size(106, 21);
             this.combo_type.TabIndex = 3;
             this.combo_type.SelectedIndexChanged += new System.EventHandler(this.combo_type_SelectedIndexChanged);
             this.combo_type.KeyDown += new System.Windows.Forms.KeyEventHandler(this.combo_type_KeyDown);
@@ -1106,7 +1118,7 @@
             this.pn_values.Controls.Add(this.lbl_val0);
             this.pn_values.Location = new System.Drawing.Point(10, 82);
             this.pn_values.Name = "pn_values";
-            this.pn_values.Size = new System.Drawing.Size(198, 168);
+            this.pn_values.Size = new System.Drawing.Size(210, 168);
             this.pn_values.TabIndex = 131;
             this.pn_values.TabStop = false;
             this.pn_values.Text = "Values";
@@ -1241,27 +1253,143 @@
             // 
             this.gaugecharcounter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gaugecharcounter.Location = new System.Drawing.Point(16, 502);
+            this.gaugecharcounter.Location = new System.Drawing.Point(16, 534);
             this.gaugecharcounter.Name = "gaugecharcounter";
-            this.gaugecharcounter.Size = new System.Drawing.Size(480, 15);
+            this.gaugecharcounter.Size = new System.Drawing.Size(493, 15);
             this.gaugecharcounter.TabIndex = 104;
             // 
             // chkhtmlexport
             // 
             this.chkhtmlexport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.chkhtmlexport.AutoSize = true;
-            this.chkhtmlexport.Location = new System.Drawing.Point(174, 529);
+            this.chkhtmlexport.Location = new System.Drawing.Point(174, 561);
             this.chkhtmlexport.Name = "chkhtmlexport";
             this.chkhtmlexport.Size = new System.Drawing.Size(122, 17);
             this.chkhtmlexport.TabIndex = 134;
             this.chkhtmlexport.Text = "Esportabile in HTML";
             this.chkhtmlexport.UseVisualStyleBackColor = true;
             // 
+            // extraVal1
+            // 
+            this.extraVal1.Location = new System.Drawing.Point(12, 270);
+            this.extraVal1.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.extraVal1.Minimum = new decimal(new int[] {
+            -2147483648,
+            0,
+            0,
+            -2147483648});
+            this.extraVal1.Name = "extraVal1";
+            this.extraVal1.Size = new System.Drawing.Size(109, 20);
+            this.extraVal1.TabIndex = 137;
+            this.extraVal1.ValueType = '\0';
+            // 
+            // extraVal2
+            // 
+            this.extraVal2.Location = new System.Drawing.Point(127, 270);
+            this.extraVal2.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.extraVal2.Minimum = new decimal(new int[] {
+            -2147483648,
+            0,
+            0,
+            -2147483648});
+            this.extraVal2.Name = "extraVal2";
+            this.extraVal2.Size = new System.Drawing.Size(109, 20);
+            this.extraVal2.TabIndex = 138;
+            this.extraVal2.ValueType = '\0';
+            // 
+            // extraVal3
+            // 
+            this.extraVal3.Location = new System.Drawing.Point(242, 271);
+            this.extraVal3.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.extraVal3.Minimum = new decimal(new int[] {
+            -2147483648,
+            0,
+            0,
+            -2147483648});
+            this.extraVal3.Name = "extraVal3";
+            this.extraVal3.Size = new System.Drawing.Size(109, 20);
+            this.extraVal3.TabIndex = 139;
+            this.extraVal3.ValueType = '\0';
+            // 
+            // extraVal4
+            // 
+            this.extraVal4.Location = new System.Drawing.Point(357, 271);
+            this.extraVal4.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.extraVal4.Minimum = new decimal(new int[] {
+            -2147483648,
+            0,
+            0,
+            -2147483648});
+            this.extraVal4.Name = "extraVal4";
+            this.extraVal4.Size = new System.Drawing.Size(109, 20);
+            this.extraVal4.TabIndex = 140;
+            this.extraVal4.ValueType = '\0';
+            // 
+            // extralbl1
+            // 
+            this.extralbl1.AutoSize = true;
+            this.extralbl1.Location = new System.Drawing.Point(9, 257);
+            this.extralbl1.Name = "extralbl1";
+            this.extralbl1.Size = new System.Drawing.Size(78, 13);
+            this.extralbl1.TabIndex = 141;
+            this.extralbl1.Text = "Efficacia Fisica";
+            // 
+            // extralbl2
+            // 
+            this.extralbl2.AutoSize = true;
+            this.extralbl2.Location = new System.Drawing.Point(124, 257);
+            this.extralbl2.Name = "extralbl2";
+            this.extralbl2.Size = new System.Drawing.Size(86, 13);
+            this.extralbl2.TabIndex = 142;
+            this.extralbl2.Text = "Efficacia Magica";
+            // 
+            // extralbl3
+            // 
+            this.extralbl3.AutoSize = true;
+            this.extralbl3.Location = new System.Drawing.Point(239, 257);
+            this.extralbl3.Name = "extralbl3";
+            this.extralbl3.Size = new System.Drawing.Size(95, 13);
+            this.extralbl3.TabIndex = 143;
+            this.extralbl3.Text = "Attributo Associato";
+            // 
+            // extralbl4
+            // 
+            this.extralbl4.AutoSize = true;
+            this.extralbl4.Location = new System.Drawing.Point(354, 257);
+            this.extralbl4.Name = "extralbl4";
+            this.extralbl4.Size = new System.Drawing.Size(82, 13);
+            this.extralbl4.TabIndex = 144;
+            this.extralbl4.Text = "Abilità Specifica";
+            // 
             // frm_Obj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 552);
+            this.ClientSize = new System.Drawing.Size(806, 584);
+            this.Controls.Add(this.extralbl4);
+            this.Controls.Add(this.extralbl3);
+            this.Controls.Add(this.extralbl2);
+            this.Controls.Add(this.extralbl1);
+            this.Controls.Add(this.extraVal4);
+            this.Controls.Add(this.extraVal3);
+            this.Controls.Add(this.extraVal2);
+            this.Controls.Add(this.extraVal1);
             this.Controls.Add(this.chkhtmlexport);
             this.Controls.Add(this.pn_values);
             this.Controls.Add(this.pn_affects);
@@ -1313,6 +1441,14 @@
             this.Controls.SetChildIndex(this.lblvnum, 0);
             this.Controls.SetChildIndex(this.spin_vnum, 0);
             this.Controls.SetChildIndex(this.chkhtmlexport, 0);
+            this.Controls.SetChildIndex(this.extraVal1, 0);
+            this.Controls.SetChildIndex(this.extraVal2, 0);
+            this.Controls.SetChildIndex(this.extraVal3, 0);
+            this.Controls.SetChildIndex(this.extraVal4, 0);
+            this.Controls.SetChildIndex(this.extralbl1, 0);
+            this.Controls.SetChildIndex(this.extralbl2, 0);
+            this.Controls.SetChildIndex(this.extralbl3, 0);
+            this.Controls.SetChildIndex(this.extralbl4, 0);
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.page_longdesc.ResumeLayout(false);
@@ -1343,6 +1479,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.val2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.val1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.val0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.extraVal4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1441,5 +1581,13 @@
         private System.Windows.Forms.CheckBox flg13;
         private System.Windows.Forms.CheckBox chkhtmlexport;
         private System.Windows.Forms.Label lbltrapdamage;
+        private ValAffEditbox extraVal1;
+        private ValAffEditbox extraVal2;
+        private ValAffEditbox extraVal3;
+        private ValAffEditbox extraVal4;
+        private System.Windows.Forms.Label extralbl1;
+        private System.Windows.Forms.Label extralbl2;
+        private System.Windows.Forms.Label extralbl3;
+        private System.Windows.Forms.Label extralbl4;
     }
 }

@@ -2063,6 +2063,7 @@ namespace HandofGod
         
         public int[] properties = new int[4];
         public int[] values = new int[4];
+        public int[] extraValues = new int[5];
         public ObjAffect[] affects = new ObjAffect[5];
         public BitVector32 wearpos = new BitVector32();
         public BitVector32 flags = new BitVector32();
@@ -2094,7 +2095,10 @@ namespace HandofGod
                 properties[i] = 0;
 
             for (int i = 0; i <= 3; i++)
+            {
                 values[i] = 0;
+                extraValues[i] = 0;
+            }
 
             for (int i = 0; i <= 4; i++)
                 affects[i].Clear();
@@ -2130,7 +2134,10 @@ namespace HandofGod
                 properties[i] = o.properties[i];
 
             for (int i = 0; i <= 3; i++)
+            {
                 values[i] = o.values[i];
+                extraValues[i] = o.extraValues[i];
+            }
 
             for (int i = 0; i <= 4; i++)
             {

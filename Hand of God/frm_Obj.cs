@@ -18,6 +18,7 @@ namespace HandofGod
         List<CheckBox> chks_flags;
         List<Label> labels_val;
         List<ValAffEditbox> values;
+        List<ValAffEditbox> extraValues;
         List<ComboBox> combos_aff;
         List<ValAffEditbox> affects;
 
@@ -35,6 +36,7 @@ namespace HandofGod
 
             labels_val = new List<Label>() { lbl_val0, lbl_val1, lbl_val2, lbl_val3 };
             values = new List<ValAffEditbox>() { val0, val1, val2, val3 };
+            extraValues = new List<ValAffEditbox>() { extraVal1, extraVal2, extraVal3, extraVal4 };
             combos_aff = new List<ComboBox>() { combo_aff0, combo_aff1, combo_aff2, combo_aff3, combo_aff4 };
             affects = new List<ValAffEditbox>() { aff0, aff1, aff2, aff3, aff4 };
 
@@ -86,7 +88,11 @@ namespace HandofGod
                 (Controls.Find("prop" + i, false)[0] as NumericUpDown).Value = Data.properties[i];
 
             for (int i = 0; i <= 3; i++)
+            {
                 values[i].Value = Data.values[i];
+                extraValues[i].Value = Data.extraValues[i];
+            }
+
 
             // flags
             for (int i = 0; i <= C.of_end; i++)
@@ -102,6 +108,10 @@ namespace HandofGod
                     values[i].SetArea(ParentArea);
                     values[i].Value = Data.values[i];
                     values[i].RefreshComponents();
+
+                    extraValues[i].SetArea(ParentArea);
+                    extraValues[i].Value = Data.extraValues[i];
+                    extraValues[i].RefreshComponents();
                 }
 
                 combos_aff[i].SelectedIndex = Data.affects[i].index;
@@ -144,7 +154,10 @@ namespace HandofGod
                 Data.properties[i] = Convert.ToInt32((Controls.Find("prop" + i, false)[0] as NumericUpDown).Value);
 
             for (int i = 0; i <= 3; i++)
+            {
                 Data.values[i] = Convert.ToInt32(values[i].Value);
+                Data.extraValues[i] = Convert.ToInt32(extraValues[i].Value);
+            }
 
             for (int i = 0; i <= 4; i++)
             {
@@ -270,6 +283,31 @@ namespace HandofGod
                     max_width = labels_val[i].Right;
             }
 
+            if (combo_type.SelectedIndex == C.ot_weapon)
+            {
+                extralbl1.Visible = true;
+                extralbl2.Visible = true;
+                extralbl3.Visible = true;
+                extralbl4.Visible = true;
+
+                extraVal1.Visible = true;
+                extraVal2.Visible = true;
+                extraVal3.Visible = true;
+                extraVal4.Visible = true;
+            }
+            else 
+            {
+                extralbl1.Visible = false;
+                extralbl2.Visible = false;
+                extralbl3.Visible = false;
+                extralbl4.Visible = false;
+
+                extraVal1.Visible = false;
+                extraVal2.Visible = false;
+                extraVal3.Visible = false;
+                extraVal4.Visible = false;
+            }
+
             i = 0;
             foreach (char c in s)
             {
@@ -277,6 +315,7 @@ namespace HandofGod
                 values[i].Left = max_width;
                 i++;
             }
+
             pn_values.Width = max_width + val0.Width + 10;
             //pn_affects.Left = pn_values.Right;
 

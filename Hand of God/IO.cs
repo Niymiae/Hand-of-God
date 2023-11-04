@@ -899,6 +899,14 @@ namespace HandofGod
                                     ex.desc = ReadUntil(file, '~').TrimEnd();
                                     curr.extras.Add(ex);
                                     break;
+                                case 'V':
+                                    ReadUntil(file, '\n');
+                                    // second numbers line
+                                    desc = ReadUntil(file, '\n').Split(' ');
+                                    // values
+                                    for (int i = 0; i <= 3; i++)
+                                        curr.extraValues[i] = ToInt(desc[i]);
+                                    break;
                                 // affect
                                 case 'A':
                                     try
@@ -1583,6 +1591,15 @@ namespace HandofGod
                     write(file, o.properties[C.op_value] + " ");
                     write(file, o.properties[C.op_rent] + NewLine);
 
+                    if (o.properties[C.op_type] == C.ot_weapon)
+                    {
+                        write(file, "V" + NewLine);
+                        for (int i = 0; i <= 3; i++)
+                        {
+                            write(file, o.extraValues[i] + (i == 3 ? NewLine : " "));
+                        }
+                    }
+
                     foreach (ExtraDesc ed in o.extras)
                     {
                         write(file, "E" + NewLine);
@@ -1591,22 +1608,23 @@ namespace HandofGod
                     }
 
                     for (int i = 0; i <= 4; i++)
+                    {
                         if (o.affects[i].index > 0)
+                        {
                             if (!ObjAffect.isComplex(o.affects[i].index))
                             {
                                 write(file, "A" + NewLine);
-                                // spell focus hack
-                                int key = o.affects[i].index; //+ (o.affects[i].index >= 69 ? 1 : 0);
+                                int key = o.affects[i].index;
                                 write(file, key + " " + o.affects[i].value + NewLine);
                             }
-                    else // 17/10/21 Saregon - affects
+                            else // 17/10/21 Saregon - affects
                             {
                                 write(file, "S" + NewLine);
-                                // spell focus hack
-                                int key = o.affects[i].index; //+ (o.affects[i].index >= 69 ? 1 : 0);
+                                int key = o.affects[i].index;
                                 write(file, key + " " + o.affects[i].value + " " + o.affects[i].value2 + " " + o.affects[i].value3 + " " + o.affects[i].value4 + NewLine);
                             }
-                        //
+                        }
+                    }
                 }
 
                 file.Close();

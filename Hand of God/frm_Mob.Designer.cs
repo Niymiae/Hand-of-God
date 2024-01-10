@@ -183,13 +183,7 @@
             this.gem_perc0 = new System.Windows.Forms.NumericUpDown();
             this.label32 = new System.Windows.Forms.Label();
             this.tab_talents = new System.Windows.Forms.TabPage();
-            this.label23 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.spin_epic18 = new System.Windows.Forms.NumericUpDown();
             this.spin_epic17 = new System.Windows.Forms.NumericUpDown();
             this.spin_epic16 = new System.Windows.Forms.NumericUpDown();
@@ -200,19 +194,12 @@
             this.spin_epic11 = new System.Windows.Forms.NumericUpDown();
             this.spin_epic10 = new System.Windows.Forms.NumericUpDown();
             this.spin_epic9 = new System.Windows.Forms.NumericUpDown();
-            this.label52 = new System.Windows.Forms.Label();
             this.spin_epic8 = new System.Windows.Forms.NumericUpDown();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.spin_epic7 = new System.Windows.Forms.NumericUpDown();
             this.spin_epic6 = new System.Windows.Forms.NumericUpDown();
             this.spin_epic5 = new System.Windows.Forms.NumericUpDown();
-            this.label38 = new System.Windows.Forms.Label();
             this.spin_epic4 = new System.Windows.Forms.NumericUpDown();
-            this.label40 = new System.Windows.Forms.Label();
             this.spin_epic3 = new System.Windows.Forms.NumericUpDown();
-            this.label37 = new System.Windows.Forms.Label();
             this.spin_epic2 = new System.Windows.Forms.NumericUpDown();
             this.label34 = new System.Windows.Forms.Label();
             this.spin_epic1 = new System.Windows.Forms.NumericUpDown();
@@ -2032,13 +2019,7 @@
             // tab_talents
             // 
             this.tab_talents.BackColor = System.Drawing.SystemColors.Control;
-            this.tab_talents.Controls.Add(this.label23);
             this.tab_talents.Controls.Add(this.numericUpDown1);
-            this.tab_talents.Controls.Add(this.label22);
-            this.tab_talents.Controls.Add(this.label19);
-            this.tab_talents.Controls.Add(this.label4);
-            this.tab_talents.Controls.Add(this.label21);
-            this.tab_talents.Controls.Add(this.label1);
             this.tab_talents.Controls.Add(this.spin_epic18);
             this.tab_talents.Controls.Add(this.spin_epic17);
             this.tab_talents.Controls.Add(this.spin_epic16);
@@ -2049,19 +2030,12 @@
             this.tab_talents.Controls.Add(this.spin_epic11);
             this.tab_talents.Controls.Add(this.spin_epic10);
             this.tab_talents.Controls.Add(this.spin_epic9);
-            this.tab_talents.Controls.Add(this.label52);
             this.tab_talents.Controls.Add(this.spin_epic8);
-            this.tab_talents.Controls.Add(this.label41);
-            this.tab_talents.Controls.Add(this.label43);
-            this.tab_talents.Controls.Add(this.label44);
             this.tab_talents.Controls.Add(this.spin_epic7);
             this.tab_talents.Controls.Add(this.spin_epic6);
             this.tab_talents.Controls.Add(this.spin_epic5);
-            this.tab_talents.Controls.Add(this.label38);
             this.tab_talents.Controls.Add(this.spin_epic4);
-            this.tab_talents.Controls.Add(this.label40);
             this.tab_talents.Controls.Add(this.spin_epic3);
-            this.tab_talents.Controls.Add(this.label37);
             this.tab_talents.Controls.Add(this.spin_epic2);
             this.tab_talents.Controls.Add(this.label34);
             this.tab_talents.Controls.Add(this.spin_epic1);
@@ -2071,18 +2045,9 @@
             this.tab_talents.TabIndex = 4;
             this.tab_talents.Text = "Configurazione AI";
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(342, 155);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(68, 13);
-            this.label23.TabIndex = 86;
-            this.label23.Text = "Helps Others";
-            // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(345, 171);
+            this.numericUpDown1.Location = new System.Drawing.Point(209, 119);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2092,55 +2057,9 @@
             this.numericUpDown1.Size = new System.Drawing.Size(91, 20);
             this.numericUpDown1.TabIndex = 85;
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(342, 103);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(101, 13);
-            this.label22.TabIndex = 84;
-            this.label22.Text = "Uses Healing Spells";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(12, 121);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(91, 13);
-            this.label19.TabIndex = 83;
-            this.label19.Text = "Power Per Round";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(342, 51);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
-            this.label4.TabIndex = 82;
-            this.label4.Text = "Buffs";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(342, 207);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(65, 13);
-            this.label21.TabIndex = 81;
-            this.label21.Text = "OOC Regen";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
-            this.label1.TabIndex = 78;
-            this.label1.Text = "Power Variance";
-            // 
             // spin_epic18
             // 
-            this.spin_epic18.Enabled = false;
-            this.spin_epic18.Location = new System.Drawing.Point(208, 223);
+            this.spin_epic18.Location = new System.Drawing.Point(209, 171);
             this.spin_epic18.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2152,7 +2071,7 @@
             // 
             // spin_epic17
             // 
-            this.spin_epic17.Location = new System.Drawing.Point(345, 223);
+            this.spin_epic17.Location = new System.Drawing.Point(209, 145);
             this.spin_epic17.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2164,7 +2083,7 @@
             // 
             // spin_epic16
             // 
-            this.spin_epic16.Location = new System.Drawing.Point(208, 197);
+            this.spin_epic16.Location = new System.Drawing.Point(112, 171);
             this.spin_epic16.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2176,7 +2095,7 @@
             // 
             // spin_epic15
             // 
-            this.spin_epic15.Location = new System.Drawing.Point(111, 197);
+            this.spin_epic15.Location = new System.Drawing.Point(15, 171);
             this.spin_epic15.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2188,7 +2107,7 @@
             // 
             // spin_epic14
             // 
-            this.spin_epic14.Location = new System.Drawing.Point(208, 171);
+            this.spin_epic14.Location = new System.Drawing.Point(112, 145);
             this.spin_epic14.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2201,7 +2120,7 @@
             // 
             // spin_epic13
             // 
-            this.spin_epic13.Location = new System.Drawing.Point(208, 145);
+            this.spin_epic13.Location = new System.Drawing.Point(112, 119);
             this.spin_epic13.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2214,7 +2133,7 @@
             // 
             // spin_epic12
             // 
-            this.spin_epic12.Location = new System.Drawing.Point(208, 119);
+            this.spin_epic12.Location = new System.Drawing.Point(112, 93);
             this.spin_epic12.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2227,7 +2146,7 @@
             // 
             // spin_epic11
             // 
-            this.spin_epic11.Location = new System.Drawing.Point(208, 93);
+            this.spin_epic11.Location = new System.Drawing.Point(112, 67);
             this.spin_epic11.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2240,7 +2159,7 @@
             // 
             // spin_epic10
             // 
-            this.spin_epic10.Location = new System.Drawing.Point(345, 119);
+            this.spin_epic10.Location = new System.Drawing.Point(209, 93);
             this.spin_epic10.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2253,7 +2172,7 @@
             // 
             // spin_epic9
             // 
-            this.spin_epic9.Location = new System.Drawing.Point(111, 119);
+            this.spin_epic9.Location = new System.Drawing.Point(15, 93);
             this.spin_epic9.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2264,18 +2183,9 @@
             this.spin_epic9.TabIndex = 68;
             this.spin_epic9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
             // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(208, 51);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(93, 13);
-            this.label52.TabIndex = 15;
-            this.label52.Text = "Danger Behaviour";
-            // 
             // spin_epic8
             // 
-            this.spin_epic8.Location = new System.Drawing.Point(111, 67);
+            this.spin_epic8.Location = new System.Drawing.Point(209, 67);
             this.spin_epic8.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2286,36 +2196,9 @@
             this.spin_epic8.TabIndex = 67;
             this.spin_epic8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
             // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(15, 225);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(90, 13);
-            this.label41.TabIndex = 13;
-            this.label41.Text = "Def. AoE Chance";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(21, 199);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(84, 13);
-            this.label43.TabIndex = 12;
-            this.label43.Text = "Off AoE Chance";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(13, 173);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(92, 13);
-            this.label44.TabIndex = 11;
-            this.label44.Text = "Defensive Weight";
-            // 
             // spin_epic7
             // 
-            this.spin_epic7.Location = new System.Drawing.Point(111, 171);
+            this.spin_epic7.Location = new System.Drawing.Point(15, 145);
             this.spin_epic7.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2328,7 +2211,7 @@
             // 
             // spin_epic6
             // 
-            this.spin_epic6.Location = new System.Drawing.Point(111, 145);
+            this.spin_epic6.Location = new System.Drawing.Point(15, 119);
             this.spin_epic6.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2341,7 +2224,7 @@
             // 
             // spin_epic5
             // 
-            this.spin_epic5.Location = new System.Drawing.Point(111, 93);
+            this.spin_epic5.Location = new System.Drawing.Point(15, 67);
             this.spin_epic5.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2352,18 +2235,9 @@
             this.spin_epic5.TabIndex = 64;
             this.spin_epic5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
             // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(16, 147);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(89, 13);
-            this.label38.TabIndex = 7;
-            this.label38.Text = "Offensive Weight";
-            // 
             // spin_epic4
             // 
-            this.spin_epic4.Location = new System.Drawing.Point(345, 67);
+            this.spin_epic4.Location = new System.Drawing.Point(209, 41);
             this.spin_epic4.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2372,21 +2246,11 @@
             this.spin_epic4.Name = "spin_epic4";
             this.spin_epic4.Size = new System.Drawing.Size(91, 20);
             this.spin_epic4.TabIndex = 63;
-            this.spin_epic4.Visible = false;
             this.spin_epic4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(29, 69);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(76, 13);
-            this.label40.TabIndex = 5;
-            this.label40.Text = "Starting Power";
             // 
             // spin_epic3
             // 
-            this.spin_epic3.Location = new System.Drawing.Point(111, 223);
+            this.spin_epic3.Location = new System.Drawing.Point(15, 197);
             this.spin_epic3.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2397,19 +2261,9 @@
             this.spin_epic3.TabIndex = 62;
             this.spin_epic3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
             // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(111, 51);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(91, 13);
-            this.label37.TabIndex = 3;
-            this.label37.Text = "Normal Behaviour";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // spin_epic2
             // 
-            this.spin_epic2.Location = new System.Drawing.Point(208, 67);
+            this.spin_epic2.Location = new System.Drawing.Point(112, 41);
             this.spin_epic2.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2418,21 +2272,20 @@
             this.spin_epic2.Name = "spin_epic2";
             this.spin_epic2.Size = new System.Drawing.Size(91, 20);
             this.spin_epic2.TabIndex = 61;
-            this.spin_epic2.Visible = false;
             this.spin_epic2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(151, 12);
+            this.label34.Location = new System.Drawing.Point(16, 12);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(92, 13);
+            this.label34.Size = new System.Drawing.Size(135, 13);
             this.label34.TabIndex = 1;
-            this.label34.Text = "Danger Threshold";
+            this.label34.Text = "VNum Abilità (1 per campo)";
             // 
             // spin_epic1
             // 
-            this.spin_epic1.Location = new System.Drawing.Point(154, 28);
+            this.spin_epic1.Location = new System.Drawing.Point(15, 41);
             this.spin_epic1.Maximum = new decimal(new int[] {
             9999999,
             0,
@@ -2844,19 +2697,12 @@
         private System.Windows.Forms.NumericUpDown spin_epic11;
         private System.Windows.Forms.NumericUpDown spin_epic10;
         private System.Windows.Forms.NumericUpDown spin_epic9;
-        private System.Windows.Forms.Label label52;
         private System.Windows.Forms.NumericUpDown spin_epic8;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
         private System.Windows.Forms.NumericUpDown spin_epic7;
         private System.Windows.Forms.NumericUpDown spin_epic6;
         private System.Windows.Forms.NumericUpDown spin_epic5;
-        private System.Windows.Forms.Label label38;
         private System.Windows.Forms.NumericUpDown spin_epic4;
-        private System.Windows.Forms.Label label40;
         private System.Windows.Forms.NumericUpDown spin_epic3;
-        private System.Windows.Forms.Label label37;
         private System.Windows.Forms.NumericUpDown spin_epic2;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.NumericUpDown spin_epic1;
@@ -2943,16 +2789,10 @@
         private System.Windows.Forms.Button btneditA;
         private System.Windows.Forms.Button btndelA;
         private System.Windows.Forms.Button btnaddA;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown spin_epic18;
         private System.Windows.Forms.NumericUpDown spin_epic17;
         private System.Windows.Forms.NumericUpDown spin_epic16;
         private System.Windows.Forms.NumericUpDown spin_epic15;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label19;
     }
 }

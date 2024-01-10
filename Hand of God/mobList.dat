@@ -1,0 +1,4685 @@
+1#Puff il drago magico
+2#lo Spettro dell'Anello
+3#il torturatore
+5#l'Inquisitore
+10#un elementale del fuoco
+11#un elementale dell'acqua
+12#un elementale dell'aria
+13#un elementale della terra
+20#un vrock
+21#un hezrou
+22#un glabrezu
+23#Nalfeshnee
+24#Marilith
+25#Balor
+30#Grenetta
+31#Paul
+32#Delfin
+33#Tor
+34#Tasha
+35#il maestro Oratius
+36#Hassan
+37#Steel, il maestro dei guerrieri
+38#il golem armatura
+39#un'immensa massa strisciante
+40#un elementale del fuoco
+41#un elementale della terra
+42#un elementale dell'acqua
+43#un elementale dell'aria
+45#il fragile alberello
+46#il giovane albero
+47#l'albero maturo
+48#il vecchio albero
+49#l'albero antico
+50#un minuscolo uomo di pietra
+51#un piccolo uomo di pietra
+52#un uomo di pietra
+53#un grosso uomo di pietra
+54#un grossissimo uomo di pietra
+55#un enorme uomo di pietra
+60#uno spiritello di polvere
+65#un pony
+66#un piccolo cavallo
+67#un grosso cavallo
+68#un cavallo da guerra
+69#un cavallo volante
+70#un incubo
+71#un cavallo fiammeggiante
+72#Zoccofuoco
+73#l'[UMDMG]ombra[sys] di
+74#nonPlayerDamage Service Mob
+100#uno zombie
+101#un troll gigante
+102#un albero contorto
+103#un costrutto di diamante
+104#un sacerdote del tempio
+105#uno zombie putrescente
+106#cavalcatura generica
+196#un medico grigio
+197#un medico ambrato
+198#la guardia dei giochi
+199#uno squalo
+201#un goblin
+202#una scopa animata
+203#un falco
+204#uno scarafaggio gigante
+205#un uomo serpente
+206#uno scheletro
+207#un cane rabbioso
+208#una rana gigante
+209#un hobgoblin
+210#un ragno
+211#uno gnoll
+212#un vermone rosa
+213#una formica gigante
+214#un cane da guerra
+215#una rana gigante
+216#un ghast
+217#una serpe gigantesca
+218#uno stirge
+219#un grosso uomo lucertola
+220#un gladiatore
+221#un orchetto
+222#uno scarafaggio gigante
+223#un ghoul
+224#una lucertola gigante
+225#uno gnoll
+226#un ogre
+227#un ragno gigante
+228#una pulce gigante
+229#un furetto gigante
+230#un giovane drago Nero
+231#un mistico
+232#un cane feroce
+233#un piccolo drago blu
+234#un chierico nano
+235#un gargoyle di granito
+236#uno JuJu zombie
+237#un lupo mannaro
+238#un orrore uncinato
+239#qualcuno
+240#una rana gigante
+241#un'assassina elfica
+242#una pantera distorcente
+243#un giovane draghetto bianco
+244#una leucrotta
+245#una lucertola bianca
+246#uno spiritello
+247#un minotauro
+248#un serpente a due-teste
+249#un serpente a sonagli
+250#un golem d'ossidiana
+251#un divoratore di cadaveri
+252#una succube
+253#un'idra
+254#un elfo marino
+255#un Ko-drago
+256#un'aragosta gigante
+257#un ogre maji
+258#un otyugh
+259#un ettin
+260#una tarantola gigante
+261#un gigante delle colline
+262#un troll
+263#un'Idra
+264#un gigante del fuoco
+265#un mindflayer
+266#una sacerdotessa di Lolth
+267#un demone abissale
+268#un Deva
+269#un vrock
+270#una lumaca gigante
+271#un lupo mannaro
+272#un enorme leone
+273#la leonessa madre
+274#un cucciolo di leone
+275#un leone
+276#una sanguisuga gigante
+277#una lampreda gigante
+278#un pesce d'argento
+279#un barracuda
+280#un pesce palla
+281#il topo gigante
+282#un cane che sbava
+283#un coyote affamato
+284#una iena ridens
+285#un falco nero
+286#un falco rosso
+287#un grosso insetto
+288#un grosso ragno
+289#uno scorpione rosso
+290#uno scimpanze'
+291#un orango
+292#un grosso gorilla
+293#una lucertola cornuta
+294#un cucciolo di Godzilla
+295#l'orso bruno
+296#un orso nero
+297#l'orso grizzly
+298#un coguaro
+299#il giovane leone
+401#un bandito
+402#il capo della banda
+403#un bandito
+404#un bandito
+405#un bandito
+406#una grossa serpe
+407#un bandito che stava facendo pipi'
+504#il golem di radici
+505#un grosso orso grizzly
+506#un veloce scoiattolino
+507#un scoiattolo
+508#un gatto selvatico
+509#un lupo dal pelo grigio
+510#un gufo
+511#un falco dalle piume insanguinate
+512#un boa constrictor
+513#un cerbiatto
+514#un falco dalle piume insanguinate
+515#Minerva
+516#Llana
+517#Arathorn
+518#Montolio
+519#un verme parassita
+520#una fatina
+600#il druido
+601#il druido
+602#il druido
+603#il druido
+604#il druido
+605#il druido
+606#il druido
+607#il druido
+608#il druido
+609#il druido
+610#il druido
+611#il druido
+612#il druido
+613#il druido
+614#il druido
+615#il druido
+616#il druido
+617#il druido
+618#il druido
+619#il druido
+620#il druido
+621#il druido
+622#il druido
+623#il druido
+624#il druido
+625#il druido
+626#il druido
+627#il druido
+628#il druido
+629#il druido
+630#il druido
+631#il druido
+632#il druido
+633#il druido
+634#il druido
+635#il druido
+636#il druido
+637#il druido
+638#il druido
+639#il druido
+640#il druido
+641#la Maestra dei Druidi
+642#il Maestro dei Druidi
+643#un enorme albero antico
+644#un enorme albero antico
+650#il monaco
+651#il monaco
+652#il monaco
+653#il monaco
+654#il monaco
+655#il monaco
+656#il monaco
+657#il monaco
+658#il monaco
+659#il monaco
+660#il monaco
+661#il monaco
+662#il monaco
+663#il monaco
+664#il monaco
+665#il monaco
+666#il monaco
+667#il monaco
+668#il monaco
+669#il monaco
+670#il monaco
+671#il monaco
+672#il monaco
+673#il monaco
+674#il monaco
+675#il monaco
+676#il monaco
+677#il monaco
+678#il monaco
+679#il monaco
+680#il monaco
+681#il monaco
+682#il monaco
+683#il monaco
+684#il monaco
+685#il monaco
+686#il monaco
+687#il monaco
+688#il monaco
+689#il monaco
+690#il monaco
+691#il Maestro dei Monaci
+700#il gigantesco barista
+701#la sacerdotessa di Zeus
+702#Margherita
+703#Rugantino
+704#il capo vascello
+705#una schiava
+706#un prete della setta del polipo
+707#un monello
+708#Felice
+709#il macchinista
+710#il Centurione Giulio
+711#il Centurione Andreas
+712#il vecchio Lucrezio
+713#un legionario della III legio
+714#la statua di Mercurio
+715#un pescatore
+716#il Guardiano del faro
+717#l'armaiolo
+718#il panettiere
+800#un mob contenitore per test
+807#il pettirosso
+808#il goblin
+809#il gatto nero
+810#il giovane mindflayer
+811#il falco rosso
+812#il lupo grigio
+813#l'elementale dell'acqua
+814#la donna cobra
+815#il ghoul
+816#la pantera distorcente
+817#lo zombie
+818#il gigante delle colline
+819#il minotauro
+820#il falco imperiale
+821#il drago bianco
+822#l'aracnide gigante
+823#il quickling
+824#il fuoco $c0014fatuo$c0007
+825#il delfino astrale
+826#il drow
+827#l'elementale della terra
+828#il folletto dei boschi
+829#la donna gatto
+830#lo gnomo delle montagne
+831#il pegaso
+832#il torturatore mindflayer
+833#il gigante del fuoco
+834#il drago di bronzo
+835#l'uomo serpente
+836#la tigre mannara
+837#il gigante dei ghiacci
+838#l'unicorno bianco
+839#il drago blu
+840#l'elementale del fuoco
+841#il signore dei Gatti
+842#il maestro mindflayer
+843#il clone di Strahd
+844#l'enfan
+845#il gigante delle tempeste
+846#l'elite quickling
+847#la draghessa d'argento
+848#il golem d'oro
+849#l'elementale dell'aria
+850#il vampiro
+851#il grande drago rosso
+852#il signore dei Ghoul
+853#$c0001l'araba Fenice$c0007
+854#il lich
+855#il grande drago dorato
+856#la draghessa $c0001P$c0002o$c0003l$c0004i$c0005c$c0006r$c0002o$c0003m$c0004a$c0005t$c0006i$c0001c$c0002a$c0007
+857#il sire dei Lupi
+858#l'erinne
+859#la succube
+860#l'onda cadaverica
+861#il treant
+862#il golem dei fulmini
+863#il cacciatore roo
+864#il nano
+865#il Solar Deva
+866#l'incubo
+867#il drago astrale
+868#l'onda Kamea-Mea
+869#il potente beholder
+900#l'Avatar
+901#un orso bruno
+902#l'aracnouccello
+903#una lamia
+904#la lucertola dei ghiacci
+905#l'orso bianco
+906#il signore dei boschi
+907#il basilisco dei boschi
+908#il boa
+909#l'enorme ragno maculato
+910#l'uomo lucertola
+911#il lupo d'argento
+912#la tigre bianca
+913#il mulichort
+914#la tigre dai denti a sciabola
+915#il gorilla albino
+916#la salamandra gigante
+917#lo spiritello dei boschi
+918#l'elefante bianco
+919#il Leviatano
+920#il Treant
+921#la ninfa dei boschi
+922#il Centauro $c0008Nero$c0007
+923#l'ombra danzante
+924#la driade
+925#la forza della natura
+926#il kraken
+927#il pipistrello nero
+1033#$c0015il $c0014Guardiano$c0015 di $c0014Asgaard$c0015
+1034#$c0015una papera $c0011gigante$c0007
+1035#$c0008Padre Fridiani$c0007
+1036#$c0015l'Attendente di Shimeril$c0007
+1101#il Portatore dell'Anello
+1102#Mastro Gamgee
+1103#un pargolo
+1104#una bambinaia
+1105#una mucca
+1106#un maiale
+1107#una gallina
+1108#un toro
+1109#un cavallo
+1110#uno sceriffo
+1111#uno sceriffo
+1112#il Thain
+1113#il locandiere
+1114#il Mugnaio
+1115#un aiutante del mugnaio
+1116#il guerriero elfico
+1117#il principe nano
+1118#il negoziante
+1119#il droghiere
+1120#il fabbro
+1121#il maestro di battaglia
+1122#un giovane halfling
+1123#un esperto avventuriero
+1124#una pettegola locale
+1125#una bella halfling
+1126#un allievo
+1127#un damerino di citta'
+1128#un bifolco
+1130#il locandiere
+1131#il receptionist
+1132#uno sceriffo
+1133#un mago
+1201#Plinio il druido
+1203#un'aquila
+1204#il golem guardiano
+1205#Luperco
+1206#Proximus
+1207#un poderoso guerriero
+1208#un sacerdote di Joy
+1209#uno stregone
+1210#un fanatico
+1211#un seguace
+1212#la statua di una fanciulla
+1213#un giovane guerriero
+1214#una figura spettrale
+1215#un assassino
+1216#un drago
+1217#un assassino
+1400#un bandito druido
+1401#un apprendista mago
+1402#un mago grigio
+1403#un mago
+1404#un druido
+1405#un druido
+1406#un chierico orchesco
+1407#un leone tigrato
+1408#un'elfa spadaccina
+1409#un guerriero umano
+1410#una leonessa
+1411#una coppia di Medici
+1412#un sacerdote guerriero
+1413#un chierico pigmeo
+1414#un piccolo monaco
+1415#un monaco medio
+1416#un grande monaco
+1417#un cucciolo di leone
+1418#un ratto gigante
+1419#un barbaro
+1420#il lag
+1421#Il Primo Eroe
+1422#La Prima Eroina
+1423#Il vecchio avatar
+1424#Una buccia di banana
+1425#un paladino
+1426#un ranger
+1427#un principe
+1428#un cavaliere
+1429#un vassallo
+1430#un assistente
+1431#uno spazzino elfo
+1432#uno spettatore
+1433#un poverello
+1434#la Statua dei Gladiatori
+1435#un giovane ladro
+1436#un elementale dell'acqua
+1437#un elementale del fuoco
+1438#un leone gigante
+1439#una sanguisuga gigante
+1440#il serpente padre
+1441#un pesce d'argento
+1442#un serpente guardiano volante
+1499#Tarquinio Prisco
+1500#un guardiano d'ombra
+1501#un avventuriero perduto
+1502#Edgar
+1503#un golem sentinella
+1504#Il mago vagabondo
+1505#Strick il barista
+1506#Tatorious
+1507#Esmerelda
+1508#l'assistente del cuoco
+1509#il prigioniero
+1510#il carceriere
+1511#una scopa animata
+1512#delle mani scheletriche
+1513#un paio di occhi indemoniati
+1514#il Mago
+1515#un apprendista mago
+1516#un giovane apprendista
+1517#un giovane apprendista
+1518#un giovane apprendista
+1519#un gattino
+1520#uno studente
+1521#un'insegnante di magia
+1522#uno studente
+1523#un insegnante di magia
+1524#uno studente di magia
+1525#uno stregone
+1526#un giovane mago
+1527#Alyssa
+1528#un insegnante di magia
+1529#un vecchio stregone
+1530#uno scriba
+1531#una scrivana
+1532#Arbedacurcix
+1533#l'assistente dello scriba
+1534#Majestrix l'incantatore
+1535#una scimitarra danzante
+1536#Proteus l'alchimista pazzo
+1537#Kelmaran l'evocatore
+1538#Kasha l'ammaliatrice
+1539#un golem di legno
+1540#Jorm
+1541#Leomund il costruttore di golem
+1542#un golem di granito
+1543#un golem di bronzo
+1544#un golem di carne
+1545#un golem di stracci
+1546#un golem d'adamantio
+1547#un golem d'argilla
+1548#Prestitigitorium l'illusionista
+1549#Mordenkainen il Negromante
+1550#un guerriero scheletrico
+1551#un gigante non morto
+1552#una brutta strega
+1553#il Libraio
+1554#l'apprendista delle vesti rosse
+1555#Dvarish il gatto
+1556#Justarius
+1557#la statua di una demonessa
+1558#Rakkir il corvo
+1559#Dissidio
+1560#un apprendista dalle vesti bianche
+1561#Piuma il gatto
+1562#Mirabilius
+1563#Raja la tigre
+1564#la signora della magia
+1565#un mago
+1566#il simulacro di Dissidio
+1567#un golem guardiano
+1701#un monaco umano
+1702#un monaco umano
+1703#un monaco nano
+1704#una donna monaco
+1705#un monaco umano
+1706#un monaco umano
+1707#un monaco umano
+1708#un monaco umano
+1709#un monaco umano
+1710#un monaco donna
+1711#un nano monaco
+1712#un nano monaco
+1713#un monaco umano
+1714#un monaco umano
+1715#un monaco umano
+1716#Dorek il monaco
+1717#Ron il monaco
+1718#Raoh
+1719#Lee Pai Long
+1720#Gherontas
+1721#Goku
+1722#Kali'
+1723#uno spettatore
+1724#Ryu-Ken
+1800#un grosso ragno
+1801#una pantegana
+1802#un segretario di tribunale
+1803#uno sciame di insetti
+1804#un leguleio
+1805#un evaso pericoloso
+1806#un mastino partenopeo
+1807#un Haligorth
+1808#un cancelliere di tribunale
+1809#il Magister Justitiae
+1810#una marea di formiche rosse
+1811#un malevolo folletto
+1812#il Magister Curiae
+1813#Il Magister Tribunicius
+1814#un secondino
+1815#Lucinio il custode
+1816#il serpente cieco
+1817#una formica guerriera
+1818#il Magister Bonorum
+1900#l'avatar di Joy
+1903#un lupo
+1904#il capo del villaggio
+1905#un abitante del villaggio
+1906#una donna indigena
+1907#lo stregone del villaggio
+1908#la principessa del villaggio
+1920#un serpente
+1921#un uomo lucertola
+1922#lo sciamano degli uomini lucertola
+1923#un anaconda
+1924#una pozzanghera di fanghiglia verde
+1925#l'aracnouccello
+1926#un cobra
+1944#un prete
+1945#un prete tatuato
+1946#un prete completamente tatuato
+1947#un uomo serpente
+1948#un serpente
+1949#una grossa serpe
+1950#una vergine
+1951#un rettile volante
+1952#un gigante delle foreste
+1953#un uomo serpente
+2010#una schiava
+2011#il vecchio prete del villaggio
+2012#una brutta vecchia strega
+2201#un lupo mannaro
+2202#un goblin
+2203#un cervo
+2204#un cerbiatto
+2205#un hobgoblin
+2206#uno sciame di uccelli stige
+2300#un angelo caduto
+2301#Epheros l'angelo in disgrazia
+2303#Sadiq l'Efreet torturatore
+2304#un efreet guardiano
+2305#un efreet guardiano
+2306#Rajiad l'Efreet alchimista
+2401#una guardia di confine
+2402#un arciere della legione
+2403#un legionario gigante
+2404#un legionario della V legio
+2407#una recluta della legione
+2408#Cicero
+2409#un Agente segreto Imperiale
+2410#lo scriba anziano
+2411#il carceriere
+2412#Caterina
+2500#un figlio di Kyuss
+2501#un piccolo verme delle rocce
+2502#un verme dei tunnel
+2503#un verme striato
+2504#un verme purpureo
+2505#un grosso verme delle rocce
+2506#un Minotauro
+2507#un grosso Minotauro
+2508#il carceriere Minicius
+2509#la Piovra
+2510#un granchio gigante
+2511#un coccodrillo scuro
+2512#NERO
+2513#un soldato di Alma
+2514#un nano delle colline
+2515#una donna
+2516#un cane rabbioso
+2517#un neroratto
+2518#un capo della setta del polipo
+2519#un drago di titanio
+2520#un tentacolo della piovra
+2600#Juda il bibliotecario
+2601#un iniziato
+2602#un toporatto
+2603#un ragno nero
+2604#un missionario
+2605#un novizio
+2606#un ministro del culto
+2607#il canonico
+2608#un levita
+2609#un cappellano
+2610#Brufow l'Inquisitore
+2611#un guaritore
+2612#un monaco
+2613#Priamus il Vescovo
+2614#Jastyn l'Arcivescovo
+2615#Jones il Patriarca
+2616#Ryadel il Sommo Sacerdote
+2617#Katleus l'Adepto del palazzo
+2618#un prete
+2700#un berbalang alato
+2701#un soldato githyanki
+2702#un mago githyanki
+2703#un cavaliere githyanki
+2704#un guerriero githyanki
+2705#un sergente githyanki
+2706#un warlock githyanki
+2707#un principe githyanki
+2708#un capitano githyanki
+2709#un maestro evocatore githyanki
+2710#$c0008Yzrgomab$c0007, la comandante suprema dei githyanki
+2711#uno slaadi rosso
+2712#un mezzodemone
+2713#un predatore invisibile
+2714#la proiezione astrale di un maestro mindlfayer
+2800#Kylwar
+2801#il Tarrasque
+2802#Aslam, l'evocatore
+2803#il Drago Astrale
+2804#Dramwji
+2805#un grosso soldato githyanki
+2807#una recluta githyanki
+2812#Jakyyl
+2813#Yyrkoon
+2819#un berbalang alato
+2820#un soldato githyanki
+2821#un mago githyanki
+2822#un cavaliere githyanki
+2823#un mezzodemone
+2824#un predatore invisibile
+2825#la proiezione astrale di un maestro mindflayer
+2827#Azraele
+2828#un batuffolo di pelo
+2829#Kor
+2830#Kalissian
+2831#Campanellino
+2832#Thrain
+2833#Saulot
+2834#Corballen
+2835#un thri-kreen
+2836#uno strano essere
+2837#un milleocchi
+2838#Altaris
+2839#un uomo lupo
+2840#Hagdad, il barista
+2841#una balena astrale
+2842#un marinaio githyanki
+2843#una sentinella githyanki
+2844#la statua di $c0005Zeno$c0007
+2850#un cobra evanescente
+2851#Warth
+2852#Silear
+2853#il carceriere githyanki
+2854#Akaarth
+2855#Aziz-ef'Assaruel
+2901#un'anima dannata
+2902#una mano mozzata
+2903#un cadavere mutilato
+2904#una testa decapitata
+2905#uno spirito
+2906#Amon
+2907#la statua del guerriero
+3000#Magus
+3001#Rubizzo, il panettiere
+3002#Mercatore
+3003#Fortebraccio, l'armaiolo
+3004#Vetusto, il fabbro
+3005#Giulietta
+3006#Skipper
+3007#Chadwick, il marinaio
+3008#lo Scriba di Alma
+3009#Ariel Silverblade
+3010#Padus
+3011#Eg Chen
+3012#Biff l'uccisore di Draghi
+3013#Rabirius, il ricettatore
+3014#Ekkhae, la gitana
+3015#Rob, lo scassinatore
+3016#Placeholder, maestro degli Stregoni
+3020#Jalia
+3021#Ruban
+3022#Welp
+3023#Bart
+3024#il mago guardiano
+3025#un cavaliere
+3026#un assassino
+3027#un monaco guardiano
+3028#un Paladino
+3029#un nobile guerriero
+3030#uno psionista
+3031#Autolicus, il mappiere
+3032#Hangor, il procuratore
+3040#Friedrich, l'oste
+3042#l'attendente
+3043#l'attendente
+3044#l'attendente
+3045#l'attendente
+3046#Filthy
+3047#Seneca
+3050#il frate nero
+3051#una prostituta
+3052#un vecchio dall'aria oscura
+3060#la guardia cittadina
+3061#lo spazzino
+3062#un gatto nero
+3063#il legionario
+3064#un ubriaco
+3065#un poveraccio
+3066#il pipistrello
+3067#la guardia cittadina
+3068#il maestro ninja
+3069#la guardia imperiale
+3070#Enrico il fabbro
+3073#il Saggio
+3074#il Cacciatore
+3075#un mimo
+3076#Occhio di Falco
+3077#Kronan
+3090#il micio
+3091#un cucciolo
+3092#un piccione
+3093#un mastino
+3094#un lupo
+3095#un pony
+3096#Iwaldur il fabbro
+3097#Gnosh
+3098#Nevio lo spazzino
+3100#Hermosa, la cameriera
+3101#$c0012Zryon$c0007
+3120#un sassone
+3121#una papera
+3122#un'anatra
+3123#un corvo
+3124#un cigno
+3140#Pedro, il Capo delle guardie
+3141#la guardia pazza
+3142#la segretaria
+3143#il Sindaco di Alma
+3144#la ronda
+3145#un orribile Mostrofango
+3146#uno schiavo disperato
+3147#un ospite
+3148#una donna
+3149#una vergine nuda!
+3150#un nobile
+3151#una nobildonna
+3152#uno schiavo di alto rango
+3153#il custode delle terme
+3154#il cameriere gigante
+3155#il ladro di cuori
+3156#un Alma Sacerdos
+3157#il bardo termale
+3158#un massaggiatore
+3159#il pesista nanesco
+3160#il guerriero
+3161#un ginnasta
+3162#un mastino da guerra
+3163#la statua di Afrodite
+3164#un assassino
+3165#il ladro nero
+3166#$c0008Hamlin$c0007
+3167#$c0010Triddith$c0007, il Leprecauno
+3168#$c0012Linette$c0007, la Sirena
+3169#$c0008Lloyd$c0007, l'assicuratore
+3300#un pannonico
+3301#Shanti
+3302#una guardia pannonica
+3303#un guerriero pannonico
+3304#il cassiere pannonico
+3305#l'ambasciatore pannonico
+3306#l'addetto alle partenze
+3307#un grosso ratto
+3308#Dalila la sirenetta
+3324#un topolino
+3325#un rugginofago
+3326#uno scheletro
+3327#un goblin verde
+3328#una povera fanciulla
+3329#Bargle il mago
+3330#Gulliver
+3331#Enkidu il barbaro
+3332#un Anziano Mercenario
+3333#la statua di Edmondo
+3400#un feyr
+3401#Pursan il possente
+3402#Zagan il corruttore
+3403#Mothra, la velenosa
+3404#la mummia di Nephren-Ka
+3405#$c0001Sacrifice$c0007, la regina-squalo
+3406#l'ancella-anaconda
+3407#l'ancella-leonessa
+3408#l'ancella-cerva
+3409#$c0015Phemt$c0008, il traditore$c0007
+3410#Jared, il re dei babau
+3411#un angelo con un'ala sola
+3412#$c0005Sin$c0007
+3413#Glasya, duchessa infernale
+3414#una gorgimera
+3415#lo scheletro di una viverna
+3416#Moontail, la volpe mannara
+3417#un ethergaunt bianco
+3418#un cumulo strisciante
+3419#un ethergaunt bianco
+3420#un feyr
+3500#il Traghettatore
+3501#uno spirito beato
+3502#un'anima pura
+3503#un combattente per la fede
+3504#un distruttore del male
+3505#il martire della fede
+3506#un Angelo
+3507#un Angelo Guerriero
+3508#Eleiru il massacratore
+3509#la Fede Cieca
+3510#la Devozione
+3511#il Fervore Religioso
+3512#il Flagello Divino
+3513#il $c0015Bianco Sire$c0007
+3514#un Angelo Guerriero
+3515#un'anima pura
+3516#un distruttore del male
+3517#un combattente per la fede
+3518#un demone
+3519#Gordius il demone
+3520#l'Angelo Guardiano
+3521#una presenza pacifica
+3522#il Guardiano del Cielo
+3523#uno spirito
+3524#la vendetta divina
+3525#la vendetta divina
+3526#la vendetta divina
+3527#la vendetta divina
+3528#$c0015il Bianco Paladino$c0007
+3600#Alustriel la maestra di magia
+3601#Gonde il Chierico
+3602#Kolack
+3603#Trapspringer
+3604#Safaa, la proprietaria dell' Ostello
+3605#Brunch, il vecchio aggrinzito oste-mago
+3606#Frate Giovanni
+3607#un accattone
+3608#un accattone
+3609#un mendicante
+3610#Jamaal, il fornaio
+3611#Rashad, il negoziante
+3612#Yasir, il banchiere
+3613#Ahkeem il sarto
+3614#Vera la verduraia
+3615#Butch il macellaio
+3616#Abdul il fabbro
+3617#Igor l'armaiolo
+3618#Cassandra
+3619#il direttore dei lavori
+3620#uno schiavo operaio
+3621#la statua di $c0015Benem$c0007
+3622#la statua di Joy
+3623#la statua di $c0015[$c0007qualcuno$c0015]$c0007
+3624#la Statua di $$c0011Turambar$$c0007
+3625#il basamento della statua di $c0005Hansolo$c0007
+3626#la statua di $c5401Orson$c0007
+3627#la statua di $c5401IraDiDio$c0007
+3628#la statua di $c0011Whisper$c0007
+3629#Aziz
+3630#Mustafah
+3631#Fatima
+3632#Kareem
+3633#un mercante nomade
+3634#una guardia del corpo
+3635#il ladro mummia
+3636#lo scaricatore di porto
+3637#l'agente delle tasse
+3638#Gord
+3639#Fallard
+3640#Evard l'arcimago
+3641#Curley fogliaverde
+3642#il profeta errante
+3643#il gatto
+3644#l'avvoltoio
+3645#il vecchio uomo
+3646#Onan il bibliotecario
+3647#un diavoletto dell'aria
+3648#una lamia
+3649#lo sporco derviscio
+3650#il Sultano
+3651#una ragazza dell'harem
+3652#il carceriere
+3653#un eunuco
+3654#Nichole, la favorita del sultano
+3655#Allah
+3656#il Protettore della Gilda dei Maghi
+3657#il Protettore della Gilda dei Chierici
+3658#il Protettore della Gilda dei Guerrieri
+3659#il Protettore della Gilda dei Ladri
+3660#un servo ragazzino
+3661#la guardia del sultano
+3662#la guardia del sultano
+3663#il Capo delle guardie del sultano
+3664#il mercenario
+3665#Zayd, il Maestro d'ascia
+3666#Yoosuf, il fabbro
+3667#un cavallo
+3668#un turista
+3669#Priscilla
+3670#la crioidra
+3671#la lucertola minotauro
+3672#il cane della morte
+3673#il leone macchiato
+3674#il behir
+3675#la chimera
+3676#il couatl
+3677#la vespa gigante
+3678#il pegaso
+3679#Elvira
+3680#Braheem
+3681#l'alto prelato
+3682#la Guardia Regale
+3683#Patch il barista
+3684#Stitch, il conciatore di cuoio
+3685#il giardiniere
+3686#l'unicorno
+3687#il wolverine
+3688#il mimic
+3689#il sindaco
+3690#il cuoco
+3691#l'Ixitxachitl
+3692#la statua di $c0014Tanus$c0007
+3693#la guardia del corpo
+3694#un goblin
+3695#un emissario della fiamma
+3702#un liberto
+3703#lo schiavo nubiano
+3704#una guardia circense
+3706#Flaminio
+3707#il leone giovane
+3709#la pantera nera
+3710#l'avvoltoio
+3711#uno sventurato galileo
+3712#Atrebatix
+3713#la lince tigrata
+3714#Drusilla
+3715#Julilla
+3716#Annia Regilla
+3722#lo spadaccino sardonico
+3723#Trax
+3724#Spartaco
+3725#Flamen Dialis
+3726#Urgh
+3728#un guerriero sannita
+3730#Urkh
+3731#Camilla Rufa
+3732#Aurelia Major
+3733#Aurelia Minor
+3734#Tullia Dalmatica
+3765#il leone anziano
+3771#Muzio
+3772#Actilius
+3773#Lecenio
+3774#Maximus
+3775#il sacerdote di Marte
+3777#Ursus
+3778#il mago siriano
+3779#il druido bretone
+3780#il mago tirocinante
+3781#la pantera guerriera
+3782#l'elefante corazzato
+3783#un leone fuggito
+3784#archeopterix
+3786#una matrona
+3787#uno spettatore
+3788#Labienus
+3789#il ladro inesperto
+3790#Eusebio
+3791#Germanico
+3792#Tigellino
+3793#il lupo mannaro
+3794#una tigre inferocita
+3795#una lupa imperiale
+3796#un coccodrillo egiziano
+3800#Paktos, l'alto sacerdote
+3801#Akeron, il becchino
+3802#Gnot, l'assistente
+3803#uno scheletro umano
+3804#una grossa $c0002biscia$c0007 dal collare
+3805#uno zombie
+3806#una moltitudine di ratti
+3807#un fuoco $c0006fatuo$c0007
+3808#un piccolo pipistrello appeso al soffitto
+3809#un servitore scheletrico
+3810#un Heucuva
+3811#una mummia
+3812#una mano umana
+3813#un braccio
+3814#una gamba
+3815#uno zombie putrescente
+3816#uno zombie in armatura
+3817#un riflesso dell'oltretomba
+3818#un giovane $c0001vampiro$c0007
+3819#una sfuggente anguilla $c0003marrone$c0007
+3820#un piccolo pipistrello appeso al soffitto
+3822#qualcosa di mostruoso
+3823#uno spirito dimenticato
+3824#una bestia delle profondita'
+3825#un $c0008Hodag$c0007
+3826#un abitatore delle profondita'
+3827#un trinciapietra delle profondita'
+3828#qualcosa di viscido
+3829#il Primo dei Trinciapietra
+3830#la Matriarca delle profondita'
+3831#uno zombie imbrattato di $c0009sangue$c0007
+3832#uno spettro evanescente
+3833#un avventuriero morente
+3900#una spina
+3901#un occhio volante
+3902#un aracnocorno
+3903#un rampicante vampiro
+3904#un viticcio spettrale
+3905#un elementale di legno
+3906#un turbine di foglie
+3907#un $c0002lichentropo$c0007
+3908#un chipmunk dai denti a sciabola
+3909#una feroce furettigre
+3910#Daraya, la ninfa oscura
+3911#una pioggia di schegge
+3912#una tetracertola
+3913#un $c0002lichentropo$c0007
+4000#un lupo nero
+4001#il soffitto
+4002#un enorme ragno nero
+4003#un enorme troll
+4004#un enorme troll femmina
+4005#un serpente albino
+4006#un coboldo rosso
+4007#un topo
+4008#un elementale dell'acqua
+4009#un orribile lupo mannaro
+4010#il nano pazzo
+4011#il pastore senza gregge
+4012#uno stormo di pipistrelli
+4013#il minotauro
+4014#l'alga carnivora
+4015#un goblin zoppo
+4016#un goblin con le braghe calate
+4017#un goblin
+4018#un goblin semi nudo
+4019#il fantasma di un nano
+4020#un orco col tamburo
+4021#un orco delle miniere
+4022#un orco nero
+4023#un $c0011thamiel$c0007
+4024#un $c0014chaigidel$c0007
+4025#un $c0008satariel$c0007
+4026#un $c0015gamchicolh$c0007
+4027#un $c0009galb$c0007
+4028#un $c0003tangaririm$c0007
+4029#un $c0001harab seraphel$c0007
+4030#un $c0005drakrollil$c0007
+4031#un $c0006reshaim$c0007
+4032#il fantasma di un nano
+4033#il fantasma del capo delle guardie
+4034#$c0009il Balrog$c0007
+4200#Sylira la cuoca
+4201#Larondon il barista
+4202#un ufficiale elfico
+4203#un ufficiale elfico
+4204#un ufficiale elfico
+4205#un viandante
+4206#Kar
+4207#un menestrello
+4208#un mercenario
+4209#un mercante
+4210#un cavallo da tiro
+4211#un mimo
+4212#un pellegrino
+4213#un uomo pericoloso
+4214#un brigante
+4215#un bandito
+4216#un capobanda
+4217#un bandito
+4218#un viandante
+4219#un viandante
+4220#un messo imperiale
+4221#una bella ragazza
+4222#un Cavaliere errante
+4223#uno scudiero
+4224#un falco
+4225#un leone di montagna
+4226#un chierico elfo
+4227#un orco
+4228#uno scarafone gigante
+4229#un Paladino
+4230#un perfido goblin
+4231#un millepiedi gigante
+4232#un malvagio hobgoblin
+4233#l'aquila imperiale
+4300#un'ombra Morkoth
+4301#una serpe
+4302#Balzaq il paladino
+4303#un mercante
+4304#una guardia imperiale
+4305#un cacciatore
+4306#un mercante
+4307#un cavallo
+4308#un viaggiatore
+4309#un mercante di spezie
+4310#un ladro
+4311#Remi' il piccolo vagabondo
+4312#una Sacerdotessa Aquaris
+4313#un viaggiatore
+4314#Bog-Athoth
+4317#una docile capretta
+4400#Cecilio il tagliaboschi
+4401#un tenero coniglietto
+4402#l'orso bruno
+4403#il feroce coniglio
+4404#il daino
+4405#la volpe marrone
+4406#il mostro delle acque
+4407#l'elementale dell'acqua minore
+4408#un tritone
+4409#il Carceriere
+4410#Sulik, l'Usuraio
+4411#Thorast, il fabbro
+4412#Agnarix, l'Armaiolo
+4413#Karissa, la locandiera
+4414#Squick, il Dio dei Ratti
+4415#il Ratto Templare
+4416#la cameriera ratto
+4417#un grasso cuoco
+4418#il mendicante
+4419#un monello
+4420#una monella
+4421#un lebbroso
+4422#un grosso cameriere
+4423#Sshialek, il Maestro dei Ladri
+4424#Olug, il Maestro dei Chierici
+4425#Bratrug, il Maestro dei Guerrieri
+4426#Elekmer, il Maestro dei Maghi
+4427#un orchetto invasore bambino
+4428#un orchetto
+4429#una sentinella guardiana
+4430#Grundar, l'oste
+4431#l'attivista dei roditori
+4432#la guardia di Warren
+4433#una povera elfa prigioniera
+4434#la guardia della milizia
+4435#Ragtras, il Sindaco di Warren
+4436#lo Scriba di Warren
+4479#Chakix, lo sciamano coboldo
+4480#Gorgor lo gnoll
+4481#Melkar il troll
+4482#l'oste goblin
+4483#il feroce warg
+4484#il pericoloso warg
+4485#il drago verde
+4486#il gigantesco ragno velenoso
+4487#$c0008Yghrtun$c0007, il troll guardiano
+4488#un'elfa liberata
+4500#un vecchio frate
+4501#un legionario
+4502#un predicatore
+4503#un Ombrato
+4504#la statua di Anxur
+4505#un albero di $c0006pietra$c0007
+4506#il Primo Albero
+4600#Manew
+4601#l'uomo sabbia
+4701#il bibliotecario anziano
+4800#Tolomeo il custode
+4801#Pandora
+4900#Isilya
+4901#uno studente dell'Accademia
+4902#un golem guardiano
+4903#un goblin di pattuglia
+4904#Torgus, il capo dei goblin
+4905#un bambino
+4906#un coboldo in perlustrazione
+4907#un coboldo guerriero
+4908#il capo dei coboldi
+4909#l'apprendista di Anig
+4910#Anig, il Mago
+4911#il Sergente Valerius Maius
+4912#un fantoccio di paglia
+4913#un sacco di farina
+4914#un manichino girevole
+4915#un bersaglio
+4916#Eowal l'incantatore
+4917#un fantoccio di paglia
+4918#un povero sventurato
+4919#il Minotauro
+4920#Dornek, il Maestro dei Barbari
+4921#Talot, il Maestro dei Guerrieri
+4922#Lyn, la Maestra dei Monaci
+4923#Stila, la Maestra dei Ladri
+4924#Felarion, il Maestro dei Druidi
+4925#Syladiel, la Maestra dei Ranger
+4926#Elarsi, la Maestra degli Psionici
+4927#Lord Mantur, il Maestro dei Paladini
+4928#Clelia, la Maestra dei Chierici
+4929#Nahlmer, il Maestro di Maghi e Stregoni
+4930#uno studente dell'Accademia
+5000#un Figlio di Nero
+5001#un esperimento incompiuto
+5002#Lidel
+5003#Timulas
+5004#il verme purpureo
+5005#un giovane drago di ottone
+5010#il Dracolich
+5011#un elforagno minore
+5013#un miconoide
+5014#lo sciamano dei miconoidi
+5017#una roccia a forma di drago
+5020#il giovane verme della sabbia
+5021#un miconoide guardiano
+5022#un grosso elforagno
+5023#la regina madre
+5024#una roccia a forma di opossum
+5025#una roccia a forma di gatto
+5100#Thalion, il giusto
+5101#Iria, l'incantatrice
+5102#Ferio, il silenzioso
+5103#Flegias, il forte
+5104#Lantis, il vigoroso
+5105#Alcyone, il mancino
+5106#Argan, il mercante
+5107#Nahe, l'arcana
+5108#Arghiurea, l'alchimista
+5109#Clef, il chierico
+5110#Catherine, l'intelligente
+5111#Isabelle, la saggia
+5112#Edgar, il premuroso
+5113#Heathcliff, il rude
+5114#Hareton, lo scontroso
+5115#Dora, la sorridente
+5116#Azoc, l'armaiolo
+5117#Falas, il nano
+5118#Feanor, il preciso
+5119#Elyanor, l'infallibile
+5120#Amatsumara, il ciclope
+5121#Loki, il dio del fuoco
+5122#Pyro, l'elementale del fuoco
+5123#Nuada, mano d'argento
+5124#Hel, l'oscura
+5125#Enlil, il dio della tempesta
+5126#Fu, l'elementale dell'aria
+5127#Lorelei, la dea dell'oceano
+5128#Umi, l'elementale dell'acqua
+5129#Fafnir, il drago
+5130#Ixion, lo psionico
+5131#Faen, il quickling
+5132#Ian, l'incisore
+5133#Ethan, il guerriero
+5134#Naef, il quickling
+5135#Arthan, il mago
+5136#Jormungand, la serpe
+5137#Sleipnir, il cavallo
+5138#Grok, il coboldo sciamano
+5139#Rak'kan, la contrabbandiera
+5140#Arren, il cacciatore di vampiri
+5141#Ulrik, il merovingio
+5142#Tarr, il rigattiere
+5143#Kallia, la maga selvaggia
+5144#un paio di solar deva bambini
+5145#$c0008L'Eterno Viaggiatore$c0007
+5146#la statua di $c0006Limean$c0007
+5147#Grundor, il robusto
+5148#Slivius il mercante
+5149#Corleth, l'elfo
+5150#Rorthrorn, l'arcimago
+5151#Luxor, il Principe della Luna
+5152#Farflame, il Signore dei Draghi
+5153#Fawkrin, lo skulkrin
+5154#Lyrs, l'elfo
+5155#Elyn, la gnoma
+5156#Optila, l'armaiolo
+5157#Ido, lo gnomo
+5158#Ao, il Supremo
+5159#Artorius
+5160#Sbarabard, l'arcimago
+5161#Anthel, il chierico
+5162#Selenia
+5163#Grunt, il fabbro
+5164#Kraven, il cacciatore
+5165#Tiresia
+5166#Lord Marakith
+5167#Utarg degli Utarg
+5168#Lorgrim, il Saggio
+5169#Lord Dreams
+5170#Lord Dregrim
+5171#Lord Morning
+5172#Lord Dawn
+5173#Mariah, la maga
+5174#Argur, il drago
+5175#Sulmain, il Djinn
+5176#Otrux, il Mindflayer
+5177#Kalgrin, il fabbro
+5178#Sardannah, la maga guerriera
+5179#Lindolas, il chierico monaco
+5180#Sasha
+5181#Claudia
+5182#$c0008L'Eterno Viaggiatore$c0007
+5183#$c0008L'Eterno Viaggiatore$c0007
+5184#$c0008L'Eterno Viaggiatore$c0007
+5185#Lira, la scaltra
+5186#Titiana
+5187#$c0008L'Eterno Viaggiatore$c0007
+5188#Irga, la mercante
+5200#il potente Beholder
+5201#una lamia
+5202#un mimic
+5203#un mimic
+5204#un mimic
+5205#un mimic
+5206#un mimic
+5207#una lucertola cornuta
+5208#un golem di pietra
+5209#un golem di ferro
+5210#una lamia maggiore
+5300#il golem di ferro
+5301#il golem d'argilla
+5302#il golem di pietra
+5303#lo spettro
+5304#la mummia
+5305#la statua di Akinra
+5306#Anubis
+5307#il mimico
+5308#un mostro rugginoso
+5309#un budino nero
+5310#il coccodrillo del Nilo
+5311#un $c0008N$c0007aga $c0015G$c0007uardiano
+5312#un topo rabbioso
+5313#il seguace di Anubis
+5314#la figlia della sfinge
+5400#un putrido zombie
+5401#una mortale aspide
+5402#Malinda
+5403#Selibart
+5404#uno scarabeo non morto
+5405#il Cavaliere Spettrale
+5406#Eucropio
+5407#un Eremita
+5408#una melma verde
+5409#un abitatore della fiamma
+5410#un ragno di cristallo $c0010verde$c0007
+5411#un ragno di cristallo $c0011giallo$c0007
+5412#il Guardiano Pietrificato
+5413#un Troll
+5414#un gelatina ocra
+5415#un Necromante
+5416#Dothoreth
+5417#Quietus il mastino
+5418#un grosso ragno di $c0014cristallo$c0007
+5419#il Cavaliere Spettrale
+5420#una mortale aspide
+5600#un gigante di montagna
+5601#una donna gigantesca
+5602#il capo dei giganti di montagna
+5603#un gigante
+5604#un gigante delle grotte
+5605#un gigante
+5606#un gigante delle grotte
+5607#un gigante guardiano
+5608#un drow predatore
+5609#una gigantessa invasata
+5610#un eremita
+5611#un draghetto nero
+5612#Aris la Draghessa Nera
+5613#un orsetto
+5614#un gigante invasato
+5615#Sebian
+5616#l'anima di un uomo anziano
+5617#un pipistrello
+5619#il fantasma di un poveraccio
+5620#un demone maggiore
+5621#un troll delle caverne
+5622#un demone rampicante
+5624#un insetto verdastro
+5625#un uomo-pianta
+5626#l'albero
+5627#un gigante minatore
+5628#un gigante
+5629#un troll sciamano
+5800#un pinguino assassino
+5801#il Drago $c0015Bianco$c0007
+5802#il Drago d'$c0014Argento$c0007
+5803#il pinguino imperiale assassino
+5804#l'orso polare
+5805#l'orsogufo
+5806#il gufo delle nevi
+5807#la volpe artica
+5808#la foca
+5809#il tricheco
+5810#un tenero visone
+5811#lo yeti
+5812#il feroce corvo delle nevi
+5813#un alce
+5814#lo yak marrone
+5815#un maschio di ritina
+5816#una renna
+5817#un husky siberiano
+5818#una lontra
+5819#il lemure dei ghiacci
+5820#il mammuth lanoso
+5821#il serpente delle nevi
+5822#la lucertola delle nevi
+5823#il gigante dei ghiacci
+5824#il Drago $c0005Viola$c0007
+5825#il ladro delle nevi
+5826#una femmina di ritina
+5827#un cucciolo di ritina
+5900#un'anima perduta
+5901#un Babau
+5902#un Dretch
+5903#un Chasme
+5904#un Nabassu
+5905#un Molydeus
+5906#un Bar-Igura
+5907#un Manes
+5908#un Rutterkin
+5909#una Alu-Fiend
+5910#un Glabrezu
+5911#una Succubus
+5912#un Balor
+5913#un Vrock
+5914#un Hezrou
+5915#una Marilith
+5916#Paz'Rael il Signore dei Vrock
+5917#un Golem di Pietra
+5918#il corpo senza vita di un barbaro
+5919#un albero vivente
+5920#lo Spirito di Paz'Rael
+5921#un'anima straziata dal dolore
+5922#un Bar-Igura
+5923#un Golachab
+5924#Asmodeo, Signore degli Incendiari
+5925#l'$c0001Avatar$c0007 di $c0008Yethrael, il Signore dell'Oblio$c0015
+5926#$c0008Vladimir$c0007 il $c0009Vampiro$c0007
+6000#un guerriero Duergar
+6001#un minatore Duergar
+6002#una grossa vipera
+6003#una talpa mannara
+6004#un cucciolo di allghoi khorhoi
+6005#un piccolo proteus laurenti
+6006#un Titanethes Gigante mannaro
+6007#uno spiritello irascibile
+6008#uno spiritello inquieto
+6009#uno spiritello agitato
+6105#il Duca Morgan
+6106#Myailyn
+6107#Principe Alkar
+6108#l'onda cadaverica
+6109#Damien
+6110#Karl
+6111#Maern il mago
+6112#Ghadar
+6113#Kraven il Cacciatore
+6114#Eric
+6115#Alan, il druido
+6116#Narudis, il Mago
+6117#Myshella l'abominio
+6118#una Guardia Ducale
+6119#un servo
+6120#il folle
+6201#un popolano quickling
+6202#un predatore quickling
+6203#un bambino quickling
+6204#la regina dei quickling
+6205#il capitano dei predatori quickling
+6206#un predatore quickling
+6207#Tephanis, il re dei quickling
+6208#un quickling osservatore
+6223#il re Greylin
+6224#un contadino elfo
+6225#un nobile elfo
+6226#un arciere elfico
+6227#il principe Mardren
+6228#Sir Drolchan
+6229#un paesano
+6230#la bestia corazzata
+6231#un cucciolo
+6232#un groviglio di viti
+6233#la guardia elfica
+6234#il segretario del re
+6235#una fanciulla
+6236#un servo
+6237#il maggiordomo
+6238#un prigioniero
+6239#il carceriere
+6240#il torturatore incappucciato
+6241#l'albero sentinella
+6242#Moe il barattatore
+6243#la regina Katriana di Rhyiana
+6245#un servitore quickling
+6246#un $c0015Falco Argentato$c0007
+6247#un gigante delle caverne
+6300#l'$c0008Oscuro$c0007 Manovratore del $c0013Tempo$c0007
+6401#Sir Lancillotto del Lago
+6402#Re Artu'
+6403#Ginevra
+6404#Mordred
+6405#Sir Galahad
+6406#un cavaliere
+6407#un servo
+6408#uno scudiero
+6409#il temibile drago
+6410#il cavaliere nero
+6411#il mostro cacciatore
+6412#Zippy il Mago
+6413#un bandito
+6414#un guardiano del castello
+6415#Morgana
+6416#Merlino
+6417#Ippo l'ippogrifo
+6418#Coco la coccatrice
+6419#Sir Gawain
+6420#il mastro d'armi
+6421#una guardia nera
+6422#il maestro delle guardie nere
+6423#un cane da guerra
+6424#la Statua di Haag
+6425#un demone del fuoco
+6426#un Golem di ghiaccio
+6427#il sacro Graal
+6428#il nano
+6429#una dama grassa
+6430#un uomo brutto
+6431#un uomo con tre braccia
+6432#un gorilla
+6433#Frank il grassone
+6434#il mangiatore di spade
+6435#uno sputa fuoco
+6436#un giocoliere anziano
+6437#il prestigiatore
+6438#una cartomante
+6439#un valletto della fiera
+6440#un giocoliere della fiera
+6441#un gigante delle caverne
+6442#un drago bianco
+6443#l'araldo di Prydain
+6444#Haag, il Possente
+6445#il Ciclope
+6500#una guardia dei Nani
+6501#un nano operaio
+6502#lo Spettro di un Elfo
+6503#Stonehand, il mercante
+6504#Granito, il pasticcere
+6505#un'iguana delle rocce
+6506#un gigante pazzo
+6507#un nano minatore
+6508#un capo minatore
+6509#Klaus, il guaritore
+6510#un paziente
+6511#un soldato nano
+6512#un servitore del castello
+6513#un'ancella della regina
+6514#un centurione nano
+6515#un nano in attesa
+6516#Blekrok, il re dei Nani
+6517#una vipera gigante
+6518#una guardia del tempio
+6519#Brag, il chierico
+6520#Silicia, regina dei Nani
+6521#un nano nudo
+6522#Goldays, il gioielliere
+6523#un gargoyle
+6524#un piantone nano
+6525#Werner, il fabbro dei Nani
+6601#Derek Crownguard
+6602#Lord Gunthar
+6603#Laurana
+6604#Arcturus
+6605#Lord Calvin
+6606#un cavaliere della rosa
+6607#un servo
+6608#un paggio
+6609#il temibile drago d'acciaio
+6610#il Cavaliere Azzurro
+6611#la belva di Gaarn
+6612#Frosty il mago
+6613#uno sciame di uccelli stigei
+6614#un cavaliere della rosa
+6615#Symbul
+6616#Elminster
+6617#un ippogrifo
+6618#una coccatrice
+6619#Lord Gaweyn
+6620#Korum, il mastro di spade
+6621#l'Antipaladino
+6622#il Maestro degli Antipaladini
+6623#un cane da guerra
+6625#un demone di fuoco
+6626#un golem dei ghiacci
+6627#il Santo Graal
+6628#il coso
+6629#la donna cannone
+6630#l'uomo piu' brutto della terra
+6631#l'uomo a tre braccia
+6632#la gorilla
+6633#Frank
+6634#il mangia spade
+6635#lo sputa fuoco
+6636#il giocoliere
+6637#il prestigiatore
+6638#la maga zingara
+6639#il mastro della fiera
+6640#l'apprendista giocoliere
+6641#un gigante delle caverne
+6642#Inverno
+6643#Archimedes
+6644#il Sommo Chierico
+6645#lo $c0015Spirito di Huma$c0007
+6646#un alto prelato della rosa
+6647#un cavaliere veterano
+6648#una giovane cortigiana
+6649#un paggio
+6650#Sir Griswold
+6651#Lord Nathan
+6652#uno spirito guardiano
+6653#un'$c0008ombra$c0007 guardiana
+6700#Mahathma, il ladro
+6701#il giovane ragno
+6702#$c0009Yevaud$c0007
+6703#il ragno lupo
+6704#un orco
+6705#la Regina delle Vespe
+6706#il ragno fuco
+6707#il ragno etereo
+6708#lo schiavo di Arachnos
+6709#il Quasit
+6710#il ragno uccello
+6711#l'eremita
+6712#il Custode del Donjon
+6713#il Guardiano
+6714#$c0008Arachnos$c0007
+6715#Ki-Rin
+6716#il giovane drago
+6717#il dragone anziano
+6718#la guardia aracnoide
+6719#Ki-Rin
+6800#un $c0001N$c0008aga $c0001N$c0008ero$c0007
+6801#uno stormo di Caprimulghi
+6802#il ricordo di un Antico
+6803#un gigante $c0004F$c0012omoriano$c0007
+6804#un assassino $c0004F$c0012omoriano$c0007
+6805#un bifolco
+6806#un fannullone
+6807#un villano
+6808#un contadino
+6809#una donna
+6810#Osborne l'oste
+6811#Mamie Bishop
+6812#Birch il becchino
+6813#Asaph Sawyer
+6814#una presenza dell'oltremondo
+6815#Abijah Hoadley
+6816#Zachariah il campanaro
+6817#la vecchia perpetua
+6818#un ankheg
+6819#un $c0012A$c0014boleth$c0007
+6820#lo Spirito del Vecchio Watheley
+6821#Lavinia Watheley
+6822#Wilbur Watheley
+6823#l'avatar di Yog-Sothoth
+6824#una vacca emaciata
+6825#un $c0008Night $c0007Gaunt
+6826#$c0002D$c0010agon$c0007
+6827#un adepto invasato
+6828#un Orrido P$c0008ersecutore
+6829#un $c0011C$c0003ucciolo $c0015Os$c0007cu$c0008ro
+6830#uno Yith
+6831#T'yog il sacerdote
+6832#Nug
+6833#Yeb
+6834#$c0003S$c0008hub-$c0003N$c0008iggurath$c0007
+6835#un emissario di Hastur
+6836#un segugio di $c0008Tindalos$c0007
+6837#il dottor Henry Armitage
+6838#Nyarlathotep, il Caos Strisciante
+6839#un polpo volante
+6900#un globo $c0010verde$c0007 pulsante
+6901#$c0002Inhep$c0007, il Colossale
+6902#un uomo magro e pallido
+6903#la guardia Ombra
+6904#un cadavere insanguinato
+6905#una guardia insanguinata
+6906#una gigantesca guardia
+6907#un uomo dall'aspetto strano
+6908#un uomo ricoperto da funghi
+6909#un guardiano insettoide
+6910#un guardiano grottesco
+6911#un dottore
+6912#un uomo putrescente
+6913#una gigantesca guardia
+6914#un guardiano non morto
+6915#una guardia non morta
+6916#un condannato a morte
+6917#una grossa guardia
+6918#una guardia verde 
+6919#un uomo ricoperto di spore
+6920#un prigioniero lurido
+6921#una guardia sanitaria
+6922#un mercenario
+6923#$c0008Baal$c0007
+6924#una infermiera insanguinata
+6925#una grossa guardia risplendente
+6926#un uomo vestito di verde
+6927#un uomo denutrito
+6928#un gigante di pietra
+6929#una guardia impazzita
+6930#l'$c0008Abominio$c0007
+7001#$c0010E$c0015uterpe$c0007
+7002#$c0010T$c0015alia$c0007
+7003#$c0010M$c0015elpomene$c0007
+7004#$c0010T$c0015ersicore$c0007
+7005#$c0010E$c0015rato$c0007
+7006#$c0010P$c0015olimnia$c0007
+7007#$c0010U$c0015rania$c0007
+7008#$c0010C$c0015alliope$c0007
+7009#$c0011Zeus$c0007
+7010#$c0013Aphrodite$c0007
+7011#$c0005Dike$c0007
+7012#$c0005Hera$c0007
+7013#$c0003Hermes$c0007
+7014#$c0011Apollo$c0007
+7015#$c0015Athena$c0007
+7016#$c0001Dioniso$c0007
+7017#$c0010Demetra$c0007
+7018#$c0009Ares$c0007
+7019#Ebe, la coppiera degli Dei
+7020#$c0010C$c0015lio$c0007
+7041#una $c0003Radice$c0007 di $c0011Vita Eterna$c0007
+7042#una $c0003Radice$c0007 di $c0011Vita Eterna$c0007
+7300#$c0007un'$c0012ondina$c0007
+7301#$c0007una $c0009salamandra$c0007
+7302#$c0007uno $c0002gnomo$c0007
+7303#$c0007una $c0014silfide$c0007
+7304#$c0007Il $c0011Mercante $c0007di $c0014Arcadia$c0007
+7305#$c0007L'$c0002Erborista $c0007di $c0014Arcadia$c0007
+7306#$c0007L'$c0003Artigiano $c0007di $c0014Arcadia$c0007
+7307#$c0007un bambino di $c0014Arcadia$c0007
+7308#$c0007una bambina di $c0014Arcadia$c0007
+7309#$c0007un abitante di $c0014Arcadia$c0007
+7310#$c0007un'abitante di $c0014Arcadia$c0007
+7311#$c0007un bardo di $c0014Arcadia$c0007
+7500#$c0010Az$c0002ida$c0003ha$c0001ka$c0007, il demone $c0006Doppleganger$c0007
+7501#$c0011Ca$c0007ma$c0008el$c0007, il principe $c0007dell'ottavo $c0006cielo$c0007
+7502#$c0013Cho$c0005ron$c0008zon$c0008, Signore delle $c0094All$c0094uci$c0094naz$c0094ion$c0094i$c0007
+7503#$c0013Cho$c0005ron$c0008zon$c0008, Signore delle $c0094All$c0094uci$c0094naz$c0094ion$c0094i$c0007
+7504#$c0008Il buio dell'Anima$c0007
+7505#Un chupacabra
+7700#la guardia
+7701#la guardia
+7702#la guardia
+7703#la guardia
+7704#il dragone fiammeggiante
+7705#la sentinella della luce
+7706#la sentinella dell'oscurita'
+7730#Nemeson
+7731#Eledin
+7732#Torak
+7733#lo psionico
+7734#lo studente
+7735#la guardia
+7736#il custode
+7770#Draxon
+7771#Trohn
+7772#la spia
+7773#il barbaro
+7774#il gigante nano
+7775#la barbara
+7776#il capitano
+7777#Scrom
+7778#l'arciere
+7780#il magazziniere
+7810#uno scheletro
+7811#uno spettro oscuro
+7812#il signore della ricchezza
+7836#un gigante
+7837#una pianta carnivora
+7838#il signore della guerra
+7860#un vecchio
+7861#un gorilla
+7862#il signore della saggezza
+7900#il Gran Maestro dei Paladini
+7901#il golem fulmineo
+7902#un guardiano delle tempeste
+7903#il Custode delle Tempeste
+7904#il Fabbro dei Fulmini
+7905#il demone del dolore
+7906#l'arciere azzurro
+7950#$c0009Redferne$c0007
+7951#$c0014Naoniel$c0007
+7952#il Gran Cavaliere dei Paladini
+7953#il $c0008Mostro$c0007
+7954#un enorme ratto
+8001#una guardia di Syracusa
+8002#il caporonda
+8003#una sacerdotessa di Minerva
+8004#l'Alta Sacerdotessa
+8005#un senatore
+8006#un tribuno
+8007#un legato imperiale
+8008#il Magister Senatus
+8009#l'Aquila Bianca
+8010#un accolito della setta del polipo
+8011#un Imp
+8012#il vecchio Torquato
+8013#Cecenio
+8014#Fartus
+8015#Jacus il panettiere
+8016#Mira
+8017#Numa
+8018#Archimede
+8020#una guardia privata
+8021#il Capoguardia
+8022#un alano da guardia
+8023#uno schiavo
+8024#il Capocantiere
+8025#un marinaio
+8026#uno scaricatore di porto
+8027#un ratto affamato
+8028#il Guardiano del faro
+8029#un legionario
+8030#Alfio
+8031#Salvo
+8032#un marinaio
+8033#un mozzo
+8034#il pilota
+8035#Valerio
+8036#un Haligorth
+8037#un rematore
+8038#il capitano
+8039#un marinaio persiano
+8040#Ibn Sina
+8041#il principe Mirdin
+8042#Karim
+8043#un sacerdote di Poseidone
+8044#un Alto Sacerdote
+8045#un sorvegliante
+8046#un pescatore
+8047#Messalina
+8048#Porfirio
+8049#Settimio
+8050#una guardia di Syracusa
+8051#un legionario
+8052#Gilbert
+8053#una donna
+8054#un Syracusano
+8055#un vecchio sacerdote
+8056#un ragazzo scalmanato
+8057#una vecchietta
+8058#un pescatore
+8059#un pescatore
+8060#la statua di Minerva
+8061#una murena nera
+8062#Aharnikx
+8063#Miirnihkx
+8064#un servo della locusta
+8065#il manovratore dell'argano
+8066#il guardiano degli uomini locusta
+8067#lo sciamano locusta
+8068#un accolito della locusta
+8069#l'alto sacerdote degli uomini locusta
+8070#l'alto stregone degli uomini locusta
+8071#una monaca delle locuste
+8072#l'ombra dell'alto sacerdote delle locuste
+8073#una fanciulla spaventata
+8074#un uomo locusta
+8075#una locusta uomo
+8076#la locusta regina
+8077#un uomo locusta schiavo
+8201#il Trigone guardiano
+8202#un diavolo
+8203#un demone maggiore
+8204#Ecate
+8205#un demone ricoperto di squame
+8206#un cane infernale
+8207#una fiamma
+8208#una fiamma
+8209#un arciere nascosto
+8210#un demone antico
+8211#un demone d'oro
+8212#un demone d'argento
+8213#un demone d'ombra
+8214#un mob di servizio
+8301#un tritone
+8302#la bestia
+8303#un'enorme creatura
+8400#un paesano
+8401#una paesana
+8402#un bambino del paese
+8403#una gallina
+8404#un cane pezzato
+8405#il mugnaio di Tirck
+8406#un assistente del mugnanio
+8407#l'ostessa Geltrude
+8408#un avventore abituale della locanda
+8409#Amilcare il locandiere
+8410#Merala l'emporista
+8411#Geremia, l'unica guardia del villaggio
+8412#il panettiere di Tirck
+8413#la maestra del villaggio
+8414#il giovane stalliere
+8415#una scopa alata
+8416#un'idra tentacolata
+8417#il fantasmino delle pulizie
+8418#l'ombra di un serpente a due teste
+8419#un mistiragno
+8420#un millebraccia alato
+8421#una rana bicefala
+8422#un uomo mannaro
+8423#una scaragosta
+8424#una dromane
+8425#un topo di biblioteca
+8426#un goblin divoratore
+8427#un verme-zombie uncinato
+8428#la matrice d'evocazione
+8429#lo scheletro di un drago
+8430#un minotauro del fuoco
+8431#un enorme minotauro del fuoco
+8432#un secchio a quattro zampe
+8433#uno straccio volante
+8434#il grosso fantasmino delle pulizie
+8435#una mano gigantesca
+8436#un occhio gigantesco
+8437#un cervello gigantesco
+8438#Worf
+8439#Talomir
+8440#un cavallo bardato
+8441#il Guardiano della Villa
+8442#una mano gigantesca
+8443#un occhio gigantesco
+8444#un cervello gigantesco
+8445#un'idra tentacolata maggiore
+8446#una rana bicefala maggiore
+8447#un gigante mannaro
+8448#una scaragosta maggiore
+8449#una dromane maggiore
+8450#un verme-zombie uncinato maggiore
+8451#lo scheletro di un wyrm
+8600#l'anchilosauro
+8601#l'allosauro
+8602#il brontosauro
+8603#il placoderma
+8604#un elasmosauro
+8605#l'iguanodonte
+8606#il paleoscinco
+8607#il plesiosauro
+8608#lo stegosauro
+8609#il triceratopo
+8610#il Tirannosaurus Rex
+8611#un antico diavolo
+8700#un Miliziano del Caos
+8701#un Accolito di $c0006Akhmath$c0007
+8702#un Servo di $c0006Akho$c0007
+8703#un rettile Planare 
+8704#un Carceriere Schiavo di $c0003Kh'ryf$c0007
+8705#un $c0015Mistico$c0007 seguace del $c0006Caos$c0007
+8706#un $c0006oscuro $c0011Sciamano $c0007del $c0006Caos$c0007
+8707#un corpulento Difensore del Caos
+8708#un corpulento Difensore del Caos
+8709#il $c0008Guardiano$c0007 dell'$c0010Equilibrio$c0007
+8710#$c0006Akho$c0007 il $c0015Guardiano$c0007
+8711#$c0006Qhhrath$c0007 il $c0015Signore$c0007 del $c0009Disordine$c0007
+8712#il Saggio dell'$c0015Acqua$c0007
+8713#il Saggio del $c0001Fuoco$c0007
+8714#il Saggio della $c0015Terra$c0007
+8715#il Saggio dell'$c0015Aria$c0007
+8716#Susan la $c0010Protettrice$c0007 dell'Equilibrio
+8717#un $c0015Elementale $c0007dell'$c0015aria$c0007
+8718#un $c0015Elementale$c0007 della $c0009Terra$c0007
+8719#una $c0012Bolla $c0007d'acqua
+8720#un assassino del deserto
+8721#il $c0001Gigante $c0007delle dune
+8722#il Capogilda degli $c0001assassini$c0007
+8723#un Servo di $c0006Akho$c0007
+8724#un cavalcanubi
+8725#un Cavaliere della $c0015Tempesta$c0007
+8726#il Capogilda dei cavalcanubi
+8727#uno gnoll acquatico
+8728#il Capogilda gnoll
+8729#uno spirito astrale
+8730#uno spirito $c0006oscuro$c0007
+8731#il Capogilda degli spiriti
+8732#un Accolito di $c0006Akhmath$c0007
+8733#una mantide religiosa $c0015Gigante$c0007
+8734#un serpente Planare 
+8735#un Miliziano del Caos
+8736#Kh'ryf l'ectoplasma
+8737#Susan la $c0010Protettrice$c0007 dell'Equilibrio
+8739#$c0009Akhmath$c0007 il $c0015bufalo$c0007
+8900#$c0008un morto affogato$c0007
+8901#un $c0003mozzo$c0007
+8902#un rude $c0004ma$c0006ri$c0004na$c0006io$c0007
+8903#un $c0006pesce$c0007 a due teste
+8904#una $c0008massa$c0007 di vermi $c0001carnivori$c0007
+8905#un $c0013maiale$c0007 inferocito
+8906#un'$c0015oca$c0007 starnazzante
+8907#un $c0003barile$c0007 di $c0001es$c0009plo$c0011si$c0015vo!$c0007
+8908#un enorme $c0005tentacolo$c0007
+8909#lo $c0006spettro$c0007 di un $c0011Ufficiale$c0007
+8910#un $c0004ma$c0006ri$c0004na$c0006io$c0008 non-morto$c0007
+8911#una $c0013S$c0005uccube$c0007
+8912#un aiutante cuoco
+8913#il $c0008cadavere$c0007 di un $c0015cuoco$c0007
+8914#un $c0008contrabbassista$c0007
+8915#un $c0001violoncellista$c0007
+8916#un $c0005violinista$c0007
+8917#$c0013A$c0005lcibiades, l'$c0013O$c0005nnipotente$c0007
+8918#$c0014A$c0006lcmeone$c0008, il $c0014D$c0006annato$c0007
+8919#un aiutante cuoco
+8920#$c0009K$c0008or'$c0009G$c0008ul, il $c0013D$c0005emone$c0008 del $c0008Sonno$c0007
+8921#$c0008un antico demone dimenticato$c0007
+8922#$c0008il Kraken delle Nebbie$c0007
+8923#$c0008il cadavere sfigurato di un bambino$c0007
+8924#$c0008una montagna di cadaveri mutilati$c0007
+8925#$c0008una immensa testa grondante sangue$c0007
+8926#$c0008una rivoltante massa di organi interni$c0007
+8927#$c0008la visione della tua morte$c0007
+8928#lo $c0008spettro$c0007 di Alcibiades
+8929#lo $c0008spettro$c0007 di Alcmeone
+8930#l'$c0008ombra nera$c0007 del $c0013D$c0005emone$c0007
+8931#uno spirito evanescente
+8932#lo spirito di Jonas
+8933#$c0008un groviglio di piccoli arti $c0009strappati$c0007
+8934#il $c0006Guardiano$c0007 del Sogno
+8935#quel che resta di Alcibiades
+8936#il guscio vuoto di Alcmeone
+8938#un nugolo di demonietti
+8939#un $c0003mostruoso $c0011va$c0010ri$c0014op$c0010in$c0011to $c0002pappagallo$c0007
+8940#Kamerios, il Senatore
+8941#Gernulfus, il Condannato
+8942#un $c0008cadavere$c0001 di $c0004ma$c0006ri$c0004na$c0006io$c0007
+8943#un Demone $c0008Spezzasogni$c0007
+8944#quel che resta di un marinaio ubriaco
+8945#Stavros, il guardiamarina
+8946#un marinaio di servizio
+8947#l'$c0009I$c0001ncubo$c0008 Eterno$c0007
+8948#Anthimos, il Timoniere
+8949#una $c0008bestia$c0007 di $c0008nebbia$c0007 e $c0001sangue$c0007
+8950#un $c0013D$c0005emone$c0007 della $c0012N$c0004otte$c0007
+8951#un $c0008Aspetto$c0007 dell'$c0009I$c0001ncubo
+9200#un Gigante Guerriero
+9201#Beegnbad, il Re delle Colline
+9202#Ujahteez, la Regina delle Colline
+9203#l'Ambasciatore dei Giganti Nuvola
+9204#un gigante di pietra
+9205#un orso delle caverne
+9206#un nano impazzito
+9207#il Gigante Capoguardia
+9208#la Sacerdotessa della Morte
+9209#un gigante non-morto
+9210#un troglodita
+9211#uno gnoll
+9212#un ogre
+9213#un insetto necrofago
+9214#una manticora
+9215#un orco
+9216#un bugbear
+9217#un Vecchio Drago Blu
+9218#un gigante delle colline
+9219#un feroce lupo nero
+9220#Ashark, lo Sciamano
+9221#Hag Lee, il consigliere
+9222#il giovane Principe
+9223#una gigantessa
+9224#un gigante ubriaco
+9225#il Gigante Torturatore
+9226#un pipistrello verdastro
+9227#uno gnoll prigioniero
+9228#una sentinella bugbear
+9229#un bugbear capoclan
+9230#il Gigante Fabbro
+9231#un demone prigioniero
+9232#un pastore ghoul
+9233#Trillok, lo sciamano gnoll
+9234#$c0008Doom$c0001Hammer$c0007
+9401#Jarl, il Capo dei giganti
+9402#Triira, la Regina dei giganti
+9403#Gulzud, lo Sciamano dei giganti
+9404#Arotras, il Capitano dei giganti
+9405#Zurd, il gigante assassino
+9406#una guardia dei giganti
+9407#un soldato dei giganti
+9408#Khaldur, il Sergente dei giganti
+9409#un gigante di ghiaccio
+9410#una gigantessa del ghiaccio
+9411#un gigante del ghiaccio
+9412#una gigantessa del ghiaccio
+9413#un gigante del ghiaccio luogotenente
+9414#un gigante del ghiaccio
+9415#un gigante del ghiaccio
+9416#uno Yeti
+9417#un orso polare
+9418#un Drago Bianco
+9419#una Draghessa Bianca
+9420#un gigante delle rocce
+9421#un gigante delle colline
+9422#un Rehmoraz
+9423#un lupo dei ghiacci
+9424#una gigantessa della Tempesta
+9425#un budino Bianco
+9426#un gigante del ghiaccio monaco
+9427#un gigante del ghiaccio chierico
+9428#un gigante del ghiaccio mago
+9429#un gigante del ghiaccio guerriero
+9430#un Troll del ghiaccio
+9431#un serpente delle Nevi
+9432#un Ogre magi
+9433#un gigante delle nuvole
+9434#una gigantessa del fuoco
+9435#un rospo dei ghiacci
+9436#uno Yeti
+9601#un soldato goblin
+9602#una sentinella goblin
+9603#un goblin
+9604#il capitano dei goblin
+9605#un soldato goblin semi-addormentato
+9606#Toeder, il re dei goblin
+9607#il fabbro dei goblin
+9608#un povero gigante stolto
+9609#un cuoco goblin
+9610#un ragno gigante
+9611#il ragno regina
+9612#un lupo nero
+9613#un ratto
+9614#una ninfa dei boschi
+9615#il sacerdote dei goblin
+9616#un accolito goblin
+9617#un soldato goblin
+9618#il goblin ladro
+9619#la driade
+9700#un'enorme onda
+9701#un'enorme onda
+9702#un topo crudele
+9703#lo scheletro di un arciere
+9704#Jot, l'Antico Guardiano
+9705#il Sacerdote del Drago
+9706#un elementale dell'acqua
+9707#Meepo
+9708#un topo grasso
+9709#un bandito coboldo
+9710#un prigioniero impaurito
+9711#un buttafuori coboldo
+9712#un abitante coboldo
+9713#un'abitante cobolda
+9714#la regina Yusdrayl
+9715#un buttafuori coboldo
+9716#un guardiano scheletrico
+9717#Guthash
+9718#un goblin grigio
+9719#Erky Timbers
+9720#un prigioniero coboldo impaurito
+9721#Calcryx
+9722#un abitante goblin
+9723#un'abitante goblin
+9724#Durnn, il capo della tribu' Durbuluk
+9725#Grenl
+9726#un arbusto maligno
+9727#Balsag
+9728#Zanna
+9729#Morsa
+9730#Thoqqua
+9731#un grosso Bugbear giardiniere
+9732#l'Ombra
+9733#Sharwyn Hucrele
+9734#Sir Bradford Hucrele
+9735#$c0002Belak$c0007, il $c0010Druido$c0007
+9736#l'Albero di Gulthias
+9737#un topo crudele
+9738#un bandito Goblin
+9739#il Guardiano del Portale
+9740#Rurik Lutgehr
+9741#un menestrello
+9742#Garon, l'oste
+9743#Flora Foxburr
+9744#Dem Nackle
+9745#Milo, il mercante
+9746#un arbusto maligno
+9747#la signora Kerowyn Hucrele
+9748#il sindaco Vurnor Leng
+9749#la moglie del Sindaco
+9750#Felosial, la conestabile
+9751#Ben, un delegato
+9752#Lu, un delegato
+9753#Jym, un delegato
+9754#Roda, un delegato
+9755#una bambina felice
+9756#un bambino felice
+9757#una bambina assorta
+9758#un bambino assorto
+9759#una nonna felice
+9760#una commessa della boutique
+9761#un addetto alla manutenzione
+9762#$c0010Kullet$c0007, la raganella gigante
+9900#L'Albero Guardiano
+9901#Lekuterl
+9902#Kiva
+9903#Muleroth
+9904#Normotia
+9905#Shimel
+9906#Lagiva
+9907#Searomel
+9908#Hakema
+9909#Asturia
+9910#Il Signore dei Demoni
+10001#un $c0015chierico$c0007 dell'ordine del $c0001drago$c0007
+10002#una sentinella
+10003#una $c0014presenza$c0007 $c0006spettrale$c0007
+10004#un cane famelico
+10005#una guardia
+10006#un $c0006Golem$c0007 di $c0014ossa$c0007
+10007#un $c0006seguace$c0007 dell'ordine del $c0001drago$c0007
+10008#la $c0003Statua$c0007 di un Druido
+10009#la $c0003Statua$c0007 di un Assassino
+10010#Il sacerdote dell'ordine della clessidra
+10011#la $c0003Statua$c0007 $c0015A$c0001dirata$c0007
+10012#la $c0003Statua$c0007 di un Canguro
+10013#una $c0014presenza$c0007 $c0006spettrale$c0007
+10014#un $c0006Golem$c0007 di $c0003pietra$c0007
+10015#la $c0003Statua$c0007 di un $c0011M$c0007ezzo $c0011G$c0007igante
+10016#la $c0003Statua$c0007 di uno Stregone
+10017#la $c0003Statua$c0007 di un Sacerdote
+10018#uno $c0006spettro$c0007 $c0015guerriero$c0007
+10019#un $c0006sacerdote$c0007 dell'ordine del $c0001drago$c0007
+10020#Alkiria l'amazzone
+10021#un $c0015demone$c0007 vestito di $c0006nero$c0007
+10022#il $c0011Servo$c0007 di $c0008Amahrb$c0007
+10023#l'$c0011Avatar$c0007 di $c0415Amharb$c0007
+10024#il $c0015Custode Bianco$c0007
+10025#un grosso pipistrello vampiro
+10100#una centuria di miliziani umani aborigeni
+10101#un $c0009Tirannosauro$c0007
+10102#un $c0003Triceratopo$c0007
+10103#un $c0014Brontosauro$c0007
+10104#uno $c0016Stegosauro$c0007
+10105#uno $c0002Spinosauro$c0007
+10106#un $c0008Anchilosauro$c0007
+10107#settantacinque goblin delle paludi
+10108#un $c0001Allosauro$c0007
+10109#un $c0010Parasaurolofo$c0007
+10110#un $c0010Compsognato$c0007
+10111#un $c0009Deinonico$c0007
+10112#un $c0001Velociraptor$c0007
+10126#il Console $c0015Ezio$c0007
+10127#$c0013Nadine$c0007
+10128#una centuria di miliziani nani novizi
+10129#la $c0015Statua $c0007di $c0014Fawdrath$c0007
+10130#una centuria di miliziani nani esperti
+10131#34 miliziani nani esperti
+10132#una centuria di chierici nani eroi
+10133#$c0009Brith$c0007, il Maestro Armaiolo
+10134#una centuria di templari nani eroi
+10135#$c0014Eventine$c0007
+10136#una centuria di arcieri gnomi eroi
+10137#$c0003Ithrorn$c0007, il Maestro Fabbro
+10138#$c0008Shadows$c0007, il Maestro d'Armi
+10150#$c0001T$c0011ywin $c0001L$c0011annister$c0007
+10151#una centuria di miliziani umani aborigeni
+10176#Aredhel
+10177#una centuria di cavalieri umani veterani
+10178#$c0012Magor$c0007, il comandante
+10179#$c0012Megilagor$c0007
+10180#$c0003Dringol$c0007
+10181#$c0003Lumorn$c0007
+10182#$c0012Naretar$c0007
+10183#la $c0015Statua $c0007di $c0013Carabas$c0007
+10184#una centuria di fanti troll veterani
+10185#una centuria di miliziani umani addestrati
+10201#$c0015Il Mastro di Chiavi$c0007
+10202#Il $c0015Console$c0008 Pasky$c0007
+10203#$c0008Il Guardia di Porta$c0007
+10204#la $c0015Statua $c0007di $c0013Justice$c0007
+10205#Venti Miliziani Elfici Eroi
+10206#Lady Federica
+10207#$c0008Merlino$c0007
+10208#$c0015Lancillotto$c0007
+10209#$c0014Sirio Forel$c0007
+10210#l'$c0015Ammazzavampiri$c0007
+10211#Il $c0008Distruttore$c0007 della$c0015 Luce$c0007
+10212#$c0008Conan $c0001il $c0009Barbaro$c0007
+10213#una centuria di miliziani umani aborigeni
+10214#$c0015Alex Pacis$c0007
+10215#$c0015Il Cesellatore di $c0008Anime$c0007
+10216#$c0008La Trebbiatrice di $c0015Spettri$c0007
+10217#$c0015l'Araldo di $c0008Justice$c0007
+10218#l'$c0015Gmork il $c0008Nero$c0007
+10226#Laplace no Ma, il demone
+10227#Enju, il console legato
+10228#Jun, il fabbro ragazzino
+10229#KunKun, l'Arcimago
+10230#Tomoe, la Maestra d'Armi
+10231#una centuria di cavalieri elfi eroi
+10232#Mitsu, l'armaiola
+10233#la $c0015Statua $c0007di $c0013Sakura$c0007
+10234#cinque decurie di aruspici elfi addestrati
+10235#due decurie di miliziani elfici
+10251#$c0008La Statua di $c0001Alita$c0007
+10252#$c0015Ido$c0007, il cyberdottore$c0007
+10253#$c0014Desty Nova$c0007, il console
+10254#Figura $c0011Quattro$c0007, il Maestro armaiolo
+10255#$c0008Caerula $c0001Sanguis$c0007, la Maestra d'armi
+10256#$c0014K$c0015a$c0009o$c0008s$c0007, l'Arcimago
+10257#Umba, il Maestro fabbro
+10260#$c0008Yoko$c0007
+10261#$c0015Elf$c0007 e $c0008Zwoelf$c0007
+10262#$c0008Sechs $c0015AR-6 $c0007e $c0003Zazie$c0007
+10263#20 Aruspici Elfi Eroi
+10264#20 Aruspici Gnomi Eroi
+10265#20 Aruspici Gnomi Eroi
+10266#Satumode
+10267#il fantasma di Satumode
+10272#trentacinque goblin delle paludi Eroi
+10273#20 Miliziani Umani Eroi
+10274#20 Miliziani Halfling Eroi
+10276#Annibale, il Legato
+10277#Amilcare, il Maestro d'Armi
+10278#Onafets, l'arcimago
+10279#Asdrubale, il Maestro Fabbro
+10280#Magon, il Maestro Armaiolo
+10281#La Statua di Kazzuya
+10282#Epidemais, il mercante
+10283#una ventina di miliziani elfi eroi
+10284#una centuria di cavalieri elfi veterani
+10285#una centuria di cavalieri elfi eroi
+10300#$c0015l'armata delle tenebre$c0007
+10301#$c0008Aurelio$c0007
+10302#la $c0015Statua $c0007di $c0008Guybrush$c0007
+10303#$c0008Volundr$c0007
+10304#$c0008Torax$c0007
+10305#$c0008Potter$c0007
+10306#$c0008Baldur$c0007
+10307#$c0015S$c0008paccaossa$c0007
+10308#$c0015D$c0008evastatore$c0007
+10309#$c0008Soul Reaver$c0007
+10310#$c0008Black$c0007
+10311#$c0015D$c0008onFlamingo$c0007
+10312#$c0015P$c0008x7$c0007
+10353#$c0014Aokiji, l'Ammiraglio$c0007
+10354#$c0012Bastille, il TagliaSquali$c0007
+10355#$c0011Kizaru, l'Ammiraglio$c0007
+10356#$c0009Maynard, il Braccatore$c0007
+10357#$c0005I$c0013l $c0005D$c0013ottor $c0005V$c0013ega$c0005P$c0013unk$c0007
+10358#$c0012John Giant$c0007
+10360#$c0005Fujitora, l'Ammiraglio$c0007
+10361#$c0015Garp, l'Eroe$c0007
+10367#Venti Mozzi Goblin
+10370#$c0003C$c0011alifa, $c0003l$c001a $c0003L$c0011ocandiera$c0007
+10378#the Boss
+10399#Sonny e Michael, degli sgherri spettrali
+10403#Caramon Majere
+10404#Sturm Brightblade
+10405#Tika Waylan
+10406#Flint Fireforge
+10407#Theros Ironfeld
+10408#Astinus
+10409#Kitiara
+10411#Fistandantilus
+10412#Goldmoon
+10418#la $c0015Statua $c0007di $c0013Murtagh$c0007
+10420#Bakaris
+10421#Verminaard
+10450#$c0013Miglian$c0007, l'umile principessa
+10451#una $c0015centuria $c0007di $c0013Monaci$c0007 halfling
+10452#$c0015Chuen Yuan $c0007,il $c0013Legato$c0007
+10453#una $c0015centuria $c0007di $c0013Monaci$c0007 halfling
+10454#$c0015Gan Jiang $c0007,il $c0013Fabbro$c0007
+10455#$c0015Mo Yen $c0007,la $c0013Spadaccina$c0007
+10456#$c0015Ou Yezi $c0007,l' $c0013Armaiolo$c0007
+10500#una centuria di miliziani umani aborigeni
+10575#Spissodin, l'arcimago
+10576#Dagopep, il Maestro Fabbro
+10577#Magon, il Maestro Armaiolo
+10578#La Statua di $c0099B$c0099r$c0099e$c0099a$c0099k$c0099t$c0099h$c0099r$c0099u$c0007
+10579#Mollocar, il mercante
+10580#Dinittoan, il console
+10581#Nigrien, il Maestro d'Armi
+10582#una ventina di miliziani elfi eroi
+10583#una centuria di cavalieri elfi veterani
+10584#una centinaio di elfi pazzi
+11001#Lord Markam
+11002#una guardia d'elite
+11004#una guardia
+11005#una guardia d'onore
+11006#la guardia ubriaca
+11007#un sottufficiale
+11010#la pecora
+11011#un allevatore
+11012#un cavallo arabo
+11013#una donna
+11014#il negoziante di formaggi
+11015#il fornaio del castello
+11016#l'ostessa
+11017#un artigiano
+11018#un prete
+11019#il cappellano
+11020#il torturatore
+11021#un urlo feroce
+11022#uno strepito assordante
+11023#un urlo selvaggio
+11024#un urlo distorto
+11025#un uomo
+11026#un cortigiano
+11027#un passante
+11028#un avventuriero
+11029#un vecchietto
+11030#Elderf
+11031#il golem d'oro
+11032#una fatina
+11033#Kedrin Kaytin
+11034#Durfey il mancino
+11035#Kildirf
+11036#un menestrello
+11037#il terribile lupo d'argento
+11038#la bestia nera
+11039#Tras Donein
+11040#un contadino
+11041#un grosso contadino
+11042#Hador
+11043#una giovane fanciulla
+11044#un contadino
+11045#L'addetto al granaio
+11046#Keifer II
+11047#Cordio
+11048#un frate
+11100#lo squalo tigre
+11101#lo squalo bianco
+11102#il Megalodonte
+11103#il $c0009Calamaro$c0007 gigante
+11104#la balena bianca
+11200#un grosso pipistrello
+11201#una vipera nera
+11202#una talpa comune
+11203#una vipera comune
+11204#un toporagno comune
+11205#un serpente arcobaleno
+11206#un famelico lupo
+11207#la statua di $c0001Kazzuya$c0007
+11208#la statua di $c0005Maabrash$c0007
+11209#la statua della $c0015R$c0012osa $c0015E$c0012terna$c0007
+11210#una spina di marmo
+11211#un cinghiale selvatico
+11212#un stambecco delle alpi
+11300#un lunitello
+11301#un wight
+11302#un sacerdote di Ashardalon
+11303#un vampiro
+11304#l'ombra dei cultisti
+11305#la mummia di un sacerdote
+11306#il liquido nero
+11307#Aoket
+11308#uno spettro guardiano
+11309#Oggunon Sathaar
+11310#un girallon
+11311#un grosso girallon
+11312#un piccolo girallon
+11313#un mohrg
+11314#Rhunad
+11315#un wight
+11316#Sutura
+11317#un golem di carne
+11318#la colonna di fuoco
+11319#Thiff la Scaltra
+11320#il golem delle lapidi
+11321#uno zombie
+11322#Ossarosse
+11323#Faquarl
+11324#il Cuore di Ashardalon
+11500#Mallar
+11501#un enorme orco
+11502#Wark
+11503#Thark
+11504#un orco
+11505#un enorme orco
+11507#un orco mago
+11508#Burdug, la Sciamana
+11509#una seguace di Burdug
+11510#gli uccelli stigei
+11511#il Grande Ulfe
+11512#Vak
+11513#Thrag
+11514#il Vecchio Yarrack
+11515#un troglodita
+11516#un combattente troglodita
+11519#Kaarghaz, il Capo Tribu'
+11520#una lucertola gigante
+11521#una muffa gialla
+11522#un orso bruno
+11523#un grick
+11524#una melma grigia
+11525#un fustigatore
+11526#Ghared
+11527#un duergar
+11528#un combattente duergar
+11529#un mago duergar
+11530#Nimira
+11531#un tavolo
+11532#uno scheletro
+11533#un wight
+11534#Arundil
+11536#un manichino porta armatura
+11537#Idalla
+11538#Scaglia Notturna
+11600#un golem guardiano
+11601#Gimli
+11603#$c0002C$c0008avust$c0007
+11606#$c0008Sm$c0007ok$c0015er, $c0008il vice ammiraglio
+11612#$c0009Castigo$c0007
+11613#la statua di Shruikan
+11615#Kurama, la Volpe a Nove Code
+11618#$c0007lo $c0008spirito$c0007 di $c0001A$c0009l$c0008astor$c0007
+11621#la principessa bambina
+11624#$c0015l'uomo $c0005gentile$c0007
+11627#Matrim Cauthon
+11630#un $c0008corvo$c0015 bianco$c0007
+11633#Gregory, il maggiordomo
+11636#l'omino di $c0003marzapane$c0007
+11638#$c0008Pandemona$c0007, la $c0009Fenice$c0007
+11642#un palloncino gonfiabile
+11645#Marley lo spettro della fenice
+11648#Il fantasma del pirata Le Chuck
+11651#il maggiordomo tuttofare Groucho
+11654#Artax il cavallo di Atreiu
+11660#$c0014Han$c0006s $c0013Magnus $c0011Ryan$c0007, l'arcidruido di Nidaros
+11666#l'eco di un passato lontano
+11669#$c0014Ilderico$c0007
+11672#il maggiordomo
+11675#il Guardiano della Torre
+11678#uno $c0014Sbarabaus$c0007
+11681#$c0008Lo $c0015spirito $c0008di un antico mercenario$c0007
+11684#$c0011P$c0015arcival$c0008, l'attendente di $c0009K$c0001azzuya$c0007
+11687#mano
+11690#Igor, il maggiordomo
+11693#Chun-Lin
+11700#l'Araldo di Ashura
+11701#un soldato di fanteria mercenario
+11702#un soldato d'elite mercenario
+11703#un chierico combattente mercenario
+11704#un soldato monaco mercenario
+11705#un corazziere mercenario
+11706#un soldato barbarico mercenario
+11707#un paladino mercenario a cavallo
+11708#un soldato d'avanguardia mercenario
+11709#un assassino mercenario
+11710#un soldato di cavalleria mercenario
+11711#un soldato di fanteria nero
+11712#un soldato d'elite nero
+11713#un chierico combattente nero
+11714#un soldato monaco nero
+11715#un corazziere nero
+11716#un soldato barbarico nero
+11717#un paladino nero a cavallo
+11718#un soldato d'avanguardia nero
+11719#un assassino nero
+11720#un soldato di cavalleria nero
+11721#un soldato di fanteria azzurro
+11722#un soldato d'elite azzurro
+11723#un chierico combattente azzurro
+11724#un soldato monaco azzurro
+11725#un corazziere azzurro
+11726#un soldato barbarico azzurro
+11727#un paladino azzurro a cavallo
+11728#un soldato d'avanguardia azzurro
+11729#un assassino azzurro
+11730#un soldato di cavalleria azzurro
+11731#un soldato di fanteria rosso
+11732#un soldato d'elite rosso
+11733#un chierico combattente rosso
+11734#un soldato monaco rosso
+11735#un corazziere rosso
+11736#un soldato barbarico rosso
+11737#un paladino rosso a cavallo
+11738#un soldato d'avanguardia rosso
+11739#un assassino rosso
+11740#un soldato di cavalleria rosso
+11741#un soldato di fanteria bianco
+11742#un soldato d'elite bianco
+11743#un chierico combattente bianco
+11744#un soldato monaco bianco
+11745#un corazziere bianco
+11746#un soldato barbarico bianco
+11747#un paladino bianco a cavallo
+11748#un soldato d'avanguardia bianco
+11749#un assassino bianco
+11750#un soldato di cavalleria bianco
+11751#Kirin, il generale dei mercenari
+11752#Genbu, il generale dell'esercito nero
+11753#Seiryu, il generale dell'esercito azzurro
+11754#Suzaku, il generale dell'esercito rosso
+11755#Byakko, il generale dell'esercito bianco
+11756#il guardiano dei cancelli
+11757#il guardiano del portone
+11758#un luogotenente
+11759#il mago di corte
+11760#l'arcivescovo
+11761#l'assassino reale
+11762#la statua della tartaruga nera
+11763#il cavaliere reale
+11764#la regina
+11765#il re
+11766#Ashura, il dio della guerra
+11767#il guardiano del portone
+11768#un luogotenente
+11769#il mago di corte
+11770#l'arcivescovo
+11771#l'assassino reale
+11772#la statua del drago azzurro
+11773#il cavaliere reale
+11774#la regina
+11775#il re
+11776#un samurai guardiano
+11777#il guardiano del portone
+11778#un luogotenente
+11779#il mago di corte
+11780#l'arcivescovo
+11781#l'assassino reale
+11782#la statua della fenice
+11783#il cavaliere reale
+11784#la regina
+11785#il re
+11787#il guardiano del portone
+11788#un luogotenente
+11789#il mago di corte
+11790#l'arcivescovo
+11791#l'assassino reale
+11792#la statua della tigre bianca
+11793#il cavaliere reale
+11794#la regina
+11795#il re
+11796#un arciere nero
+11797#un arciere azzurro
+11798#un arciere rosso
+11799#un arciere bianco
+11801#il Terrificante Orrore Paurosissimo
+11802#l'emissario oscuro di Ashura
+11803#l'emissario divino di Ashura
+11804#l'emissario arcano di Ashura
+11805#l'emissario guerriero di Ashura
+11806#$c0006Muramasa Sengu$c0007, il fabbro
+12001#Un guerriero di livello 51
+12002#Un chierico di livello 51
+12003#Un mago di livello 51
+12004#Un mob senza classi di livello 51
+12005#Un mago-chierico di livello 50
+12006#Un druido di livello 51
+12007#Un mago-chierico di livello 51
+12008#Un mago di livello 50
+12009#Un chierico di livello 50
+12010#Un druido di livello 50
+12011#Un monaco di livello 51
+12012#Un monaco di livello 50
+12013#Un guerriero di livello 55
+12014#Un chierico di livello 55
+12015#Un mago di livello 55
+12016#Un mob senza classi di livello 50
+12017#Un mob senza classi di livello 55
+12018#Un druido di livello 55
+12019#Un mago-chierico di livello 55
+12020#Un monaco di livello 55
+12021#Un arbitro
+12200#un possente guerriero
+12201#un dio dimenticato
+12202#un ent
+12203#la statua di Ruxan
+12204#un malvagio lich
+12301#un $c0011leopardo$c0007 delle paludi
+12302#$c0007un $c0003verme $c0007gigante
+12303#$c0007un piccolo $c0003verme $c0007gigante
+12304#un $c0008budino nero$c0007
+12305#$c0007un ragno $c0002salmastro$c0007
+12306#$c0007un $c0003orsogufo$c0007
+12307#un serpente delle $c0015nevi$c0007
+12308#$c0007un $c0008ladro $c0007solitario
+12309#$c0007un $c0008ladro $c0007di carriera
+12310#una stalattite
+12311#una trappola
+12312#$c0010Higley$c0007 l'$c0002Occidentale$c0007
+12313#$c0008Kugar$c0007 il $c0008Vendicatore$c0007
+12314#$c0012Newton$c0007 il $c0004Dionisiaco$c0007
+12315#$c0011Nazar$c0007 il $c0003Devoto$c0007
+12316#$c0009Itis$c0007 il $c0001Cacciatore$c0007
+12317#un $c0011leopardo$c0007 delle paludi
+12318#una $c0003talpa$c0011 gigante$c0007
+12319#una freccia di $c0006ghiaccio$c0015 purissimo$c0007
+12320#$c0009Strongbow $c0007l'$c0001Arciere$c0007
+12321#$c0011Valinor $c0007il$c0003 Principe Mercante$c0007
+12322#$c0012Urano$c0007 il $c0004Taumaturgo$c0007
+12323#$c0008Zenus$c0007 il $c0008Macellaio$c0007
+12324#$c0010Glasgow$c0007 il$c0002 Cacciatore$c0007
+12325#$c0008Oreficul$c0007 il $c0008Mietitore$c0007 d'$c0015Anime$c0007
+12326#$c0013Yavian$c0007 la $c0005Mezzelfa$c0007
+12327#$c0014Laiskud $c0007il$c0006 Marinaio$c0007
+12328#$c0008Nattik $c0003Ditaleste$c0007
+12502#un topo spazzino
+12504#il topo macchinista
+12505#il topo centurione
+12509#un topo guardia
+12513#la regina dei topi
+12514#un topo panciuto
+12515#una guardia di citta'
+12516#un topo cittadino
+12517#un topo bambino
+12518#un cane
+12519#Buruk il venditore di carni
+12520#Adira la megera
+12521#Sepina
+12522#un mercante
+12523#un visitatore
+12524#un topo di borgo
+12525#un gatto ossuto
+12526#un cane
+12527#un topino
+12528#una guardia corazzata
+12529#un giovane visitatore
+12530#il re dei topi
+12531#un ratto straniero
+12532#il ratto torturatore
+12533#la serva della regina
+12534#Kalmus il mastino
+12536#Cheeser
+12550#un ladro lesto
+12551#un grosso scassinatore
+12561#Shirkish, il Cavaliere ratto
+12563#Bangfizzle
+12600#$c0008L'Eremita del buio$c0007
+13300#$c0009il Vate del Caos Primevo$c0007
+13301#$c0008Il guardiano del caos$c0007
+13302#$c0008Il sacerdote del caos$c0007
+13303#$c0008Il mago del caos$c0007
+13304#$c0008L'elementale del tempo$c0007
+13305#$c0008L'elementale del caos$c0007
+13306#$c0009Il Caos$c0007
+13307#$c0008Il caos nella tua mente$c0007
+13701#un corpulento pirata
+13702#un contrabbandiere
+13703#un ambasciatore
+13704#un viandante
+13705#una meretrice
+13706#un baldo guerriero
+13707#un attaccabrighe
+13708#un nano incappucciato
+13709#un soldato miceneo
+13710#Megathos, l'oste
+13711#Re Agamennone
+13712#Calcante, l'indovino
+13713#un assassino
+13714#Hercules
+13715#un cavallo
+13716#Clitennestra
+13717#Egisto
+13718#il Leone di Nemea
+13719#l'Idra
+13720#una cavalla antropofaga
+13723#Gerione, il tricipite
+13724#il Cane Bicipite
+13725#un toro gigantesco
+13726#Chirone
+13727#un centauro
+13728#Nesso
+13731#un Satiro
+13732#un Basilisco
+13733#un lupo affamato
+13734#un Uccello Stinfalide
+13735#la Cerva di Cerineo
+13736#il Cinghiale di Erimanto
+13737#Artemide
+13738#il Dio Pan
+13739#una ninfa
+13765#il mostro acido
+13777#Sedrina
+13802#un cane rabbioso
+13806#la Maga Circe
+13812#un ciclope
+13813#Polifemo
+13816#un serpente
+13819#una sirena
+13821#una gorgone
+13826#Atlante
+13827#una guerriera amazzone
+13828#la Regina Ippolita
+13829#Ladone, il Drago Guardiano
+13834#un'arpia
+13837#un argonauta
+13840#Medusa
+13841#Castore
+13842#Polluce
+13843#Teseo
+13846#Giasone
+13847#Medea
+13849#il Minotauro
+13850#Proteo
+13851#la schiuma del mare
+13852#uno Zefiro
+13900#un disertore
+13901#un disertore
+13902#un disertore
+13903#un disertore
+13904#un disertore
+13905#il Sergente Disertore
+13906#un Arciere
+13907#un disertore veterano
+13908#Eriast il chierico rinnegato
+13909#Kalthas
+13910#Roland il Paladino
+13911#un tagliagole
+13912#un bandito
+13913#un flagellante
+13914#un chierico errante
+13915#un famiglio demoniaco
+13916#un famiglio demoniaco
+13917#un famiglio demoniaco
+13918#Urgord il demone inferiore
+13919#Nahaz il demone
+13920#una guardia
+13921#un mercante
+13922#un viandante
+14001#il troll
+14002#un Vendicatore
+14003#Karkas il Sommo Vendicatore
+14004#un cane da battaglia
+14005#un Vendicatore
+14006#l'assassino del cuore nero
+14007#$c0006Ygg$c0005drasill$c0007!!!
+14008#un cucciolo di una specie sconosciuta
+14009#$c0008Ratatoskr$c0007, lo scoiattolo grigio
+14010#Vioopnir, il gallo $c0011dorato$c0007
+14011#un'enorme $c0015aquila$c0007
+14012#$c0005Niohoggr$c0007, la serpe sibilante
+14013#il cervo $c0003Dvalinn$c0007
+14014#il cervo $c0003Dainn$c0007
+14015#il cervo $c0003Duneyrr$c0007
+14016#il cervo $c0003Durabpror$c0007
+14017#il falco Veorfolnir
+14100#un uomo scorpione
+14101#Chumbaba
+14120#le alghe stritolatrici
+14121#l'Orca assassina
+14122#Poseidone
+14123#Tritone
+14124#una Nereide
+14125#un pesce palla
+14126#Scilla
+14127#Cariddi
+14130#un guerriero nuvola
+14131#un pfooff
+14132#Sonal Abanda
+14133#Tefal Abranda
+14134#Shin Tigre Leggera
+14135#il Guardiano delle Teste
+14136#una Tigre del Malabar
+14137#Eolo
+14138#Aquilone
+14139#Vulturno
+14140#Greco
+14141#Libeccio
+14142#la Rosa dei Venti
+14155#un pirogeo
+14156#Prometeo
+14157#una Fenice
+14158#una piovra
+14159#una spia
+14160#un Titano
+14161#un fabbro ciclopico
+14162#Efesto
+14163#il Demogorgo
+14164#un fabbro ciclopico
+14200#un Ostacolo
+14201#Cloto
+14202#Lachesi
+14203#Atropo
+14204#una falsa partenza
+14205#uno scatto fulmineo
+14206#una progressione micidiale
+14207#un crampo improvviso
+14208#l'ennesimo sorpasso
+14209#una brutta caduta
+14210#un'invasione di corsia
+14211#meta` gara
+14212#una contrattura
+14213#l'affaticamento
+14214#un ultimo sforzo
+14215#un brutto strappo
+14216#una distorsione
+14217#uno stiramento inaspettato
+14218#la linea d'arrivo
+14400#un cadavere in decomposizione
+14401#un pipistrello vampiro
+14402#uno scheletro consumato
+14403#uno spettro evanescente
+14404#un'anima sperduta
+14405#una banshee disperata
+14406#un cavaliere senza testa
+14407#Endorovich il Terribile
+14408#Principe Aerial du Plumette
+15100#uno schiavo goblin
+15101#un cittadino drow
+15102#un guerriero drow
+15103#un mago drow di alto rango
+15104#una sacerdotessa drow
+15105#il Maestro drow
+15106#il Maestro d'armi
+15107#Matrona Amiat
+15108#Lareth
+15109#una yochlol
+15110#una lucertola gigante
+15111#FassNar
+15112#Matrona Madre Triel
+15113#Matrona Alvanha
+15114#Moon il negromante
+15115#Lolth, la dea Ragno
+15116#il Troll di muschio
+15117#un Rothe
+15118#il Cavalca-lucertole
+15119#il Notturno
+15120#una donna elfica
+15121#Nenys
+15122#la fanciulla
+15123#Mirial
+15124#un avventore drow
+15125#l'oste orbo
+15126#Mezkar
+15127#Jarlaxle
+15128#Leren
+15129#il Demone del portale
+15130#Mijjar
+15131#Maleq
+15132#Aleq
+15133#Kelvar il fabbro
+15134#il demone dell'iniziazione
+15135#l'iniziata
+15136#Kirath
+15137#l'Avatar di Eilistraee
+15138#lo Spirito Ira
+15139#Mensha
+15140#un vecchio archivista fantasma
+15141#un ragnetto
+15142#un'aracnide gigante
+15143#Kerlak
+15144#l'orrore dei fondali
+15145#un Mind Flayer
+15146#la Somma Sacerdotessa di Lolth
+15147#Ichwat, il consigliere
+15148#Nara
+15149#Liieana
+15150#un elfo di superficie
+15151#Kilnaph
+15152#Aila
+15153#Carwin
+15154#Akeen
+15155#Shara la sacerdotessa bambina
+15156#una fanciulla elfa scura
+15157#Mereklar il carceriere
+15158#un vecchio e burbero nano
+15159#un elfo scuro
+15160#Xues'Var, il drago abissale
+15161#uno schiavo nano
+15162#Kal
+15163#l'immagine di Kirath
+15164#la $c0015Draghessa$c0007 di $c0003Ottone$c0007
+15165#una guardia drow di elite
+15300#la Torre nera
+15301#il Cavaliere nero
+15302#l'Alfiere nero
+15303#la Regina nera
+15304#il Re nero
+15305#l'Alfiere nero
+15306#il Cavaliere nero
+15307#la Torre nera
+15308#il Pedone nero
+15309#il Pedone nero
+15310#il Pedone nero
+15311#il Pedone nero
+15312#il Pedone nero
+15313#il Pedone nero
+15314#il Pedone nero
+15315#il Pedone nero
+15317#il Mini Mindflayer
+15318#il Bestemmiatore
+15319#la Mucca
+15320#la distorsione spazio temporale
+15321#il giovane alberello
+15328#il Giocolosso
+15333#la Farfotta
+15337#la buccia di banana
+15348#il Pedone bianco
+15349#il Pedone bianco
+15350#il Pedone bianco
+15351#il Pedone bianco
+15352#il Pedone bianco
+15353#il Pedone bianco
+15354#il Pedone bianco
+15355#il Pedone bianco
+15356#la Torre bianca
+15357#il Cavaliere bianco
+15358#l'Alfiere bianco
+15359#la Regina bianca
+15360#il Re bianco
+15361#l'Alfiere bianco
+15362#il Cavaliere bianco
+15363#la Torre bianca
+15370#il Jabberwocky
+15371#una coppia di Medici
+15372#la Fiamma
+15393#una Bestia Corriere
+15394#una Bestia Oleosa
+15395#un Elfo corriere
+15396#un Elfo lavoratore
+15397#lo Stregatto
+15398#il Piccione
+15399#Sisifo
+15400#Bungilop, il Re dei folletti
+15401#Deghar
+15402#un elfo scuro
+15403#una guardia svirfneblin
+15404#un elementale di terra
+15405#un vecchio uomo
+15406#un eremita
+15407#un capopattuglia drow
+15408#una GROSSA creatura
+15409#un demone imprigionato
+15410#una guardia svirfneblin
+15411#Uri, il fabbro
+15412#un muratore svirfneblin
+15413#il Capomastro
+15414#il Creatore d'aria
+15415#un golem operaio
+15416#Jeenyas
+15417#la Matrice della Materia
+15418#un folletto invisibile
+15419#un alchimista drow
+15420#Pietro, il ragno
+15421#un lepisma
+15422#uno schifosissimo topo
+15423#un enorme avvoltoio
+15424#il Primo Mandragora
+15425#un $c0014S$c0006ahuagin$c0007
+15426#un $c0014S$c0006ahuagin $c0008Guerriero$c0007
+15427#un serpente di pietra $c0009rossa$c0007
+15428#uno $c0009S$c0001laad $c0008Grigio$c0007
+15429#uno $c0009S$c0001laad $c0002Verde$c0007
+15430#uno $c0009S$c0001laad $c0014Azzurro$c0007
+15431#uno $c0009S$c0001laad $c0011Dorato$c0007
+15432#il $c0015Na$c0007dir
+15433#lo $c0015Zen$c0007ith
+15434#l' Avatar del Guardiano
+15500#un piccolo scorpioncino rosso
+15501#il cucciolo di Rankor
+15502#il Rankor
+15503#il predone del deserto
+15504#un sabbiante
+15505#un bambino
+15506#Kebab
+15507#Kas'sif'athes
+15508#una voluttuosa prostituta
+15509#una donna nomade
+15510#un thri-kreen
+15511#un nomade
+15512#Jaffar
+15513#il Krar-Kess
+15514#Artemis Entreri
+15515#Ashdir
+15516#un verme rosa
+15517#Yago
+15518#l'enorme verme rosa della sabbia
+15519#il Genio della Lampada
+15600#un ambulante
+15601#un ambulante
+15602#un ambulante
+15603#un ambulante
+15604#un predone
+15605#il capo dei predoni
+15606#l'$c0014Acqua$c0007
+15607#la $c0003Terra$c0007
+15608#l'$c0015Aria$c0007
+15609#il $c0009Fuoco$c0007
+15610#un grosso cavernicolo
+15611#un beduino
+15612#un incantatore di serpenti
+15613#un incantatore di serpenti
+15614#un cobra addomesticato
+15615#un cammello imbizzarrito
+15616#un fachiro
+15617#il guardarobiere
+15618#una bella massaggiatrice
+15619#un massaggiatore
+15620#il guardiano delle terme
+15621#un uomo molto peloso
+15622#una scimmietta
+15623#un uccello
+15624#un uomo seminudo
+15625#una nobile
+15626#Dahor
+15627#Aaron
+15628#Gardin
+15629#Siemel
+15630#Lovai
+15631#Sciaben
+15632#Mirok
+15633#Zena
+15634#Banedpa
+15635#Brilioz
+15636#Maya
+15637#Noveas
+15638#Odonov
+15639#l'Incarnazione della Malvagita'
+15640#un sacro cobra incantato
+15641#un uomo in preghiera
+15642#un sacerdote
+15643#un elementale della sabbia
+15644#il capo delle guardie
+15645#il grande sacerdote
+15646#una guardia di ronda
+15647#una guardia di ronda
+15648#Mashud, il fabbro
+15700#il pinguino assassino
+15701#la tigre artica
+15702#$c0015Xenia$c0007, il drago d'argento
+15703#il pinguino assassino reale
+15704#un robusto orso polare
+15706#un orso grolare
+15707#la foca leopardo
+15708#la foca pacifica
+15710#un docile visone
+15711#uno yeti
+15713#un'alce
+15715#$c0014Jack Frost$c0007
+15717#un lupo bianco
+15718#una lontra gigante
+15719#un lemure del ghiaccio
+15721#il pitone delle nevi
+15722#il varano delle nevi
+15723#$c0015Thurk$c0007, il gigante del ghiaccio
+15724#$c0005Cormyr$c0007, il drago purpureo
+15725#$c0014Jane$c0007, la ladra d'inverno
+15726#un grosso lupo grigio
+15727#un grosso lupo nero
+15728#il ladro nero
+15800#un lupocorno
+15801#un gufo gigante
+15802#l'aquila imperiale
+15803#lo Skexie esiliato
+15804#un armadrillo
+15805#il Fantasma di Brackenred
+15806#un topo volante
+15807#un basuro
+15808#una Guardia Skexie
+15809#una fanciulla Skexie
+15810#la cuoca degli Skexie
+15811#una balia Skexie
+15812#un pulcino Skexie
+15813#una Manterna
+15814#un soldato Skexie
+15815#il Sacerdote Anziano
+15816#un architetto
+15817#una coppia di opossum
+15818#uno Skexie in meditazione
+15819#Palthor, il Comandante
+15820#Wegendel, l' Illusionista
+15821#Crandel, il Mago
+15822#Alastair, il Leader
+15823#Turendac, il Magistrato
+15824#un giovane Skexie
+15825#il Giullare degli Skexie
+15826#un Maestro Skexie
+15827#lo Scriba degli Skexie
+15828#il Bardo degli Skexie
+15829#una sentinella del Palazzo
+15830#un mulichort
+15833#uno Skexie
+15834#uno Skexie anziano
+15835#uno Skexie adolescente
+15836#un servo Skexie
+15837#un bambino Gelfling
+15838#un cane astrale
+15839#il Bechemel striato
+15840#il Bechemel a pois
+15841#il Bechemel a spina di pesce
+15842#il Bechemel blu notte
+15843#una guardia Gelfling
+15844#un Chierico Gelfling
+15845#Gilkey
+15846#un Fabbro Gelfling
+15847#un Gelfling impazzito
+15848#un guerriero Gelfling
+15849#una donna Gelfling
+15850#un porgi
+15851#Feuq, l' Artigiano
+15852#Dasillea
+15853#Thrack
+15854#Driscol
+15855#Horgg
+15857#la statua di Rugrat
+15860#la statua di Queeklor
+15883#un anziano druido
+15884#uno pterospino
+15885#uno stormo di uccelli
+15886#un giovane apprendista
+15887#un cespuglio spinoso
+15888#un Maestro Guerriero
+15889#un giovane avventuriero
+15890#Al Feisal, il Predone
+15891#Harkan, lo Stregone
+15892#un mago githyanki
+15893#Yrramdiel, l'elfa azzurra
+15894#una succube
+15895#Xao Chun Lee
+15896#Maer Seeless, lo Spietato
+15897#un golem di marmo
+15898#uno Skexie guerriero
+15899#uno Skexie barbaro
+15900#uno Skexie monaco
+15901#uno Skexie ranger
+15902#un piccolo coboldo
+15903#un giovane necromante
+15904#un sacerdote oscuro
+15905#un ladro goblin
+15906#un necromante cadetto
+15907#un barbaro selvaggio
+15908#una giovane recluta
+15909#uno scorpione gigante
+15910#un possente troll
+15911#un necrospettro
+15912#un giovane anchilosauro
+15913#un grosso drago rosso
+15914#un orco guerriero
+15915#un'apprendista maga
+15916#uno Skexie paladino
+15917#un uomo serpente incappucciato
+15918#un enorme mezzogigante barbaro
+15919#un terribile vampiro
+15920#un possente troll
+16000#Yutir, il druido dei goblin grigi
+16016#$c0012Kramjur$c0007, l'ogre maji
+16017#un ogre capoclan
+16018#una sentinella ogre
+16019#un ogre maji
+16020#il capo dei minatori
+16021#un ogre
+16022#un minatore duergar
+16023#un ladruncolo
+16024#un'ameba nera
+16025#una GROSSA ameba nera
+16026#un guerriero duergar
+16027#una sentinella goblin
+16028#una sentinella goblin
+16029#un hobgoblin
+16030#una goblin grigia
+16031#un millepiedi gigante
+16032#un goblin grigio
+16033#una sentinella goblin
+16034#un soldato goblin grigio
+16035#Shik, il Re dei goblin grigi
+16036#Tergak, lo sciamano dei goblin grigi
+16037#un goblin rosso scuro
+16038#un uccello stigeo
+16039#il leggendario Roc
+16040#un'arpia
+16041#un'arpia di guardia
+16042#un gigante di pietra
+16043#una sentinella di pietra
+16044#una sentinella di pietra
+16045#un gigante di pietra
+16046#un guerriero di pietra
+16047#un gigante di pietra
+16048#una sentinella di pietra
+16049#un enorme roditore nero
+16050#Stohned, il re
+16051#Cheekrok, la regina
+16052#Sandblad, il cuoco
+16053#un orso delle caverne
+16054#un gigante di pietra
+16055#un gigante di pietra
+16056#un mago drow
+16057#un quasit
+16058#una sentinella goblin
+16059#un cane
+16060#l'arpia capotribu'
+16061#la $c0008Cosa$c0007 Senza Nome
+16100#Abdul
+16101#la guardia gitana
+16102#il mercante zingaro
+16103#uno zingaro ubriaco
+16104#il bambino gitano
+16105#la chiromante
+16106#un cane randagio
+16107#il comandante dei gitani
+16108#lo stregone dei gitani
+16109#l'assassino gitano
+16110#il difensore dei gitani
+16111#il guerriero maestro-carovana
+16112#il mago maestro-carovana
+16113#il maestro-assassino della carovana
+16114#il chierico maestro-carovana
+16115#il negoziante gitano
+16116#Salhad L'armaiolo
+16117#Delmhar il fabbro
+16118#Bervel l'alchimista
+16119#il barista gitano
+16120#il contrabbandiere gitano
+16121#l'albergatore gitano
+16122#Tania
+16123#la Cosa della palude
+16124#un groviglio di liane
+16125#uno zingaro scorbutico
+16126#una zingara cicciona
+16127#un chierico elfo
+16128#un lupo mannaro
+16203#uno gnomo abissale
+16204#una testuggine
+16205#un mindflayer
+16206#un mindflayer
+16207#un ratto mutante
+16209#un luccio delle caverne
+16210#un coso
+16211#un piccolo beholder
+16212#un' iguana delle grotte
+16213#una lumaca gigante
+16214#un drow non morto
+16215#un drow spettro
+16217#il Drow Lich
+16218#il grande granchio bianco
+16219#il Cavaliere della Morte
+16220#un maestro mindflayer
+16221#Chrovlyn, lo gnomo nero
+16222#un Creatore d'aria
+16223#un Creatore di calore
+16224#un servo oscuro
+16225#un Demone del Rimorso
+16600#Karazhan, il comandante delle guardie del portale
+16601#un gargoyle di pietra
+16610#l'Hoeur
+16620#il Drago Nero
+16625#Kaxalandrill
+16630#la guardia del portale
+16640#un prete
+16650#il Gran Sacerdote
+16660#il Minotauro
+16670#un guerriero elfo
+16680#un drow guerriero
+16690#un elementale dell'aria
+16692#un elementale della terra
+16694#un elementale del fuoco
+16696#un elementale dell'acqua
+16701#una guardia di Ironhome
+16702#una sentinella di Ironhome
+16707#Alayrim
+16710#la statua di Dumathoin
+16713#Peppe er barista
+16714#il fornaio
+16715#Lars
+16716#un bambino di Ironhome
+16717#un'aquila reale
+16720#un mercante
+16726#un soldato Duergar
+16732#Kedar Leomar
+16733#Jarsan
+16734#un abitante di Ironhome
+16735#una donna di Ironhome
+16742#un draconiano
+16743#$c0008Grambjinn$c0007 il Grande Slimer
+16744#Butcher il Draconiano Mannaia
+16745#un ghast guardiano
+16746#un consigliere draconiano
+16747#un bambino
+16748#$c0002Krugher$c0007
+16749#Remiel l'Arcilich
+16750#uno sciame di insetti assassini
+16751#il guardiano delle carceri
+16752#Saxothilikan
+16753#un pesciolino
+16754#Infirana
+16755#un cucciolo di drago rosso
+16756#Bruenor Redhammer
+16801#una piccola $c0006vipera$c0007
+16802#$c0015S$c0007ophia
+16803#$c0008Ungoliant$c0007
+16804#un corvo
+16805#uno $c0008djinn$c0007
+16806#una volpe
+16807#un angelo $c0006nero$c0007
+16808#un drago verde
+16809#un imp vagabondo
+16810#un $c0008gatto infernale$c0007
+16811#il $c0006Maestro$c0007 della $c0011D$c0007ifesa
+16812#la $c0008Guardiana$c0007 della $c0011P$c0007rudenza
+16813#un vampiro con un violino
+16814#una combattente drow
+16815#$c0005Beljeze$c0007
+16816#$c0009B$c0001elial$c0007
+16817#un vampiro
+16818#un $c0008G$c0007uardiano della $c0011G$c0007iustizia
+16819#il Procuratore
+16820#Armonia
+16821#un serpente
+16822#un giovane scrivano
+16823#un Angelo Sapiente
+16824#Edilcue
+16825#Enetsotare
+16826#un diavolo violinista
+16827#Oelilag
+16828#un gigante delle Tempeste
+16829#un gigante dei Ghiacci
+16830#un gigante delle Colline
+16831#un gigante del Fuoco
+16832#Moaer
+16833#Sypche
+16834#il Guardiano delle Armature
+16835#il Guardiano delle Armi
+16836#l'Oste di Ennaheg
+16837#la fatina verde
+16838#la Guardiana del Magazzino
+16839#$c0008Sulerya$c0007
+16901#un grosso topo mannaro
+16902#un enorme topo mannaro
+16903#un robusto lupo mannaro
+16904#un'agile tigre mannara
+16905#uno squalo mannaro
+16906#Weenypuah, l'orso mannaro
+16907#Foxy, la favorita del Conte
+16908#un tasso mannaro
+16909#una volpe mannara
+16910#il Conte Boarish
+16911#uno schifoso ratto mannaro
+16912#il cacciatore di licantropi
+16913#una cinghiala mannara
+16914#l'aquila mannara
+16915#una grossa tigre mannara
+16916#una piccola tigre mannara
+16917#un lupo mannaro mezzo ubriaco
+16918#il giovane Conte Boarish
+16919#la curatrice del museo
+16920#un ammasso di melma mutante
+17000#il budino nero
+17001#il cacciatore invisibile
+17002#la wight
+17003#un bugbear
+17004#la gimnosfinge
+17005#l'ombra
+17006#l'elementale dell'aria
+17009#un geyser soffiante
+17010#la melma verde
+17011#la vampira Amelia
+17012#il granchio gigante
+17013#il mimico
+17014#il ghoul
+17015#un aragosta gigante
+17016#il leone di mare
+17017#un hobbit obeso
+17020#un golem di carne
+17021#uno scorpione gigante
+17022#un enorme gorilla
+17023#un predatore
+17500#una banshee urlante
+17501#Lord Soth
+17502#uno Scheletro Guerriero
+17503#l'Assassino del Sithicus
+17504#un pipistrello
+17505#Krellanta la piccola fioraia
+17506#il guardiano del castello
+17507#un ammasso vegetale
+17508#un topo
+17509#l'Alga assassina
+17510#$c0008Caradoc$c0007
+17511#un curioso kender
+17512#la nebbia assassina
+17513#un mostro sconosciuto
+17514#lo spettro delle fogne
+17515#$c0014Fizban$c0007
+17516#una banshee urlante
+17700#Thor, il fabbro degli Dei
+17701#una voce
+17702#$c0008Krel'Manar$c0008, l'antidiluviano$c0007
+17703#$c0008Ancalagon, il Nero$c0007
+17704#$c0008Morgoth, il signore della rovina$c0007
+17705#$c0008La Regina degli xenomorfi$c0007
+17706#$c0011Smaug, il Dorato$c0007
+17707#$c0008Uratha$c0008, il Teriantropo Alfa$c0007
+17708#$c0014Tifone$c0007, il Dio dei giganti
+17709#$c0009Gruumsh$c0008, il Dio degli orchi$c0007
+17710#$c0008un vampiro antidiluviano$c0007
+17711#$c0008un Olog-Hai$c0007
+17712#$c0008uno xenomorfo guerriero$c0007
+17713#$c0008un fenrir$c0007
+17714#$c0014un tifeide$c0007
+17715#$c0008un Uruk-hai$c0007
+17720#$c0008la progenie degli xenomorfi$c0007
+17721#la memoria di Atramedai
+18019#Emilither, l'Alchimista
+18020#Belmirek, il Gioielliere
+18021#Heimslan, il Mercante
+18022#Damathar, il Fabbro
+18023#Syrathen, il Guaritore
+18024#$c0011Er Panzetta$c0007
+18025#Aza Khalid
+18026#Boron, il Capogilda
+18027#Silk
+18028#Arain Trevor il Capogilda
+18029#Cadash
+18030#Grenath
+18031#Ali', il ladro guardiano
+18032#Melchar
+18033#il taverniere
+18034#una guardia cittadina
+18035#lo spazzino
+18036#un cane rabbioso
+18037#un gladiatore
+18038#un passante
+18039#un povero
+18040#Sylira, la guerriera
+18041#una sentinella
+18042#la ronda
+18043#un malvagio predone
+18044#Cassius, il Pugile
+18045#Tertius, l'Assassino
+18200#un $c0001demone$c0007 guardiano
+18201#un $c0001demone$c0007 guardiano
+18202#un $c0010a$c0007llghoi $c0010k$c0007horoi $c0010verde$c0007
+18203#un $c0001a$c0007llghoi $c0001k$c0007horoi $c0001rosso$c0007
+18204#un $c0014Gauth$c0007
+18205#un $c0003tentacolo$c0007 del Gauth
+18206#un $c0012A$c0014boleth
+18207#un $c0012A$c0014boleth
+18208#$c0013Ythg-ah$c0007 il $c0008Custode$c0007
+18209#un vrock guardiano
+18210#un grosso tiefling
+18211#un grosso tiefling
+18212#un $c0009diavolo$c0007 infuocato
+18213#un $c0009diavolo$c0007 infuocato
+18214#un $c0014wraith$c0007
+18215#un $c0009Balor$c0007
+18216#$c0013Ph-ac$c0007 il $c0008Custode$c0007
+18217#$c0013Ath'dra$c0007 il $c0008Custode$c0007
+18218#$c0014Nenyith$c0007
+18900#una salamandra dei ghiacci
+18901#una $c0014gelida$c0007 salamandra
+18902#una serpe $c0008abissale$c0007 
+18903#un $c0015troll$c0007 delle caverne
+18904#un gigante sciamano
+18905#una sentinella gigante
+18906#la salamandra madre
+18907#un gigante dei ghiacci
+18908#Fraigor, il sacerdote dei giganti
+18909#Kald, il capo dei giganti
+18910#Freistzard, il drago bianco
+19200#Tigellio il custode
+19201#un fiore lingua
+19202#un segretario
+19203#un golem
+19204#un legionario nero
+19205#un legionario capo
+19206#un monaco
+19207#un mago verde
+19208#un focallo
+19209#un girardrillo
+19210#un grifopiteco
+19211#uno stregatto
+19212#una tizebra
+19213#un secondino
+19214#GianLurido
+19215#un Haligorth
+19216#Wilhelmus
+19217#un prete della setta del polipo
+19218#una vergine
+19219#Mandragora
+19220#un figlio di Nero
+19221#un cassettone
+19400#cinquecento $c0011fanti$c0007 ottomani
+19401#cinquecento $c0003giannizzeri$c0007 ottomani
+19402#cinquecento $c0009cavalieri$c0007 ottomani
+19403#cinquecento $c0001cavalieri$c0007 ottomani d'$c0015elite$c0007
+19404#il $c0008Sultano Fatih$c0007 e la sua guardia personale
+19405#cinquecento $c0002arcieri$c0007 ottomani
+19406#cinquecento $c0010arcieri$c0007 ottomani d'elite
+19407#$c0015Costantino XI Paleologo$c0007
+19408#un sacerdote
+19409#le guardie personali del Sultano
+19410#un drappello di 50 soldati bizantini
+19411#cinquecento $c0008cannonieri$c0007 ottomani
+19412#un guerriero $c0003giannizzero$c0007
+19413#un cavaliere $c0003giannizzero$c0007
+19414#$c0005Luca Notara$c0007
+19415#$c0008Yosouf$c0007
+19416#$c0014Guglielmo Marcer$c0007 
+19417#$c0014Demetrio$c0007 
+19418#$c0011Commeno$c0007
+19419#$c0014Harald$c0007 
+19420#$c0009Borimir$c0007 
+19421#$c0002Anthia$c0007
+19422#$c0008Randall$c0007 
+19423#$c0015Giovanni Giustiniani Longo da Genova$c0007
+19424#settecento $c0015fanti genovesi$c0007
+19425#una tigre del Caspio
+19426#$c0011Rolf$c0007
+19427#$c0001Marko$c0007
+19428#$c0003Roussel$c0007
+19429#un guerriero $c0003ottomano$c0007
+19430#un battaglione di $c0011fanti$c0007 ottomani
+19431#un battaglione di $c0002arcieri$c0007 ottomani
+19432#un orso bruno
+19433#$c0011Ulrich$c0007
+19434#un brigante
+19435#un ausiliario $c0011albanese$c0007
+19436#il comandante $c0011albanese$c0007
+19437#un ausiliario $c0011albanese$c0007
+19438#cinquecento $c0011ausiliari$c0007 albanesi
+19439#cinquecento $c0011ausiliari$c0007 albanesi
+19440#cinquecento $c0003giannizzeri$c0007 ottomani
+19441#cinquecento $c0011fanti$c0007 ottomani
+19442#cinquecento $c0003giannizzeri$c0007 ottomani
+19443#cinquecento $c0011fanti$c0007 ottomani
+19444#cinquecento $c0003giannizzeri$c0007 ottomani
+19445#cinquecento $c0011fanti$c0007 ottomani
+19446#cinquecento $c0003giannizzeri$c0007 ottomani
+19447#cinquecento $c0003giannizzeri$c0007 ottomani
+19448#cinquecento $c0008cannonieri$c0007 ottomani d'elite
+19449#un monaco
+19450#cinquecento $c0001cavalieri$c0007 ottomani d'$c0015elite$c0007
+19451#cinquecento $c0003giannizzeri$c0007 ottomani
+19452#cinquecento $c0001cavalieri$c0007 ottomani d'$c0015elite$c0007
+19453#cinquecento $c0003giannizzeri$c0007 ottomani
+19454#cinquecento $c0003giannizzeri$c0007 ottomani
+19455#cinquecento $c0001cavalieri$c0007 ottomani d'$c0015elite$c0007
+19456#mille $c0003giannizzeri$c0007 ottomani
+19457#un gruppo di monache terrorizzate
+19458#mob di servizio
+19459#un monaco stilita
+19460#cinquemila $c0011fanti$c0007 ottomani
+19461#un monaco scriba
+19800#un piccolo druido
+19801#un druido orchesco
+19802#Milbolas il Primo Console di Mordilnia
+19803#un prete della setta del polipo
+19804#un uomo lucertola
+19805#il capo giardiniere
+19806#un maggiordomo
+19807#Kyuss l'astrologo imperiale
+19808#un $c0009Ab$c0001is$c0009ha$c0007
+19809#un lich $c0008abissale$c0007
+19810#un grosso tritone $c0008oscuro$c0007
+19811#un sacerdote della setta del polipo
+19812#un golem di ortiche
+19813#un pero
+19814#un melo
+19815#una fontana a forma di Drago $c0015Bianco$c0007
+19816#uno splendido pavone
+19817#uno splendido uccello del $c0010pa$c0009ra$c0011di$c0013so$c0007
+19819#un monaco incappucciato
+19821#un tritone in catene
+19822#un grosso tritone $c0008oscuro$c0007
+19823#un tritone $c0008oscuro$c0007
+19824#un uomo piovra
+19825#un basilisco$c0002 verde$c0007 e$c0003 marrone$c0007
+19826#un giardiniere
+19827#un piranha $c0012fulmine$c0007
+19828#un vecchio esploratore
+19829#un vecchio esploratore
+19830#un monaco
+19831#un monaco
+19832#un Alto Sacerdote del culto del Polipo
+19833#un basilisco$c0002 verde$c0007 e$c0003 marrone$c0007
+19834#uno splendido uccello del $c0010pa$c0009ra$c0011di$c0013so$c0007
+19835#Melibis il fondatore della setta
+19836#Periast il fondatore della setta
+19837#l'$c0010Aracno$c0008drago$c0007
+19838#un elforagno
+19839#un elforagno
+19840#un $c0009Ser$c0008pi$c0009de$c0007
+19841#un folletto
+19842#un mago verde
+19843#un legionario della Brigata Nera
+19844#una Manticora d'$c0011Oro$c0015 Bianco$c0007
+19845#un Ombrato
+19946#uno Scorpione Gigante
+19973#una gelatina verde fosforescente
+19974#un guardiano spettrale
+19975#un vivo
+19976#Titti
+19977#il gatto Silvestro
+20000#il Guardiano della Gilda
+20001#una ragioniera
+20002#Lo spirito del Mercenario
+20003#$c0015Chuck$c0007 la $c0002re$c0003clu$c0002ta$c0007
+20004#$c0013Pamela$c0007 la maga fabbro
+20005#Arnold, il losco ricettatore Mercenario
+20025#Alistar la guardiana della Gilda
+20026#Rupert, il guardiano del Forziere
+20027#Giano il bifronte
+20028#Nakilep
+20029#Simonetta, la locandiera
+20030#Weland, il fabbro
+20031#Tardabas
+20032#Sirea, Il Saggio
+20033#Chantal addestratrice
+20034#un Legionario di $c0009Lama$c0007 e $c0012Pietra$c0007 
+20035#Valentina, la $c0014Maestra$c0015 Curatrice$c0007
+20036#George, il $c0014Sapiente$c0007
+20037#Steve l'Arcimago
+20038#$c0003Giastis$c0007 il mercante $c0010ladro$c0007
+20050#una massa informe di roccia e terra
+20051#Laira
+20052#Shiva
+20053#Faramir l'esploratore mercante
+20054#Seong Ae
+20055#Lady Rocksmith
+20056#Long Ji Gongzhu
+20057#$c0014Galaxia$c0007, l'$c0010Esploratrice$c0007 dello $c5411Spazio$c0007
+20058#$c0013Chise$c0007, l'$c0010Esploratrice$c0007 delle $c0009Dimensioni$c0007
+20059#un mob esploratore
+20060#Lilybel
+20075#Setarcos il guardiano della gilda dei Filosofi
+20076#Filolao, il tesoriere dei filosofi
+20077#Solone l' Arconte
+20078#Gorgia mercante e filosofo
+20079#$c0014Ipazia$c0007
+20080#$c0011Platone$c0007
+20081#$c0009Leonida$c0007, il fabbro
+20082#un guerriero filosofo
+20083#$c0011Temistocle$c0007, l'addestratore
+20100#Il Cavaliere Bianco
+20101#$c0003Rais$c0007
+20102#$c0014Adgar$c0007
+20103#$c0010Ezlivia$c0007, la locandiera
+20104#$c0009Valhar$c0007, il fabbro
+20105#$c0008Rhaedry$c0007, il mercante
+20106#$c0015Vav$c0007, il Maestro dei Combattenti della Luce
+20107#un Combattente della $c0015Luce$c0007
+20108#$c0014Fisks$c0007, la guaritrice
+20109#$c0008Ivana$c0007, la strega
+20110#$c0009Berhiele$c0007, il mercante
+20111#$c0014Freezer$c0007, il mercante
+20112#$c0002Lorhan$c0007, il mago
+20125#Nik, Il Guardiano del Sabbath
+20126#Montgomery, l'officiante
+20127#Kosh, il Gangrel
+20128#$c0009E$c0015lbereth la $c0008Lasombra$c0007
+20129#Orca, l'Assamita
+20130#$c0001O$c0008blio l'antico $c0001Brujah$c0008
+20131#$c0001A$c0015steria la $c0009Toreador$c0007
+20132#un giovane $c0008ghoul$c0007
+20150#$c0015As$c0007tra$c0008in$c0007, la $c0008Sentinella$c0007
+20151#un golem protocollare
+20152#un anonimo Jedi
+20154#un custode Jedi
+20155#An'ya $c0008Kuro$c0007
+20156#$c0015Galak Fyyar$c0007, lo scienziato
+20157#$c0012Watto$c0007, il mercante
+20158#$c0015Taun We$c0007, la Kaminoana
+20159#un $c0015soldato clone $c0008imperiale$c0007
+20161#Yoda
+20173#Jar Jar Binks
+20174#un mob jedi
+20175#$c0015Un Buttafuori Ar$c0009[$c5015K$c0009]$c0015angelo$c0007
+20176#Pietro, il custode delle chiavi
+20177#Vendiele, l'ArKangelo ricettatore
+20178#Fabbriele, l'Arkangelo Riparatore
+20179#Dormiele, l' ArKangelo del sonno
+20180#Moneyele il contabile angelico
+20181#$c0003Gaib Mush$c0007, il mercante $c0008mistico$c0007
+20182#$c0015Emmett $c0011'Doc'$c0003 Brown$c0007
+20200#la sentinella delle Tempeste
+20201#Sir Kjohn
+20202#Sir Ianus
+20203#Sir Lithos
+20204#Sir Alcor
+20205#Sir David
+20225#Ufficio, il $c0013S$c0007egugio
+20226#Melia, la rimembratrice
+20227#Jaqen, il contabile
+20250#Sabbino il buttafuori
+20251#un piccolo genio
+20252#il Custode del $c0008Tempo$c0007
+20253#Il $c0003Parente$c0007 di $c0015Babbo $c0009Natale$c0007
+20275#lo spettro dei Vendicatori
+20276#$c0008Huginn e Muninn$c0007
+20277#$c0008Edwin Jarvis$c0007
+20278#$c0014Natasha Romanoff$c0007
+20279#$c0011Volundr$c0007
+20280#$c0010Loki$c0007
+20281#$c0006Doctor Doom$c0007
+20282#$c0003Freyja$c0007 l'$c0015Incantatrice$c0007
+20283#$c0014Arsenio $c0009L$c0014upin$c0007
+20284#$c0005Ga$c0013spe$c0006rin$c0014o $c0007il $c0008Carbonaro$c0007!
+20285#$c0015Un $c0006Gi$c0014ova$c0015n$c0006e $c0008Carbonaro
+20300#$c0002Shagrath$c0007, il Troll Guardiano
+20301#Lo spettro delle tre $c0008monache$c0007
+20302#$c0014Shelob$c0007, la custode degli spettri
+20303#Turin il vinto
+20304#Sergente Hartman
+20305#Aragorn
+20306#Saruman
+20307#Raistlin Majere
+20308#Scuotivento
+20309#Maestro Shifu
+20322#$c0014Shaytan$c0007, Il tesoriere
+20323#$c0015Thoorind Raaz'guul$c0007 l'$c0001orefice$c0007.
+20324#oplita spettrale
+20500#Adrian Du Chagne
+20501#una giovane maga
+20502#una giovane ladra
+20503#il taverniere
+20504#un giovane orco
+20600#Innigo l'alchimista
+20601#una grossa lucertola
+20602#uno stormo di pipistrelli
+20603#un topo
+20604#un coccodrillo $c0015albino$c0007
+20701#una pantera
+20702#un piccolo ragno scarlatto
+20703#un vecchio
+20704#un grosso giaguaro
+20705#il sacerdote del vulcano
+20706#la statua di Ometeculi
+20707#la statua di Omeciuatl
+20708#un guerriero dell'aquila
+20709#un guerriero del giaguaro
+20710#un guerriero della freccia
+20711#un demone infuocato
+20712#un grosso serpente maculato
+20713#un abitante di $c0011Eldorado$c0007
+20714#un bambino
+20715#lo Spirito di Tonatiu
+20716#uno schiavo
+20717#il Maestro del Tempo
+20718#l'incarnazione del Dio della Guerra
+20719#un sacerdote di Huitzilopochtli
+20720#un sacerdote di Quetzalcoatl
+20721#l'Enorme Serpente Piumato
+20722#uno schiavo becchino
+20723#una fanciulla sepolta viva
+20724#il re Yumilceh
+20725#un guerriero fantasma
+20726#una donna di $c0011Eldorado$c0007
+20727#un contadino
+20728#una contadina
+20729#un contadino
+20730#una contadina
+20731#un sacerdote di Ah Raxa' Lac
+20732#una sacerdotessa di Nim Ac
+20733#un bisonte bianco
+20734#un bisonte bianco
+20735#uno schiavo delle miniere
+20736#uno schiavo delle miniere
+20737#un fantasma di un minatore
+20738#un sacerdote
+20739#un sacerdote
+20740#un coguaro
+20741#un leone di montagna
+20742#una pantera
+20743#un coccodrillo
+20744#un nugolo di zanzare
+20745#un eremita
+20746#un vecchietto
+20747#una vecchietta
+20748#Alom
+20749#un sacerdote tesoriere
+20750#un atleta
+20751#un allenatore
+20752#un sacerdote
+20753#un essere deforme
+20754#un demone
+20755#lo scherzo della natura
+20756#il sacerdote torturatore
+20757#un demone elettrico
+20758#una vergine custode
+20759#il nagual del freddo
+20760#il nagual del giaguaro
+20761#un costrutto d'ossa
+20762#il nagual del caldo
+20763#la lama
+20764#la statua di Huanapu'
+20765#la statua di Vicabix
+20766#un demone urlatore
+20767#un demone del lamento
+20768#Xibalba'
+20769#lo spirito di un costruttore
+20770#$c0011il Gran Sacerdote$c0007
+20771#una vittima sacrificale
+20772#un guerriero del giaguaro
+20773#un guerriero della freccia
+20774#un guerriero dell'aquila
+20775#l'Imperatore Uey-Tlatoani
+20776#il sacerdote di Tezcatlipoca
+20777#il grande Extli-quani
+20778#un vorace piranha
+20779#un guerriero fantasma
+21001#un enfan triste
+21002#un enfan anonimo
+21003#un enfan con le squame
+21004#un enfan con le pustole
+21005#un enfan tutto storto
+21006#un enfan dall'aria maligna
+21007#un cane fantasma
+21008#un ratto mutante
+21009#un enfan vestito da sacerdote
+21010#un enfan con la coda
+21011#un enfan con due teste
+21012#una sentinella gargoyle
+21013#un enfan alto e magro
+21014#un enfan molto pallido
+21015#un enfan peloso
+21016#Apkallu, l'anfibio
+21017#una sentinella gargoyle
+21018#Matuslem, il vecchio
+21019#un gargoyle
+21020#un gargoyle
+21021#un gargoyle
+21022#una sentinella gargoyle
+21023#un viscido pesce nero
+21024#il Falso Profeta
+21025#l'abominevole Ugo
+21026#un lupo fantasma
+21027#un cane spettrale
+21028#un enfan alto e grasso
+21100#un coyote
+21101#una serpe verde
+21102#una cosa che sembrava un cavallo
+21103#un caprone
+21104#un pipistrello nero
+21105#una Salamandra
+21106#una poltiglia giallastra
+21107#una poltiglia rossastra
+21108#uno spettro delle caverne
+21109#un troglodita
+21110#un capobanda dei trogloditi
+21111#un ragno delle caverne
+21112#un gigantesco mutaforma
+21113#un robusto troglodita
+21114#una guardia troglodita
+21115#un giovane troglodita
+21116#un troglodita recluta
+21117#il troglodita istruttore
+21118#un troglodita
+21120#un ratto delle caverne
+21121#la cuoca dei trogloditi
+21122#una sciamana dei trogloditi
+21123#il capo dei trogloditi
+21124#Golgar, dio dei trogloditi
+21125#una troglodita
+21126#una matrona troglodita
+21127#una troglodita
+21128#un giovane troglodita
+21129#un piccolo di troglodita
+21130#Valik
+21131#un pesce cieco
+21132#un'anguilla
+21133#il granchio degli abissi
+21134#un luccio delle caverne
+21135#un troll delle caverne
+21136#un cobra
+21137#uno yeti
+21138#un soldato fantasma
+21139#un ufficiale fantasma
+21140#$c0008Capitan $c0014Fantasma$c0007
+21141#$c0009Lattimore$c0007 l'orco
+21142#l'Antico Guardiano
+21143#un osservatore invisibile
+21144#un guerriero troglodita
+21145#un troglodita che riposava
+21146#un demone dei ghiacci
+21147#un blob
+21148#una fetida melma marrone
+21149#un guerriero troglodita
+21150#un guerriero troglodita
+21151#un'ombra inquieta
+21152#un cacciatore troglodita
+21351#un Cavaliere
+21352#il Guardiano della Conoscenza
+21353#il Santo del Fiume
+21354#Rog, il silenzioso
+21357#un contadino
+21367#Modhi, il Maestro dei Ranger
+21376#Ymir
+21377#un piccolo demone dei ghiacci
+21378#Gog, il Mille Anime
+21379#il $c0008Generale $c0014Fantasma$c0007
+21380#la guardia del corpo fantasma
+21381#il guerriero fantasma
+21382#il sacerdote fantasma
+21383#il mago fantasma
+21384#il $c0008Re $c0014Fantasma$c0007
+21385#La $c0008Regina $c0014Fantasma$c0007
+21386#$c0014Utharg, $c0008l'Antico$c0007
+21387#lo scheletro guardiano
+21388#il $c0008Luogotenente $c0014Fantasma$c0007
+21389#la $c0008Regina degli $c0001Scheletri$c0007
+22500#Hart, l'$c0008annunciatore$c0007
+22501#Kurt, il $c0011giullare$c0007
+22502#Barfolomew
+22601#una guardia elfica
+22602#un arciere elfico
+22603#un elfo dei boschi
+22604#mamma orsa
+22605#Quivalen Sath
+22606#una trota di ruscello
+22607#un elfo intagliatore
+22608#la principessa elfica
+22609#una giovane cerbiatta
+22610#una marmotta
+22611#un gufo argentato
+22612#un elfo pescatore
+22613#un bambino elfo
+22614#una donna elfica
+22615#un elfo taglialegna
+22616#un elfo operoso
+22617#un'ape
+22618#il Custode elfico
+22619#un elfo comune
+22620#un nobile elfico
+22621#una libellula
+22622#un elfo raccoglitore
+22623#un elfo potatore
+22624#un cucciolo di orso
+22625#una papera
+22626#un Quaggoth
+22627#un grande Quaggoth
+22628#una lucertola cornuta
+22629#una pianta carnivora
+22630#uno scarabeo del legno
+22631#un rospo gigante
+22632#una biscia marrone
+22633#l'unicorno argentato
+22634#Avariel
+22800#lo spettro di Thyrell
+22801#un soldato spettrale
+22802#uno spettrale apprendista
+22803#Freyss il Cavaliere della Morte
+22804#Verghal il Cavaliere della Morte
+22805#Ehlyanor
+22806#una guardia della torre
+22807#l'Avatar di Eldwitch
+22808#l'elementale del ghiaccio
+22809#un enorme mucchio di ossa
+22810#lo spettro del bibliotecario
+22811#un domestico spettrale
+22812#una lama spettrale
+22813#lo spettro di Kelemvor
+22814#il capo torturatore
+22815#un domestico spettrale
+22816#una domestica spettrale
+22817#lo spettro del tesoriere
+22818#un carceriere spettrale
+22819#l'alchimista della torre
+22820#il demone guardiano
+22821#Shalita
+22822#lo spettro di un ufficiale
+22823#qualcuno
+22824#uno spettrale apprendista
+22825#lo spettro di Tiarlov
+22826#lo spettro di un avventuriero
+22827#uno spettro dell'ombra
+23000#$c0011Un Falco d'Oro$c0007
+23100#la $c0014Discordia$c0007
+23101#il $c0003Rimorso$c0007
+23102#la $c0002Morbosita'$c0007
+23103#il $c0011S$c0008onno$c0007
+23104#l'$c0011A$c0008ngoscia$c0007
+23105#la $c0013P$c0008aura$c0007
+23106#l'$c0013A$c0008ffanno$c0007
+23107#la $c0002F$c0008ame$c0007
+23108#la $c0002M$c0008iseria$c0007
+23109#la $c0006M$c0008orte$c0007
+23110#il $c0006L$c0008utto$c0007
+23111#la $c0015G$c0008uerra$c0007
+23112#il $c0015D$c0008olore$c0007
+23113#la $c0014V$c0008ecchiaia$c0007
+23114#la $c0014M$c0008alattia$c0007
+23115#$c0013Tisifone$c0007
+23116#$c0013Megera$c0007
+23117#$c0013Aletto$c0007
+23118#L'$c0010Albero$c0007 dei $c0011Sogni$c0007
+23119#una nera $c0003radice$c0007
+23120#$c0009M$c0008orfeo$c0007, il modellatore
+23121#$c0009F$c0008obetore$c0007, lo spaventoso
+23122#$c0009F$c0008antaso$c0007, l'onnipresente
+23123#un contorto $c0006incubo$c0007
+23124#un contorto $c0006incubo$c0007
+23200#Cerbero
+23201#Caronte
+23202#uno spirito beato
+23203#un insepolto
+23204#lo Scheletro Guardiano
+23205#un torturatore
+23206#un mostro $c0010acido$c0007
+23207#Orfeo
+23208#il Boia infernale
+23209#il $c0008Crudele $c0014Centauro$c0007
+23210#$c0003Vlad$c0007 l'Impalatore
+23211#un $c0003Roper$c0007
+23212#una piovra gigante
+23213#un calamaro gigante
+23214#$c0014Minosse$c0007
+23215#Sedrina
+23216#Proserpina
+23217#$c0014Ade$c0007, il Signore degli $c0006Inferi$c0007
+23500#il $c0010g$c0002uardiacaccia$c0007
+23501#un $c0015innocuo$c0007 maggiordomo
+23502#un $c0008pirata$c0009 ubriaco$c0007
+23503#un $c0015cavaliere $c0011Templare$c0007
+23504#l'$c0002Orco$c0015 Chef$c0007
+23505#l'"$c0005Urlo$c0007" di Munch
+23506#Kanbei Shimada
+23507#Gorobei Katayama
+23508#Schichiroji
+23509#Heihachi Hayashida
+23510#Katsushiro Okamoto
+23511#Kyuzo
+23512#Kikuchiyo
+23513#un $c0008boxer$c0007
+23514#un $c0009sett$c0015er irl$c0010andese$c0007
+23515#un $c0003bassotto$c0007
+23516#un $c0003golden retriever$c0007
+23517#un $c0014siberian $c0006husky$c0007
+23518#il $c0011Coniglio $c0015Bianco$c0007
+23519#una $c0002mantide$c0007 religiosa
+23520#uno spaventapasseri
+23521#$c0015Aglaia lo splendore$c0007
+23522#$c0013Eufrosine la gioia$c0007
+23523#$c0011Talia la prosperita`$c0007
+23524#il $c0008nero$c0007 Cavaliere della $c0005Forza$c0007
+23525#una $c0008bambola $c0007di $c0005pezza$c0007
+23526#$c0005Psiche$c0007
+23527#$c0009Amore$c0007
+23528#la $c0015veg$c0013gen$c0005te$c0007
+23529#$c0008la $c0009Signora$c0008 della villa$c0007
+23530#il $c0008pianista$c0007
+23531#la $c0012violinista$c0007
+23532#il $c0004flautista$c0007
+23533#il $c0014violoncellista$c0007
+23534#un cucciolo di $c0011leone$c0007
+23535#un $c0015placido$c0007 $c0008orso$c0007 bruno
+23536#un tenero $c0015c$c0003erbiatto$c0007
+23537#uno scoiattolino $c0008astuto$c0007
+23538#uno scoiattolino $c0009goffo$c0007
+23539#un $c0002fauno$c0007
+23540#una $c0010ninfa$c0007
+23541#$c0014Colombina$c0007
+23542#$c0015A$c0008r$c0012l$c0011e$c0012c$c0010c$c0004h$c0005i$c0010n$c0013o$c0007
+23543#$c0008Pul$c0015cinella$c0007
+23544#$c0008Meo $c0011Pat$c0009acca$c0007
+23545#$c0001Pantalone$c0007
+23546#$c0015Bri$c0002ghella$c0007
+23547#$c0008Balanzone$c0007
+23548#$c0003Mushu$c0007
+23549#$c0001Grisu`$c0007
+23550#$c0012S$c0004aphira$c0007
+23551#$c0008Norberto$c0007
+23552#$c0002Fafnir$c0007
+23553#$c0009Pyros$c0007
+23554#il portatore della chiave
+23600#Isaac
+23601#un ghoul
+23602#un ghoul
+23603#Dionea, la sacerdotessa
+23604#un uomo
+23605#Wyrenthoth
+23606#Erich
+23607#lo zombie gigante
+23608#uno scheletro umano
+23609#lo zombie
+23610#l'ombra
+23611#una wight
+23612#lo spettro
+23613#una banshee
+23614#il fantasma dell'Abate
+23615#dama Morte
+23616#un golem di mattoni
+23617#lo spettro dei tumuli
+23700#un mob piccolino
+23701#un mob normale
+23702#un mob grassone
+23703#un miniboss
+23704#un boss
+24260#control mob id1
+24261#control mob id2
+24262#control mob id3
+24263#control mob id4
+24264#control mob id5
+24265#control mob id6
+24266#control mob id7
+24267#control mob id8
+24268#control mob id9
+24269#control mob id10
+24270#control mob id11
+24271#control mob id12
+24300#il Banditore dell'Arena
+24301#Il Guaritore $c0009Rubino$c0007
+24302#Il Guaritore $c0014Zaffiro$c0007
+24303#Il Guaritore $c0010Smeraldo$c0007
+24304#Il Guaritore $c0011Dorato$c0007
+24305#lo scudiero della squadra $c0009R$c0001ubino$c0007
+24306#lo scudiero della squadra $c0014Z$c0006affiro$c0007
+24307#Lentulo Batiato, il lanista
+24308#Crisso, il Gallico
+24309#Mira, la schiava ateniense
+24310#Mercante
+24500#una proiezione astrale
+24501#una proiezione astrale
+24502#una proiezione astrale
+24503#una proiezione astrale
+24504#una proiezione astrale
+24505#una proiezione astrale
+24506#una proiezione astrale
+24507#una proiezione astrale
+24508#una proiezione astrale
+24509#una proiezione astrale
+24510#una proiezione astrale
+24511#una proiezione astrale
+24512#una proiezione astrale
+24513#una proiezione astrale
+24514#una proiezione astrale
+24515#una proiezione astrale
+24516#una proiezione astrale
+24517#una proiezione astrale
+24518#una proiezione astrale
+24519#una proiezione astrale
+24520#una proiezione astrale
+24521#una proiezione astrale
+24522#una proiezione astrale
+24523#una proiezione astrale
+24524#una proiezione astrale a forma di chiave
+24525#una proiezione astrale
+24526#una proiezione astrale
+24527#una proiezione astrale
+24528#una proiezione astrale
+24529#una proiezione astrale
+24530#Kryo Vaskes, Magister Siderum
+24531#Irisel, Primo Apprendista
+24532#Trih, il Receptionist
+24533#Magister Velestra
+24534#Shad, l'apprendista
+24535#Jaybee, l'operatore
+24536#Nyxator, l'errante
+24537#Mandie, l'esploratrice
+24538#Lothard, il Demilich
+24539#Aibi, l'assistente
+24540#un vecchio guerriero
+24541#la proiezione astrale di Jaybee
+24542#la proiezione astrale di Hamlin
+24543#reserved accademia
+24544#reserved accademia
+24545#reserved accademia
+24546#reserved accademia
+24547#reserved accademia
+24548#un robot disintegratore
+24549#un manichino
+24550#un demonietto sulfureo
+24551#un segugio infernale
+24552#un elementale del fuoco
+24553#un golem di zolfo
+24554#un golem incendiato
+24555#un elementale di lava
+24556#un demone della fiamma
+24557#un elementale piroclastico
+24558#Xavarath, il Principe delle Fiamme
+24559#il Fuoco Primevo
+24560#un calabrone gigante
+24561#una pianta carnivora
+24562#un elfo degli incubi
+24563#una driade corrotta
+24564#un treant dilaniato dai funghi
+24565#un ragno gigante
+24566#un orso divorato dal male
+24567#una massa informe di insetti
+24568#l'Ultimo Albero
+24569#il Cuore della Foresta
+24570#un ombricolo
+24571#un nachtalb
+24572#un temperamenticolo
+24573#un cefalopode
+24574#un mordipietra
+24575#un acharai
+24576#un bufalo di porpora
+24577#un geliure
+24578#Ygramul, le Molte
+24579#Gmork, il lupo mannaro
+24580#un cane rabbioso
+24581#un corvo gigantesco
+24582#un marinaio distratto
+24583#un cittadino dissennato
+24584#una creatura deforme
+24585#un cultista dell'Ordine
+24586#un abitatore del profondo
+24587#un testa di pesce
+24588#Obed Marsh
+24589#Madre Hydra
+24590#Tilera, la mercante astrale
+24591#Magister Vitalik
+24592#Eriadel, Magister Custodes
+24593#una sentinella dell'Accademia
+24594#$c0097un $c0097ca$c0097da$c0097ve$c0097rag$c0097no
+24595#$c0097un $c0097ca$c0097da$c0097ve$c0097rag$c0097no
+24596#boss
+24597#Krangle, il fabbro astrale
+24598#una forma indistinta
+24599#un mostro indecifrabile
+24600#una bestia informe
+24601#luogotenente
+24602#uno spirito abbandonato
+24603#un corpo semovente
+24604#una massa ributtante
+24605#lince
+24606#corvo
+24607#orso
+24608#lupo
+24700#uno $c0015scheletro$c0005 confuso$c0007
+24701#lo $c0001zombie$c0007
+24702#lo $c0008spazzacamino$c0007 morto
+24703#un $c0008avventuriero$c0007 morto
+24704#il $c0001cadavere$c0008 scalzo
+24705#il $c0009bracciarmiere$c0007
+24706#la $c0009sarta$c0007
+24707#uno $c0015scheletro$c0003 minatore$c0007
+24708#il $c0003calzolaio$c0007 non morto
+24709#lo $c0009zombie$c0007
+24710#il $c0005giocatore$c0007 cadavere
+24711#lo $c0001zombie$c0007
+24712#uno $c0015scheletro$c0007 ben sbiancato
+24713#uno $c0010zombie$c0007
+24714#uno $c0012zombie$c0007 festeggiante
+24715#una nuvola di $c0008fumo$c0007
+24716#il $c0008vampiro$c0007 senza testa
+24717#un $c0001cadavere$c0015 salato$c0007
+24718#un $c0001cadavere $c0008pepato$c0007
+24719#un $c0001cadavere$c0007
+24720#il $c0008wight$c0007
+24721#$c0008Black Curtiss$c0007
+24722#un paio di $c0003stivali$c0007
+24723#il $c0015Salatore$c0007
+24724#$c0008Pepper$c0007
+24725#il $c0003mazziere$c0007
+24726#un $c0005elettore$c0007 morto
+24727#$c0015Cream$c0007
+24728#$c0009Gnustred$c0007, il comandante dei goblin
+24729#una sentinella goblin
+24730#un soldato goblin
+25000#Il Signore dell'Abisso
+25001#Keftab, l'antico
+25002#la morte solitaria
+25003#un demone della nebbia
+25004#un demone assassino
+25005#un'anima dannata
+25006#un guerriero non morto
+25007#un gigantesco Gargoyle
+25008#un emissario della fiamma
+25010#il Kraken
+25012#un Githyanki
+25013#Kalas
+25014#Arawn, il cavaliere della Morte
+25015#un Neo Otyugh
+25017#il guardiano del Male
+25030#un vrock
+25031#un hezrou
+25032#un glabrezu
+25033#Nalfeshnee, il demone
+25034#la Marilith
+25035#il Balor
+25036#Plutarco, il fabbro abissale
+25037#un Demone Alato
+25038#un cavaliere della morte
+25039#T'efhqedt il piccolo diavolo
+25040#uno scorpione
+25041#Hif'hed
+25042#Haf'hed
+25043#Hof'hed
+25044#un demone rapace
+25046#l'$c0009Idra $c0008demoniaca$c0009 a sette teste$c0007
+25105#Belsatan
+25106#Pophi, signora degli abissi
+25108#il guardiano abissale
+25109#il concentrato di male
+25110#Sir Ghalad
+25111#un furetto delle tenebre
+25200#$c0001Magma$c0007
+25201#un mastino infernale
+25202#un elementale del fuoco
+25203#una manticora
+25204#la matrice abissale
+25205#un golem di lava
+25206#un demone fiammeggiante
+25207#il becchino
+25208#un genasi del fuoco
+25209#un imp infernale
+25210#un $c0009Nykion$c0007 infernale
+25300#un portale di ossidiana
+25301#un arcere della guardia
+25302#un elementale di lava
+25303#Kajel
+25304#Tnguerati
+25305#una salamandra del fuoco
+25306#il picchiere della guardia
+25307#un tenente della guardia
+25308#un alto ufficiale della guardia
+25309#l'essere senza nome
+25310#la muffa marrone
+25311#un sacerdote di Chromium
+25312#una flagellante
+25313#Tanenbaum,il bibliotecario
+25314#un adoratore
+25315#una bruma
+25316#l' ultimo ospite
+25317#Beofern, il custode delle prigioni
+25318#un membro del consiglio
+25319#un membro del consiglio
+25320#Deineree,la cuoca
+25321#uno sguattero
+25322#Cratchitt, il contabile
+25323#Chidelbert, l'alto sacerdote
+25324#Chromium
+25325#Arcades Sabboth
+25326#Palladia Mors
+25327#Nicol Bolas
+25328#Vaevictis Asmadi
+25329#una guardia
+25330#Gwendlyn
+25405#Una salamandra nera
+25406#un bambino disperato
+25407#un ratto
+25408#Zachel, il fabbro
+25409#uno stalliere
+25410#Il fornaio
+25411#un ombra
+25412#un ombra
+25413#un ombra
+25414#Tiez, lo spirito del tempo
+25415#un elementale del tempo
+27401#il Capitano Dei Roo
+27402#il Principe Roo-Bart
+27403#il Principe Roo-Berto
+27404#la Regina Roo
+27405#un anziano Roo
+27406#la sentinella Roo
+27407#il soldato Roo
+27408#il soldato Roo
+27409#il soldato Roo
+27410#il Prigioniero Roo
+27411#il Cacciatore Roo
+27412#un giovane Roo
+27413#lo Sciamano aborigeno
+27414#un Accolito aborigeno
+27415#l'Assassino Aborigeno
+27416#il Capo degli Aborigeni
+27417#il guerriero aborigeno
+27418#il guerriero aborigeno
+27419#un guerriero aborigeno
+27420#l'Addestratore aborigeno
+27421#il Conciatore aborigeno
+27422#l'anziano aborigeno
+27423#un adolescente aborigeno
+27424#un bambino aborigeno
+27425#una donna aborigena
+27426#un Dingo
+27427#un Albero di Eucalipto
+27428#un koala gigante
+27429#un coccodrillo
+27430#il Diavolo della Tasmania!
+27501#un topo del deserto
+27502#un ladro dissacratore
+27503#un chierico di Gorm
+27504#Kanadius
+27505#un protoplasma nero
+27506#un mago di Usamigaras
+27507#Auriga Sirkinos
+27508#un tigre da guardia
+27509#la statua della Guerriera
+27510#una vergine guerriera
+27511#Pandora
+27512#una mummia
+27513#lo spettro di Zenobia
+27514#Demetrius il Grande Sacerdote
+27515#un golem gargoyle
+27516#Zargon
+27517#un accolito di Zargon
+27550#un gigante del fuoco
+27551#un gigante dei ghiacci
+27552#un gigante delle tempeste
+27553#un gigante delle nuvole
+27554#un gigante delle rocce
+27555#$c0009RedFlame$c0007 il Re dei Giganti del Fuoco
+27556#$c0014BluEyes$c0007 il Re dei Giganti del Ghiaccio
+27557#$c0004Stormy$c0007 il Re dei Giganti delle Tempeste
+27558#$c0015Cloudy$c0007 il Re dei Giganti delle Nuvole
+27559#$c0006RockHound$c0007 il Re dei Giganti delle Rocce
+27560#lo Spirito dei Giganti del Fuoco
+27561#lo Spirito dei Giganti del Ghiaccio
+27562#lo Spirito dei Giganti delle Nuvole
+27563#lo Spirito dei Giganti delle Tempeste
+27564#lo Spirito dei Giganti delle Rocce
+27565#$c0005Teobrund$c0007 il Re di tutti i Giganti
+27566#$c0008Kurgan$c0007, il capitano delle guardie
+27567#una guardia gigante
+27568#l'ambasciatore dei Giganti delle Rocce
+27601#$c0015Lady$c0005 Jespeth Odamexos$c0007
+27602#$c0001Anatoli$c0007, il cuoco
+27603#una guardia privata
+27604#una guardia semplice
+27605#una guardia scelta
+27606#$c0008Yarrik$c0007, il capo delle guardie
+27607#una guardia
+27608#$c0003Kelepho$c0007, il collezionista
+27609#$c0003Kelepho$c0007, il collezionista
+27610#$c0003Nimira$c0007, la curatrice
+27612#una guardia semplice
+27613#una guardia scelta
+27614#un servo
+27615#una guardia scelta
+27616#un $c0008calabrone$c0010 fluorescente$c0007
+27617#una $c0011lucciola$c0007
+29800#una gazzaladra
+29801#un agricoltore
+29802#una gallina
+29803#un gallo
+29804#uno spaventapasseri
+29805#un uomo che sta facendo i propri bisogni
+29806#un pesciolino
+29807#un branco di ferocissimi piranha
+29808#Nessy il mostro del lago
+29809#un golem di cristallo
+29810#un maggiordomo spettrale
+29811#un servitore spettrale
+29812#un cuoco spettrale
+29813#un bibliotecario spettrale
+29814#un guardiano spettrale
+29815#un demone spettrale
+29816#un demone acquatico
+29817#un demone arcano
+29818#un demone alato
+29819#un brigante
+29820#il capo dei briganti
+29821#un cervo
+29822#Barbalbero
+29823#un cerbiatto
+29824#un guardiacaccia
+29825#un gufo gigante
+29826#il corvo parlante
+29827#un lupo nero
+29828#un uccellino di bosco
+29829#una lepre
+29830#Gea, la ninfa dei boschi
+29901#Dugan il capofabbro
+29902#Xanathon, il Signore della Distruzione
+29903#Pheno
+29904#Lamagg
+29905#Ditoss
+29906#Aghnet
+29907#Sapruel
+29908#Darak
+29909#Vegard
+29910#un rugginofago
+29911#un mago dei tiefling
+29912#un tiefling vestito di nero
+29913#un tiefling in armatura
+29914#un tiefling vestito di pelli
+29915#Gut'la Has il Re dei Tiefling
+29916#un leccapiedi del re
+29917#lo spirito di Saux
+29918#un Phaerimm
+29919#uno scheletro di coboldo
+29920#un golem di pietra
+29921#un tiefling carceriere
+29922#una gorgone
+29923#un Phaerimm
+29924#un tiefling in armatura
+29925#un tiefling in armatura
+30000#uno zombie
+30001#uno zombie
+30002#un grosso topo
+30003#il pipistrello vampiro
+30004#la banshee
+30005#il Guardiano del Dolore
+30006#Lief Lipsiege
+30008#la figura incappucciata
+30100#la strega Gritz
+30101#Grezelda la megera
+30102#una donna bellissima
+30103#uno spettro
+30104#un'enorme tarantola
+30105#Gertrude la matta
+30106#un gatto
+30107#una statua di ferro
+30108#Cyrus Belview il folle
+30109#uno zombie
+30110#uno scheletro
+30111#Heli la fattucchiera
+30112#un'ombra demoniaca
+30113#Strahd il vampiro
+30114#un elfo in decomposizione
+30115#un cadavere semi-putrefatto
+30116#uno spettro
+30117#un fantasma guardiano
+30118#un'anima dannata
+30119#un gargoyle di pietra
+30120#Ireena Kolyana
+30121#il fantasma di Aerial Du Plumette
+30122#Marya la vampira
+30123#lo spettro di Endorovich il terribile
+30124#il fantasma di Pidwilk
+30125#Sasha la vampira
+30126#Patrina la vampira
+30127#lo spettro fiammeggiante
+30128#la gelida mano della morte
+30129#un cavallo spettrale
+30130#uno zombie con le sembianze di Strahd
+30131#il fantasma di Tasha Petrovna
+30132#una statua di bronzo
+30134#uno scheletro
+30135#$c0014Rudolph Van Richten$c0007, il Cacciatore di Vampiri
+30136#il guardiano del sonno
+30137#lo spirito di un $c0008corvo$c0007

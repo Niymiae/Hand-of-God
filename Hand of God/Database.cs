@@ -13,12 +13,39 @@ namespace HandofGod
     {
         public static readonly List<Spell> spells = new List<Spell>();
         public static readonly List<MDFuncData> md_functions = new List<MDFuncData>();
+        public static readonly Dictionary<int, string> mobileReferences = new Dictionary<int, string>();
+        public static readonly Dictionary<int, string> objectReferences = new Dictionary<int, string>();
+        public static readonly Dictionary<int, string> roomReferences = new Dictionary<int, string>();
 
         #region Gets
         // Spells
         public static Spell GetSpell(int index)
         {
             return spells.Find(x => x.vnum == index);
+        }
+
+        public static string GetMobileReference(int mobVNum)
+        {
+            if (mobileReferences.ContainsKey(mobVNum))
+                return mobileReferences[mobVNum];
+
+            return "non trovato";
+        }
+
+        public static string GetObjectReference(int objVNum)
+        {
+            if (objectReferences.ContainsKey(objVNum))
+                return objectReferences[objVNum];
+
+            return "non trovato";
+        }
+
+        public static string GetRoomReference(int roomVNum)
+        {
+            if (roomReferences.ContainsKey(roomVNum))   
+                return roomReferences[roomVNum];
+
+            return "Non trovata";
         }
 
         // Mob Dialog Functions
@@ -31,6 +58,58 @@ namespace HandofGod
         public static void Initialize()
         {
             string[] desc;
+
+            mobileReferences.Clear();
+            if (File.Exists(Path.GetDirectoryName(Application.ExecutablePath) + "\\mobList.dat"))
+            {
+                using (StreamReader file = new StreamReader(Path.GetDirectoryName(Application.ExecutablePath) + "\\mobList.dat"))
+                {
+                    while (!file.EndOfStream)
+                    {
+                        desc = file.ReadLine().Split('#');
+                        if (desc.Length > 0)
+                        {
+                            mobileReferences.Add(int.Parse(desc[0]), desc[1]);
+                        }
+                    }
+                    file.Close();
+                }
+            }
+
+            objectReferences.Clear();
+            if (File.Exists(Path.GetDirectoryName(Application.ExecutablePath) + "\\objList.dat"))
+            {
+                using (StreamReader file = new StreamReader(Path.GetDirectoryName(Application.ExecutablePath) + "\\objList.dat"))
+                {
+                    while (!file.EndOfStream)
+                    {
+                        desc = file.ReadLine().Split('#');
+                        if (desc.Length > 0)
+                        {
+                            objectReferences.Add(int.Parse(desc[0]), desc[1]);
+                        }
+                    }
+                    file.Close();
+                }
+            }
+
+            roomReferences.Clear();
+            if (File.Exists(Path.GetDirectoryName(Application.ExecutablePath) + "\\roomList.dat"))
+            {
+                using (StreamReader file = new StreamReader(Path.GetDirectoryName(Application.ExecutablePath) + "\\roomList.dat"))
+                {
+                    while (!file.EndOfStream)
+                    {
+                        desc = file.ReadLine().Split('#');
+                        if (desc.Length > 0)
+                        {
+                            roomReferences.Add(int.Parse(desc[0]), desc[1]);
+                        }
+                    }
+                    file.Close();
+                }
+            }
+
 
             spells.Clear();
             if (File.Exists(Path.GetDirectoryName(Application.ExecutablePath) + "\\spells.dat"))

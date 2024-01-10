@@ -597,20 +597,51 @@ namespace HandofGod
             {
                 case C.it_mob_add:
                 case C.it_follower_add:
-                    who = ParentArea.Get<Mob>(Convert.ToInt32(values[C.iv_value0]));
-                    where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value2]));
-                    arg0 = values[C.iv_value0].ToString();
-                    arg1 = who != null ? who.shortdesc : "non trovato";
-                    arg2 = values[C.iv_value2].ToString();
-                    arg3 = where != null ? where.shortdesc : "non trovata";
+                    {
+                        
+                        who = ParentArea.Get<Mob>(Convert.ToInt32(values[C.iv_value0]));
+
+                        if (who == null)
+                            arg1 = Database.GetMobileReference(Convert.ToInt32(values[C.iv_value0]));
+                        else
+                            arg1 = who.shortdesc;
+
+                        where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value2]));
+
+
+                        if (where == null)
+                            arg3 = Database.GetRoomReference(Convert.ToInt32(values[C.iv_value2]));
+                        else
+                            arg3 = where.shortdesc;
+
+                        arg0 = values[C.iv_value0].ToString();
+                        //arg1 = who != null ? who.shortdesc : "non trovato";
+                        arg2 = values[C.iv_value2].ToString();
+                        //arg3 = where != null ? where.shortdesc : "non trovata";
+                    }
                     break;
                 case C.it_mob_rem:
-                    who = ParentArea.Get<Mob>(Convert.ToInt32(values[C.iv_value0]));
-                    where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value1]));
-                    arg0 = values[C.iv_value0].ToString();
-                    arg1 = who != null ? who.shortdesc : "non trovato";
-                    arg2 = values[C.iv_value1].ToString();
-                    arg3 = where != null ? where.shortdesc : "non trovata";
+                    {
+                        who = ParentArea.Get<Mob>(Convert.ToInt32(values[C.iv_value0]));
+                        where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value1]));
+
+                        if (who == null)
+                            arg1 = Database.GetMobileReference(Convert.ToInt32(values[C.iv_value0]));
+                        else
+                            arg1 = who.shortdesc;
+
+                        if (where == null)
+                            arg3 = Database.GetRoomReference(Convert.ToInt32(values[C.iv_value2]));
+                        else
+                            arg3 = where.shortdesc;
+
+                        arg0 = values[C.iv_value0].ToString();
+
+
+                        // arg1 = who != null ? who.shortdesc : "non trovato";
+                        arg2 = values[C.iv_value1].ToString();
+                        //arg3 = where != null ? where.shortdesc : "non trovata";
+                    }
                     break;
                 case C.it_mob_fear:
                 case C.it_mob_hate:
@@ -637,39 +668,86 @@ namespace HandofGod
                     }
                     break;
                 case C.it_obj_add:
-                    who = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value0]));
-                    where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value2]));
-                    arg0 = values[C.iv_value0].ToString();
-                    arg1 = who != null ? who.shortdesc : "non trovato";
-                    arg2 = values[C.iv_value2].ToString();
-                    arg3 = where != null ? where.shortdesc : "non trovata";
+                    {
+                        who = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value0]));
+                        where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value2]));
+                        arg0 = values[C.iv_value0].ToString();
+
+                        if (who == null)
+                            arg1 = Database.GetObjectReference(Convert.ToInt32(values[C.iv_value0]));
+                        else
+                            arg1 = who.shortdesc;
+
+                        if (where == null)
+                            arg3 = Database.GetRoomReference(Convert.ToInt32(values[C.iv_value2]));
+                        else
+                            arg3 = where.shortdesc;
+
+                        // arg1 = who != null ? who.shortdesc : "non trovato";
+                        arg2 = values[C.iv_value2].ToString();
+                        // arg3 = where != null ? where.shortdesc : "non trovata";
+                    }
                     break;
                 case C.it_obj_rem:
                     who = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value0]));
                     where = ParentArea.Get<Room>(Convert.ToInt32(values[C.iv_value1]));
                     arg0 = values[C.iv_value0].ToString();
-                    arg1 = who != null ? who.shortdesc : "non trovato";
+
+                    if (who == null)
+                        arg1 = Database.GetObjectReference(Convert.ToInt32(values[C.iv_value0]));
+                    else
+                        arg1 = who.shortdesc;
+
+                    if (where == null)
+                        arg3 = Database.GetRoomReference(Convert.ToInt32(values[C.iv_value1]));
+                    else
+                        arg3 = where.shortdesc;
+
+                    //arg1 = who != null ? who.shortdesc : "non trovato";
                     arg2 = values[C.iv_value1].ToString();
-                    arg3 = where != null ? where.shortdesc : "non trovata";
+                    //arg3 = where != null ? where.shortdesc : "non trovata";
                     break;
                 case C.it_obj_give:
                      who = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value0]));
+
+                    if (who == null)
+                        arg1 = Database.GetObjectReference(Convert.ToInt32(values[C.iv_value0]));
+                    else
+                        arg1 = who.shortdesc;
+
                     arg0 = values[C.iv_value0].ToString();
-                    arg1 = who != null ? who.shortdesc : "non trovato";
+                    //arg1 = who != null ? who.shortdesc : "non trovato";
                     break;
                 case C.it_obj_put:
                     who = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value0]));
                     where = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value2]));
                     arg0 = values[C.iv_value0].ToString();
-                    arg1 = who != null ? who.shortdesc : "non trovato";
+                    //arg1 = who != null ? who.shortdesc : "non trovato";
+
+                    if (who == null)
+                        arg1 = Database.GetObjectReference(Convert.ToInt32(values[C.iv_value0]));
+                    else
+                        arg1 = who.shortdesc;
+
+                    if (where == null)
+                        arg3 = Database.GetObjectReference(Convert.ToInt32(values[C.iv_value2]));
+                    else
+                        arg3 = where.shortdesc;
+
                     arg2 = values[C.iv_value2].ToString();
-                    arg3 = where != null ? where.shortdesc : "non trovato";
+                    //arg3 = where != null ? where.shortdesc : "non trovato";
                     break;
                 case C.it_obj_wear:
                     arg0 = L.Get(L.init_wear, Convert.ToInt32(values[C.iv_value2]));
                     who = ParentArea.Get<Obj>(Convert.ToInt32(values[C.iv_value0]));
                     arg1 = values[C.iv_value0].ToString();
-                    arg2 = who != null ? who.shortdesc : "non trovato";
+
+                    if (who == null)
+                        arg2 = Database.GetObjectReference(Convert.ToInt32(values[C.iv_value0]));
+                    else
+                        arg2 = who.shortdesc;
+
+                    //arg2 = who != null ? who.shortdesc : "non trovato";
                     break;
                 case C.it_door_init:
                     arg0 = values[C.iv_value1] < C.dir_special ? L.Get(L.directions, Convert.ToInt32(values[C.iv_value1])) : se_name;

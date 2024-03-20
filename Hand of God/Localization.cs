@@ -34,7 +34,7 @@ namespace HandofGod
 
         public static readonly string[] object_types = {"None", "Light", "Scroll", "Wand", "Staff", "Weapon", "Fire Weapon", "Missile", "Treasure", "Armor",
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",
-                                                        "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock"};
+                                                        "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock", "Material", "Coadjuvant"};
 
         public static readonly string[] object_wear = {"Take", "Finger", "Neck", "Body", "Head", "Legs", "Feet", "Hands", "Arms", "Shield", "About", "Waist",
                                                        "Wrist", "Wield", "Hold", "Throw", "Personal-Eq", "Back", "Ear", "Eye", "Aura"};
@@ -62,7 +62,8 @@ namespace HandofGod
                                                               "~~~","AC Attuale~AC Massima~Materiale~","Livello~Incantesimo #1~Incantesimo #2~Incantesimo #3",
                                                               "~~~","~~~","~~~","Trigger~Tipo di Danno~Livello~Cariche","Capacità~Flags~Chiave~",
                                                               "~~~","Drink-unit Attuali~Drink-unit Max~Tipo di Liquido~Flags",
-                                                              "One Time~~~","Ore di Sazietà~~Avvelenato~","Monete~~~","~~~","~~~","Timing~~~","~~~","~~~","~~~"};
+                                                              "One Time~~~","Ore di Sazietà~~Avvelenato~","Monete~~~","~~~","~~~","Timing~~~",
+                                                              "~~~","~~~","~~~","~~~", "~~~" };
 
         public static readonly string[] liquid_flags = { "Poisoned", "Permanent" };
         public static readonly string[] liquid_flags_short = { "Po", "Pe" };

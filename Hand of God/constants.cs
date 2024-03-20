@@ -383,7 +383,9 @@ namespace HandofGod
         public const int ot_board = 24;
         public const int ot_tree = 25;
         public const int ot_rock = 26;
-        public const int ot_end = 26;
+        public const int ot_material = 27;
+        public const int ot_coadjuvant = 28;
+        public const int ot_end = 28;
 
         //objaffects
         public const int oa_none = 0;
@@ -546,7 +548,9 @@ namespace HandofGod
                                             "N___", // audio
                                             "____", // board
                                             "____", // tree
-                                            "____"};// rock
+                                            "____", // rock
+                                            "____", // material
+                                            "____"};// coadjuvant
         // (uses objaffect as index)
         // Q complex affects
         public static readonly char[] objaffects = {'_','N','N','N','N','N','N','X',  // none str dex int wis con chr sex                                   - 7

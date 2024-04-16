@@ -665,6 +665,10 @@ namespace HandofGod
                                 case 'F': ReadUntil(file, '\n');
                                     curr.fame = ToInt(ReadUntil(file, '\n'));
                                     break;
+                                case 'T':
+                                    ReadUntil(file, '\n');
+                                    curr.values[C.mv_balance_type] = ToInt(ReadUntil(file, '\n'));
+                                    break;
                                 case 'G': ReadUntil(file, '\n');
                                     file.Read(buffer, 0, 1);
                                     switch (buffer[0])
@@ -1474,6 +1478,13 @@ namespace HandofGod
                         write(file, NewLine);
                         write(file, "F" + NewLine);
                         write(file, m.fame);
+                    }
+
+                    if (m.values[C.mv_balance_type] > 0)
+                    {
+                        write(file, NewLine);
+                        write(file, "T" + NewLine);
+                        write(file, m.values[C.mv_balance_type]);
                     }
 
                     for (int i = 1; i <= C.et_end; i++)

@@ -249,6 +249,8 @@ namespace HandofGod
         public static readonly string[] trap_damage_types = {"Poison", "Sleep", "Teleport", "Fire (Fireball)", "Cold (Frost Breath)", "Acid (Acid Blast)",
                                                              "Energy (Colour Spray)", "Blunt", "Pierce", "Slash" };
 
+        public static readonly string[] mob_balance_types = { "Standard", "Triviale", "Minore", "Maggiore", "Possente" };
+
         public static readonly string[] mob_gender = { "Indefinito", "Maschio", "Femmina" };
         public static readonly string[] mob_positions = {"Dead", "Mortally Wounded", "Incapacitated", "Stunned", "Sleeping", "Resting", "Sitting", "Fighting",
                                                          "Standing", "Mounted"};
@@ -259,8 +261,8 @@ namespace HandofGod
         public static readonly string[] damage_types_short = {"F", "C", "El", "En", "Blu", "Pie", "Sla", "A", "Po", "D", "Sle", "Ch", "H", "N-M", "+1", "+2", "+3", "+4"};
 
         public static readonly string[] mob_acts = {"Non insegue", "Immobile", "Raccoglie", "NPC", "Nice vs Furto", "Aggressivo", "Sta-in-zona", "Codardo", 
-                                                    "Fastidioso", "Reietto", "Spaventato", "Inattaccabile", "Amichevole", "Letale", "Non Usare", "Super Aggressivo",
-                                                    "Guardiano", "Inanimato", "Enorme", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
+                                                    "Fastidioso", "Reietto", "Spaventato", "Inattaccabile", "Amichevole", "Elite", "Custom", "Super Aggressivo",
+                                                    "Guardiano", "Inanimato", "Raro", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
                                                     "AI: Druido", "AI: Monaco", "AI: Barbaro", "AI: Paladino", "AI: Ranger", "AI: Psionico", "AI: Arciere"};
 
         public static readonly string[] mob_affects = {"Blind", "Invisible", "Detect Evil", "Detect Invisible", "Detect Magic", "Sense Life", "Life Saving",

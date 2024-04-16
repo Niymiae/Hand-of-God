@@ -277,7 +277,8 @@ namespace HandofGod
         public const int mv_red_blunt = 14;
         public const int mv_red_slash = 15;
         public const int mv_red_pierce = 16;
-        public const int mv_end = 16;
+        public const int mv_balance_type = 17;
+        public const int mv_end = 17;
 
         //mob acts
         public const int mf_immobile = 0;

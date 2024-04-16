@@ -3169,6 +3169,7 @@ namespace HandofGod
                 output += "Short description: " + mob.shortdesc + "\n";
                 output += "Long description: " + mob.longdesc + "\n";
                 output += "Monster Class: " + L.Get(L.mob_types, mob.values[C.mv_type]) + "\n";
+                output += "Monster Type: " + L.Get(L.mob_balance_types, mob.values[C.mv_balance_type]) + "\n";
                 output += "Level " + mob.values[C.mv_level] + ", Alignment[" + mob.values[C.mv_align] + "]\n";
                 output += "AC[" + mob.values[C.mv_ac] + "], Coins: [" + mob.values[C.mv_gold] + "], XP Bonus: [" + mob.values[C.mv_xpbonus] + "]\n";
                 output += "Thac0: [" + mob.values[C.mv_thac0] + "], SpellPower: [" + mob.values[C.mv_spellpower] + "]\n";

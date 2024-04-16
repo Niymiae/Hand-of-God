@@ -35,6 +35,10 @@ namespace HandofGod
             foreach (string s in L.mob_types)
                 val0.Items.Add(s);
 
+            val17.Items.Clear();
+            foreach (string s in L.mob_balance_types)
+                val17.Items.Add(s);
+
             val4.Items.Clear();
             foreach (string s in L.mob_gender)
                 val4.Items.Add(s);

@@ -214,6 +214,8 @@
             this.btndelQ = new System.Windows.Forms.Button();
             this.btnaddQ = new System.Windows.Forms.Button();
             this.gaugecharcounter = new HandofGod.CharCounterProgressBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.val17 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val7)).BeginInit();
@@ -680,7 +682,7 @@
             0,
             -2147483648});
             this.val8.Name = "val8";
-            this.val8.Size = new System.Drawing.Size(124, 20);
+            this.val8.Size = new System.Drawing.Size(69, 20);
             this.val8.TabIndex = 14;
             this.val8.ValueChanged += new System.EventHandler(this.val2_ValueChanged);
             this.val8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.val7_KeyDown);
@@ -724,7 +726,7 @@
             // lblavgxp
             // 
             this.lblavgxp.AutoSize = true;
-            this.lblavgxp.Location = new System.Drawing.Point(325, 111);
+            this.lblavgxp.Location = new System.Drawing.Point(403, 90);
             this.lblavgxp.Name = "lblavgxp";
             this.lblavgxp.Size = new System.Drawing.Size(43, 13);
             this.lblavgxp.TabIndex = 58;
@@ -2440,11 +2442,31 @@
             this.gaugecharcounter.Size = new System.Drawing.Size(462, 15);
             this.gaugecharcounter.TabIndex = 73;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(265, 117);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.TabIndex = 108;
+            this.label1.Text = "Tipologia:";
+            // 
+            // val17
+            // 
+            this.val17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.val17.FormattingEnabled = true;
+            this.val17.Location = new System.Drawing.Point(328, 116);
+            this.val17.Name = "val17";
+            this.val17.Size = new System.Drawing.Size(124, 21);
+            this.val17.TabIndex = 109;
+            // 
             // frm_Mob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 566);
+            this.Controls.Add(this.val17);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.edt_damage);
@@ -2534,6 +2556,8 @@
             this.Controls.SetChildIndex(this.btnapply, 0);
             this.Controls.SetChildIndex(this.lblvnum, 0);
             this.Controls.SetChildIndex(this.spin_vnum, 0);
+            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.val17, 0);
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.val2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.val7)).EndInit();
@@ -2794,5 +2818,7 @@
         private System.Windows.Forms.NumericUpDown spin_epic16;
         private System.Windows.Forms.NumericUpDown spin_epic15;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox val17;
     }
 }

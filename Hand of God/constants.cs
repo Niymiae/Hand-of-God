@@ -702,7 +702,11 @@ namespace HandofGod
         public const int ow_ear = 18;
         public const int ow_eye = 19;
         public const int ow_insegna = 20;
-        public const int ow_end = 20;
+        public const int ow_broken = 21;
+        public const int ow_ephemeral = 22;
+        public const int ow_feminine = 23;
+        public const int ow_plural = 24;
+        public const int ow_end = 24;
 
         //obj equipment pos
         public const int oe_light = 0;

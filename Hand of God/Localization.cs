@@ -37,10 +37,12 @@ namespace HandofGod
                                                         "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock", "Material", "Coadjuvant"};
 
         public static readonly string[] object_wear = {"Take", "Finger", "Neck", "Body", "Head", "Legs", "Feet", "Hands", "Arms", "Shield", "About", "Waist",
-                                                       "Wrist", "Wield", "Hold", "Throw", "Personal-Eq", "Back", "Ear", "Eye", "Aura"};
+                                                       "Wrist", "Wield", "Hold", "Throw", "Personal-Eq", "Back", "Ear", "Eye", "Aura",
+                                                       "Broken", "Ephemeral", "Feminine", "Plural"};
 
         public static readonly string[] object_wear_ita = {"Prendibile", "Anello", "Collo", "Corpo", "Testa", "Gambe", "Piedi", "Mani", "Braccia", "Scudo", "Mantello", "Cintura",
-                                                       "Polso", "Arma", "Tenuto", "Lancio", "Personalizzabile", "Schiena", "Orecchio", "Occhio", "Insegna"};
+                                                       "Polso", "Arma", "Tenuto", "Lancio", "Personalizzabile", "Schiena", "Orecchio", "Occhio", "Insegna",
+                                                       "Danneggiato", "Effimero", "Femminile", "Plurale"};
 
         public static readonly string[] init_wear = {"Come Luce", "Sul Dito Destro", "Sul Dito Sinistro", "Intorno al Collo (1)", "Intorno al Collo (2)", "Sul Corpo", 
                                                      "Sulla Testa", "Sulle Gambe", "Ai Piedi", "Sulle Mani", "Sulle Braccia", "Come Scudo", "Intorno al Corpo", "Intorno alla Vita",
@@ -49,7 +51,7 @@ namespace HandofGod
 
         public static readonly string[] object_flags = {"Luminoso", "Ronzante", "Metallico", "Minerale", "Organico", "Invisibile", "Magico", "Maledetto", "Benedetto", "Anti Good",
                                                         "Anti Evil", "Anti Neutral", "Anti Cleric", "Anti Mage", "Anti Thief", "Anti Warrior", "Brittle", 
-                                                        "Resistant", "Indistruttibile", "Femminile", "Plurale", "No Edit", "Anti Barbarian",
+                                                        "Resistant", "Indistruttibile", "Anti Container", "Non Usato", "No Edit", "Anti Barbarian",
                                                         "Anti Ranger", "Anti Paladin", "Anti Psionist", "Anti Monk", "Anti Druid", "Only Class", "Scava",
                                                         "Taglia", "Donazione"};
 

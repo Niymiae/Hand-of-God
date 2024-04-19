@@ -210,6 +210,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_CmdOverview.resx">
       <DependentUpon>frm_CmdOverview.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Exit.resx">
       <DependentUpon>frm_Exit.cs</DependentUpon>

@@ -44,6 +44,10 @@ namespace HandofGod
             foreach (string s in L.object_types)
                 combo_type.Items.Add(s);
 
+            combo_rarity.Items.Clear();
+            foreach (string s in L.object_rarity)
+                combo_rarity.Items.Add(s);
+
             chks_flags = new List<CheckBox>();
             for (int i = 0; i <= C.of_end; i++)
             {
@@ -83,6 +87,7 @@ namespace HandofGod
             memo_actiondesc.SetText(Data.actiondesc);
 
             combo_type.SelectedIndex = Data.properties[C.op_type];
+            combo_rarity.SelectedIndex = Data.rarity;
 
             for (int i = 1; i <= 3; i++)
                 (Controls.Find("prop" + i, false)[0] as NumericUpDown).Value = Data.properties[i];
@@ -148,6 +153,7 @@ namespace HandofGod
             Data.description = memo_desc.GetText();
             Data.actiondesc = memo_actiondesc.GetText();
 
+            Data.rarity = combo_rarity.SelectedIndex;
             Data.properties[C.op_type] = combo_type.SelectedIndex;
 
             for (int i = 1; i <= 3; i++)

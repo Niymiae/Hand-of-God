@@ -44,7 +44,7 @@ namespace HandofGod
                                                                             }, null, null, true, true);
                     break;
                 case C.i_report_coinsfame:
-                    list.AddToList(ParentArea, ParentArea.mobs, false, x => (x.values[C.mv_gold] > 0 || x.fame > 0), null, null, true, true);
+                    list.AddToList(ParentArea, ParentArea.mobs, false, x => (x.values[C.mv_gold] > 0), null, null, true, true);
                     break;
                 case C.i_report_treasures:
                     list.AddToList(ParentArea, ParentArea.objects, false, x => (x.properties[C.op_type] == C.ot_money && x.values[0] > 0), null, null, true, true);

@@ -396,9 +396,9 @@ namespace HandofGod
                     case C.i_report_coinsfame:
                         int inits = getinits();
                         s[2] = inits.ToString();
-                        s[3] = m.fame.ToString();
+                        s[3] = "0";
                         s[4] = m.values[C.mv_gold].ToString();
-                        s[5] = (m.fame * inits).ToString();
+                        s[5] = "0";
                         s[6] = (m.values[C.mv_gold] * inits).ToString();
                         break;
                 }
@@ -623,9 +623,9 @@ namespace HandofGod
                                   || x.type == C.it_follower_add) && x.values[C.iv_value0] == el.vnum))
                                         numinits++;
 
-                            fame += el.fame;
+                            fame += 0;
                             gold += el.values[C.mv_gold];
-                            Ifame += el.fame * numinits;
+                            Ifame += 0 * numinits;
                             Igold += el.values[C.mv_gold] * numinits;
                         }
 

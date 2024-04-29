@@ -112,7 +112,7 @@ namespace HandofGod
             // sound adjacent room
             memo_sound_adjacent.SetText(Data.adjacentsound);
 
-            spin_fame.Value = Data.fame;
+            spin_fame.Text = Data.fame;
             for (int i = 0; i <= C.gt_end; i++)
             {
                 (tab_gemsfame.Controls.Find("gem_perc" + i, false)[0] as NumericUpDown).Value = Data.gems[i].percent;
@@ -177,7 +177,7 @@ namespace HandofGod
             // sound adjacent room
             Data.adjacentsound = memo_sound_adjacent.GetText();
 
-            Data.fame = Convert.ToInt32(spin_fame.Value);
+            Data.fame = spin_fame.Text;
             for (int i = 0; i <= C.gt_end; i++)
             {
                 Data.gems[i].percent = Convert.ToInt32((tab_gemsfame.Controls.Find("gem_perc" + i, false)[0] as NumericUpDown).Value);

@@ -663,7 +663,7 @@ namespace HandofGod
                                     curr.values[C.mv_spellpower] = ToInt(ReadUntil(file, '\n'));
                                     break;
                                 case 'F': ReadUntil(file, '\n');
-                                    curr.fame = ToInt(ReadUntil(file, '\n'));
+                                    curr.fame = ReadUntil(file, '\n');
                                     break;
                                 case 'T':
                                     ReadUntil(file, '\n');
@@ -895,6 +895,12 @@ namespace HandofGod
                             file.Read(buffer, 0, 1);
                             switch (buffer[0])
                             {
+                                case 'X':
+                                    ReadUntil(file, '\n');
+                                    desc = ReadUntil(file, '\n').Split(' ');
+                                    if (desc.Length > 2)
+                                        curr.rarity = ToInt(desc[2]);
+                                    break;
                                 // extra desc
                                 case 'E': ExtraDesc ex = new ExtraDesc();
                                     ReadUntil(file, '\n');
@@ -1473,7 +1479,7 @@ namespace HandofGod
                             write(file, C.gt_charset[i] + " " + m.gems[i].percent + " " + m.gems[i].dice);
                         }
 
-                    if (m.fame > 0)
+                    if (m.fame.Length > 0)
                     {
                         write(file, NewLine);
                         write(file, "F" + NewLine);
@@ -1601,6 +1607,14 @@ namespace HandofGod
                     write(file, o.properties[C.op_weight] + " ");
                     write(file, o.properties[C.op_value] + " ");
                     write(file, o.properties[C.op_rent] + NewLine);
+
+                    if (o.rarity > 0)
+                    {
+                        write(file, "X" + NewLine);
+                        write(file, "0 0 "); // Minlev Maxlev currently unused
+                        write(file, o.rarity);
+                        write(file, " NA" + NewLine);
+                    }
 
                     if (o.properties[C.op_type] == C.ot_weapon)
                     {

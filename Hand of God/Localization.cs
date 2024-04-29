@@ -16,7 +16,7 @@ namespace HandofGod
 
         public static readonly string[] object_affects = {"None", "Deprecato (stat)", "Deprecato (stat)", "Deprecato (stat)", "Deprecato (stat)", "Deprecato (stat)", "Deprecato (stat)", 
                                                           "Sesso (Non usare)", "Livello (Non usare)",
-                                                          "Età (non usare)", "Peso", "Altezzat", "Mana", "Punti Ferita", "Movimento", "Gold (non usare)", "XP (non usare)", 
+                                                          "Età (non usare)", "Peso", "Altezza", "Mana", "Punti Ferita", "Movimento", "Gold (non usare)", "XP (non usare)", 
                                                           "Armatura", "Precisione", "Danno Fisico", "Deprecato", "Deprecato", "Deprecato", "Deprecato", "Deprecato", "Res. Magica (old)",
                                                           "Deprecato", "Deprecato", "Deprecato", "Incantesimo (non usare)", "Incantesimo Arma", "Incantesimo Cibo", "Backstab", "Kick", "Sneak",
                                                           "Hide", "Bash", "Pick", "Steal", "Track", "Deprecato (HND)", "Vitalità", "Colpo Critico", "Deprecato", "Deprecato", "Non Usare",
@@ -36,6 +36,9 @@ namespace HandofGod
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",
                                                         "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock", "Material", "Coadjuvant"};
 
+        public static readonly string[] object_rarity = { "Indefinita", "Comune", "Non Comune", "Rara", "Epica", "Leggendaria", 
+                                                          "Astrale", "Set", "Corrotta" };
+
         public static readonly string[] object_wear = {"Take", "Finger", "Neck", "Body", "Head", "Legs", "Feet", "Hands", "Arms", "Shield", "About", "Waist",
                                                        "Wrist", "Wield", "Hold", "Throw", "Personal-Eq", "Back", "Ear", "Eye", "Aura",
                                                        "Broken", "Ephemeral", "Feminine", "Plural"};
@@ -51,7 +54,7 @@ namespace HandofGod
 
         public static readonly string[] object_flags = {"Luminoso", "Ronzante", "Metallico", "Minerale", "Organico", "Invisibile", "Magico", "Maledetto", "Benedetto", "Anti Good",
                                                         "Anti Evil", "Anti Neutral", "Anti Cleric", "Anti Mage", "Anti Thief", "Anti Warrior", "Brittle", 
-                                                        "Resistant", "Indistruttibile", "Anti Container", "Non Usato", "No Edit", "Anti Barbarian",
+                                                        "Resistant", "Indistruttibile", "Anti Container", "Base Scalabile", "No Edit", "Anti Barbarian",
                                                         "Anti Ranger", "Anti Paladin", "Anti Psionist", "Anti Monk", "Anti Druid", "Only Class", "Scava",
                                                         "Taglia", "Donazione"};
 

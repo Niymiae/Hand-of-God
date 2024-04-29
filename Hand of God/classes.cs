@@ -1926,7 +1926,7 @@ namespace HandofGod
         public List<MobDialogue> dialogues;
 
         public Gem[] gems = new Gem[4];
-        public int fame;
+        public string fame;
         public int[] epic_talents = new int[C.et_end + 1];
         public int[] values = new int[C.mv_end + 1];
         public BitVector32 flags = new BitVector32();
@@ -1985,7 +1985,7 @@ namespace HandofGod
             description = "";
             samesound = "";
             adjacentsound = "";
-            fame = 0;
+            fame = "";
             for (int i = 0; i <= C.gt_end; i++)
             {
                 gems[i].dice = "1d1+0";
@@ -2138,7 +2138,8 @@ namespace HandofGod
         public string description;
         public string actiondesc;
         public bool HTMLExportable;
-        
+
+        public int rarity;
         public int[] properties = new int[4];
         public int[] values = new int[4];
         public int[] extraValues = new int[5];
@@ -2168,6 +2169,7 @@ namespace HandofGod
             shortdesc = "un nuovo oggetto";
             description = "un nuovo oggetto si trova qui";
             actiondesc = "";
+            rarity = 0;
         
             for (int i = 0; i <= C.op_end; i++)
                 properties[i] = 0;
@@ -2202,6 +2204,7 @@ namespace HandofGod
 
             Clear();
 
+            rarity = o.rarity;
             vnum = o.vnum;
             keys = o.keys;
             shortdesc = o.shortdesc;

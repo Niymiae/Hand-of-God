@@ -107,9 +107,15 @@ namespace HandofGod
         public static string CutColorCodes(string str)
         {
             String strpattern = @"[$]c[0-9][0-9][0-9][0-9]";
-            Regex regex = new Regex(strpattern);
+            String newStrPattern = @"[$]ch[k|b|f][0-F][0-F][0-F][0-F][0-F][0-F]";
 
-            return regex.Replace(str, "");
+            Regex regex = new Regex(strpattern);
+            Regex regexTwo = new Regex(newStrPattern);
+
+            regex.Replace(str, "");
+            regexTwo.Replace(str, "");
+
+            return str;
         }
 
         public static string ColorToCode(Color col)
@@ -159,7 +165,9 @@ namespace HandofGod
         public static List<colorindexer> ProcessTextColorCodes(string str, Color def)
         {
             String strpattern = @"[$]c[0-9][0-9][0-9][0-9]";
+            String newStrPattern = @"[$]ch[k|b|f][0-F][0-F][0-F][0-F][0-F][0-F]";
             Regex regex = new Regex(strpattern);
+            Regex regexTwo = new Regex(newStrPattern);
 
             Color col = def;
 
@@ -172,6 +180,17 @@ namespace HandofGod
 
                 result.Add(new colorindexer() { s = str.Substring(0, m.Index), c = col, i = m.Index });
                 col = CodeToColor("$c00" + s[4] + s[5]);
+                str = str.Substring(m.Index + 6, str.Length - (m.Index + 6));
+            }
+
+            m = null;
+            while ((m = regexTwo.Match(str)).Success)
+            {
+                string s = m.Value;
+                ColorConverter converter = new ColorConverter();
+                result.Add(new colorindexer() { s = str.Substring(0, m.Index), c = col, i = m.Index });
+
+                col = (Color)converter.ConvertFromString("#" + s.Substring(2, 6));
                 str = str.Substring(m.Index + 6, str.Length - (m.Index + 6));
             }
 

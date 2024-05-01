@@ -883,10 +883,15 @@ namespace HandofGod
         {
             int result = s.Length;
             String strpattern = @"[$]c[0-9][0-9][0-9][0-9]";
+            String newStrPattern = @"[$]ch[k|b|f][0-F][0-F][0-F][0-F][0-F][0-F]";
             Regex regex = new Regex(strpattern);
+            Regex regexTwo = new Regex(newStrPattern);
 
             foreach (Match match in regex.Matches(s))
                 result -= 6;
+
+            foreach (Match match in regexTwo.Matches(s))
+                result -= 10;
 
             return result > 0 ? result : 0;
         }
@@ -1149,9 +1154,16 @@ namespace HandofGod
             string value = Text.Replace("\n", " ").Replace("  ", " ");
 
             String strpattern = @"[$]c[0-9][0-9][0-9][0-9]";
+            String newStrPattern = @"[$]ch[k|b|f][0-F][0-F][0-F][0-F][0-F][0-F]";
             Regex regex = new Regex(strpattern);
+            Regex regexTwo = new Regex(newStrPattern);
+
             List<colorindexer> colorcodes = new List<colorindexer>();
+
             foreach (Match m in regex.Matches(value))
+                colorcodes.Add(new colorindexer() { s = m.Value, i = m.Index + 1 });
+
+            foreach (Match m in regexTwo.Matches(value))
                 colorcodes.Add(new colorindexer() { s = m.Value, i = m.Index + 1 });
 
             value = utils.CutColorCodes(value);
@@ -1227,6 +1239,8 @@ namespace HandofGod
 
             String strpattern = @"[$]c[0-9][0-9][0-9][0-9]";
             Regex regex = new Regex(strpattern);
+            String newStrPattern = @"[$]ch[k|b|f][0-F][0-F][0-F][0-F][0-F][0-F]";
+            Regex regexTwo = new Regex(newStrPattern);
 
             Color col = DefaultCharacterColor;
             int cursor = 0;
@@ -1247,6 +1261,19 @@ namespace HandofGod
                 // cut the color code
                 Text = Text.Substring(0, m.Index) + Text.Substring(m.Index + 6, TextLength - (m.Index + 6));
                 //if (oldStart > m.Index) oldStart -= 6;
+            }
+
+            m = null;
+            while ((m = regexTwo.Match(Text)).Success)
+            {
+                string s = m.Value;
+                ColorConverter converter = new ColorConverter();
+                bp.Add(new colorindexer() { i = cursor, l = m.Index, c = col });
+                cursor = m.Index;
+                col = (Color)converter.ConvertFromString("#" + s.Substring(4, 6));
+
+                // cut the color code
+                Text = Text.Substring(0, m.Index) + Text.Substring(m.Index + 10, TextLength - (m.Index + 10));
             }
 
             bp.Add(new colorindexer() { i = cursor, l = TextLength - cursor, c = col } );

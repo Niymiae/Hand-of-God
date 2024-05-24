@@ -54,7 +54,7 @@ namespace HandofGod
 
         public static readonly string[] object_flags = {"Luminoso", "Ronzante", "Metallico", "Minerale", "Organico", "Invisibile", "Magico", "Maledetto", "Benedetto", "Anti Good",
                                                         "Anti Evil", "Anti Neutral", "Anti Cleric", "Anti Mage", "Anti Thief", "Anti Warrior", "Brittle", 
-                                                        "Resistant", "Indistruttibile", "Anti Container", "Base Scalabile", "No Edit", "Anti Barbarian",
+                                                        "Resistant", "Indistruttibile", "Base Scalabile", "Anti Container", "No Edit", "Anti Barbarian",
                                                         "Anti Ranger", "Anti Paladin", "Anti Psionist", "Anti Monk", "Anti Druid", "Only Class", "Scava",
                                                         "Taglia", "Donazione"};
 

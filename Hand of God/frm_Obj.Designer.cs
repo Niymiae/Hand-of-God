@@ -130,6 +130,8 @@
             this.extralbl4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.combo_rarity = new System.Windows.Forms.ComboBox();
+            this.prop4 = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.page_longdesc.SuspendLayout();
@@ -161,6 +163,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.extraVal2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.extraVal3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.extraVal4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prop4)).BeginInit();
             this.SuspendLayout();
             // 
             // spin_vnum
@@ -1398,11 +1401,34 @@
             this.combo_rarity.Size = new System.Drawing.Size(106, 21);
             this.combo_rarity.TabIndex = 148;
             // 
+            // prop4
+            // 
+            this.prop4.Location = new System.Drawing.Point(397, 58);
+            this.prop4.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
+            this.prop4.Name = "prop4";
+            this.prop4.Size = new System.Drawing.Size(50, 20);
+            this.prop4.TabIndex = 151;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(340, 60);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 13);
+            this.label7.TabIndex = 152;
+            this.label7.Text = "Versione:";
+            // 
             // frm_Obj
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(806, 584);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.prop4);
             this.Controls.Add(this.combo_rarity);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.extralbl4);
@@ -1474,6 +1500,8 @@
             this.Controls.SetChildIndex(this.extralbl4, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.combo_rarity, 0);
+            this.Controls.SetChildIndex(this.prop4, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.page_longdesc.ResumeLayout(false);
@@ -1508,6 +1536,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.extraVal2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.extraVal3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.extraVal4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.prop4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1616,5 +1645,7 @@
         private System.Windows.Forms.Label extralbl4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox combo_rarity;
+        private System.Windows.Forms.NumericUpDown prop4;
+        private System.Windows.Forms.Label label7;
     }
 }

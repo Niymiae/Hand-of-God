@@ -2140,7 +2140,7 @@ namespace HandofGod
         public bool HTMLExportable;
 
         public int rarity;
-        public int[] properties = new int[4];
+        public int[] properties = new int[5];
         public int[] values = new int[4];
         public int[] extraValues = new int[5];
         public ObjAffect[] affects = new ObjAffect[5];

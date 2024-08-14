@@ -89,7 +89,7 @@ namespace HandofGod
             combo_type.SelectedIndex = Data.properties[C.op_type];
             combo_rarity.SelectedIndex = Data.rarity;
 
-            for (int i = 1; i <= 3; i++)
+            for (int i = 1; i <= C.op_end; i++)
                 (Controls.Find("prop" + i, false)[0] as NumericUpDown).Value = Data.properties[i];
 
             for (int i = 0; i <= 3; i++)
@@ -156,7 +156,7 @@ namespace HandofGod
             Data.rarity = combo_rarity.SelectedIndex;
             Data.properties[C.op_type] = combo_type.SelectedIndex;
 
-            for (int i = 1; i <= 3; i++)
+            for (int i = 1; i <= C.op_end; i++)
                 Data.properties[i] = Convert.ToInt32((Controls.Find("prop" + i, false)[0] as NumericUpDown).Value);
 
             for (int i = 0; i <= 3; i++)
@@ -292,7 +292,9 @@ namespace HandofGod
             if (combo_type.SelectedIndex == C.ot_weapon)
             {
                 extralbl1.Visible = true;
+                extralbl1.Text = "Efficacia Fisica";
                 extralbl2.Visible = true;
+                extralbl2.Text = "Efficacia Magica";
                 extralbl3.Visible = true;
                 extralbl4.Visible = true;
 
@@ -300,6 +302,20 @@ namespace HandofGod
                 extraVal2.Visible = true;
                 extraVal3.Visible = true;
                 extraVal4.Visible = true;
+            }
+            else if (combo_type.SelectedIndex == C.ot_trap)
+            {
+                extralbl1.Visible = true;
+                extralbl1.Text = "CD Visibilita`";
+                extralbl2.Visible = true;
+                extralbl2.Text = "CD Disinnesco";
+                extralbl3.Visible = false;
+                extralbl4.Visible = false;
+
+                extraVal1.Visible = true;
+                extraVal2.Visible = true;
+                extraVal3.Visible = false;
+                extraVal4.Visible = false;
             }
             else 
             {

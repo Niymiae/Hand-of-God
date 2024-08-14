@@ -895,6 +895,12 @@ namespace HandofGod
                             file.Read(buffer, 0, 1);
                             switch (buffer[0])
                             {
+                                case 'O':
+                                    ReadUntil(file, '\n');
+                                    desc = ReadUntil(file, '\n').Split(' ');
+                                    if (desc.Length == 1)
+                                        curr.properties[C.op_version] = ToInt(desc[0]);
+                                    break;
                                 case 'X':
                                     ReadUntil(file, '\n');
                                     desc = ReadUntil(file, '\n').Split(' ');
@@ -925,12 +931,21 @@ namespace HandofGod
                                         desc = ReadUntil(file, '\n').Split(' ');
                                         int key = ToInt(desc[0]);
                                         int val = ToInt(desc[1]);
+                                        int val2 = 0;
+                                        int val3 = 0;
+                                        int val4 = 0;
+
+                                        if (desc.Length > 2)
+                                        {
+                                            val2 = ToInt(desc[2]);
+                                            val3 = ToInt(desc[3]);
+                                            val4 = ToInt(desc[4]);
+                                        }
 
                                         // affects > 69 hack
                                         //if (key > 69)
                                         //    key -= 1;
-
-                                        curr.SetAffect(key, val);
+                                        curr.SetAffect(key, val, val2, val3, val4);
                                     }
                                     catch { }
                                     break;
@@ -1583,7 +1598,6 @@ namespace HandofGod
 
             using (StreamWriter file = new StreamWriter(filename, false, GetEncoding()))
             {
-
                 List<Obj> SortedList = objects.OrderBy(x => x.vnum).ToList();
 
                 foreach (Obj o in SortedList)
@@ -1616,13 +1630,19 @@ namespace HandofGod
                         write(file, " NA" + NewLine);
                     }
 
-                    if (o.properties[C.op_type] == C.ot_weapon)
+                    if (o.properties[C.op_type] == C.ot_weapon || o.properties[C.op_type] == C.ot_trap)
                     {
                         write(file, "V" + NewLine);
                         for (int i = 0; i <= 3; i++)
                         {
                             write(file, o.extraValues[i] + (i == 3 ? NewLine : " "));
                         }
+                    }
+
+                    if (o.properties[C.op_version] > 0)
+                    {
+                        write(file, "O" + NewLine);
+                        write(file, o.properties[C.op_version] + NewLine);
                     }
 
                     foreach (ExtraDesc ed in o.extras)
@@ -1644,7 +1664,7 @@ namespace HandofGod
                             }
                             else // 17/10/21 Saregon - affects
                             {
-                                write(file, "S" + NewLine);
+                                write(file, "A" + NewLine);
                                 int key = o.affects[i].index;
                                 write(file, key + " " + o.affects[i].value + " " + o.affects[i].value2 + " " + o.affects[i].value3 + " " + o.affects[i].value4 + NewLine);
                             }

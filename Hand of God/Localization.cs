@@ -270,9 +270,9 @@ namespace HandofGod
                                                     "Guardiano", "Inanimato", "Raro", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
                                                     "AI: Druido", "AI: Monaco", "AI: Barbaro", "AI: Paladino", "AI: Ranger", "AI: Psionico", "AI: Arciere"};
 
-        public static readonly string[] mob_affects = {"Blind", "Invisible", "Detect Evil", "Detect Invisible", "Detect Magic", "Sense Life", "Life Saving",
+        public static readonly string[] mob_affects = {"Healthy", "Invisible", "Detect Evil", "Detect Invisible", "Detect Magic", "Sense Life", "Life Saving",
                                                        "Sanctuary", "Dragon Ride", "Growth", "Curse", "Flying", "Poison", "Tree Travel", "Paralyzed", "Infravision",
-                                                       "Waterbreath", "Sleep", "Travelling", "Sneak", "Hide", "Silenced", "Charmed", "Follower", "Prot. Evil",
+                                                       "Waterbreath", "Sleep", "Travelling", "Sneak", "Hide", "Static Atks", "Charmed", "Follower", "Prot. Evil",
                                                        "True Sight", "Scrying", "Fireshield", "Grouped", "Telepathy", "Iceshield"};
 
         public static readonly string[] mob_affects_short = {"B", "I", "DE", "DI", "DM", "SL", "LP", "S", "DR", "G", "C", "F", "P", "TT", "Par", "Inf",

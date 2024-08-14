@@ -354,7 +354,8 @@ namespace HandofGod
         public const int op_weight = 1;
         public const int op_value = 2;
         public const int op_rent = 3;
-        public const int op_end = 3;
+        public const int op_version = 4;
+        public const int op_end = 4;
 
         //objtype
         public const int ot_none = 0;
@@ -567,7 +568,7 @@ namespace HandofGod
                                                     'N','N','N','N','N','N','N','N',  // riposte bfire bcold belec banima bblunt bslash bpierce             - 88
                                                     'N','N','N','N','N','N','N','N',  // bnature bchaos bpsych barcane blumen bumbra critical nstr          - 96
                                                     'N','N','N','N','N','Q','N','N',  // ndex nint nwis ncon nlck spellmod resifire resicold                - 104
-                                                    'N','N','N','N','N','N','N','N',  // reselec resanima resblunt resslash respierce resacid resnat rdrain - 112
+                                                    'N','N','Q','N','N','N','N','N',  // reselec resanima resblunt resslash respierce resacid resnat rdrain - 112
                                                     'N','N','N','N','N','N','N','N',  // rsleep rcharm rhold rchaos rpsych rarcane rlumen rumbra            - 120
                                                     'N','N','N','N','N','N','N','N',  // relem rdivine rphys mdamdone mdamtak mhealdone mhealtak bhealing   - 128
                                                     'N','N','N','N','N','N','N','Q',  // bacid btrauma intuition lethality onhit block rtrauma oncrit       - 136

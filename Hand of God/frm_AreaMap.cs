@@ -60,7 +60,7 @@ namespace HandofGod
             Brush b;
             // fare background image
             if (Data.rooms.Count > 0)
-            using (Pen p = new Pen(Color.Transparent, 1))
+            using (Pen p = new Pen(Color.Transparent, 2))
                 for (int k = -1; k <= 1; k++)
                     foreach (Room r in Data.rooms)
                         if (r.visual.visible && r.visual.floor > camera.floor - 2 && r.visual.floor < camera.floor + 2)
@@ -118,11 +118,12 @@ namespace HandofGod
                             if (r.visual.floor != camera.floor)
                             {
                                 b = Brushes.Transparent;
-                                p.Color = r.visual.floor > camera.floor ? Color.Blue : Color.Aqua;
+                                p.DashStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+                                p.Color = r.visual.floor > camera.floor ? Color.LightCyan : Color.DarkGray;
+                                p.Width = 1;
                             }
 
                             int dist = (int)(GetRoomOffset(r));
-
                             if (r.visual.floor != camera.floor && camera.floor - r.visual.floor == -k)
                             {
                                 // draw room borders
@@ -135,6 +136,7 @@ namespace HandofGod
 
                             if (camera.floor == r.visual.floor)
                             {
+                                p.Width = 2;
                                 Rectangle rect = camera.Transform(new Rectangle(r.visual.rect.X - camera.pos.X - dist, r.visual.rect.Y - camera.pos.Y + dist, r.visual.rect.Width, r.visual.rect.Height));
                                 // fill the room
                                 e.Graphics.FillRectangle(b, rect);
@@ -180,10 +182,10 @@ namespace HandofGod
                                     {
                                         Room d = Data.Get<Room>(ex.room);
                                         if (d != null && Math.Abs(d.visual.floor - camera.floor) <= 1)
-
                                             // test distanza
-                                            if (Math.Abs(d.visual.rect.X - r.visual.rect.X) <= r.visual.rect.Width * 3 &&
-                                                Math.Abs(d.visual.rect.Y - r.visual.rect.Y) <= r.visual.rect.Height * 4)
+                                            //if (Math.Abs(d.visual.rect.X - r.visual.rect.X) <= r.visual.rect.Width * 3 &&
+                                            //    Math.Abs(d.visual.rect.Y - r.visual.rect.Y) <= r.visual.rect.Height * 4)
+                                            if (true)
                                             {
                                                 int dist2 = (int)(GetRoomOffset(d));
                                                 // this room center
@@ -196,7 +198,39 @@ namespace HandofGod
                                                 int hxt = (int)(d.visual.rect.Width / 2);
                                                 int hyt = (int)(d.visual.rect.Height / 2);
 
-                                                p.Color = ex.flags[1 << C.df_secret] ? Color.Red : Math.Abs(d.visual.floor - camera.floor) == 1 ? Color.Cyan : Color.Lime;
+                                                //p.Color = ex.flags[1 << C.df_secret] ? Color.Red : Math.Abs(d.visual.floor - camera.floor) == 1 ? Color.Cyan : Color.Lime;
+
+                                                p.Color = Color.Lime;
+
+                                                if (ex.flags[1 << C.df_door])
+                                                {
+                                                    if (ex.door.objkey > 0)
+                                                    {
+                                                        p.Color = Color.MidnightBlue;
+                                                    }
+                                                    else
+                                                        p.Color = Color.DeepSkyBlue;
+                                                }
+
+                                                if (ex.flags[1 << C.df_secret])
+                                                {
+                                             
+                                                    if (ex.door.objkey > 0)
+                                                        p.Color = Color.Purple;
+                                                    else
+                                                        p.Color = Color.Red;
+                                                }
+
+                                                if (Math.Abs(d.visual.floor - camera.floor) != 0)
+                                                {
+                                                    p.DashStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+                                                    p.Width = 1;
+                                                }
+                                                else
+                                                {
+                                                    p.DashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+                                                    p.Width = 2;
+                                                }
 
                                                 switch (i)
                                                 {

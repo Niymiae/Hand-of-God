@@ -15,3 +15,4 @@
 14;Scambia Oggetti;Scambia l'oggetto Vnum1 con l'oggetto Vnum2 nell'inventario del pg; Vnum1 oggetto;Vnum2 oggetto
 15;Imposta Stato Dialogo;Imposta uno stato specifico nel rapporto PC->MOB del dialogo;Stato da Impostare;Nessun utilizzo
 16;Imposta Save Dialogo;Imposta un punto di partenza da cui riprendera' il dialogo con il PC specifico;Domanda di Partenza;Nessun utilizzo
+17;Sblocca e Apre Uscita;Sblocca e apre un'uscita chiusa;Nome uscita;Nessun utilizzo

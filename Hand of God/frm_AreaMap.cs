@@ -206,7 +206,7 @@ namespace HandofGod
                                                 {
                                                     if (ex.door.objkey > 0)
                                                     {
-                                                        p.Color = Color.MidnightBlue;
+                                                        p.Color = Color.Yellow;
                                                     }
                                                     else
                                                         p.Color = Color.DeepSkyBlue;
@@ -484,6 +484,7 @@ namespace HandofGod
             Room targetroom = null;
 
             foreach (Room r in Data.rooms)
+            {
                 if (r.visual.floor == camera.floor)
                 {
                     dist = GetRoomOffset(r);
@@ -531,6 +532,7 @@ namespace HandofGod
                         break;
                     }
                 }
+            }
 
             if (targetroom != null)
             {
@@ -569,7 +571,7 @@ namespace HandofGod
         }
 
         private void backgroundpanel_MouseMove(object sender, MouseEventArgs e)
-        {
+        {            
             if (lastX == e.X && lastY == e.Y)
                 return;
 
@@ -578,12 +580,12 @@ namespace HandofGod
                 selected_btn = (e.Y - 10) / btnsheight;
                 backgroundpanel.Refresh();
             }
-
+   
             switch (isDragging)
             {
                 case 1:
-                    selected_room.visual.rect.X = selected_room.visual.rect.X + (int)((e.X - lastX) / camera.zoom);
-                    selected_room.visual.rect.Y = selected_room.visual.rect.Y + (int)((e.Y - lastY) / camera.zoom);
+                    selected_room.visual.rect.X = selected_room.visual.rect.X + (int)((e.X - lastX));
+                    selected_room.visual.rect.Y = selected_room.visual.rect.Y + (int)((e.Y - lastY));
                     backgroundpanel.Refresh();
                     break;
                 case 2:

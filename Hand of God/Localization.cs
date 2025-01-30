@@ -52,8 +52,8 @@ namespace HandofGod
                                                      "Sul Polso Destro", "Sul Polso Sinistro", "Come Arma Principale", "In Mano", "Sulle Spalle", "All'Orecchio Destro", "All'Orecchio Sinistro",
                                                      "Davanti agli Occhi", "Come Aura"};
 
-        public static readonly string[] object_flags = {"Luminoso", "Ronzante", "Metallico", "Minerale", "Organico", "Invisibile", "Magico", "Maledetto", "Benedetto", "Anti Good",
-                                                        "Anti Evil", "Anti Neutral", "Anti Cleric", "Anti Mage", "Anti Thief", "Anti Warrior", "Brittle", 
+        public static readonly string[] object_flags = {"Luminoso", "Ronzante", "Metallico", "Minerale", "Organico", "Invisibile", "Magico", "Maledetto", "Benedetto", "Bind on Pickup",
+                                                        "Anti Evil", "Non Tradabile", "Anti Cleric", "Anti Mage", "Anti Thief", "Anti Warrior", "Brittle", 
                                                         "Resistant", "Indistruttibile", "Base Scalabile", "Anti Container", "No Edit", "Anti Barbarian",
                                                         "Anti Ranger", "Anti Paladin", "Anti Psionist", "Anti Monk", "Anti Druid", "Only Class", "Scava",
                                                         "Taglia", "Donazione"};

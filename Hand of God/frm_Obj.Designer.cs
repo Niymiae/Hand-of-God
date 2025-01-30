@@ -583,7 +583,7 @@
             this.groupBox1.Size = new System.Drawing.Size(166, 117);
             this.groupBox1.TabIndex = 61;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Allineamento / Sesso";
+            this.groupBox1.Text = "Flag di Servizio";
             // 
             // flg20
             // 

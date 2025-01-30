@@ -368,15 +368,44 @@ namespace HandofGod
                                     curr.tel_toroom = ToInt(desc[4]);
                                 if (desc.Length > 5)
                                     flagsbuffer = desc[5].Split('|');
+
                                 foreach (string v in flagsbuffer)
                                 {
                                     int flag = ToInt(v);
                                     curr.tel_flags[flag] = true;
                                 }
+
                                 if (desc.Length > 7)
                                 {
-                                    curr.tel_counter = ToInt(desc[6]);
-                                    curr.tel_sect = ToInt(desc[7]);
+                                    int descCounter = 6;
+
+                                    if (curr.tel_flags[1 << C.tf_count])
+                                    {
+                                        curr.tel_counter = ToInt(desc[descCounter]);
+                                        descCounter++;
+
+                                        curr.tel_sect = ToInt(desc[descCounter]);
+                                        descCounter++;
+                                    }
+                                    else
+                                    {
+                                        curr.tel_sect = ToInt(desc[descCounter]);
+                                        descCounter++;
+                                    }
+
+                                    if (curr.tel_sect == C.rs_waternoswim || curr.tel_sect == C.rs_underwater)
+                                    {
+                                        try
+                                        {
+                                            curr.water_current_vel = ToInt(desc[descCounter]);
+                                            descCounter++;
+                                            curr.water_current_dir = ToInt(desc[descCounter]);
+                                        }
+                                        catch
+                                        {
+
+                                        }
+                                    }
                                 }
                                 else if (desc.Length > 6)
                                     curr.tel_sect = ToInt(desc[6]);   
@@ -1306,9 +1335,17 @@ namespace HandofGod
                         write(file, " " + r.tel_time);
                         write(file, " " + r.tel_toroom);
                         write(file, " " + WriteFlags(r.tel_flags, C.tf_end));
+
                         if (r.tel_flags[1 << C.tf_count])
                             write(file, " " + r.tel_counter);
+
                         write(file, " " + r.tel_sect);
+
+                        if (r.tel_sect == C.rs_waternoswim || r.tel_sect == C.rs_underwater)
+                        {
+                            write(file, " " + r.water_current_vel);
+                            write(file, " " + r.water_current_dir);
+                        }
                     }
                     else if (r.sect == C.rs_waternoswim || r.sect == C.rs_underwater)
                     {

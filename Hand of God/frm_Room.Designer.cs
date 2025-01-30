@@ -57,7 +57,6 @@
             this.btn_delexit = new System.Windows.Forms.Button();
             this.btn_addexit = new System.Windows.Forms.Button();
             this.pn_teleport = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
             this.edt_tel_toroom = new System.Windows.Forms.NumericUpDown();
             this.edt_tel_counter = new System.Windows.Forms.NumericUpDown();
             this.combo_tel_sect = new System.Windows.Forms.ComboBox();
@@ -75,7 +74,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.pn_watercurrent = new System.Windows.Forms.Panel();
             this.combo_watercurrent_dir = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.spin_watercurrent_vel = new System.Windows.Forms.NumericUpDown();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -160,27 +158,27 @@
             // 
             // btnapply
             // 
-            this.btnapply.Location = new System.Drawing.Point(497, 552);
+            this.btnapply.Location = new System.Drawing.Point(676, 641);
             // 
             // btnrestore
             // 
-            this.btnrestore.Location = new System.Drawing.Point(578, 552);
+            this.btnrestore.Location = new System.Drawing.Point(757, 641);
             // 
             // btnprev
             // 
-            this.btnprev.Location = new System.Drawing.Point(712, 552);
+            this.btnprev.Location = new System.Drawing.Point(891, 641);
             // 
             // btnnext
             // 
-            this.btnnext.Location = new System.Drawing.Point(745, 552);
+            this.btnnext.Location = new System.Drawing.Point(924, 641);
             // 
             // btncancel
             // 
-            this.btncancel.Location = new System.Drawing.Point(88, 552);
+            this.btncancel.Location = new System.Drawing.Point(88, 641);
             // 
             // btnok
             // 
-            this.btnok.Location = new System.Drawing.Point(7, 552);
+            this.btnok.Location = new System.Drawing.Point(7, 641);
             // 
             // tabControl1
             // 
@@ -194,7 +192,7 @@
             this.tabControl1.Location = new System.Drawing.Point(19, 260);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(472, 271);
+            this.tabControl1.Size = new System.Drawing.Size(651, 360);
             this.tabControl1.TabIndex = 11;
             // 
             // page_longdesc
@@ -203,7 +201,7 @@
             this.page_longdesc.Location = new System.Drawing.Point(4, 22);
             this.page_longdesc.Name = "page_longdesc";
             this.page_longdesc.Padding = new System.Windows.Forms.Padding(3);
-            this.page_longdesc.Size = new System.Drawing.Size(464, 245);
+            this.page_longdesc.Size = new System.Drawing.Size(643, 334);
             this.page_longdesc.TabIndex = 0;
             this.page_longdesc.Text = "Long Desc";
             this.page_longdesc.UseVisualStyleBackColor = true;
@@ -216,7 +214,7 @@
             this.memo_longdesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.memo_longdesc.Location = new System.Drawing.Point(3, 3);
             this.memo_longdesc.Name = "memo_longdesc";
-            this.memo_longdesc.Size = new System.Drawing.Size(458, 239);
+            this.memo_longdesc.Size = new System.Drawing.Size(637, 328);
             this.memo_longdesc.TabIndex = 0;
             this.memo_longdesc.Text = "";
             this.memo_longdesc.WordWrap = false;
@@ -227,7 +225,7 @@
             this.page_daydesc.Location = new System.Drawing.Point(4, 22);
             this.page_daydesc.Name = "page_daydesc";
             this.page_daydesc.Padding = new System.Windows.Forms.Padding(3);
-            this.page_daydesc.Size = new System.Drawing.Size(464, 245);
+            this.page_daydesc.Size = new System.Drawing.Size(643, 334);
             this.page_daydesc.TabIndex = 1;
             this.page_daydesc.Text = "Day Desc";
             this.page_daydesc.UseVisualStyleBackColor = true;
@@ -240,7 +238,7 @@
             this.memo_daydesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.memo_daydesc.Location = new System.Drawing.Point(3, 3);
             this.memo_daydesc.Name = "memo_daydesc";
-            this.memo_daydesc.Size = new System.Drawing.Size(458, 239);
+            this.memo_daydesc.Size = new System.Drawing.Size(637, 328);
             this.memo_daydesc.TabIndex = 1;
             this.memo_daydesc.Text = "";
             this.memo_daydesc.WordWrap = false;
@@ -250,7 +248,7 @@
             this.page_nightdesc.Controls.Add(this.memo_nightdesc);
             this.page_nightdesc.Location = new System.Drawing.Point(4, 22);
             this.page_nightdesc.Name = "page_nightdesc";
-            this.page_nightdesc.Size = new System.Drawing.Size(464, 245);
+            this.page_nightdesc.Size = new System.Drawing.Size(643, 334);
             this.page_nightdesc.TabIndex = 2;
             this.page_nightdesc.Text = "Night Desc";
             this.page_nightdesc.UseVisualStyleBackColor = true;
@@ -263,7 +261,7 @@
             this.memo_nightdesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.memo_nightdesc.Location = new System.Drawing.Point(0, 0);
             this.memo_nightdesc.Name = "memo_nightdesc";
-            this.memo_nightdesc.Size = new System.Drawing.Size(464, 245);
+            this.memo_nightdesc.Size = new System.Drawing.Size(643, 334);
             this.memo_nightdesc.TabIndex = 1;
             this.memo_nightdesc.Text = "";
             this.memo_nightdesc.WordWrap = false;
@@ -278,7 +276,7 @@
             this.page_extradesc.Controls.Add(this.edt_extradesc);
             this.page_extradesc.Location = new System.Drawing.Point(4, 22);
             this.page_extradesc.Name = "page_extradesc";
-            this.page_extradesc.Size = new System.Drawing.Size(464, 245);
+            this.page_extradesc.Size = new System.Drawing.Size(643, 334);
             this.page_extradesc.TabIndex = 3;
             this.page_extradesc.Text = "Extra Desc";
             this.page_extradesc.UseVisualStyleBackColor = true;
@@ -410,9 +408,9 @@
             this.list_extradesc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.list_extradesc.FormattingEnabled = true;
-            this.list_extradesc.Location = new System.Drawing.Point(500, 292);
+            this.list_extradesc.Location = new System.Drawing.Point(679, 292);
             this.list_extradesc.Name = "list_extradesc";
-            this.list_extradesc.Size = new System.Drawing.Size(114, 212);
+            this.list_extradesc.Size = new System.Drawing.Size(114, 290);
             this.list_extradesc.TabIndex = 12;
             this.list_extradesc.SelectedValueChanged += new System.EventHandler(this.list_extradesc_SelectedValueChanged);
             // 
@@ -421,7 +419,7 @@
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(497, 276);
+            this.label7.Location = new System.Drawing.Point(676, 276);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 13);
             this.label7.TabIndex = 26;
@@ -439,7 +437,7 @@
             this.groupBox1.Controls.Add(this.btn_addexit);
             this.groupBox1.Location = new System.Drawing.Point(16, 87);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(598, 170);
+            this.groupBox1.Size = new System.Drawing.Size(777, 170);
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Exits";
@@ -448,7 +446,7 @@
             // 
             this.btndoorinit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btndoorinit.BackColor = System.Drawing.Color.LightCoral;
-            this.btndoorinit.Location = new System.Drawing.Point(546, 136);
+            this.btndoorinit.Location = new System.Drawing.Point(725, 136);
             this.btndoorinit.Name = "btndoorinit";
             this.btndoorinit.Size = new System.Drawing.Size(46, 28);
             this.btndoorinit.TabIndex = 10;
@@ -459,7 +457,7 @@
             // btn_followexit
             // 
             this.btn_followexit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_followexit.Location = new System.Drawing.Point(546, 106);
+            this.btn_followexit.Location = new System.Drawing.Point(725, 106);
             this.btn_followexit.Name = "btn_followexit";
             this.btn_followexit.Size = new System.Drawing.Size(46, 28);
             this.btn_followexit.TabIndex = 8;
@@ -475,10 +473,11 @@
             this.list_exits.Filter = "";
             this.list_exits.FullRowSelect = true;
             this.list_exits.GridLines = true;
+            this.list_exits.HideSelection = false;
             this.list_exits.Location = new System.Drawing.Point(3, 16);
             this.list_exits.MultiSelect = false;
             this.list_exits.Name = "list_exits";
-            this.list_exits.Size = new System.Drawing.Size(537, 151);
+            this.list_exits.Size = new System.Drawing.Size(716, 151);
             this.list_exits.TabIndex = 9;
             this.list_exits.UseCompatibleStateImageBehavior = false;
             this.list_exits.View = System.Windows.Forms.View.Details;
@@ -489,7 +488,7 @@
             // btn_editexit
             // 
             this.btn_editexit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_editexit.Location = new System.Drawing.Point(546, 46);
+            this.btn_editexit.Location = new System.Drawing.Point(725, 46);
             this.btn_editexit.Name = "btn_editexit";
             this.btn_editexit.Size = new System.Drawing.Size(46, 28);
             this.btn_editexit.TabIndex = 6;
@@ -500,7 +499,7 @@
             // btn_delexit
             // 
             this.btn_delexit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_delexit.Location = new System.Drawing.Point(546, 76);
+            this.btn_delexit.Location = new System.Drawing.Point(725, 76);
             this.btn_delexit.Name = "btn_delexit";
             this.btn_delexit.Size = new System.Drawing.Size(46, 28);
             this.btn_delexit.TabIndex = 7;
@@ -511,7 +510,7 @@
             // btn_addexit
             // 
             this.btn_addexit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_addexit.Location = new System.Drawing.Point(546, 16);
+            this.btn_addexit.Location = new System.Drawing.Point(725, 16);
             this.btn_addexit.Name = "btn_addexit";
             this.btn_addexit.Size = new System.Drawing.Size(46, 28);
             this.btn_addexit.TabIndex = 5;
@@ -523,7 +522,6 @@
             // 
             this.pn_teleport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pn_teleport.Controls.Add(this.label13);
             this.pn_teleport.Controls.Add(this.edt_tel_toroom);
             this.pn_teleport.Controls.Add(this.edt_tel_counter);
             this.pn_teleport.Controls.Add(this.combo_tel_sect);
@@ -540,17 +538,8 @@
             this.pn_teleport.Controls.Add(this.label8);
             this.pn_teleport.Location = new System.Drawing.Point(255, -3);
             this.pn_teleport.Name = "pn_teleport";
-            this.pn_teleport.Size = new System.Drawing.Size(517, 61);
+            this.pn_teleport.Size = new System.Drawing.Size(538, 61);
             this.pn_teleport.TabIndex = 69;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(0, 26);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(16, 13);
-            this.label13.TabIndex = 102;
-            this.label13.Text = "->";
             // 
             // edt_tel_toroom
             // 
@@ -604,6 +593,7 @@
             this.combo_tel_sect.Name = "combo_tel_sect";
             this.combo_tel_sect.Size = new System.Drawing.Size(130, 21);
             this.combo_tel_sect.TabIndex = 98;
+            this.combo_tel_sect.SelectedIndexChanged += new System.EventHandler(this.combo_sect_SelectedIndexChanged);
             // 
             // edt_tel_time
             // 
@@ -728,13 +718,12 @@
             this.pn_watercurrent.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pn_watercurrent.Controls.Add(this.combo_watercurrent_dir);
-            this.pn_watercurrent.Controls.Add(this.label14);
             this.pn_watercurrent.Controls.Add(this.spin_watercurrent_vel);
             this.pn_watercurrent.Controls.Add(this.label18);
             this.pn_watercurrent.Controls.Add(this.label19);
-            this.pn_watercurrent.Location = new System.Drawing.Point(255, -3);
+            this.pn_watercurrent.Location = new System.Drawing.Point(771, -3);
             this.pn_watercurrent.Name = "pn_watercurrent";
-            this.pn_watercurrent.Size = new System.Drawing.Size(232, 61);
+            this.pn_watercurrent.Size = new System.Drawing.Size(180, 61);
             this.pn_watercurrent.TabIndex = 73;
             // 
             // combo_watercurrent_dir
@@ -758,17 +747,8 @@
             "Teleport"});
             this.combo_watercurrent_dir.Location = new System.Drawing.Point(121, 8);
             this.combo_watercurrent_dir.Name = "combo_watercurrent_dir";
-            this.combo_watercurrent_dir.Size = new System.Drawing.Size(97, 21);
+            this.combo_watercurrent_dir.Size = new System.Drawing.Size(56, 21);
             this.combo_watercurrent_dir.TabIndex = 103;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(0, 26);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(16, 13);
-            this.label14.TabIndex = 102;
-            this.label14.Text = "->";
             // 
             // spin_watercurrent_vel
             // 
@@ -779,7 +759,7 @@
             0,
             0});
             this.spin_watercurrent_vel.Name = "spin_watercurrent_vel";
-            this.spin_watercurrent_vel.Size = new System.Drawing.Size(97, 20);
+            this.spin_watercurrent_vel.Size = new System.Drawing.Size(56, 20);
             this.spin_watercurrent_vel.TabIndex = 99;
             // 
             // label18
@@ -794,7 +774,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(15, 11);
+            this.label19.Location = new System.Drawing.Point(15, 12);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(100, 13);
             this.label19.TabIndex = 87;
@@ -804,9 +784,9 @@
             // 
             this.gaugecharcounter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gaugecharcounter.Location = new System.Drawing.Point(23, 533);
+            this.gaugecharcounter.Location = new System.Drawing.Point(23, 622);
             this.gaugecharcounter.Name = "gaugecharcounter";
-            this.gaugecharcounter.Size = new System.Drawing.Size(461, 15);
+            this.gaugecharcounter.Size = new System.Drawing.Size(640, 15);
             this.gaugecharcounter.TabIndex = 70;
             // 
             // spin_maxpc
@@ -857,10 +837,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabcontrol_flags.Controls.Add(this.tab_flags0);
             this.tabcontrol_flags.Controls.Add(this.tab_flags1);
-            this.tabcontrol_flags.Location = new System.Drawing.Point(620, 87);
+            this.tabcontrol_flags.Location = new System.Drawing.Point(799, 87);
             this.tabcontrol_flags.Name = "tabcontrol_flags";
             this.tabcontrol_flags.SelectedIndex = 0;
-            this.tabcontrol_flags.Size = new System.Drawing.Size(152, 437);
+            this.tabcontrol_flags.Size = new System.Drawing.Size(152, 526);
             this.tabcontrol_flags.TabIndex = 10;
             // 
             // tab_flags0
@@ -871,7 +851,7 @@
             this.tab_flags0.Location = new System.Drawing.Point(4, 22);
             this.tab_flags0.Name = "tab_flags0";
             this.tab_flags0.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_flags0.Size = new System.Drawing.Size(144, 411);
+            this.tab_flags0.Size = new System.Drawing.Size(144, 500);
             this.tab_flags0.TabIndex = 0;
             this.tab_flags0.Text = "Gameplay";
             // 
@@ -887,7 +867,7 @@
             this.groupBox5.Controls.Add(this.flg27);
             this.groupBox5.Location = new System.Drawing.Point(6, 250);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(132, 155);
+            this.groupBox5.Size = new System.Drawing.Size(132, 244);
             this.groupBox5.TabIndex = 89;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Movimento";
@@ -1078,7 +1058,7 @@
             this.tab_flags1.Location = new System.Drawing.Point(4, 22);
             this.tab_flags1.Name = "tab_flags1";
             this.tab_flags1.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_flags1.Size = new System.Drawing.Size(144, 411);
+            this.tab_flags1.Size = new System.Drawing.Size(144, 500);
             this.tab_flags1.TabIndex = 1;
             this.tab_flags1.Text = "Proprietà";
             // 
@@ -1262,15 +1242,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 587);
+            this.ClientSize = new System.Drawing.Size(963, 676);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.spin_area);
             this.Controls.Add(this.tabcontrol_flags);
             this.Controls.Add(this.spin_maxpc);
             this.Controls.Add(this.lbl_maxpc);
             this.Controls.Add(this.spin_maxobj);
-            this.Controls.Add(this.lbl_maxobj);
             this.Controls.Add(this.pn_watercurrent);
+            this.Controls.Add(this.lbl_maxobj);
             this.Controls.Add(this.gaugecharcounter);
             this.Controls.Add(this.pn_teleport);
             this.Controls.Add(this.groupBox1);
@@ -1302,8 +1282,8 @@
             this.Controls.SetChildIndex(this.groupBox1, 0);
             this.Controls.SetChildIndex(this.pn_teleport, 0);
             this.Controls.SetChildIndex(this.gaugecharcounter, 0);
-            this.Controls.SetChildIndex(this.pn_watercurrent, 0);
             this.Controls.SetChildIndex(this.lbl_maxobj, 0);
+            this.Controls.SetChildIndex(this.pn_watercurrent, 0);
             this.Controls.SetChildIndex(this.spin_maxobj, 0);
             this.Controls.SetChildIndex(this.lbl_maxpc, 0);
             this.Controls.SetChildIndex(this.spin_maxpc, 0);
@@ -1381,7 +1361,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btn_followexit;
         private MudlikeRichTextBox memo_longdesc;
         private MudlikeRichTextBox memo_extradesc;
@@ -1389,7 +1368,6 @@
         private MudlikeRichTextBox memo_nightdesc;
         private CharCounterProgressBar gaugecharcounter;
         private System.Windows.Forms.Panel pn_watercurrent;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.NumericUpDown spin_watercurrent_vel;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;

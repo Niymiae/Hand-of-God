@@ -68,14 +68,34 @@ namespace HandofGod
         {
             if (combo_sect.SelectedIndex == C.rs_teleport)
             {
-                pn_watercurrent.Hide();
+                if (combo_tel_sect.SelectedIndex != C.rs_waternoswim &&
+                    (combo_tel_sect.SelectedIndex != C.rs_underwater))
+                {
+                    pn_watercurrent.Hide();
+                }
+                else
+                {
+                    pn_watercurrent.Show();
+                }
+
                 pn_teleport.Show();
             }
             else
             {
                 if (combo_sect.SelectedIndex == C.rs_waternoswim || combo_sect.SelectedIndex == C.rs_underwater)
+                {
                     pn_watercurrent.Show();
-                else pn_watercurrent.Hide();
+                }
+                else if (combo_tel_sect.SelectedIndex == C.rs_waternoswim ||
+                   (combo_tel_sect.SelectedIndex == C.rs_underwater))
+                {
+                    pn_watercurrent.Show();
+                }
+                else
+                {
+                    pn_watercurrent.Hide();
+                }
+
                 pn_teleport.Hide();
             }
 

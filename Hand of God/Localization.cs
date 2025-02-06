@@ -254,7 +254,7 @@ namespace HandofGod
         public static readonly string[] trap_damage_types = {"Poison", "Sleep", "Teleport", "Fire (Fireball)", "Cold (Frost Breath)", "Acid (Acid Blast)",
                                                              "Energy (Colour Spray)", "Blunt", "Pierce", "Slash" };
 
-        public static readonly string[] mob_balance_types = { "Standard", "Triviale", "Minore", "Maggiore", "Possente" };
+        public static readonly string[] mob_balance_types = { "Standard", "Triviale", "Minore", "Maggiore", "Possente", "Boss" };
 
         public static readonly string[] mob_gender = { "Indefinito", "Maschio", "Femmina" };
         public static readonly string[] mob_positions = {"Dead", "Mortally Wounded", "Incapacitated", "Stunned", "Sleeping", "Resting", "Sitting", "Fighting",

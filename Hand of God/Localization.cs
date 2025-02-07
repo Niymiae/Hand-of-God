@@ -34,7 +34,7 @@ namespace HandofGod
 
         public static readonly string[] object_types = {"None", "Light", "Scroll", "Wand", "Staff", "Weapon", "Fire Weapon", "Missile", "Treasure", "Armor",
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",
-                                                        "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock", "Material", "Coadjuvant"};
+                                                        "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock", "Material", "Recipe"};
 
         public static readonly string[] object_rarity = { "Indefinita", "Comune", "Non Comune", "Rara", "Epica", "Leggendaria", 
                                                           "Astrale", "Set", "Corrotta" };

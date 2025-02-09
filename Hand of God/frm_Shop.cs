@@ -169,7 +169,7 @@ namespace HandofGod
 
         private void button2_Click(object sender, EventArgs e)
         {
-            /*if (newObjListView.SelectedIndices.Count <= 0)
+            if (newObjListView.SelectedIndices.Count <= 0)
             {
                 MessageBox.Show("Selezionare oggetto da eliminare.", "Errore", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -177,7 +177,8 @@ namespace HandofGod
 
             int toDelete = (int)newObjListView.SelectedItems[0].Tag;
             SoldItem item = Data.soldItemList.Find( element => element.vnum == toDelete ); 
-            if (item != null) { Data.soldItemList.Remove(item); }*/
+            if (item != null) { Data.soldItemList.Remove(item); }
+
             RefreshObjList();
         }
     }

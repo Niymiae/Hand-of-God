@@ -166,7 +166,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
             this.tab_gemsfame = new System.Windows.Forms.TabPage();
-            this.spin_fame = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.text_lootcaches = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.gem_dice3 = new System.Windows.Forms.TextBox();
             this.gem_dice2 = new System.Windows.Forms.TextBox();
@@ -216,7 +217,9 @@
             this.gaugecharcounter = new HandofGod.CharCounterProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.val17 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.text_mission = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val7)).BeginInit();
@@ -1857,8 +1860,11 @@
             // tab_gemsfame
             // 
             this.tab_gemsfame.BackColor = System.Drawing.SystemColors.Control;
+            this.tab_gemsfame.Controls.Add(this.label21);
+            this.tab_gemsfame.Controls.Add(this.label19);
+            this.tab_gemsfame.Controls.Add(this.text_mission);
             this.tab_gemsfame.Controls.Add(this.label4);
-            this.tab_gemsfame.Controls.Add(this.spin_fame);
+            this.tab_gemsfame.Controls.Add(this.text_lootcaches);
             this.tab_gemsfame.Controls.Add(this.label33);
             this.tab_gemsfame.Controls.Add(this.gem_dice3);
             this.tab_gemsfame.Controls.Add(this.gem_dice2);
@@ -1880,17 +1886,26 @@
             this.tab_gemsfame.TabIndex = 3;
             this.tab_gemsfame.Text = "Gemme e Fama";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(271, 72);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(123, 13);
+            this.label4.TabIndex = 107;
+            this.label4.Text = "Separarli con uno spazio";
+            // 
             // spin_fame
             // 
-            this.spin_fame.Location = new System.Drawing.Point(274, 49);
-            this.spin_fame.Name = "spin_fame";
-            this.spin_fame.Size = new System.Drawing.Size(125, 20);
-            this.spin_fame.TabIndex = 106;
+            this.text_lootcaches.Location = new System.Drawing.Point(274, 49);
+            this.text_lootcaches.Name = "spin_fame";
+            this.text_lootcaches.Size = new System.Drawing.Size(125, 20);
+            this.text_lootcaches.TabIndex = 106;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(271, 21);
+            this.label33.Location = new System.Drawing.Point(271, 33);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(81, 13);
             this.label33.TabIndex = 105;
@@ -2460,14 +2475,30 @@
             this.val17.Size = new System.Drawing.Size(124, 21);
             this.val17.TabIndex = 109;
             // 
-            // label4
+            // text_mission
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(271, 72);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 13);
-            this.label4.TabIndex = 107;
-            this.label4.Text = "Separarli con uno spazio";
+            this.text_mission.Location = new System.Drawing.Point(274, 129);
+            this.text_mission.Name = "text_mission";
+            this.text_mission.Size = new System.Drawing.Size(125, 20);
+            this.text_mission.TabIndex = 108;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(271, 111);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(61, 13);
+            this.label19.TabIndex = 109;
+            this.label19.Text = "Mission IDs";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(271, 152);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(123, 13);
+            this.label21.TabIndex = 110;
+            this.label21.Text = "Separarli con uno spazio";
             // 
             // frm_Mob
             // 
@@ -2827,7 +2858,10 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox val17;
-        private System.Windows.Forms.TextBox spin_fame;
+        private System.Windows.Forms.TextBox text_lootcaches;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox text_mission;
     }
 }

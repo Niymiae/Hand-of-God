@@ -1926,7 +1926,8 @@ namespace HandofGod
         public List<MobDialogue> dialogues;
 
         public Gem[] gems = new Gem[4];
-        public string fame;
+        public string lootCaches;
+        public string missionsToGive;
         public int[] epic_talents = new int[C.et_end + 1];
         public int[] values = new int[C.mv_end + 1];
         public BitVector32 flags = new BitVector32();
@@ -1985,7 +1986,8 @@ namespace HandofGod
             description = "";
             samesound = "";
             adjacentsound = "";
-            fame = "";
+            lootCaches = "";
+            missionsToGive = "";
             for (int i = 0; i <= C.gt_end; i++)
             {
                 gems[i].dice = "1d1+0";
@@ -2032,7 +2034,8 @@ namespace HandofGod
             description = m.description;
             samesound = m.samesound;
             adjacentsound = m.adjacentsound;
-            fame = m.fame;
+            lootCaches = m.lootCaches;
+            missionsToGive = m.missionsToGive;
             
             for (int i = 0; i <= C.gt_end; i++)
             {

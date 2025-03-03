@@ -692,7 +692,11 @@ namespace HandofGod
                                     curr.values[C.mv_spellpower] = ToInt(ReadUntil(file, '\n'));
                                     break;
                                 case 'F': ReadUntil(file, '\n');
-                                    curr.fame = ReadUntil(file, '\n');
+                                    curr.lootCaches = ReadUntil(file, '\n');
+                                    break;
+                                case 'M':
+                                    ReadUntil(file, '\n');
+                                    curr.missionsToGive = ReadUntil(file, '\n');
                                     break;
                                 case 'T':
                                     ReadUntil(file, '\n');
@@ -1531,11 +1535,18 @@ namespace HandofGod
                             write(file, C.gt_charset[i] + " " + m.gems[i].percent + " " + m.gems[i].dice);
                         }
 
-                    if (m.fame.Length > 0)
+                    if (m.lootCaches.Length > 0)
                     {
                         write(file, NewLine);
                         write(file, "F" + NewLine);
-                        write(file, m.fame);
+                        write(file, m.lootCaches);
+                    }
+
+                    if (m.missionsToGive.Length > 0)
+                    {
+                        write(file, NewLine);
+                        write(file, "M" + NewLine);
+                        write(file, m.missionsToGive);
                     }
 
                     if (m.values[C.mv_balance_type] > 0)

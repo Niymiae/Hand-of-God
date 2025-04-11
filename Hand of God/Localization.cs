@@ -36,8 +36,8 @@ namespace HandofGod
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",
                                                         "Money", "Pen", "Boat", "Audio", "Board", "Tree", "Rock", "Material", "Recipe"};
 
-        public static readonly string[] object_rarity = { "Indefinita", "Comune", "Non Comune", "Rara", "Epica", "Leggendaria", 
-                                                          "Astrale", "Set", "Corrotta" };
+        public static readonly string[] object_rarity = { "Indefinita", "Comune", "Insolito", "Raro", "Epico", "Leggendario", 
+                                                          "Astrale", "Set", "Unico" };
 
         public static readonly string[] object_wear = {"Take", "Finger", "Neck", "Body", "Head", "Legs", "Feet", "Hands", "Arms", "Shield", "About", "Waist",
                                                        "Wrist", "Wield", "Hold", "Throw", "Personal-Eq", "Back", "Ear", "Eye", "Aura",

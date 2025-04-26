@@ -30,7 +30,10 @@ namespace HandofGod
                                                           "Danno (Impatto)", "Danno (Punta)", "Danno (Taglio)", "Danno (Natura)", "Danno (Psi)", "Danno (Lumen)", "Danno (Umbra)",
                                                           "Danno (Caos)", "Danno (Trauma)", "Resistenza (Acido)", "Danno (Acido)", "Affisso Specifico", "Affisso Casuale",
                                                           "Rich. Classe", "Eff. Stato", "Incavo (vuoto)", "Incavo (pieno)", "Astuzia", "Non Usato", "Potere Speciale", 
-                                                          "Bloccare con lo Scudo", "Percezione", "Rovente!", "Efficacia Arma (Fisica)", "Efficacia Arma (Magica)"};
+                                                          "Bloccare con lo Scudo", "Percezione", "Rovente!", "Efficacia Arma (Fisica)", "Efficacia Arma (Magica)",
+                                                          "Modifica Abilita`", "Efficacia Fuoco", "Efficacia Freddo", "Efficacia Elettricita`", "Efficacia Energia",
+                                                          "Efficacia Impatto", "Efficacia Perf.", "Efficacia Taglio", "Efficacia Natura", "Efficacia Psichico",
+                                                          "Efficacia Lumen", "Efficacia Umbra", "Efficacia Caos", "Efficacia Trauma", "Efficacia Acido"};
 
         public static readonly string[] object_types = {"None", "Light", "Scroll", "Wand", "Staff", "Weapon", "Fire Weapon", "Missile", "Treasure", "Armor",
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",

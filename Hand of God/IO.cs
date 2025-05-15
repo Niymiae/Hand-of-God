@@ -968,16 +968,13 @@ namespace HandofGod
                                         int val3 = 0;
                                         int val4 = 0;
 
-                                        if (desc.Length > 2)
+                                        if (desc.Length > 4)
                                         {
-                                            val2 = ToInt(desc[2]);
-                                            val3 = ToInt(desc[3]);
-                                            val4 = ToInt(desc[4]);
+                                            val2 = ToInt(desc[4]);
+                                            val3 = ToInt(desc[5]);
+                                            val4 = ToInt(desc[6]);
                                         }
 
-                                        // affects > 69 hack
-                                        //if (key > 69)
-                                        //    key -= 1;
                                         curr.SetAffect(key, val, val2, val3, val4);
                                     }
                                     catch { }
@@ -989,10 +986,17 @@ namespace HandofGod
                                         ReadUntil(file, '\n');
                                         desc = ReadUntil(file, '\n').Split(' ');
                                         int key = ToInt(desc[0]);
-                                        int val1 = ToInt(desc[1]);
-                                        int val2 = ToInt(desc[2]);
-                                        int val3 = ToInt(desc[3]);
-                                        int val4 = ToInt(desc[4]);
+                                        int val1 = ToInt(desc[1]); // skip 2 and 3
+                                        int val2 = 0;
+                                        int val3 = 0;
+                                        int val4 = 0;
+
+                                        if (desc.Length > 4)
+                                        {
+                                            val2 = ToInt(desc[4]);
+                                            val3 = ToInt(desc[5]);
+                                            val4 = ToInt(desc[6]);
+                                        }
 
                                         curr.SetAffect(key, val1, val2, val3, val4);
                                     }
@@ -1714,7 +1718,8 @@ namespace HandofGod
                             {
                                 write(file, "A" + NewLine);
                                 int key = o.affects[i].index;
-                                write(file, key + " " + o.affects[i].value + " " + o.affects[i].value2 + " " + o.affects[i].value3 + " " + o.affects[i].value4 + NewLine);
+                                //          loc          mod              time, key           type                          upgrade                  secondaryloc
+                                write(file, key + " " + o.affects[i].value + " 0 0 " + o.affects[i].value2 + " " + o.affects[i].value3 + " " + o.affects[i].value4 + NewLine);
                             }
                         }
                     }

@@ -2688,6 +2688,8 @@ namespace HandofGod
             num2.Size = Size;
             num2.Location = Location;
             num2.Tag = 2;
+            num2.Minimum = 0;
+            num2.Maximum = 999;
             num2.ValueChanged += new EventHandler(num_onValueChanged);
 
             num3 = new NumericUpDown();
@@ -2696,6 +2698,8 @@ namespace HandofGod
             num3.Size = Size;
             num3.Location = Location;
             num3.Tag = 3;
+            num3.Minimum = 0;
+            num3.Maximum = 999;
             num3.ValueChanged += new EventHandler(num_onValueChanged);
 
             num4 = new NumericUpDown();
@@ -2704,6 +2708,8 @@ namespace HandofGod
             num4.Size = Size;
             num4.Location = Location;
             num4.Tag = 4;
+            num4.Minimum = 0;
+            num4.Maximum = 999;
             num4.ValueChanged += new EventHandler(num_onValueChanged);
         }
         //

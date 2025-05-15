@@ -2259,13 +2259,17 @@ namespace HandofGod
 
             affects[i].index = key;
             affects[i].value = value;
+
             // 17/10/21 Saregon - affects
             if (val2 != 0)
-            {
                 affects[i].value2 = val2;
+
+            if (val3 != 0)
                 affects[i].value3 = val3;
+
+            if (val4 != 0)
                 affects[i].value4 = val4;
-            }
+            
             //
             return true;
         }

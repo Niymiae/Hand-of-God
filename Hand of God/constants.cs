@@ -571,7 +571,7 @@ namespace HandofGod
                                                     'N','N','Q','N','N','N','N','N',  // reselec resanima resblunt resslash respierce resacid resnat rdrain - 112
                                                     'N','N','N','N','N','N','N','N',  // rsleep rcharm rhold rchaos rpsych rarcane rlumen rumbra            - 120
                                                     'N','N','N','N','N','N','N','N',  // relem rdivine rphys mdamdone mdamtak mhealdone mhealtak bhealing   - 128
-                                                    'N','N','N','N','N','N','N','Q',  // bacid btrauma intuition lethality onhit block rtrauma oncrit       - 136
+                                                    'N','N','N','N','N','N','Q','Q',  // bacid btrauma intuition lethality onhit block rtrauma oncrit       - 136
                                                     'Q','Q','Q','Q','Q','Q','Q','Q',  // onexc onexcrit onctaken onhittaken randomaf specaf esocket fsock   - 144
                                                     'Q','Q','Q','Q','Q','Q','Q','Q',  // firesk coldsk elesk animask bluntsk slashsk piercesk acidsk        - 152
                                                     'Q','Q','Q','Q','Q','Q','Q','Q'}; // natsk chaossk psysk arcanesk lumensk umbrask traumask end          - 160
@@ -754,7 +754,9 @@ namespace HandofGod
         public const int dt_plus2 = 15;
         public const int dt_plus3 = 16;
         public const int dt_plus4 = 17;
-        public const int dt_end = 17;
+        public const int dt_chaos = 18;
+        public const int dt_trauma = 19;
+        public const int dt_end = 19;
         // damage reductions
         public const int dr_blunt = 0;
         public const int dr_slash = 1;

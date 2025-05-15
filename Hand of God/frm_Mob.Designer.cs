@@ -166,6 +166,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
             this.tab_gemsfame = new System.Windows.Forms.TabPage();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.text_mission = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.text_lootcaches = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
@@ -217,9 +220,6 @@
             this.gaugecharcounter = new HandofGod.CharCounterProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.val17 = new System.Windows.Forms.ComboBox();
-            this.text_mission = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.spin_vnum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.val7)).BeginInit();
@@ -754,7 +754,7 @@
             this.tabControl1.Location = new System.Drawing.Point(489, 89);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(248, 390);
+            this.tabControl1.Size = new System.Drawing.Size(248, 407);
             this.tabControl1.TabIndex = 20;
             // 
             // tab_acts
@@ -1525,14 +1525,14 @@
             this.tab_resistenze.Location = new System.Drawing.Point(4, 22);
             this.tab_resistenze.Name = "tab_resistenze";
             this.tab_resistenze.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_resistenze.Size = new System.Drawing.Size(240, 364);
+            this.tab_resistenze.Size = new System.Drawing.Size(240, 381);
             this.tab_resistenze.TabIndex = 0;
             this.tab_resistenze.Text = "Resistenze";
             this.tab_resistenze.UseVisualStyleBackColor = true;
             // 
             // val16
             // 
-            this.val16.Location = new System.Drawing.Point(160, 338);
+            this.val16.Location = new System.Drawing.Point(160, 355);
             this.val16.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1550,7 +1550,7 @@
             // 
             // val15
             // 
-            this.val15.Location = new System.Drawing.Point(82, 338);
+            this.val15.Location = new System.Drawing.Point(82, 355);
             this.val15.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1568,7 +1568,7 @@
             // 
             // val14
             // 
-            this.val14.Location = new System.Drawing.Point(6, 338);
+            this.val14.Location = new System.Drawing.Point(9, 355);
             this.val14.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -1587,7 +1587,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(157, 324);
+            this.label30.Location = new System.Drawing.Point(157, 339);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(69, 13);
             this.label30.TabIndex = 8;
@@ -1596,7 +1596,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(79, 324);
+            this.label29.Location = new System.Drawing.Point(79, 339);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(63, 13);
             this.label29.TabIndex = 7;
@@ -1605,7 +1605,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(6, 324);
+            this.label28.Location = new System.Drawing.Point(6, 339);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(55, 13);
             this.label28.TabIndex = 6;
@@ -1661,10 +1661,12 @@
             "plus1 = 14;",
             "plus2 = 15;",
             "plus3 = 16;",
-            "plus4 = 17;"});
+            "plus4 = 17;",
+            "chaos = 18;",
+            "trauma = 19"});
             this.list_suscept.Location = new System.Drawing.Point(160, 32);
             this.list_suscept.Name = "list_suscept";
-            this.list_suscept.Size = new System.Drawing.Size(73, 289);
+            this.list_suscept.Size = new System.Drawing.Size(73, 304);
             this.list_suscept.TabIndex = 23;
             this.list_suscept.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -1691,10 +1693,12 @@
             "plus1 = 14;",
             "plus2 = 15;",
             "plus3 = 16;",
-            "plus4 = 17;"});
+            "plus4 = 17;",
+            "chaos = 18;",
+            "trauma = 19"});
             this.list_resistances.Location = new System.Drawing.Point(82, 32);
             this.list_resistances.Name = "list_resistances";
-            this.list_resistances.Size = new System.Drawing.Size(73, 289);
+            this.list_resistances.Size = new System.Drawing.Size(73, 304);
             this.list_resistances.TabIndex = 22;
             this.list_resistances.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -1721,10 +1725,12 @@
             "plus1 = 14;",
             "plus2 = 15;",
             "plus3 = 16;",
-            "plus4 = 17;"});
+            "plus4 = 17;",
+            "chaos = 18;",
+            "trauma = 19;"});
             this.list_immunities.Location = new System.Drawing.Point(6, 32);
             this.list_immunities.Name = "list_immunities";
-            this.list_immunities.Size = new System.Drawing.Size(73, 289);
+            this.list_immunities.Size = new System.Drawing.Size(73, 304);
             this.list_immunities.TabIndex = 21;
             this.list_immunities.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -1886,6 +1892,31 @@
             this.tab_gemsfame.TabIndex = 3;
             this.tab_gemsfame.Text = "Gemme e Fama";
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(271, 152);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(123, 13);
+            this.label21.TabIndex = 110;
+            this.label21.Text = "Separarli con uno spazio";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(271, 111);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(61, 13);
+            this.label19.TabIndex = 109;
+            this.label19.Text = "Mission IDs";
+            // 
+            // text_mission
+            // 
+            this.text_mission.Location = new System.Drawing.Point(274, 129);
+            this.text_mission.Name = "text_mission";
+            this.text_mission.Size = new System.Drawing.Size(125, 20);
+            this.text_mission.TabIndex = 108;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -1895,10 +1926,10 @@
             this.label4.TabIndex = 107;
             this.label4.Text = "Separarli con uno spazio";
             // 
-            // spin_fame
+            // text_lootcaches
             // 
             this.text_lootcaches.Location = new System.Drawing.Point(274, 49);
-            this.text_lootcaches.Name = "spin_fame";
+            this.text_lootcaches.Name = "text_lootcaches";
             this.text_lootcaches.Size = new System.Drawing.Size(125, 20);
             this.text_lootcaches.TabIndex = 106;
             // 
@@ -2474,31 +2505,6 @@
             this.val17.Name = "val17";
             this.val17.Size = new System.Drawing.Size(124, 21);
             this.val17.TabIndex = 109;
-            // 
-            // text_mission
-            // 
-            this.text_mission.Location = new System.Drawing.Point(274, 129);
-            this.text_mission.Name = "text_mission";
-            this.text_mission.Size = new System.Drawing.Size(125, 20);
-            this.text_mission.TabIndex = 108;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(271, 111);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(61, 13);
-            this.label19.TabIndex = 109;
-            this.label19.Text = "Mission IDs";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(271, 152);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(123, 13);
-            this.label21.TabIndex = 110;
-            this.label21.Text = "Separarli con uno spazio";
             // 
             // frm_Mob
             // 

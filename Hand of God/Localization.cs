@@ -28,12 +28,14 @@ namespace HandofGod
                                                           "Intelligenza", "Saggezza", "Carisma", "Resistenza (Trauma)", "Resistenza (Fisici)", "Resistenza (Elementale)",
                                                           "Resistenza (Divino)", "Resistenza (Tutto)", "Danno (Fuoco)", "Danno (Freddo)", "Danno (Elec)", "Danno (Energia)",
                                                           "Danno (Impatto)", "Danno (Punta)", "Danno (Taglio)", "Danno (Natura)", "Danno (Psi)", "Danno (Lumen)", "Danno (Umbra)",
-                                                          "Danno (Caos)", "Danno (Trauma)", "Resistenza (Acido)", "Danno (Acido)", "Affisso Specifico", "Affisso Casuale",
+                                                          "Danno (Caos)", "Danno (Trauma)", "Resistenza (Acido)", "Danno (Acido)", "Affisso Specifico", "Prefisso Casuale",
                                                           "Rich. Classe", "Eff. Stato", "Incavo (vuoto)", "Incavo (pieno)", "Astuzia", "Non Usato", "Potere Speciale", 
                                                           "Bloccare con lo Scudo", "Percezione", "Rovente!", "Efficacia Arma (Fisica)", "Efficacia Arma (Magica)",
-                                                          "Modifica Abilita`", "Efficacia Fuoco", "Efficacia Freddo", "Efficacia Elettricita`", "Efficacia Energia",
+                                                          "SMod (Grant)", "Efficacia Fuoco", "Efficacia Freddo", "Efficacia Elettricita`", "Efficacia Energia",
                                                           "Efficacia Impatto", "Efficacia Perf.", "Efficacia Taglio", "Efficacia Natura", "Efficacia Psichico",
-                                                          "Efficacia Lumen", "Efficacia Umbra", "Efficacia Caos", "Efficacia Trauma", "Efficacia Acido"};
+                                                          "Efficacia Lumen", "Efficacia Umbra", "Efficacia Caos", "Efficacia Trauma", "Efficacia Acido",
+                                                          "SMod (Phys)",  "SMod (Mag)", "SMod (Crit)", "SMod (Pen)", "SMod (Leth)", "SMod (CD)", "SMod (DmgType)",
+                                                          "Suffisso Casuale"};
 
         public static readonly string[] object_types = {"None", "Light", "Scroll", "Wand", "Staff", "Weapon", "Fire Weapon", "Missile", "Treasure", "Armor",
                                                         "Potion", "Worn", "Other", "Trash", "Trap", "Container", "Note", "Liquid Container", "Key", "Food",
@@ -264,9 +266,9 @@ namespace HandofGod
                                                          "Standing", "Mounted"};
         public static readonly string[] mob_types = { "New", "Multi Attacks", "Unbashable", "Sound", "Simple", "Detailed" };
         public static readonly string[] damage_types = {"Fire", "Cold", "Electric", "Energy", "Blunt", "Pierce", "Slash", "Acid", "Poison", "Drain",
-                                                        "Sleep", "Charm", "Hold", "No-Magic", "+1", "+2", "+3", "+4"};
+                                                        "Sleep", "Charm", "Hold", "No-Magic", "Nature", "Psychic", "Lumen", "Umbra", "Chaos", "Trauma"};
 
-        public static readonly string[] damage_types_short = {"F", "C", "El", "En", "Blu", "Pie", "Sla", "A", "Po", "D", "Sle", "Ch", "H", "N-M", "+1", "+2", "+3", "+4"};
+        public static readonly string[] damage_types_short = {"F", "C", "El", "En", "Blu", "Pie", "Sla", "A", "Po", "D", "Sle", "Ch", "H", "N-M", "Nat", "Psi", "Lum", "Umb", "Cha", "Tra"};
 
         public static readonly string[] mob_acts = {"Non insegue", "Immobile", "Raccoglie", "NPC", "Nice vs Furto", "Aggressivo", "Sta-in-zona", "Codardo", 
                                                     "Fastidioso", "Reietto", "Spaventato", "Inattaccabile", "Amichevole", "Elite", "Custom", "Super Aggressivo",

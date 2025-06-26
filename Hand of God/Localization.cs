@@ -275,12 +275,17 @@ namespace HandofGod
                                                     "Guardiano", "Inanimato", "Raro", "Usa Script", "Saluta", "AI: Mago", "AI: Guerriero", "AI: Chierico", "AI: Ladro",
                                                     "AI: Druido", "AI: Monaco", "AI: Barbaro", "AI: Paladino", "AI: Ranger", "AI: Psionico", "AI: Arciere"};
 
+        public static readonly string[] mob_acts_short = {"No Hunt", "Immobile", "Scav", "", "Nice", "Aggr", "In-Zona", "Wimp",
+                                                    "Fastidioso", "Reietto", "", "Imm", "Friend", "Elite", "Custom", "M-Aggr",
+                                                    "Assist", "", "", "", "", "Mu", "Wa", "Cl", "Th",
+                                                    "Dr", "Mo", "Ba", "Pa", "Ra", "Psi", "Arc"};
+
         public static readonly string[] mob_affects = {"Healthy", "Invisible", "Detect Evil", "Detect Invisible", "Detect Magic", "Sense Life", "Life Saving",
                                                        "Sanctuary", "Dragon Ride", "Growth", "Curse", "Flying", "Poison", "Tree Travel", "Paralyzed", "Infravision",
                                                        "Waterbreath", "Sleep", "Travelling", "Sneak", "Hide", "Static Atks", "Charmed", "Follower", "Prot. Evil",
                                                        "True Sight", "Scrying", "Fireshield", "Grouped", "Telepathy", "Iceshield"};
 
-        public static readonly string[] mob_affects_short = {"B", "I", "DE", "DI", "DM", "SL", "LP", "S", "DR", "G", "C", "F", "P", "TT", "Par", "Inf",
+        public static readonly string[] mob_affects_short = {"Healthy", "I", "DE", "DI", "DM", "SL", "LP", "S", "DR", "G", "C", "F", "P", "TT", "Par", "Inf",
                                                        "W", "Sleep", "Trav", "Sn", "H", "Sil", "Charm", "Foll", "PfE", "TS", "Scr", "Fs", "Group", "Tel", "Is"};
 
         public static readonly string[] shop_indigence = { "Vomito", "Sorriso", "Nessuna" };

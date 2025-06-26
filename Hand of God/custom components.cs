@@ -186,9 +186,13 @@ namespace HandofGod
                 case C.i_mob: Columns.Add("#", -2);
                     Columns[0].Tag = "Numeric";
                     Columns.Add("Short", -2);
+                    Columns.Add("Lv", -2);
+                    Columns[2].Tag = "Numeric";
+                    Columns.Add("Tipo", -2);
                     Columns.Add("Razza", -2);
                     Columns.Add("Acts", -2);
                     Columns.Add("Affects", -2);
+                    Columns.Add("Loot", -2);
                     break;
                 case C.i_obj: Columns.Add("#", -2);
                     Columns[0].Tag = "Numeric";
@@ -380,13 +384,25 @@ namespace HandofGod
                 switch (current_column)
                 {
                     case C.i_mob:
-                        s[2] = L.Get(L.mob_races, m.values[C.mv_race]);
-                        s[3] = "";
+                        s[2] = m.values[C.mv_level].ToString();
+
+                        if (m.flags[1 << 13])
+                            s[2] += "E";
+
+                        if (m.flags[1 << 18])
+                            s[2] += "R";
+
+                        s[3] = L.Get(L.mob_balance_types, m.values[C.mv_balance_type]);
+                        s[4] = L.Get(L.mob_races, m.values[C.mv_race]);
+                        s[5] = "";
                         for (int i = 0; i <= C.mf_end; i++)
-                            s[3] = s[3] + (m.flags[1 << i] ? L.Get(L.mob_acts, i) + flags_spacer : "");
-                        s[4] = "";
+                            s[5] = s[5] + (m.flags[1 << i] ? L.Get(L.mob_acts_short, i) + " " : "");
+                        s[6] = "";
                         for (int i = 0; i <= C.ma_end; i++)
-                            s[4] = s[4] + (m.affects[1 << i] ? L.Get(L.mob_affects, i) + flags_spacer : "");
+                            s[6] = s[6] + (m.affects[1 << i] ? L.Get(L.mob_affects_short, i) + " " : "");
+
+                        s[7] = m.lootCaches;
+
                         break;
                     case C.i_report_gems:
                         s[2] = getinits().ToString();

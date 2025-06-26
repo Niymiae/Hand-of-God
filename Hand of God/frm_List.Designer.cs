@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_List));
             this.radiogroup = new System.Windows.Forms.Panel();
-            this.searchbox = new HandofGod.SearchTextBox();
-            this.list = new HandofGod.HoGListView();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -46,10 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnedittemplates = new System.Windows.Forms.Button();
             this.btndeltemplate = new System.Windows.Forms.Button();
-            this.btnsavein = new HandofGod.NoselButton();
-            this.btnaddsel = new HandofGod.NoselButton();
             this.btnenum = new System.Windows.Forms.CheckBox();
-            this.btnsave = new HandofGod.NoselButton();
             this.t_panel = new System.Windows.Forms.Timer(this.components);
             this.pn_utils = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -79,6 +74,8 @@
             this.esportaInHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oggettiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.list = new HandofGod.HoGListView();
             this.btndel = new HandofGod.NoselButton();
             this.btnoptions = new HandofGod.NoselButton();
             this.btnreports = new HandofGod.NoselButton();
@@ -86,7 +83,10 @@
             this.btneditvis = new HandofGod.NoselButton();
             this.btnedit = new HandofGod.NoselButton();
             this.btnclone = new HandofGod.NoselButton();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.searchbox = new HandofGod.SearchTextBox();
+            this.btnsavein = new HandofGod.NoselButton();
+            this.btnaddsel = new HandofGod.NoselButton();
+            this.btnsave = new HandofGod.NoselButton();
             this.radiogroup.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -110,32 +110,8 @@
             this.radiogroup.Dock = System.Windows.Forms.DockStyle.Top;
             this.radiogroup.Location = new System.Drawing.Point(0, 41);
             this.radiogroup.Name = "radiogroup";
-            this.radiogroup.Size = new System.Drawing.Size(875, 25);
+            this.radiogroup.Size = new System.Drawing.Size(1067, 25);
             this.radiogroup.TabIndex = 3;
-            // 
-            // searchbox
-            // 
-            this.searchbox.ButtonImage = ((System.Drawing.Image)(resources.GetObject("searchbox.ButtonImage")));
-            this.searchbox.list = this.list;
-            this.searchbox.Location = new System.Drawing.Point(698, 3);
-            this.searchbox.Name = "searchbox";
-            this.searchbox.Size = new System.Drawing.Size(150, 20);
-            this.searchbox.TabIndex = 5;
-            // 
-            // list
-            // 
-            this.list.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.list.Filter = "";
-            this.list.FullRowSelect = true;
-            this.list.GridLines = true;
-            this.list.Location = new System.Drawing.Point(34, 66);
-            this.list.MultiSelect = false;
-            this.list.Name = "list";
-            this.list.Size = new System.Drawing.Size(706, 418);
-            this.list.TabIndex = 2;
-            this.list.UseCompatibleStateImageBehavior = false;
-            this.list.View = System.Windows.Forms.View.Details;
-            this.list.DoubleClick += new System.EventHandler(this.EditSelected);
             // 
             // radioButton5
             // 
@@ -222,9 +198,9 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblstatus});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 484);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 481);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(875, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1067, 22);
             this.statusStrip1.TabIndex = 6;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -246,7 +222,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(875, 41);
+            this.panel1.Size = new System.Drawing.Size(1067, 41);
             this.panel1.TabIndex = 7;
             // 
             // label1
@@ -282,35 +258,6 @@
             this.btndeltemplate.UseVisualStyleBackColor = true;
             this.btndeltemplate.Click += new System.EventHandler(this.button2_Click);
             // 
-            // btnsavein
-            // 
-            this.btnsavein.ImageKey = "Saveall_6518_24.bmp";
-            this.btnsavein.ImageList = this.imageList1;
-            this.btnsavein.Location = new System.Drawing.Point(39, 10);
-            this.btnsavein.Name = "btnsavein";
-            this.btnsavein.Size = new System.Drawing.Size(84, 24);
-            this.btnsavein.TabIndex = 7;
-            this.btnsavein.Text = "Salva in...";
-            this.btnsavein.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnsavein.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsavein.UseVisualStyleBackColor = true;
-            this.btnsavein.Click += new System.EventHandler(this.noselButton1_Click_2);
-            // 
-            // btnaddsel
-            // 
-            this.btnaddsel.ImageKey = "Template_514_24.bmp";
-            this.btnaddsel.ImageList = this.imageList1;
-            this.btnaddsel.Location = new System.Drawing.Point(255, 10);
-            this.btnaddsel.Name = "btnaddsel";
-            this.btnaddsel.Size = new System.Drawing.Size(146, 24);
-            this.btnaddsel.TabIndex = 21;
-            this.btnaddsel.Text = "nuovo elemento";
-            this.btnaddsel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnaddsel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.toolTip1.SetToolTip(this.btnaddsel, "Determina cosa inserire con il pulsante \"Crea\"");
-            this.btnaddsel.UseVisualStyleBackColor = true;
-            this.btnaddsel.Click += new System.EventHandler(this.btnaddsel_Click);
-            // 
             // btnenum
             // 
             this.btnenum.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -318,7 +265,7 @@
             this.btnenum.AutoSize = true;
             this.btnenum.ImageKey = "Tables_8928_24.bmp";
             this.btnenum.ImageList = this.imageList1;
-            this.btnenum.Location = new System.Drawing.Point(785, 10);
+            this.btnenum.Location = new System.Drawing.Point(977, 10);
             this.btnenum.Name = "btnenum";
             this.btnenum.Size = new System.Drawing.Size(78, 23);
             this.btnenum.TabIndex = 4;
@@ -327,19 +274,6 @@
             this.btnenum.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnenum.UseVisualStyleBackColor = true;
             this.btnenum.Click += new System.EventHandler(this.btnutils_Click);
-            // 
-            // btnsave
-            // 
-            this.btnsave.ImageKey = "Saveall_6518_24.bmp";
-            this.btnsave.ImageList = this.imageList1;
-            this.btnsave.Location = new System.Drawing.Point(9, 10);
-            this.btnsave.Name = "btnsave";
-            this.btnsave.Size = new System.Drawing.Size(24, 24);
-            this.btnsave.TabIndex = 0;
-            this.btnsave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnsave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsave.UseVisualStyleBackColor = true;
-            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
             // 
             // t_panel
             // 
@@ -350,9 +284,9 @@
             // 
             this.pn_utils.Controls.Add(this.groupBox1);
             this.pn_utils.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pn_utils.Location = new System.Drawing.Point(740, 66);
+            this.pn_utils.Location = new System.Drawing.Point(932, 66);
             this.pn_utils.Name = "pn_utils";
-            this.pn_utils.Size = new System.Drawing.Size(135, 418);
+            this.pn_utils.Size = new System.Drawing.Size(135, 415);
             this.pn_utils.TabIndex = 9;
             this.pn_utils.Visible = false;
             // 
@@ -373,7 +307,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(135, 418);
+            this.groupBox1.Size = new System.Drawing.Size(135, 415);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -627,8 +561,24 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 66);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(34, 418);
+            this.panel2.Size = new System.Drawing.Size(34, 415);
             this.panel2.TabIndex = 10;
+            // 
+            // list
+            // 
+            this.list.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.list.Filter = "";
+            this.list.FullRowSelect = true;
+            this.list.GridLines = true;
+            this.list.HideSelection = false;
+            this.list.Location = new System.Drawing.Point(34, 66);
+            this.list.MultiSelect = false;
+            this.list.Name = "list";
+            this.list.Size = new System.Drawing.Size(898, 415);
+            this.list.TabIndex = 2;
+            this.list.UseCompatibleStateImageBehavior = false;
+            this.list.View = System.Windows.Forms.View.Details;
+            this.list.DoubleClick += new System.EventHandler(this.EditSelected);
             // 
             // btndel
             // 
@@ -649,7 +599,7 @@
             this.btnoptions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnoptions.ImageKey = "gear.png";
             this.btnoptions.ImageList = this.imageList1;
-            this.btnoptions.Location = new System.Drawing.Point(3, 389);
+            this.btnoptions.Location = new System.Drawing.Point(3, 386);
             this.btnoptions.Name = "btnoptions";
             this.btnoptions.Size = new System.Drawing.Size(26, 26);
             this.btnoptions.TabIndex = 8;
@@ -728,11 +678,62 @@
             this.btnclone.UseVisualStyleBackColor = true;
             this.btnclone.Click += new System.EventHandler(this.btnclone_Click);
             // 
+            // searchbox
+            // 
+            this.searchbox.ButtonImage = ((System.Drawing.Image)(resources.GetObject("searchbox.ButtonImage")));
+            this.searchbox.list = this.list;
+            this.searchbox.Location = new System.Drawing.Point(698, 3);
+            this.searchbox.Name = "searchbox";
+            this.searchbox.Size = new System.Drawing.Size(150, 20);
+            this.searchbox.TabIndex = 5;
+            // 
+            // btnsavein
+            // 
+            this.btnsavein.ImageKey = "Saveall_6518_24.bmp";
+            this.btnsavein.ImageList = this.imageList1;
+            this.btnsavein.Location = new System.Drawing.Point(39, 10);
+            this.btnsavein.Name = "btnsavein";
+            this.btnsavein.Size = new System.Drawing.Size(84, 24);
+            this.btnsavein.TabIndex = 7;
+            this.btnsavein.Text = "Salva in...";
+            this.btnsavein.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnsavein.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnsavein.UseVisualStyleBackColor = true;
+            this.btnsavein.Click += new System.EventHandler(this.noselButton1_Click_2);
+            // 
+            // btnaddsel
+            // 
+            this.btnaddsel.ImageKey = "Template_514_24.bmp";
+            this.btnaddsel.ImageList = this.imageList1;
+            this.btnaddsel.Location = new System.Drawing.Point(255, 10);
+            this.btnaddsel.Name = "btnaddsel";
+            this.btnaddsel.Size = new System.Drawing.Size(146, 24);
+            this.btnaddsel.TabIndex = 21;
+            this.btnaddsel.Text = "nuovo elemento";
+            this.btnaddsel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnaddsel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTip1.SetToolTip(this.btnaddsel, "Determina cosa inserire con il pulsante \"Crea\"");
+            this.btnaddsel.UseVisualStyleBackColor = true;
+            this.btnaddsel.Click += new System.EventHandler(this.btnaddsel_Click);
+            // 
+            // btnsave
+            // 
+            this.btnsave.ImageKey = "Saveall_6518_24.bmp";
+            this.btnsave.ImageList = this.imageList1;
+            this.btnsave.Location = new System.Drawing.Point(9, 10);
+            this.btnsave.Name = "btnsave";
+            this.btnsave.Size = new System.Drawing.Size(24, 24);
+            this.btnsave.TabIndex = 0;
+            this.btnsave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnsave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnsave.UseVisualStyleBackColor = true;
+            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
+            // 
             // frm_List
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 506);
+            this.ClientSize = new System.Drawing.Size(1067, 503);
             this.Controls.Add(this.list);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pn_utils);

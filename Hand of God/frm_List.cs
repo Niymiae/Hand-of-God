@@ -602,19 +602,32 @@ namespace HandofGod
 
             if (chkrooms.Checked)
             {
-                foreach (Room el in Data.rooms.Where<Room>(x => x.vnum >= from && x.vnum <= to))
+                List<Room> itList = Data.rooms.ToList();
+
+                foreach (Room el in itList.Where<Room>(x => x.vnum >= from && x.vnum <= to))
                 {
                     int lastvnum = el.vnum;
                     int truevnum = newvnum + (el.vnum - from);
 
-                    if (Data.Get<Room>(truevnum) != null)
+                    if (chkDuplicate.Checked)
                     {
-                        Data.Get<Room>(truevnum).vnum = -1;
-                        Data.UpdateVNumReferences<Room>(truevnum, -1, true);
+                        area_element duplicateRoom = null;
+                        duplicateRoom = Data.Create<Room>();
+                        duplicateRoom.CopyFrom(el);
+                        duplicateRoom.vnum = truevnum;
+                        Data.UpdateVNumReferences<Room>(el.vnum, duplicateRoom.vnum, true);
                     }
+                    else
+                    {
+                        if (Data.Get<Room>(truevnum) != null)
+                        {
+                            Data.Get<Room>(truevnum).vnum = -1;
+                            Data.UpdateVNumReferences<Room>(truevnum, -1, true);
+                        }
 
-                    el.vnum = truevnum;
-                    Data.UpdateVNumReferences<Room>(lastvnum, el.vnum);
+                        el.vnum = truevnum;
+                        Data.UpdateVNumReferences<Room>(lastvnum, el.vnum);
+                    }
                 }
 
                 while (Data.Get<Room>(-1) != null)

@@ -1322,8 +1322,8 @@ namespace HandofGod
     #region Visual Properties
     public class VisualProperties
     {
-        public const int def_width = 32;
-        public const int def_height = 32;
+        public const int def_width = 48;
+        public const int def_height = 48;
 
         public Room Parent;
         public Rectangle rect;
